@@ -18,6 +18,7 @@ export default defineConfig({
   },
   fmt: {
     ignorePatterns: [
+      "research/restaurants/**/menus/**",
       "node_modules/**",
       "**/node_modules/**",
       "apps/web/dist/**",
