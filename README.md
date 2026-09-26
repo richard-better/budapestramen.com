@@ -1,8 +1,10 @@
 # budapestramen.com
 
 The guide lives at `/en` and `/hu`. Restaurants have stable paths such as
-`/en/ramen-ya/ramenka` and `/hu/ramen-ya/ramenka`. There is no language-less home route or locale
-redirect. The URL is the source of truth for language, selected restaurant,
+`/en/ramen-ya/ramenka` and `/hu/ramen-ya/ramenka`. The bare domain `/` redirects
+(302, `Vary: Accept-Language`) to whichever of English or Hungarian ranks higher in
+the browser's `Accept-Language` header, defaulting to English, and keeps the query
+string. From then on the URL is the source of truth for language, selected restaurant,
 filters, map/list view, map position, and open panels. For example:
 
 ```text
