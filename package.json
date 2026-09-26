@@ -18,7 +18,7 @@
     "dev": "vp run -r dev",
     "build": "vp run -r build",
     "check-types": "vp run -r check-types",
-    "check": "vp check && vp run -r check-types && bun run test",
+    "check": "vp check && vp run -r check-types && bun run test && bun run check:research",
     "test": "bun test apps/web/src/lib",
     "lint": "vp lint",
     "format": "vp fmt",
@@ -29,7 +29,8 @@
     "deploy:production": "bun run --cwd packages/infra deploy:production",
     "destroy": "vp run --filter @budapestramen.com/infra destroy",
     "env:generate": "varlock codegen --path ./apps/web/",
-    "postinstall": "varlock codegen --path ./apps/web/"
+    "postinstall": "varlock codegen --path ./apps/web/",
+    "check:research": "bun scripts/check-research.ts"
   },
   "dependencies": {
     "zod": "catalog:"

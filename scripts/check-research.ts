@@ -1,0 +1,33 @@
+import { readdir, readFile, realpath, stat } from "node:fs/promises";
+import { resolve, sep } from "node:path";
+import { researchSchema } from "../apps/web/src/lib/research-schema";
+
+const root = new URL("../research/restaurants/", import.meta.url);
+const listed = new Set(
+  (await readdir(new URL("../apps/web/src/content/restaurants/", import.meta.url)))
+    .filter((name) => name.endsWith(".yaml"))
+    .map((name) => name.slice(0, -5)),
+);
+for (const directory of await readdir(root, { withFileTypes: true })) {
+  if (!directory.isDirectory()) continue;
+  const base = await realpath(new URL(`${directory.name}/`, root));
+  const record = researchSchema.parse(
+    JSON.parse(await readFile(resolve(base, "research.json"), "utf8")),
+  );
+  if (record.id !== directory.name)
+    throw new Error(`Research ID does not match directory: ${directory.name}`);
+  if (record.publication === "listed" && !listed.delete(record.id))
+    throw new Error(`No public listing for ${record.id}`);
+  for (const menu of record.menus) {
+    if (menu.cache.status !== "cached") continue;
+    for (const file of menu.cache.files) {
+      const path = await realpath(resolve(base, file.path));
+      const info = await stat(path);
+      if (!path.startsWith(`${base}${sep}menus${sep}`) || !info.isFile() || info.size === 0) {
+        throw new Error(`Invalid menu cache: ${record.id}/${file.path}`);
+      }
+    }
+  }
+}
+if (listed.size) throw new Error(`Missing research records: ${[...listed].join(", ")}`);
+console.log("Restaurant research and menu caches validated.");
