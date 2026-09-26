@@ -1,0 +1,4 @@
+{
+  "extends": "@budapestramen.com/config/tsconfig.base.json",
+  "include": ["alchemy.run.ts"]
+}

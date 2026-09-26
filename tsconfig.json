@@ -1,0 +1,3 @@
+{
+  "extends": "@budapestramen.com/config/tsconfig.base.json"
+}

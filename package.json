@@ -1,0 +1,49 @@
+{
+  "name": "budapestramen.com",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalog": {
+      "zod": "^4.5.4",
+      "typescript": "^6.0.3",
+      "varlock": "1.18.0",
+      "@cloudflare/workers-types": "^5.20260906.1"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vp run -r dev",
+    "build": "vp run -r build",
+    "check-types": "vp run -r check-types",
+    "check": "vp check && vp run -r check-types",
+    "lint": "vp lint",
+    "format": "vp fmt",
+    "staged": "vp staged",
+    "hooks:setup": "vp config",
+    "dev:web": "vp run --filter web dev:bare",
+    "deploy": "vp run --filter @budapestramen.com/infra deploy",
+    "deploy:production": "bun run --cwd packages/infra deploy:production",
+    "destroy": "vp run --filter @budapestramen.com/infra destroy",
+    "env:generate": "varlock codegen --path ./apps/web/",
+    "postinstall": "varlock codegen --path ./apps/web/"
+  },
+  "dependencies": {
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@budapestramen.com/config": "workspace:*",
+    "@cloudflare/workers-types": "catalog:",
+    "@types/node": "^26.4.1",
+    "rolldown": "1.2.7",
+    "typescript": "catalog:",
+    "varlock": "catalog:",
+    "vite-plus": "0.3.1"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.3.1"
+  },
+  "packageManager": "bun@1.4.2"
+}
