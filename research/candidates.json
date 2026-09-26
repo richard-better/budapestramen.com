@@ -455,7 +455,7 @@
       "id": "hachi",
       "name": "HACHI Budapest",
       "status": "candidate",
-      "address": "Budapest, Október 6. utca 8",
+      "address": "1051 Budapest, Október 6. utca 9. (temporary pop-up)",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo",
       "signals": ["maps-search-match", "editorial-ramen-mention"],
       "sources": [
@@ -468,10 +468,19 @@
           "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
           "checkedOn": "2026-09-26",
           "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search",
+          "checkedOn": "2026-09-27",
+          "note": "Official temporary relocation notice: number 9 during renovation of number 8; menu and service unchanged."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "high"
+      "followUp": [
+        "Track return from pop-up to original address; Maps still shows number 8.",
+        "Verify service charge, ownership, ordering interface, vegan broth and Hachi-Go delivery relationship."
+      ],
+      "researchPriority": "high",
+      "researchId": "hachi"
     },
     {
       "id": "hachi-go",
@@ -838,9 +847,13 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Confirm ramen serving days versus Sunday Udon Day, full hours and latest complete menu.",
+        "Verify ownership, Japanese chef, Instagram, direct ordering link, service charge and tablet/kiosk/QR ordering."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/komachi-bistro",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "researchId": "komachi"
     },
     {
       "id": "love-asian-food",
@@ -919,8 +932,12 @@
           "note": "February 2026 roundup describes this venue serving ramen."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "high"
+      "followUp": [
+        "Verify ownership nationality, takeaway, ordering interface and any official website or Facebook profile.",
+        "Find exact menu effective date; current cached owner upload is September 2026."
+      ],
+      "researchPriority": "high",
+      "researchId": "nagomi"
     },
     {
       "id": "nem-ramen",
@@ -1353,9 +1370,13 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Resolve vegan-labelled bowl including egg; verify ownership, ordering interface and official Facebook/website.",
+        "Find exact effective menu date and reservation channel."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ramenji-japanese-restaurant",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "researchId": "ramenji"
     },
     {
       "id": "ramenka",
@@ -1663,7 +1684,7 @@
       "id": "wafu-budafoki",
       "name": "WAFU Ramen Bar - Budafoki",
       "status": "candidate",
-      "address": "Budapest, Budafoki út 41",
+      "address": "1111 Budapest, Budafoki út 41.",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Budafoki+Budapest+Budafoki+%C3%BAt+41&query_place_id=ChIJzybq6aDdQUcR6DK2am8RYBI",
       "signals": ["maps-search-match", "editorial-ramen-mention", "delivery-category-match"],
       "sources": [
@@ -1689,11 +1710,12 @@
         }
       ],
       "followUp": [
-        "Check the current menu for ramen and verify operating status.",
-        "Address conflict: Maps shows Budafoki út 41; Time Out gives 111. Verify with the branch before publishing."
+        "Reconcile Canva prices with cached Maps menu and obtain export.",
+        "Verify reservations, hours, service charge, ownership, Facebook and on-site ordering interface."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramenn",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "researchId": "wafu-budafoki"
     },
     {
       "id": "wafu-dob",
@@ -1814,9 +1836,13 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Replace broken official Canva menu link; verify latest prices, full hours, service charge, ownership and on-site ordering interface.",
+        "Confirm Facebook and direct reservation channel."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/paneer",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "researchId": "wafu-katona"
     },
     {
       "id": "wasabi-mom",

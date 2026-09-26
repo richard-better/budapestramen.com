@@ -1,0 +1,412 @@
+{
+  "version": 1,
+  "id": "ramenji",
+  "name": "Ramenji Ramen",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Váci utca",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing, owner menu and official Instagram."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing, owner menu and official Instagram."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1056 Budapest, Váci utca 49.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing, owner menu and official Instagram."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing, owner menu and official Instagram."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing, owner menu and official Instagram."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/ramenjibudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked from Maps listing; menu photos uploaded by owner."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked from Maps listing; menu photos uploaded by owner."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/ramenji-japanese-restaurant",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked from Maps listing; menu photos uploaded by owner."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms this service."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps links Wolt ordering for this branch."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms this service."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu lists extra noodles, egg, bamboo, chicken chashu and pork chashu; vegetable bowl allows glass noodles."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu explicitly marks vegetable tantan vegetarian, describing sesame broth, vegetables, tofu and egg."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetable ramen is labelled vegan, but its description and photo include soft egg. Clarify omission and noodles before publishing a vegan claim."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Miso", "Shoyu", "Tantan", "Goulash fusion"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu also lists dual-broth Yingyang and vegetable ramen."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Miso and spicy miso with pork chashu, corn, bamboo and egg; chicken shoyu; Yingyang combines tantan and dark soy broth; house Ramenji has dark soy broth, braised pork, sprouts, fish cake and bok choy; pork tantan and vegetarian sesame tantan; vegetable broth ramen with tofu; Tokyo Gulyás Ramen with beef and seasonal vegetables. Also donburi, udon, sandwiches, izakaya sides and desserts.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "August 2026 owner-uploaded menu. Sakura and curry tempura use udon noodles and are excluded from ramen prices."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Daily lunch and dinner."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/ramenjibudapest/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile hours and regular menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Daily 11:00-22:00",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/ramenjibudapest/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile and recent posts agree."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/ramenjibudapest/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active official profile and current posts."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "amount": 10,
+        "applicability": "Added to menu prices for dine-in.",
+        "type": "percentage"
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu header explicitly excludes 10% service charge from listed prices."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Owner ramen photo labelled August 2026. Effective date not printed. Ramen and adjacent sides/drinks pages cached.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-ramen.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-sides-drinks.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Owner photo range 4090-5590 HUF before 10% service charge. Structured Maps menu has older, lower prices and fewer dishes; owner photo takes precedence. Udon, combo and extras excluded. Effective date unverified.",
+      "bowls": [
+        {
+          "name": "Miso Butter Ramen",
+          "price": 4390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Csípős Miso Ramen",
+          "price": 4590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Csirke Shoyu Ramen",
+          "price": 4290,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Yingyang Ramen",
+          "price": 4590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Zöldséges Ramen",
+          "price": 4590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Ramenji Ramen",
+          "price": 4090,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Csípős Tantan Ramen",
+          "price": 4690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Zöldséges Csípős Tantan",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tokyo Gulyás Ramen",
+          "price": 5590,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Prices transcribed from cached owner menu."
+        }
+      ]
+    }
+  ]
+}

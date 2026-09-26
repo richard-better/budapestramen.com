@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "id": "wafu-budafoki",
+  "name": "WAFU Ramen Bar - Budafoki",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Budafoki",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links this Maps listing; number 41 confirmed, unlike editorial address 111."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links this Maps listing; number 41 confirmed, unlike editorial address 111."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1111 Budapest, Budafoki út 41.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links this Maps listing; number 41 confirmed, unlike editorial address 111."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "XI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links this Maps listing; number 41 confirmed, unlike editorial address 111."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links this Maps listing; number 41 confirmed, unlike editorial address 111."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.wafujp.com/work/wafu-ramen-bar-budafoki/copy-5",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramen-bar-budafoki/copy-5"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page link."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/wafuramenbar_hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramen-bar-budafoki/copy-5"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page link."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramen-bar-budafoki/copy-5"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page link."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/wafu-ramenn",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramen-bar-budafoki/copy-5"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page link."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Maps service attribute."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Maps service attribute."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu lists extra noodles, egg, bamboo, bok choy, tofu, meats and shrimp."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Veggie Dandan explicitly vegetarian; V-Paitan has plant-based broth but egg topping."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetarian bowls include egg. Egg omission and noodle composition not verified."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Miso", "Shoyu", "Dandan", "Vegetarian paitan"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch-specific menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Miso with braised pork, butter, egg, bamboo and corn; chicken shoyu with three-hour chicken bone broth; sesame dandan with minced pork; vegetarian dandan with soy meat and egg; plant-based V-Paitan with egg, fried onion, peppers, sprouts and bok choy. Also rice bowls, curry, onigiri, gyoza, karaage and desserts.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Canva menu and Maps food page inspected."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Regular branch menu."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Standalone bowls alongside separate set menus."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active branch listing and official directory."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official Budafoki branch menu, readable in Canva.",
+      "cache": {
+        "status": "missing",
+        "reason": "Canva export prompted for sign-in; anonymous HTTP download returned 403. Maps images cached as fallback."
+      }
+    },
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Two Budafoki menu pages cached. Prices differ from current Canva layout; effective dates unresolved.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps-menu.jpg",
+            "sourceUrl": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-maps-ramen.jpg",
+            "sourceUrl": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Cached Maps menu shows 4280-4880 HUF. Current Canva includes different prices/layout; do not publish a settled current range until reconciled. Set menus and extras excluded.",
+      "bowls": [
+        {
+          "name": "Miso",
+          "price": 4580,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken Shoyu",
+          "price": 4880,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Dandan",
+          "price": 4780,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Veggie Dandan",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "V-Paitan",
+          "price": 4280,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch-labelled menu image."
+        }
+      ]
+    }
+  ],
+  "brandId": "wafu"
+}

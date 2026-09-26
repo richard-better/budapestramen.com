@@ -1,0 +1,370 @@
+{
+  "version": 1,
+  "id": "hachi",
+  "name": "HACHI Budapest",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Temporary pop-up in former Yama space",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official booking notice says temporarily moved from number 8 to number 9 during renovations. Restaurant describes ramen, small plates, grill and sushi."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official booking notice says temporarily moved from number 8 to number 9 during renovations. Restaurant describes ramen, small plates, grill and sushi."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1051 Budapest, Október 6. utca 9. (temporary pop-up)",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official booking notice says temporarily moved from number 8 to number 9 during renovations. Restaurant describes ramen, small plates, grill and sushi."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official booking notice says temporarily moved from number 8 to number 9 during renovations. Restaurant describes ramen, small plates, grill and sushi."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Existing listing still pins original number 8; official booking notice and pinned Instagram post override address. Do not direct visitors to old entrance."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/hachi_budapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/hachi_budapest/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile links and Maps booking link."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/451671441352388",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/hachi_budapest/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile links and Maps booking link."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.instagram.com/stories/highlights/18030367751462924/",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/hachi_budapest/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile links and Maps booking link."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile links and Maps booking link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official booking page has current availability; walk-ins also welcome."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown",
+      "note": "Maps says no delivery, but official Instagram has Wolt highlight and search found Hachi-Go. Verify whether delivery applies to this restaurant or a separate virtual brand."
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/stories/highlights/18030367751462924/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Extra wagyu steak and chicken katsu options; vegetarian tantan variant."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/stories/highlights/18030367751462924/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Miso and Veggie Tantanmen marked V; vegetarian description explicit for latter."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "V does not distinguish vegan from vegetarian; broth and noodles need confirmation."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Tonkotsu", "Miso", "Shoyu", "Tantanmen"],
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/stories/highlights/18030367751462924/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official food highlight, approximately 12 weeks old."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Tonkotsu: creamy pork broth, confit pork, shio tare, pickled egg. Shoyu beef steak: Omaha beef, clear rich broth, shoyu tare and ajitama. Shoyu chicken: breast, chicken wonton, clear broth and egg. Miso: kohlrabi, shiitake and sesame. Wagyu tantanmen: ground A5 wagyu, deep broth, sesame tare and egg; veggie tantan has creamy sesame tare, tofu, cucumber and chili crisp. Broader menu includes robata grill, udon, sushi, kobachi and donburi.",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/stories/highlights/18030367751462924/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu pages inspected; ramen/sushi page cached."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Regular menu; weekday canteen lunch is separate and needs its own verification."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/stories/highlights/18030367751462924/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official food highlight."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown",
+      "note": "Official profile says daily from 11:30 until late; exact closing times and weekday afternoon break need confirmation for pop-up."
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official notice says fully open at temporary pop-up during renovation."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "social-2026-09-27",
+      "url": "https://www.instagram.com/stories/highlights/18030367751462924/",
+      "type": "social",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official highlight around 12 weeks old; booking notice says food unchanged at temporary pop-up. Ramen/sushi page cached; other menu sections inspected but not cached.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-ramen-sushi.jpg",
+            "sourceUrl": "https://www.instagram.com/stories/highlights/18030367751462924/",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "social-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Regular ramen range 5480-6980 HUF; extras and weekday lunch excluded. Effective date and service charge unverified.",
+      "bowls": [
+        {
+          "name": "Tonkotsu",
+          "price": 5980,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso",
+          "price": 5480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu Beef Steak",
+          "price": 5980,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu Chix",
+          "price": 5480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Wagyu Tantanmen",
+          "price": 6980,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Veggie Tantanmen",
+          "price": 5780,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/stories/highlights/18030367751462924/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official ramen menu page."
+        }
+      ]
+    }
+  ],
+  "brandId": "hachi"
+}

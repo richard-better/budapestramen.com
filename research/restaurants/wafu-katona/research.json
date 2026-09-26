@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "id": "wafu-katona",
+  "name": "WAFU Ramen Bar - Katona",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1137 Budapest, Katona József utca 24.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "XIII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.wafujp.com/work/wafu-katona/copy-2",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-katona/copy-2"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch links; Canva menu link returns 404, Maps used as fallback."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/wafuramenbar_hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-katona/copy-2"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch links; Canva menu link returns 404, Maps used as fallback."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch links; Canva menu link returns 404, Maps used as fallback."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/paneer",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-katona/copy-2"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch links; Canva menu link returns 404, Maps used as fallback."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms service. Reservation requirement also listed, but booking channel unverified."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms service. Reservation requirement also listed, but booking channel unverified."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms service. Reservation requirement also listed, but booking channel unverified."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu offers extra noodles, egg, bamboo, tofu, bok choy, meat and shrimp."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "V-Dandan described as vegetarian; V-Paitan described as plant-based broth, both with egg."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetarian bowls contain egg; omission and noodle ingredients unverified."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Tonkotsu", "Shoyu", "Dandan", "Vegetarian paitan"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-labelled menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Tonkotsu pork-bone broth; shoyu with chicken broth and chashu, though prose inconsistently says sliced chicken; sesame dandan with meat; vegetarian dandan with soy meat and egg; plant-based V-Paitan broth with egg, sprouts, bok choy, peppers and fried onion. Rice bowls, onigiri and sides also served.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Two cached Katona menu photographs."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Regular menu with lunch and evening service."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu board advertises 12:00-15:30 and 17:00-22:00 last order; days not specified."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown",
+      "note": "Menu board says 12:00-15:30, 17:00-22:00 last order; days and current applicability unverified."
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current Maps listing and official directory."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Two Katona menu photographs. Effective date unverified. Official Canva link returns 404.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-menu-2.jpg",
+            "sourceUrl": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-menu.jpg",
+            "sourceUrl": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed range 4280-4980 HUF. Extras/sets excluded; current effective date unverified.",
+      "bowls": [
+        {
+          "name": "Tonkotsu",
+          "price": 4980,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Classic Shoyu",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Dandan",
+          "price": 4780,
+          "eligibility": "standard"
+        },
+        {
+          "name": "V-Dandan",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "V-Paitan",
+          "price": 4280,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ],
+  "brandId": "wafu"
+}

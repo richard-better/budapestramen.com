@@ -1,0 +1,478 @@
+{
+  "version": 1,
+  "id": "komachi",
+  "name": "Komachi Bistro",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Kertész utca",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps listing and menu establish Japanese bistro with ramen, curry, donburi and udon."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps listing and menu establish Japanese bistro with ramen, curry, donburi and udon."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1073 Budapest, Kertész utca 33.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps listing and menu establish Japanese bistro with ramen, curry, donburi and udon."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps listing and menu establish Japanese bistro with ramen, curry, donburi and udon."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps listing and menu establish Japanese bistro with ramen, curry, donburi and udon."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/komachibistro/",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official page linked by Maps."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu photographs on Maps."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms service."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms service."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms service."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu offers miso, spicy miso, shoyu or shio base, extra toppings and 25% extra noodles."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photographed menu explicitly says 100% vegetarian broth for Vegetarian Ramen."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetarian bowl includes egg; noodle ingredients and egg omission policy not verified."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Miso", "Spicy miso", "Shoyu", "Shio"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Four selectable bases on photographed ramen menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Homemade noodles and pork/chicken broth; normal and Komachi variants with or without chashu, fish cake, bamboo, spring onion, egg, shrimp tempura or wood-ear mushrooms. Chashu and Stamina bowls available. Dedicated vegetarian broth with bamboo, spring onion, egg and wood-ear mushrooms. Curry, donburi and Sunday udon also offered.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "July 2026 customer menu photo plus wider menu photographs. No-chashu standard bowls still use meat broth and fish cake."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown",
+      "note": "Official pinned post describes Sundays as Udon Day and Saturday ramen service. Exact current ramen days need confirmation; do not assume every opening day."
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown",
+      "note": "Official post for Saturday 26 September 2026 states 12:00-21:30, last order 20:30. Full weekly schedule not verified."
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/komachibistro/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official post on 26 September 2026 says open with homemade ramen, curry and donburi."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Mixed-date customer menu photographs; ramen page 6 dated July 2026. Udon, allergens and other menu pages retained as context. Effective date unverified.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-allergens.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-10.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-11.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-12.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-6.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-7.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-8.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-9.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-udon-sets.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed standard bowls 3800-4700 HUF. Mixed-date photos and seasonal offerings prevent completeness claim. Extra noodles, toppings, sets and udon excluded.",
+      "bowls": [
+        {
+          "name": "Normal A Miso",
+          "price": 3800,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Normal A Shoyu",
+          "price": 3800,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Normal A Shio",
+          "price": 3800,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Normal A Spicy Miso",
+          "price": 4000,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Normal B (no chashu) Miso",
+          "price": 3800,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Normal B (no chashu) Shoyu",
+          "price": 3800,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Normal B (no chashu) Shio",
+          "price": 3800,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Normal B (no chashu) Spicy Miso",
+          "price": 4000,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Komachi A Miso",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Komachi A Shoyu",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Komachi A Shio",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Komachi A Spicy Miso",
+          "price": 4500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Komachi B (no chashu) Miso",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Komachi B (no chashu) Shoyu",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Komachi B (no chashu) Shio",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Komachi B (no chashu) Spicy Miso",
+          "price": 4500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chashu Miso",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chashu Shoyu",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chashu Shio",
+          "price": 4300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chashu Spicy Miso",
+          "price": 4500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Stamina Miso",
+          "price": 4500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Stamina Shoyu",
+          "price": 4500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Stamina Shio",
+          "price": 4500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Stamina Spicy Miso",
+          "price": 4700,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegetarian Ramen",
+          "price": 4000,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photographed ramen pages 6 and 7."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "version": 1,
+  "id": "nagomi",
+  "name": "Nagomi",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Bartók Béla út",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing and owner menu."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing and owner menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1111 Budapest, Bartók Béla út 50.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing and owner menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "XI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing and owner menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified Maps listing and owner menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/nagomibar/",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile linked from Maps."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner-uploaded September 2026 food menu in Maps menu photos."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nagomibar/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official bio explicitly says walk-ins only, no reservations."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks delivery unavailable."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Extra noodles, egg, chashu and chicken available; vegan miso can be requested spicy."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu explicitly labels vegan miso ramen, with vegetable broth and tofu."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu explicitly labels vegan miso ramen, with vegetable broth and tofu."
+        }
+      ]
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Shoyu", "Shio", "Tonkotsu", "Miso"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Four ramen styles on owner menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Shoyu: clear chicken broth, soy tare, chicken, bamboo, spring onion and marinated egg. Shio: creamy chicken broth and salt tare with the same toppings. Tonkotsu: 12-hour pork broth, soy tare and chashu. Vegan miso: vegetable broth, miso, fried puffed tofu, lotus root, mushrooms, bamboo and spring onion.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "September 2026 owner menu. Starters include edamame, wakame, karaage and panko shrimp; dessert is matcha tiramisu."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "During Tuesday-Sunday dinner service."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nagomibar/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official bio hours and regular owner menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Tuesday-Sunday 16:00-22:00; Monday closed",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nagomibar/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current official bio."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nagomibar/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active official profile and September menu."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "none"
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu footer explicitly says SZERVIZDÍJ NINCS; tables available for 90 minutes."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Owner upload dated September 2026; menu effective date is not printed. Food page cached; drinks not captured.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-owner-menu.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed standard ramen range 4190-4790 HUF. Menu effective date unverified. Optional toppings excluded.",
+      "bowls": [
+        {
+          "name": "Shoyu Ramen",
+          "price": 4190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shio Ramen",
+          "price": 4190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu Ramen",
+          "price": 4790,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegán Miso Ramen",
+          "price": 4290,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "September owner menu and structured Maps menu agree."
+        }
+      ]
+    }
+  ]
+}
