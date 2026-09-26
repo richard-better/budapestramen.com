@@ -20,6 +20,10 @@ user's distance-sorting origin stay in memory; they are never added to shared UR
 
 ## Restaurant content
 
+The agreed [restaurant research scope](docs/restaurant-research.md) covers the
+evidence, menu caches, pricing rules, and three-state facts to collect before
+choosing which details to publish. It is broader than the current site schema.
+
 Edit one YAML file per restaurant in `apps/web/src/content/restaurants/`. The file
 name is its permanent URL slug. Shared facts live once; recommendations have `en`
 and `hu` translations. Each listing includes map and menu links, coordinates,
