@@ -35,8 +35,9 @@ photos and social URLs were absent from the export; the guide links to Google Ma
 for photos and reviews instead of publishing empty photo slots or placeholder links.
 
 Interface translations live in `apps/web/src/lib/translations.ts`. The map uses
-Leaflet with the Esri light gray tiles from the reference design. Fonts are hosted
-locally. No API key or database is required.
+Leaflet with OpenFreeMap's Liberty vector style, rendered by MapLibre GL. Map
+attribution is read from the style and shown in Leaflet's attribution control.
+Fonts are hosted locally. No API key or database is required.
 
 This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines Astro, and more.
 

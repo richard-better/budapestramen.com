@@ -14,7 +14,9 @@ import {
   type GuideState,
   type Language,
 } from "../lib/guide";
+import { isMapStyle, mapStyleUrl, type MapStyle } from "../lib/map-styles";
 import { translations, type TranslationKey } from "../lib/translations";
+import type { Map as MapLibreMap } from "maplibre-gl";
 
 function element<T extends HTMLElement = HTMLElement>(selector: string): T {
   const result = document.querySelector<T>(selector);
@@ -30,6 +32,8 @@ let user: Coordinates | null = null;
 let locating = false;
 let toastTimer: ReturnType<typeof setTimeout>;
 let applyingMap = false;
+let selectedMapStyle: MapStyle = "liberty";
+let maplibreMap: MapLibreMap | undefined;
 type MapMotion = "preserve" | "instant" | "smooth";
 const prefersReducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const mobile = matchMedia("(max-width: 959px)");
@@ -51,17 +55,8 @@ const map = L.map(mapElement, {
   zoomAnimation: !prefersReducedMotion,
   fadeAnimation: false,
 }).setView([47.502, 19.056], 14);
-const tiles = L.tileLayer(
-  "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}",
-  {
-    attribution:
-      'Tiles © <a href="https://www.esri.com/" target="_blank" rel="noopener noreferrer">Esri</a>',
-    maxNativeZoom: 16,
-    maxZoom: 18,
-  },
-);
 let mapLoaded = false;
-const mapTimeout = setTimeout(() => showMapError(), 12_000);
+const mapTimeout = setTimeout(showMapError, 12_000);
 function showMapError() {
   if (mapLoaded) return;
   const message = element("#map-message");
@@ -69,13 +64,36 @@ function showMapError() {
   message.textContent = translations[state.language].mapError;
   message.hidden = false;
 }
-tiles.on("tileload", () => {
-  mapLoaded = true;
-  clearTimeout(mapTimeout);
-  element("#map-message").hidden = true;
+async function loadBasemap() {
+  try {
+    const [adapter, maplibre, worker] = await Promise.all([
+      import("@maplibre/maplibre-gl-leaflet"),
+      import("maplibre-gl"),
+      import("maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"),
+    ]);
+    maplibre.setWorkerUrl(worker.default);
+    const tiles = adapter.maplibreGL({ style: mapStyleUrl(selectedMapStyle) });
+    tiles.addTo(map);
+    const renderer = tiles.getMaplibreMap();
+    maplibreMap = renderer;
+    renderer.once("load", () => {
+      mapLoaded = true;
+      clearTimeout(mapTimeout);
+      element("#map-message").hidden = true;
+    });
+    renderer.on("error", showMapError);
+  } catch {
+    showMapError();
+  }
+}
+void loadBasemap();
+
+root.addEventListener("change", (event) => {
+  if (!(event.target instanceof HTMLInputElement) || event.target.name !== "map-style") return;
+  if (!isMapStyle(event.target.value)) return;
+  selectedMapStyle = event.target.value;
+  maplibreMap?.setStyle(mapStyleUrl(selectedMapStyle));
 });
-tiles.on("tileerror", showMapError);
-tiles.addTo(map);
 
 function navigate(patch: Partial<GuideState>, replace = false, mapMotion: MapMotion = "preserve") {
   state = { ...state, ...patch };
