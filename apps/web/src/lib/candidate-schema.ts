@@ -20,6 +20,7 @@ export const candidateListSchema = z
           id,
           name: text,
           researchId: id.optional(),
+          researchPriority: z.enum(["high", "normal"]).optional(),
           status: z.enum(["candidate", "needs-menu-check", "needs-branch-check", "closed"]),
           address: text.nullable(),
           mapsUrl: url.nullable(),
