@@ -3,7 +3,7 @@ import GuidePage from "../../../components/GuidePage.astro";
 import { loadRestaurants } from "../../../data/load-restaurants";
 if ((Astro.params.language !== "en" && Astro.params.language !== "hu") ||
   !(await loadRestaurants()).some((place) => place.id === Astro.params.slug)) {
-  return new Response("Not found", { status: 404 });
+  return Astro.rewrite("/404");
 }
 ---
 

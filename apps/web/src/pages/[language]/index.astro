@@ -1,7 +1,7 @@
 ---
 import GuidePage from "../../components/GuidePage.astro";
 if (Astro.params.language !== "en" && Astro.params.language !== "hu") {
-  return new Response("Not found", { status: 404 });
+  return Astro.rewrite("/404");
 }
 ---
 
