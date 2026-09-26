@@ -5,36 +5,114 @@
   "publication": "listed",
   "identity": {
     "branch": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Krúdy utca",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on the branch’s Maps listing."
+        }
+      ]
     },
     "category": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Ramen is prominent, but menu also includes a substantial Japanese set-meal and tapas selection. Specialist classification needs editorial review."
     },
     "address": {
-      "status": "unknown"
+      "status": "known",
+      "value": "1088 Budapest, Krúdy utca 6.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on the branch’s Maps listing."
+        }
+      ]
     },
     "district": {
-      "status": "unknown"
+      "status": "known",
+      "value": "VIII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on the branch’s Maps listing."
+        }
+      ]
     },
     "coordinates": {
       "status": "unknown"
     },
     "maps": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on the branch’s Maps listing."
+        }
+      ]
     }
   },
   "links": {
     "website": {
-      "status": "unknown"
+      "status": "known",
+      "value": "http://www.ramennikko.com/",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/ramennikkobp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Facebook links this domain, but on 2026-09-27 it displays a Rackhost parking page, not a usable restaurant website."
+        }
+      ]
     },
     "instagram": {
       "status": "unknown"
     },
     "facebook": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.facebook.com/ramennikkobp",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps links this official Facebook page."
+        }
+      ]
     },
     "menu": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps Menu tab provides menu photos and structured dish sections; no functional official website menu found."
+        }
+      ]
     },
     "reservations": {
       "status": "unknown"
@@ -48,48 +126,127 @@
   },
   "features": {
     "reservations": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly says Accepts reservations; booking channel not established."
+        }
+      ]
     },
     "delivery": {
-      "status": "unknown"
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks delivery unavailable."
+        }
+      ]
     },
     "takeaway": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly offers takeaway."
+        }
+      ]
     },
     "tabletOrdering": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Not established by the inspected Maps listing, menu photos or official Facebook page."
     },
     "kioskOrdering": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Not established by the inspected Maps listing, menu photos or official Facebook page."
     },
     "qrOrdering": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Not established by the inspected Maps listing, menu photos or official Facebook page."
     },
     "customization": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Not established by the inspected Maps listing, menu photos or official Facebook page."
     },
     "vegetarianRamen": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photographed menu explicitly labels Vegan Miso Ramen and vegan miso broth; photo dated November 2025, current availability needs reconfirmation."
+        }
+      ]
     },
     "veganRamen": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photographed menu explicitly labels Vegan Miso Ramen and vegan miso broth; photo dated November 2025, current availability needs reconfirmation."
+        }
+      ]
     },
     "japaneseOwned": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Not established by the inspected Maps listing, menu photos or official Facebook page."
     },
     "hungarianOwned": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Not established by the inspected Maps listing, menu photos or official Facebook page."
     },
     "japaneseChef": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Not established by the inspected Maps listing, menu photos or official Facebook page."
     }
   },
   "food": {
     "styles": {
-      "status": "unknown"
+      "status": "known",
+      "value": ["Tonkotsu", "Shoyu", "Shio", "Miso", "Tantanmen"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Named styles in menu photos and structured menu sections."
+        }
+      ]
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Pork-bone tonkotsu with chashu, bamboo shoots, spinach, spring onion and nori. Tantanmen uses pork broth and minced beef with sesame-peanut sauce. Vegan miso uses vegan broth, bamboo shoots, wakame and spring onion. Chicken-broth shio and yuzu shio also listed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu photo descriptions and structured Chicken Broth Ramen section."
+        }
+      ]
     },
     "availability": {
       "status": "unknown"
@@ -97,15 +254,137 @@
   },
   "visiting": {
     "hours": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Monday 17:00-22:00; Tuesday-Saturday 12:00-22:00; Sunday closed",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Expanded Maps weekly hours."
+        }
+      ]
     },
     "operatingStatus": {
-      "status": "unknown"
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/ramennikkobp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Latest visible official post dated August 14 announces reopening after summer break; Maps lists regular hours."
+        }
+      ]
     },
     "serviceCharge": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "November 2025 menu photo states prices do not include a service charge and tips are voluntary, which suggests no mandatory charge, but current policy has not been confirmed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Footer on cached set-meal menu photo."
+        }
+      ]
     }
   },
-  "menus": [],
-  "pricing": []
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Krúdy utca listing. Three customer menu photographs dated November 2025; capture date is not the menu effective date. Chicken ramen prices also visible in structured Maps menu.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps-tonkotsu.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNchMesX5bWcHmOLogfmqciTctFs5sOX19Cp7EYim6IIFK2HoiU0OsKHyteiL_W_HbJuPL4qEX3nYf4DcisFXo4SrHk6kmbZ0mQRhd97xHVN4lKHDnjadr_FXJfMht2qLm5S445hcTnOjU=w1600",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-maps-tantanmen-vegan.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOefw3Ky8oReTXAeRSeCWmFydQ4EtZ-U4jOuORgPaQcEr2K4KCpApzFuy-AJihUNxfsbLCy5DZ2UG_KKW58l8EdeUq6r9mGg6agH58iLwNoHjPHrZNFrk7Reru9FdAuaONNLkiDu-FWrnE=w1600",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-maps-sets-service-charge.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMLwhZGI7GQT9Ct_gm4xgtU4p_xzZK_XUANoc_kNh6WbOHyQyYw7stsTMq_MzkwpTGTyMHAKN4xbdLCHJIROrqdLvqzmqt6omzKlfN4OuTNHoG3RZmFDJCzdW8BhB8-L8IrdA_v8-gQnBHo=w1600",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed bowls span 4150-4750 HUF. Photos date to November 2025 and structured Maps menu has no update date. Full current menu coverage and current price range remain unverified.",
+      "bowls": [
+        {
+          "name": "Shoyu Tonkotsu Ramen",
+          "price": 4150,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shio Tonkotsu Ramen",
+          "price": 4150,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso Tonkotsu Ramen",
+          "price": 4350,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy Tantanmen",
+          "price": 4750,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Sesame Tantanmen",
+          "price": 4750,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegan Miso Ramen",
+          "price": 4150,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Yuzu Shio Chicken Ramen",
+          "price": 4750,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shio Chicken Ramen",
+          "price": 4150,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Prices transcribed from three photographed menu pages and structured Chicken Broth Ramen section."
+        }
+      ]
+    }
+  ]
 }

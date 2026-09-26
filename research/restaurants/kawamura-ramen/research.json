@@ -5,36 +5,138 @@
   "publication": "listed",
   "identity": {
     "branch": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Dohány utca",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website identifies a ramen house at this address."
+        }
+      ]
     },
     "category": {
-      "status": "unknown"
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website identifies a ramen house at this address."
+        }
+      ]
     },
     "address": {
-      "status": "unknown"
+      "status": "known",
+      "value": "1074 Budapest, Dohány utca 54.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website identifies a ramen house at this address."
+        }
+      ]
     },
     "district": {
-      "status": "unknown"
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website identifies a ramen house at this address."
+        }
+      ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4975712,
+        "lng": 19.0682551
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Coordinates in the Maps place link captured during discovery."
+        }
+      ]
     },
     "maps": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Opened this place-specific Maps URL and verified the name and Dohány utca address."
+        }
+      ]
     }
   },
   "links": {
     "website": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.kawamura.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Kawamura website."
+        }
+      ]
     },
     "instagram": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.instagram.com/kawamuraramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Instagram linked from official footer."
+        }
+      ]
     },
     "facebook": {
       "status": "unknown"
     },
     "menu": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.kawamura.hu/menu.html",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official View Menu link."
+        }
+      ]
     },
     "reservations": {
       "status": "unknown"
@@ -48,13 +150,43 @@
   },
   "features": {
     "reservations": {
-      "status": "unknown"
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/Kawamura-Ramen-Reservation.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official policy retires reservations from 2026-09-12; walk-in only with a virtual queue. This supersedes the stale reserve button on the menu page."
+        }
+      ]
     },
     "delivery": {
-      "status": "unknown"
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps service options explicitly mark takeaway and delivery unavailable."
+        }
+      ]
     },
     "takeaway": {
-      "status": "unknown"
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps service options explicitly mark takeaway and delivery unavailable."
+        }
+      ]
     },
     "tabletOrdering": {
       "status": "unknown"
@@ -63,49 +195,249 @@
       "status": "unknown"
     },
     "qrOrdering": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "A visible review from approximately one month ago explicitly describes staff assisting with QR ordering; Maps also groups 44 QR-ordering mentions. Customer-report evidence."
+        }
+      ]
     },
     "customization": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu offers rice noodles as an alternative. Other customization options are unverified."
+        }
+      ]
     },
     "vegetarianRamen": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Shoyu Vegan and Vegan Miso explicitly use vegan broth."
+        }
+      ]
     },
     "veganRamen": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Shoyu Vegan and Vegan Miso explicitly use vegan broth."
+        }
+      ]
     },
     "japaneseOwned": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Official pages describe Japanese cuisine and are signed Aki Kawamura, but do not establish owner or chef nationality."
     },
     "hungarianOwned": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Official pages describe Japanese cuisine and are signed Aki Kawamura, but do not establish owner or chef nationality."
     },
     "japaneseChef": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Official pages describe Japanese cuisine and are signed Aki Kawamura, but do not establish owner or chef nationality."
     }
   },
   "food": {
     "styles": {
-      "status": "unknown"
+      "status": "known",
+      "value": ["Shio", "Shoyu", "Miso", "Tonkotsu", "Tantanmen"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Styles explicitly named and described in the official ramen menu."
+        }
+      ]
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Tonkotsu with pork chashu and marinated egg; duck, beef, shrimp and chicken options. Vegan shoyu with tofu and vegan miso with greens. Handmade noodles; rice noodle alternative.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Summarized from the official menu descriptions."
+        }
+      ]
     },
     "availability": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Ramen is the core menu; restaurant warns the selection may change."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official daily ramen offering, subject to selection changes."
+        }
+      ]
     }
   },
   "visiting": {
     "hours": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Monday-Sunday 12:00-22:00",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official footer hours, checked 2026-09-27; other directory hours may differ."
+        }
+      ]
     },
     "operatingStatus": {
-      "status": "unknown"
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps shows next opening at noon, business-updated hours, and recent reviews; closed at time of viewing means outside service hours."
+        }
+      ]
     },
     "serviceCharge": {
       "status": "unknown"
     }
   },
-  "menus": [],
-  "pricing": []
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://www.kawamura.hu/menu.html",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official Dohány utca menu, live HTML snapshot. No menu publication date shown.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-official.html",
+            "sourceUrl": "https://www.kawamura.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Live official restaurant menu, not a delivery platform. No effective menu date shown; observed standard bowl range is 4250-5850 HUF. Service charge unverified.",
+      "bowls": [
+        {
+          "name": "Shio Tonkotsu Ramen",
+          "price": 4550,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu Chashumen",
+          "price": 4550,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Naruto Ramen",
+          "price": 4550,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Black Garlic Oil Ramen",
+          "price": 4550,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Kamo Miso Ramen",
+          "price": 4750,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu Beef Ramen",
+          "price": 4750,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy Tantanmen",
+          "price": 4750,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy Duck Ramen",
+          "price": 4750,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy Shrimp Ramen",
+          "price": 5850,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Teriyaki Chicken Ramen",
+          "price": 4550,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu Vegan Ramen",
+          "price": 4250,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegan Miso Ramen",
+          "price": 4250,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.kawamura.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "All twelve ramen bowls and prices transcribed from the live official menu."
+        }
+      ]
+    }
+  ]
 }

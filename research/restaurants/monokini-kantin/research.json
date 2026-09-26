@@ -5,39 +5,149 @@
   "publication": "listed",
   "identity": {
     "branch": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Varsányi Irén utca",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site describes Japanese-Spanish fusion: ramen at lunch and tapas at dinner, at this address."
+        }
+      ]
     },
     "category": {
-      "status": "unknown"
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site describes Japanese-Spanish fusion: ramen at lunch and tapas at dinner, at this address."
+        }
+      ]
     },
     "address": {
-      "status": "unknown"
+      "status": "known",
+      "value": "1027 Budapest, Varsányi Irén utca 33.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site describes Japanese-Spanish fusion: ramen at lunch and tapas at dinner, at this address."
+        }
+      ]
     },
     "district": {
-      "status": "unknown"
+      "status": "known",
+      "value": "II",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site describes Japanese-Spanish fusion: ramen at lunch and tapas at dinner, at this address."
+        }
+      ]
     },
     "coordinates": {
       "status": "unknown"
     },
     "maps": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://maps.app.goo.gl/L7YTngLh1H1SPNn59",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Maps link opened and verified against restaurant name and address."
+        }
+      ]
     }
   },
   "links": {
     "website": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.monokini.hu/hu",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked from official restaurant website."
+        }
+      ]
     },
     "instagram": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.instagram.com/monokini_kantin/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked from official restaurant website."
+        }
+      ]
     },
     "facebook": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.facebook.com/p/Monokini-Kantin-61575146075926/",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/p/Monokini-Kantin-61575146075926/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile matches address, website, Instagram and hours."
+        }
+      ]
     },
     "menu": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.monokini.hu/hu/menu",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked from official restaurant website."
+        }
+      ]
     },
     "reservations": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.monokini.hu/hu/reservation",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked from official restaurant website."
+        }
+      ]
     },
     "delivery": {
       "status": "unknown"
@@ -48,10 +158,30 @@
   },
   "features": {
     "reservations": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu/reservation"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Dinner reservations offered with a two-hour table limit. Official home explicitly says no lunch reservations."
+        }
+      ]
     },
     "delivery": {
-      "status": "unknown"
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/L7YTngLh1H1SPNn59"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps service options explicitly mark delivery unavailable."
+        }
+      ]
     },
     "takeaway": {
       "status": "unknown"
@@ -69,43 +199,174 @@
       "status": "unknown"
     },
     "vegetarianRamen": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Sajtos kare ramen is explicitly marked (V), with cheese and Japanese curry."
+        }
+      ]
     },
     "veganRamen": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "No explicitly vegan ramen on the inspected menu; cheese curry is vegetarian. Off-menu modifications have not been established."
     },
     "japaneseOwned": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Official site names chef Garai Ádám and related restaurants; nationality and ownership nationality are not established by names alone."
     },
     "hungarianOwned": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Official site names chef Garai Ádám and related restaurants; nationality and ownership nationality are not established by names alone."
     },
     "japaneseChef": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Official site names chef Garai Ádám and related restaurants; nationality and ownership nationality are not established by names alone."
     }
   },
   "food": {
     "styles": {
-      "status": "unknown"
+      "status": "known",
+      "value": ["Shoyu", "Shio", "Curry"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Chuka soba uses shoyu; nduja ramen uses shio; vegetarian cheese ramen uses Japanese curry."
+        }
+      ]
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Chuka soba: pork-chicken broth, shoyu, chashu and egg. Nduja ramen: pork broth, shio, nduja, chorizo, chashu and egg. Vegetarian curry ramen with cheese. Homemade noodles.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Summarized from official menu descriptions."
+        }
+      ]
     },
     "availability": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "kind": "lunch-only",
+        "details": "Full-size ramen Monday-Friday 12:00-14:00. Dinner menu also has a mini nduja ramen, excluded from the standard bowl price range."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Separate lunch and dinner menus specify sizes and service times."
+        }
+      ]
     }
   },
   "visiting": {
     "hours": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Lunch Monday-Friday 12:00-14:00; dinner Monday-Friday 18:00-23:00 and Saturday 17:00-23:00; kitchen closes 22:00",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu/reservation"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official reservation page hours and kitchen closing time."
+        }
+      ]
     },
     "operatingStatus": {
-      "status": "unknown"
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/L7YTngLh1H1SPNn59"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists regular service hours and recent reviews."
+        }
+      ]
     },
     "serviceCharge": {
       "status": "unknown"
     }
   },
-  "menus": [],
-  "pricing": []
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://www.monokini.hu/hu/menu",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Live official lunch and dinner menu. No effective date published.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-official.html",
+            "sourceUrl": "https://www.monokini.hu/hu/menu",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed full-size lunch ramen range 4700-4900 HUF. Dinner mini ramen excluded. Menu effective date and service charge unverified.",
+      "bowls": [
+        {
+          "name": "Chuka soba",
+          "price": 4700,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Sajtos kare ramen (V)",
+          "price": 4700,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Salt Bakery x Monokini nduja ramen",
+          "price": 4900,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Nduja mini ramen",
+          "price": 3800,
+          "eligibility": "small"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.monokini.hu/hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "All ramen items on the official lunch and dinner menus."
+        }
+      ]
+    }
+  ]
 }

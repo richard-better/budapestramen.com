@@ -1,43 +1,142 @@
 {
   "version": 1,
   "id": "yume",
-  "name": "Y\u00fcme",
+  "name": "Yüme",
   "publication": "listed",
   "identity": {
     "branch": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Baross utca",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified this YÜME branch, distinct from Yume 7."
+        }
+      ]
     },
     "category": {
-      "status": "unknown"
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/yume.budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile calls itself Unconventional Ramenothèque and quotes a feature describing ramen as its focus, alongside tapas."
+        }
+      ]
     },
     "address": {
-      "status": "unknown"
+      "status": "known",
+      "value": "1082 Budapest, Baross utca 85.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified this YÜME branch, distinct from Yume 7."
+        }
+      ]
     },
     "district": {
-      "status": "unknown"
+      "status": "known",
+      "value": "VIII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified this YÜME branch, distinct from Yume 7."
+        }
+      ]
     },
     "coordinates": {
       "status": "unknown"
     },
     "maps": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified this YÜME branch, distinct from Yume 7."
+        }
+      ]
     }
   },
   "links": {
     "website": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://yumebudapest.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps website link; domain redirects to official Facebook page."
+        }
+      ]
     },
     "instagram": {
       "status": "unknown"
     },
     "facebook": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.facebook.com/yume.budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yumebudapest.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Restaurant domain redirects to this matching official profile."
+        }
+      ]
     },
     "menu": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps Menu tab has structured ramen entries and photographed menus; no independent website menu."
+        }
+      ]
     },
     "reservations": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.facebook.com/yume.budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner post dated 2026-08-25 recommends Facebook/Instagram messages or email for bookings during the summer break."
+        }
+      ]
     },
     "delivery": {
       "status": "unknown"
@@ -48,10 +147,30 @@
   },
   "features": {
     "reservations": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner post explicitly offers reservations by social messages or email."
+        }
+      ]
     },
     "delivery": {
-      "status": "unknown"
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks delivery unavailable."
+        }
+      ]
     },
     "takeaway": {
       "status": "unknown"
@@ -69,10 +188,12 @@
       "status": "unknown"
     },
     "vegetarianRamen": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Mushroom Shoyu appears in the structured Maps menu but its broth is unspecified; the photographed menu instead lists pork-topped Citrus-Pepper. No reliable dietary conclusion."
     },
     "veganRamen": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Mushroom Shoyu appears in the structured Maps menu but its broth is unspecified; the photographed menu instead lists pork-topped Citrus-Pepper. No reliable dietary conclusion."
     },
     "japaneseOwned": {
       "status": "unknown"
@@ -86,10 +207,32 @@
   },
   "food": {
     "styles": {
-      "status": "unknown"
+      "status": "known",
+      "value": ["Shoyu", "Tonkotsu", "Shio"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photographed menu names Classic Tokyo Shoyu and Tonkotsu with Mutsu-shio tare."
+        }
+      ]
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Classic Tokyo Shoyu with soy tare, chashu and negi; Citrus-Pepper with citrus-pepper tare, green asparagus and chashu; Tonkotsu with Mutsu-shio tare, chashu and mayu. Chicken paprikash udon is a separate noodle dish.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "June 2026 menu photo; structured Maps menu instead lists Mushroom Shoyu, suggesting different menu versions."
+        }
+      ]
     },
     "availability": {
       "status": "unknown"
@@ -97,15 +240,106 @@
   },
   "visiting": {
     "hours": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Thursday-Saturday 17:00-23:00",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/yume.budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile header specifies these three service days."
+        }
+      ]
     },
     "operatingStatus": {
-      "status": "unknown"
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner announced reopening September 3 after summer break; Maps shows regular hours and photos three days old."
+        }
+      ]
     },
     "serviceCharge": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 15,
+        "applicability": "Included in displayed prices according to June 2026 menu photo; current policy needs reconfirmation."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Hungarian footer explicitly says prices include VAT and 15% service."
+        }
+      ]
     }
   },
-  "menus": [],
-  "pricing": []
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Baross utca 85. Customer photo dated June 2026; menu effective date absent. Structured Maps menu differs.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps-food.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmP2YA9cdM1wpXiNseTX7zDchHw4QD5EKd5_ghzJHIg-akz445ZZpHpJjpirzUM5XETlUji1KgmkGAERxwYXin7NQHUU4PIhEMXaZjw47XZcW7XwNbntsAGMFjkbCJge1_0Zwr6OJPuzdOmZ=w2000",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Photographed June 2026 ramen range 4500-5800 HUF including 15% service; current full coverage unverified. Structured Maps menu replaces Citrus-Pepper with Mushroom Shoyu. Udon excluded because it is not ramen.",
+      "bowls": [
+        {
+          "name": "Classic Tokyo Shoyu",
+          "price": 4500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Citrus-Pepper",
+          "price": 5000,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu",
+          "price": 5800,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Transcribed directly from the cached June 2026 food menu photo."
+        }
+      ]
+    }
+  ]
 }
