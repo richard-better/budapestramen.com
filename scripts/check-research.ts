@@ -1,8 +1,10 @@
 import { readdir, readFile, realpath, stat } from "node:fs/promises";
 import { resolve, sep } from "node:path";
 import { researchSchema } from "../apps/web/src/lib/research-schema";
+import { candidateListSchema } from "../apps/web/src/lib/candidate-schema";
 
 const root = new URL("../research/restaurants/", import.meta.url);
+const researchIds = new Set<string>();
 const listed = new Set(
   (await readdir(new URL("../apps/web/src/content/restaurants/", import.meta.url)))
     .filter((name) => name.endsWith(".yaml"))
@@ -16,6 +18,7 @@ for (const directory of await readdir(root, { withFileTypes: true })) {
   );
   if (record.id !== directory.name)
     throw new Error(`Research ID does not match directory: ${directory.name}`);
+  researchIds.add(record.id);
   if (record.publication === "listed" && !listed.delete(record.id))
     throw new Error(`No public listing for ${record.id}`);
   for (const menu of record.menus) {
@@ -30,4 +33,13 @@ for (const directory of await readdir(root, { withFileTypes: true })) {
   }
 }
 if (listed.size) throw new Error(`Missing research records: ${[...listed].join(", ")}`);
-console.log("Restaurant research and menu caches validated.");
+const discovery = candidateListSchema.parse(
+  JSON.parse(await readFile(new URL("../research/candidates.json", import.meta.url), "utf8")),
+);
+for (const candidate of discovery.candidates) {
+  if (candidate.researchId && !researchIds.has(candidate.researchId))
+    throw new Error(`Missing research record for candidate: ${candidate.id}`);
+}
+console.log(
+  `Restaurant research, menu caches and ${discovery.candidates.length} discovery entries validated.`,
+);

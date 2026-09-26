@@ -1,0 +1,1822 @@
+{
+  "version": 1,
+  "checkedOn": "2026-09-26",
+  "scope": "Budapest ramen discovery candidates, including broader restaurants and unresolved delivery brands. Not a verified list of active ramen shops.",
+  "coverage": {
+    "complete": false,
+    "sources": [
+      "https://www.google.com/maps/search/ramen+Budapest/",
+      "https://www.google.com/search?q=Budapest+ramen+restaurants",
+      "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+      "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/",
+      "https://wolt.com/en/hun/budapest/category/ramen",
+      "https://www.wafujp.com/",
+      "https://ramenka.hu/",
+      "https://www.monokini.hu/menu"
+    ],
+    "limitations": [
+      "Maps results are ranked and geographically biased; this pass does not prove citywide completeness.",
+      "Delivery category matches may include irrelevant dishes, virtual brands or duplicate branches.",
+      "Only explicit ramen mentions are promoted to candidate; all candidates still need current-menu and operating-status research.",
+      "Maps price brackets were deliberately not collected as ramen price ranges.",
+      "No public listings are added by this discovery file."
+    ]
+  },
+  "candidates": [
+    {
+      "id": "101-express",
+      "name": "101 BISTRO Express",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-express"
+    },
+    {
+      "id": "101-neo",
+      "name": "101 NEO Asian Food Bar",
+      "status": "candidate",
+      "address": "Budapest, Kazinczy utca 9",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag",
+      "signals": ["maps-search-match", "editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "101-tigris",
+      "name": "101 Tigris",
+      "status": "needs-menu-check",
+      "address": "1133 Budapest, Hegedűs Gyula utca 56",
+      "mapsUrl": null,
+      "signals": ["editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Roundup includes this venue but describes ramen-inspired East Asian noodle soups rather than a classic ramen bar."
+        }
+      ],
+      "followUp": [
+        "Check whether the current menu actually identifies any dish as ramen before inclusion.",
+        "Verify address and Maps listing."
+      ]
+    },
+    {
+      "id": "art-of-sushi",
+      "name": "Art of Sushi Budapest",
+      "status": "candidate",
+      "address": "Budapest, Liszt Ferenc tér 5",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8",
+      "signals": ["maps-search-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8",
+          "checkedOn": "2026-09-26",
+          "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "bambuszliget",
+      "name": "Bambuszliget Japán Étterem & Sushi Bár",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br"
+    },
+    {
+      "id": "bibimbap",
+      "name": "Bibimbap Korean Restaurant",
+      "status": "needs-menu-check",
+      "address": "Budapest, Erzsébet körút 39",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bibimbap+Korean+Restaurant+Budapest+Erzs%C3%A9bet+k%C3%B6r%C3%BAt+39&query_place_id=ChIJ_dA9aD3cQUcRhwd6UZIkk98",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Bibimbap+Korean+Restaurant+Budapest+Erzs%C3%A9bet+k%C3%B6r%C3%BAt+39&query_place_id=ChIJ_dA9aD3cQUcRhwd6UZIkk98",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "cantonese-flavor",
+      "name": "Cantonese Flavor",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"
+    },
+    {
+      "id": "chiyoko",
+      "name": "Chiyoko",
+      "status": "candidate",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+    },
+    {
+      "id": "cooked-by-you",
+      "name": "Cooked By You",
+      "status": "candidate",
+      "address": "Budapest, Jókai utca 23",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cooked+By+You+Budapest+J%C3%B3kai+utca+23&query_place_id=ChIJI6yLQQDdQUcRTTUpcypAihA",
+      "signals": ["maps-search-match", "delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Cooked+By+You+Budapest+J%C3%B3kai+utca+23&query_place_id=ChIJI6yLQQDdQUcRTTUpcypAihA",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Check the current menu for ramen and verify operating status.",
+        "Wolt describes ingredients portioned for home preparation. Verify whether dine-in ramen is available or this is a meal-kit offering."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cooked-by-you"
+    },
+    {
+      "id": "daiga",
+      "name": "Dáigá Sushi",
+      "status": "needs-menu-check",
+      "address": "Budapest, Krisztina körút 2",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "dimsum-wok-arkad",
+      "name": "DimSum & Wok go - Árkád",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+    },
+    {
+      "id": "dumplimester",
+      "name": "DumpliMester",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dumplimester"
+    },
+    {
+      "id": "ennmann",
+      "name": "Ennmann Japán Étterem",
+      "status": "needs-menu-check",
+      "address": "Budapest, Bem rakpart 20",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "every-day",
+      "name": "Every Day Restaurant",
+      "status": "needs-menu-check",
+      "address": "Budapest, Török Pál utca 3",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Every+Day+Restaurant+Budapest+T%C3%B6r%C3%B6k+P%C3%A1l+utca+3&query_place_id=ChIJ71jRLh3dQUcRdS0I1fQpstQ",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Every+Day+Restaurant+Budapest+T%C3%B6r%C3%B6k+P%C3%A1l+utca+3&query_place_id=ChIJ71jRLh3dQUcRdS0I1fQpstQ",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "flour-style-muzeum",
+      "name": "Flour Style Wok Bar - Múzeum",
+      "status": "candidate",
+      "address": "Budapest, Múzeum körút 39",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flour+Style+Wok+Bar+-+M%C3%BAzeum+Budapest+M%C3%BAzeum+k%C3%B6r%C3%BAt+39&query_place_id=ChIJ61OpO1vcQUcRtJw2eadcPZQ",
+      "signals": ["maps-search-match", "delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Flour+Style+Wok+Bar+-+M%C3%BAzeum+Budapest+M%C3%BAzeum+k%C3%B6r%C3%BAt+39&query_place_id=ChIJ61OpO1vcQUcRtJw2eadcPZQ",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Check the current menu for ramen and verify operating status.",
+        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+    },
+    {
+      "id": "flour-style-nyugati",
+      "name": "Flour Style Wok Bar - Nyugati",
+      "status": "candidate",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status.",
+        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar-nyugati"
+    },
+    {
+      "id": "foodhouse",
+      "name": "FOODHOUSE",
+      "status": "candidate",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status.",
+        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+    },
+    {
+      "id": "fuji",
+      "name": "Fuji Restaurant",
+      "status": "candidate",
+      "address": "Budapest, Pusztaszeri út 57",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM",
+      "signals": ["maps-search-match", "ramen-mention", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM",
+          "checkedOn": "2026-09-26",
+          "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/fuji-japn-tterem"
+    },
+    {
+      "id": "hachi",
+      "name": "HACHI Budapest",
+      "status": "candidate",
+      "address": "Budapest, Október 6. utca 8",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo",
+      "signals": ["maps-search-match", "editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "hachi-go",
+      "name": "Hachi-Go",
+      "status": "candidate",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status.",
+        "Check whether this is a delivery brand of HACHI or a separate physical venue."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hachi-go"
+    },
+    {
+      "id": "hachi-ko",
+      "name": "HACHI-KO Sake & Ramen Bar",
+      "status": "candidate",
+      "address": "Budapest, Madách Imre út 3",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
+      "signals": ["maps-search-match", "ramen-name-or-category", "editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/",
+          "checkedOn": "2026-09-26",
+          "note": "February 2026 roundup describes this venue serving ramen."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "hao-hao",
+      "name": "Hao Hao Étterem",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hao-hao-etterem"
+    },
+    {
+      "id": "ichiban",
+      "name": "Ichiban Ramen, Sushi and Tea",
+      "status": "candidate",
+      "address": "Budapest, Bajcsy-Zsilinszky út 34",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ichiban+Ramen%2C+Sushi+and+Tea+Budapest+Bajcsy-Zsilinszky+%C3%BAt+34&query_place_id=ChIJlb2oHgDdQUcRbShfY2xIVfk",
+      "signals": ["maps-search-match", "ramen-name-or-category", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Ramen%2C+Sushi+and+Tea+Budapest+Bajcsy-Zsilinszky+%C3%BAt+34&query_place_id=ChIJlb2oHgDdQUcRbShfY2xIVfk",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea"
+    },
+    {
+      "id": "iki-ramen",
+      "name": "Iki Ramen Izakaya",
+      "status": "candidate",
+      "address": "Budapest, Andrássy út 38",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+      "signals": ["maps-search-match", "ramen-name-or-category"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "itoshii",
+      "name": "Itoshii",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/itoshii"
+    },
+    {
+      "id": "japanika",
+      "name": "Japanika",
+      "status": "candidate",
+      "address": "Budapest, Szent István tér 7",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo",
+      "signals": ["maps-search-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo",
+          "checkedOn": "2026-09-26",
+          "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "jia-le",
+      "name": "Jia le Kínai büfé",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+    },
+    {
+      "id": "k-bunsik",
+      "name": "K-Bunsik",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/k-bunsik"
+    },
+    {
+      "id": "kaiszin",
+      "name": "Kaiszin Ázsiai Konyha",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kaiszin-azsiai-konyha"
+    },
+    {
+      "id": "kakurega",
+      "name": "Kakurega Japanese Restaurant",
+      "status": "needs-menu-check",
+      "address": "Budapest, Arany János utca 13",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "kawamura-ramen",
+      "name": "Kawamura Ramen",
+      "status": "candidate",
+      "address": "Budapest, Dohány utca 54",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest+Doh%C3%A1ny+utca+54&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo",
+      "signals": ["maps-search-match", "ramen-name-or-category", "editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest+Doh%C3%A1ny+utca+54&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchId": "kawamura-ramen"
+    },
+    {
+      "id": "ke-la-la",
+      "name": "Ke La La Wok",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ke-la-la-wok"
+    },
+    {
+      "id": "kincsan",
+      "name": "Japan Okonomiyaki Kincsán",
+      "status": "needs-menu-check",
+      "address": "Budapest, Ráday utca 14",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "kitsune",
+      "name": "Kitsune Japán Étterem és Kávézó",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+    },
+    {
+      "id": "kkodari",
+      "name": "KKODARI - Korean Roll & Rice",
+      "status": "needs-menu-check",
+      "address": "Budapest, Krúdy utca 4",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KKODARI+-+Korean+Roll+%26+Rice+Budapest+Kr%C3%BAdy+utca+4&query_place_id=ChIJQVwLbgDdQUcRraejIW0qHGY",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=KKODARI+-+Korean+Roll+%26+Rice+Budapest+Kr%C3%BAdy+utca+4&query_place_id=ChIJQVwLbgDdQUcRraejIW0qHGY",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "komachi",
+      "name": "Komachi Bistro",
+      "status": "candidate",
+      "address": "Budapest, Kertész utca 33",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+      "signals": ["maps-search-match", "editorial-ramen-mention", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/komachi-bistro"
+    },
+    {
+      "id": "love-asian-food",
+      "name": "Love Asian Food",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/love-asian-food"
+    },
+    {
+      "id": "monokini-kantin",
+      "name": "Monokini Kantin",
+      "researchId": "monokini-kantin",
+      "status": "candidate",
+      "address": "1027 Budapest, Varsányi Irén utca 33",
+      "mapsUrl": "https://maps.app.goo.gl/L7YTngLh1H1SPNn59",
+      "signals": ["official-menu-ramen"],
+      "sources": [
+        {
+          "url": "https://www.monokini.hu/menu",
+          "checkedOn": "2026-09-26",
+          "note": "Official menu shows ramen at lunch and a mini ramen at dinner, and gives the address and Maps link."
+        }
+      ],
+      "followUp": [
+        "Research lunch versus dinner availability and distinguish full-size bowls from mini portions."
+      ]
+    },
+    {
+      "id": "mori-ramen",
+      "name": "Mori Ramen",
+      "status": "candidate",
+      "address": "Budapest, Akácfa utca 55",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mori+Ramen+Budapest+Ak%C3%A1cfa+utca+55&query_place_id=ChIJt6gqJK3dQUcRDyqL9TcCveA",
+      "signals": ["maps-search-match", "ramen-name-or-category"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Mori+Ramen+Budapest+Ak%C3%A1cfa+utca+55&query_place_id=ChIJt6gqJK3dQUcRDyqL9TcCveA",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "nagomi",
+      "name": "Nagomi",
+      "status": "candidate",
+      "address": "Budapest, Bartók Béla út 50",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+      "signals": ["maps-search-match", "ramen-name-or-category"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/",
+          "checkedOn": "2026-09-26",
+          "note": "February 2026 roundup describes this venue serving ramen."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "nem-ramen",
+      "name": "Nem Ramen",
+      "status": "candidate",
+      "address": "Budapest, Rákóczi tér 7",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+      "signals": ["maps-search-match", "ramen-name-or-category", "editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/",
+          "checkedOn": "2026-09-26",
+          "note": "February 2026 roundup describes this venue serving ramen."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "nobi-sushi-pest",
+      "name": "Nobi Sushi Pest",
+      "status": "candidate",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+    },
+    {
+      "id": "nobility-galagonya",
+      "name": "Nobility Sushi Bar & Restaurant",
+      "status": "candidate",
+      "address": "Budapest, Galagonya utca 5, fszt. 7, inner courtyard",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nobility+Sushi+Bar+%26+Restaurant+Budapest+Galagonya+utca+5%2C+fszt.+7%2C+inner+courtyard&query_place_id=ChIJR3r-GQDZQUcRdg3FZBgHj4U",
+      "signals": ["maps-search-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Nobility+Sushi+Bar+%26+Restaurant+Budapest+Galagonya+utca+5%2C+fszt.+7%2C+inner+courtyard&query_place_id=ChIJR3r-GQDZQUcRdg3FZBgHj4U",
+          "checkedOn": "2026-09-26",
+          "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "nobility-restaurant-unresolved",
+      "name": "Nobility Restaurant",
+      "status": "needs-branch-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status.",
+        "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant"
+    },
+    {
+      "id": "nobility-sushi-unresolved",
+      "name": "Nobility Sushi",
+      "status": "needs-branch-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status.",
+        "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-sushi"
+    },
+    {
+      "id": "nobu",
+      "name": "Nobu Restaurant",
+      "status": "needs-menu-check",
+      "address": "Budapest, Erzsébet tér 7-8",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nobu+Restaurant+Budapest+Erzs%C3%A9bet+t%C3%A9r+7-8&query_place_id=ChIJHQsWakDcQUcR1B_6XP72tBQ",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Nobu+Restaurant+Budapest+Erzs%C3%A9bet+t%C3%A9r+7-8&query_place_id=ChIJHQsWakDcQUcR1B_6XP72tBQ",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "nyuszi",
+      "name": "Nyuszi kínai büfé",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nyuszi-kinai-bufe"
+    },
+    {
+      "id": "oishi-dohany",
+      "name": "Oishi Sushi Budapest",
+      "status": "needs-menu-check",
+      "address": "Budapest, Dohány utca 47",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oishi+Sushi+Budapest+Budapest+Doh%C3%A1ny+utca+47&query_place_id=ChIJe2E5BmfcQUcRO4uz1xRJRiE",
+      "signals": ["maps-search-match", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Oishi+Sushi+Budapest+Budapest+Doh%C3%A1ny+utca+47&query_place_id=ChIJe2E5BmfcQUcRO4uz1xRJRiE",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+    },
+    {
+      "id": "oishi-synagogue",
+      "name": "Oishi Sushi Synagogue",
+      "status": "needs-menu-check",
+      "address": "Budapest, Dohány utca 1",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oishi+Sushi+Synagogue+Budapest+Doh%C3%A1ny+utca+1&query_place_id=ChIJEcPhA3bdQUcR4iSmsaCRuEE",
+      "signals": ["maps-search-match", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Oishi+Sushi+Synagogue+Budapest+Doh%C3%A1ny+utca+1&query_place_id=ChIJEcPhA3bdQUcR4iSmsaCRuEE",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+    },
+    {
+      "id": "oishi-takeaway-unresolved",
+      "name": "Oishi Sushi",
+      "status": "needs-branch-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status.",
+        "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away"
+    },
+    {
+      "id": "olive-azsia",
+      "name": "Olive Ázsia Étterem",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/olive-zsia-tterem"
+    },
+    {
+      "id": "oriental-soup-house-balzac",
+      "name": "Oriental Soup House - Balzac",
+      "status": "needs-menu-check",
+      "address": "Budapest, Balzac utca 35",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oriental+Soup+House+-+Balzac+Budapest+Balzac+utca+35&query_place_id=ChIJsShwVgjcQUcRABWmRIo5NKM",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Oriental+Soup+House+-+Balzac+Budapest+Balzac+utca+35&query_place_id=ChIJsShwVgjcQUcRABWmRIo5NKM",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "oriental-soup-house-szervita",
+      "name": "Oriental Soup House - Szervita",
+      "status": "needs-menu-check",
+      "address": "Budapest, Szervita tér 2",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oriental+Soup+House+-+Szervita+Budapest+Szervita+t%C3%A9r+2&query_place_id=ChIJfWyE3vjfQUcRCcQz77zoHXA",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Oriental+Soup+House+-+Szervita+Budapest+Szervita+t%C3%A9r+2&query_place_id=ChIJfWyE3vjfQUcRCcQz77zoHXA",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "pearl-harbor",
+      "name": "Pearl Harbor Restaurant Bowling & Bar",
+      "status": "needs-menu-check",
+      "address": "Budapest, Bécsi út 136",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pearl+Harbor+Restaurant+Bowling+%26+Bar+Budapest+B%C3%A9csi+%C3%BAt+136&query_place_id=ChIJBSiUOULZQUcRhy37S4gbf7w",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Pearl+Harbor+Restaurant+Bowling+%26+Bar+Budapest+B%C3%A9csi+%C3%BAt+136&query_place_id=ChIJBSiUOULZQUcRhy37S4gbf7w",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "poetry",
+      "name": "Poetry Wine Restaurant and Bar",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/poetry-wine-restaurant-and-bar"
+    },
+    {
+      "id": "ramen-mester-etele",
+      "name": "Ling’s - Ramen Mester Etele tér",
+      "status": "candidate",
+      "address": "Budapest, Etele tér 5",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34",
+      "signals": [
+        "maps-search-match",
+        "ramen-name-or-category",
+        "editorial-ramen-mention",
+        "delivery-category-match"
+      ],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Check the current menu for ramen and verify operating status.",
+        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+    },
+    {
+      "id": "ramen-mester-wesselenyi",
+      "name": "Ling’s - Ramen Mester Wesselényi",
+      "status": "candidate",
+      "address": "Budapest, Wesselényi utca 49",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Wessel%C3%A9nyi+Budapest+Wessel%C3%A9nyi+utca+49&query_place_id=ChIJnZvgDwDdQUcR3PzFDh78Yps",
+      "signals": ["maps-search-match", "ramen-name-or-category", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Wessel%C3%A9nyi+Budapest+Wessel%C3%A9nyi+utca+49&query_place_id=ChIJnZvgDwDdQUcR3PzFDh78Yps",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Check the current menu for ramen and verify operating status.",
+        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-wesselenyi"
+    },
+    {
+      "id": "ramen-nikko",
+      "name": "Ramen Nikko",
+      "status": "candidate",
+      "address": "Budapest, Krúdy utca 6",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest+Kr%C3%BAdy+utca+6&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c",
+      "signals": ["maps-search-match", "ramen-name-or-category"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest+Kr%C3%BAdy+utca+6&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchId": "ramen-nikko"
+    },
+    {
+      "id": "ramenji",
+      "name": "Ramenji Ramen",
+      "status": "candidate",
+      "address": "Budapest, Váci utca 49",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+      "signals": [
+        "maps-search-match",
+        "ramen-name-or-category",
+        "editorial-ramen-mention",
+        "delivery-category-match"
+      ],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/",
+          "checkedOn": "2026-09-26",
+          "note": "February 2026 roundup describes this venue serving ramen."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ramenji-japanese-restaurant"
+    },
+    {
+      "id": "ramenka",
+      "name": "Ramenka",
+      "status": "closed",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["editorial-ramen-mention", "official-closure-notice"],
+      "sources": [
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "March 2026 roundup lists Nagymező utca 21."
+        },
+        {
+          "url": "https://ramenka.hu/",
+          "checkedOn": "2026-09-26",
+          "note": "Official website says Ramenka has closed after 12 years, plans to reopen, and points visitors to Naponta wok kitchen. No reopening date or new address shown."
+        }
+      ],
+      "followUp": [
+        "Keep off the active list until reopening and location are verified.",
+        "Do not treat Naponta as a ramen venue without menu evidence."
+      ]
+    },
+    {
+      "id": "sakura-ramen",
+      "name": "Sakura Ramen",
+      "status": "candidate",
+      "address": "Budapest, Király utca 12",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck",
+      "signals": ["maps-search-match", "ramen-name-or-category", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1"
+    },
+    {
+      "id": "sakuraku",
+      "name": "Sakuraku Japanese Izakaya",
+      "status": "needs-menu-check",
+      "address": "Budapest, Király utca 58",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "senbazuru",
+      "name": "Senbazuru Bistro",
+      "status": "candidate",
+      "address": "Budapest, Akadémia utca 11",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Senbazuru+Bistro+Budapest+Akad%C3%A9mia+utca+11&query_place_id=ChIJL-HthK7dQUcRwjDwG8vf5jQ",
+      "signals": ["maps-search-match", "delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Senbazuru+Bistro+Budapest+Akad%C3%A9mia+utca+11&query_place_id=ChIJL-HthK7dQUcRwjDwG8vf5jQ",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+    },
+    {
+      "id": "shibuya",
+      "name": "Shibuya",
+      "status": "needs-menu-check",
+      "address": "Budapest, Városligeti fasor 46-48",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "song-mester",
+      "name": "Song Mester Étterem",
+      "status": "needs-menu-check",
+      "address": "Budapest, Dózsa György út 13",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Song+Mester+%C3%89tterem+Budapest+D%C3%B3zsa+Gy%C3%B6rgy+%C3%BAt+13&query_place_id=ChIJw1RtMADdQUcRu8ynQMUxk78",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Song+Mester+%C3%89tterem+Budapest+D%C3%B3zsa+Gy%C3%B6rgy+%C3%BAt+13&query_place_id=ChIJw1RtMADdQUcRu8ynQMUxk78",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "sushi-heaven",
+      "name": "Sushi Heaven",
+      "status": "needs-menu-check",
+      "address": "Budapest, Hajós utca 16",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi+Heaven+Budapest+Haj%C3%B3s+utca+16&query_place_id=ChIJXbvE6S3dQUcRXdSTTwtxmIs",
+      "signals": ["maps-search-match", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Sushi+Heaven+Budapest+Haj%C3%B3s+utca+16&query_place_id=ChIJXbvE6S3dQUcRXdSTTwtxmIs",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-heaven"
+    },
+    {
+      "id": "sushi-sei",
+      "name": "Sushi Sei",
+      "status": "candidate",
+      "address": "Budapest, Bécsi út 58",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4",
+      "signals": ["maps-search-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4",
+          "checkedOn": "2026-09-26",
+          "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "sushi-wan",
+      "name": "Sushi Wan Japán Étterem",
+      "status": "candidate",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem"
+    },
+    {
+      "id": "taste-of-china",
+      "name": "Taste of China",
+      "status": "needs-menu-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/taste-of-china-ulloi"
+    },
+    {
+      "id": "tokio",
+      "name": "TOKIO",
+      "status": "needs-menu-check",
+      "address": "Budapest, Széchenyi István tér 7-8",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "tokyo-izakaya",
+      "name": "Tokyo Izakaya",
+      "status": "candidate",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya"
+    },
+    {
+      "id": "ton-ichi",
+      "name": "Ton-Ichi Ramen",
+      "status": "candidate",
+      "address": "Budapest, Október 6. utca 21",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ton-Ichi+Ramen+Budapest+Okt%C3%B3ber+6.+utca+21&query_place_id=ChIJv7vVHS_dQUcR0L2jU9aFRO8",
+      "signals": ["maps-search-match", "ramen-name-or-category", "editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Ton-Ichi+Ramen+Budapest+Okt%C3%B3ber+6.+utca+21&query_place_id=ChIJv7vVHS_dQUcR0L2jU9aFRO8",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "ume-sushi",
+      "name": "Ume Sushi",
+      "status": "needs-menu-check",
+      "address": "Budapest, Aranykéz utca 4",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "wafu-biangarden",
+      "name": "WAFU Ramen and Sushi stand - Biangarden",
+      "status": "candidate",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["delivery-category-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        }
+      ],
+      "followUp": [
+        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
+        "Check the current menu for ramen and verify operating status."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+    },
+    {
+      "id": "wafu-budafoki",
+      "name": "WAFU Ramen Bar - Budafoki",
+      "status": "candidate",
+      "address": "Budapest, Budafoki út 41",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Budafoki+Budapest+Budafoki+%C3%BAt+41&query_place_id=ChIJzybq6aDdQUcR6DK2am8RYBI",
+      "signals": ["maps-search-match", "editorial-ramen-mention", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Budafoki+Budapest+Budafoki+%C3%BAt+41&query_place_id=ChIJzybq6aDdQUcR6DK2am8RYBI",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://www.wafujp.com/",
+          "checkedOn": "2026-09-26",
+          "note": "Official restaurant directory lists this named branch and describes the brand’s ramen offering."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": [
+        "Check the current menu for ramen and verify operating status.",
+        "Address conflict: Maps shows Budafoki út 41; Time Out gives 111. Verify with the branch before publishing."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramenn"
+    },
+    {
+      "id": "wafu-dob",
+      "name": "WAFU Ramen Bar - Dob",
+      "status": "candidate",
+      "address": "Budapest, Dob utca 2",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+      "signals": ["maps-search-match", "ramen-name-or-category"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "wafu-gozsdu",
+      "name": "WAFU Ramen Bar - Gozsdu",
+      "status": "candidate",
+      "address": "Budapest, Kazinczy utca 35",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Gozsdu+Budapest+Kazinczy+utca+35&query_place_id=ChIJZ0OWqijdQUcRe1fq8Sug1g8",
+      "signals": ["maps-search-match", "ramen-name-or-category", "editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Gozsdu+Budapest+Kazinczy+utca+35&query_place_id=ChIJZ0OWqijdQUcRe1fq8Sug1g8",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://www.wafujp.com/",
+          "checkedOn": "2026-09-26",
+          "note": "Official restaurant directory lists this named branch and describes the brand’s ramen offering."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "wafu-izakaya",
+      "name": "WAFU Ramen Izakaya",
+      "status": "candidate",
+      "address": "Budapest, Kazinczy utca 3",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Izakaya+Budapest+Kazinczy+utca+3&query_place_id=ChIJI8NMtj3dQUcRCIeRWvj62fI",
+      "signals": ["maps-search-match", "ramen-name-or-category"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Izakaya+Budapest+Kazinczy+utca+3&query_place_id=ChIJI8NMtj3dQUcRCIeRWvj62fI",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.wafujp.com/",
+          "checkedOn": "2026-09-26",
+          "note": "Official restaurant directory lists this named branch and describes the brand’s ramen offering."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "wafu-kalvin",
+      "name": "WAFU Ramen Bar - Kálvin",
+      "status": "needs-branch-check",
+      "address": null,
+      "mapsUrl": null,
+      "signals": ["official-directory-match"],
+      "sources": [
+        {
+          "url": "https://www.wafujp.com/work/wafu-ramenbar-kalvin/copy-5",
+          "checkedOn": "2026-09-26",
+          "note": "Official page names Kálvin Square, but its Maps link resolves to WAFU Budafoki and its Wolt link is the Budafoki listing."
+        }
+      ],
+      "followUp": [
+        "Verify existence, current address and opening status; page may contain copied branch links. Do not count as a separate confirmed shop yet."
+      ]
+    },
+    {
+      "id": "wafu-katona",
+      "name": "WAFU Ramen Bar - Katona",
+      "status": "candidate",
+      "address": "Budapest, Katona József utca 24",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Katona+Budapest+Katona+J%C3%B3zsef+utca+24&query_place_id=ChIJPT4MpfPdQUcR47Rbwfa5BSk",
+      "signals": [
+        "maps-search-match",
+        "ramen-name-or-category",
+        "editorial-ramen-mention",
+        "delivery-category-match"
+      ],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Katona+Budapest+Katona+J%C3%B3zsef+utca+24&query_place_id=ChIJPT4MpfPdQUcR47Rbwfa5BSk",
+          "checkedOn": "2026-09-26",
+          "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://www.wafujp.com/",
+          "checkedOn": "2026-09-26",
+          "note": "Official restaurant directory lists this named branch and describes the brand’s ramen offering."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/paneer"
+    },
+    {
+      "id": "wasabi-mom",
+      "name": "Wasabi Running Sushi & Wok Restaurant - MOM Park",
+      "status": "needs-menu-check",
+      "address": "Budapest, Alkotás utca 53",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park+Budapest+Alkot%C3%A1s+utca+53&query_place_id=ChIJodPnKS_cQUcRSOp8z9jfp5w",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park+Budapest+Alkot%C3%A1s+utca+53&query_place_id=ChIJodPnKS_cQUcRSOp8z9jfp5w",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "wasabi-podmaniczky",
+      "name": "Wasabi Running Sushi & Wok Restaurant - Podmaniczky",
+      "status": "needs-menu-check",
+      "address": "Budapest, Podmaniczky utca 21",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wasabi+Running+Sushi+%26+Wok+Restaurant+-+Podmaniczky+Budapest+Podmaniczky+utca+21&query_place_id=ChIJv1LCVQ3cQUcRldzBiOLOL3g",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Wasabi+Running+Sushi+%26+Wok+Restaurant+-+Podmaniczky+Budapest+Podmaniczky+utca+21&query_place_id=ChIJv1LCVQ3cQUcRldzBiOLOL3g",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "wasabi-szepvolgyi",
+      "name": "Wasabi Running Sushi & Wok Restaurant - Szépvölgyi",
+      "status": "candidate",
+      "address": "Budapest, Szépvölgyi út 15",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wasabi+Running+Sushi+%26+Wok+Restaurant+-+Sz%C3%A9pv%C3%B6lgyi+Budapest+Sz%C3%A9pv%C3%B6lgyi+%C3%BAt+15&query_place_id=ChIJIzorjTfZQUcR80Q7K7B3X2A",
+      "signals": ["maps-search-match", "ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Wasabi+Running+Sushi+%26+Wok+Restaurant+-+Sz%C3%A9pv%C3%B6lgyi+Budapest+Sz%C3%A9pv%C3%B6lgyi+%C3%BAt+15&query_place_id=ChIJIzorjTfZQUcR80Q7K7B3X2A",
+          "checkedOn": "2026-09-26",
+          "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "whats-running",
+      "name": "WHAT'S RUNNING SOUP-SUSHI-HOTPOT",
+      "status": "needs-menu-check",
+      "address": "Budapest, Hercegprímás utca 4",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=WHAT%27S+RUNNING+SOUP-SUSHI-HOTPOT+Budapest+Hercegpr%C3%ADm%C3%A1s+utca+4&query_place_id=ChIJf9wI6VzdQUcRQ8h986wg_AU",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=WHAT%27S+RUNNING+SOUP-SUSHI-HOTPOT+Budapest+Hercegpr%C3%ADm%C3%A1s+utca+4&query_place_id=ChIJf9wI6VzdQUcRQ8h986wg_AU",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "yamato",
+      "name": "Yamato Étterem",
+      "status": "needs-menu-check",
+      "address": "Budapest, Jókai utca 30",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "yi-du",
+      "name": "YI DU",
+      "status": "needs-menu-check",
+      "address": "Budapest, Október 6. utca 19",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=YI+DU+Budapest+Okt%C3%B3ber+6.+utca+19&query_place_id=ChIJbTfAgSHdQUcRwfLmG00ehVY",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=YI+DU+Budapest+Okt%C3%B3ber+6.+utca+19&query_place_id=ChIJbTfAgSHdQUcRwfLmG00ehVY",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."]
+    },
+    {
+      "id": "yume",
+      "name": "YÜME",
+      "status": "candidate",
+      "address": "Budapest, Baross utca 85",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Y%C3%9CME+Budapest+Baross+utca+85&query_place_id=ChIJKaGGTt3dQUcRGWN6Szgl660",
+      "signals": ["maps-search-match", "editorial-ramen-mention"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Y%C3%9CME+Budapest+Baross+utca+85&query_place_id=ChIJKaGGTt3dQUcRGWN6Szgl660",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
+          "checkedOn": "2026-09-26",
+          "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchId": "yume"
+    },
+    {
+      "id": "yume-7",
+      "name": "Yume 7",
+      "status": "needs-menu-check",
+      "address": "Budapest, Káldy Gyula utca 5",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+      "signals": ["maps-search-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        }
+      ],
+      "followUp": [
+        "Check the current menu for ramen and verify operating status.",
+        "Different name and address from YÜME at Baross utca 85. Do not merge without evidence of a relationship."
+      ]
+    },
+    {
+      "id": "zen-eatery",
+      "name": "Zen Eatery",
+      "status": "needs-menu-check",
+      "address": "Budapest, Liszt Ferenc tér 10, földszint 16",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA",
+      "signals": ["maps-search-match", "delivery-category-match"],
+      "sources": [
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA",
+          "checkedOn": "2026-09-26",
+          "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/category/ramen",
+          "checkedOn": "2026-09-26",
+          "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        }
+      ],
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery"
+    }
+  ]
+}
