@@ -30,6 +30,8 @@ let user: Coordinates | null = null;
 let locating = false;
 let toastTimer: ReturnType<typeof setTimeout>;
 let applyingMap = false;
+type MapMotion = "preserve" | "instant" | "smooth";
+const prefersReducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const mobile = matchMedia("(max-width: 959px)");
 const root = element("#ramen-guide");
 const mapElement = element("#restaurant-map");
@@ -46,7 +48,7 @@ const map = L.map(mapElement, {
   zoomControl: false,
   minZoom: 3,
   maxZoom: 18,
-  zoomAnimation: !matchMedia("(prefers-reduced-motion: reduce)").matches,
+  zoomAnimation: !prefersReducedMotion,
   fadeAnimation: false,
 }).setView([47.502, 19.056], 14);
 const tiles = L.tileLayer(
@@ -75,28 +77,62 @@ tiles.on("tileload", () => {
 tiles.on("tileerror", showMapError);
 tiles.addTo(map);
 
-function navigate(patch: Partial<GuideState>, replace = false) {
+function navigate(patch: Partial<GuideState>, replace = false, mapMotion: MapMotion = "preserve") {
   state = { ...state, ...patch };
   const path = guidePath(state);
   if (path !== location.pathname + location.search) {
     history[replace ? "replaceState" : "pushState"](null, "", path);
   }
-  render();
+  render(mapMotion);
 }
 
 function selectedPlace() {
   return restaurants.find((place) => place.id === state.selected);
 }
 
-function select(id: string, showPreview = false) {
-  navigate({
-    selected: id,
-    preview: showPreview,
-    panel: null,
-    menu: false,
-    directions: false,
-    map: null,
-  });
+function select(
+  id: string,
+  showPreview = false,
+  mapMotion: Extract<MapMotion, "preserve" | "smooth"> = "smooth",
+) {
+  navigate(
+    {
+      selected: id,
+      preview: showPreview,
+      panel: null,
+      menu: false,
+      directions: false,
+      map: mapMotion === "preserve" ? currentMapPosition() : null,
+    },
+    false,
+    mapMotion,
+  );
+}
+
+function currentMapPosition(): GuideState["map"] {
+  const center = map.getCenter().wrap();
+  return { lat: center.lat, lng: center.lng, zoom: map.getZoom() };
+}
+
+function moveMapTo(center: L.LatLngExpression, zoom: number, motion: MapMotion) {
+  if (motion === "smooth" && !prefersReducedMotion) {
+    map.flyTo(center, zoom, { duration: 1.2 });
+  } else {
+    map.setView(center, zoom, { animate: false });
+  }
+}
+
+function fitRestaurants(places: Restaurant[], maxZoom: number, motion: MapMotion) {
+  if (!places.length) return;
+  map.fitBounds(
+    places.map((restaurant) => [restaurant.lat, restaurant.lng] as L.LatLngTuple),
+    {
+      paddingTopLeft: [40, 120],
+      paddingBottomRight: [40, 50],
+      maxZoom,
+      animate: motion === "smooth" && !prefersReducedMotion,
+    },
+  );
 }
 
 function closeDetail() {
@@ -141,7 +177,7 @@ function positionDirections() {
   popover.style.top = `${Math.max(12, Math.min(bounds.bottom + 8, innerHeight - popover.offsetHeight - 12))}px`;
 }
 
-function render() {
+function render(mapMotion: MapMotion = "preserve") {
   const t = translations[state.language];
   const place = selectedPlace();
   const detailOpen = !!place && (!state.preview || !mobile.matches) && state.panel !== "filters";
@@ -286,30 +322,27 @@ function render() {
     node.classList.toggle("is-located", !!user);
   });
   mapElement.inert = mobile.matches && state.view === "list";
-  renderMarkers(visible);
-  applyingMap = true;
   map.invalidateSize({ pan: false });
-  if (state.map) map.setView([state.map.lat, state.map.lng], state.map.zoom, { animate: false });
-  else if (place) {
-    const zoom = 15;
-    const offset = !mobile.matches && detailOpen ? [206, 0] : [0, state.preview ? 60 : 0];
-    const center = map.unproject(
-      map.project([place.lat, place.lng], zoom).add(L.point(offset[0]!, offset[1]!)),
-      zoom,
-    );
-    map.setView(center, zoom, { animate: false });
-  } else if (user) map.setView([user.lat, user.lng], 15, { animate: false });
-  else
-    map.fitBounds(
-      restaurants.map((restaurant) => [restaurant.lat, restaurant.lng] as L.LatLngTuple),
-      {
-        paddingTopLeft: [40, 120],
-        paddingBottomRight: [40, 50],
-        maxZoom: 14,
-        animate: false,
-      },
-    );
-  applyingMap = false;
+  renderMarkers(visible);
+  if (mapMotion !== "preserve") {
+    applyingMap = true;
+    if (state.map) {
+      moveMapTo([state.map.lat, state.map.lng], state.map.zoom, mapMotion);
+    } else if (place) {
+      const zoom = 15;
+      const offset = !mobile.matches && detailOpen ? [206, 0] : [0, state.preview ? 60 : 0];
+      const center = map.unproject(
+        map.project([place.lat, place.lng], zoom).add(L.point(offset[0]!, offset[1]!)),
+        zoom,
+      );
+      moveMapTo(center, zoom, mapMotion);
+    } else if (user) {
+      moveMapTo([user.lat, user.lng], 15, mapMotion);
+    } else {
+      fitRestaurants(visible, 14, mapMotion);
+    }
+    applyingMap = false;
+  }
 }
 
 function renderMarkers(visible: Restaurant[]) {
@@ -334,7 +367,7 @@ function renderMarkers(visible: Restaurant[]) {
         alt: place.name,
         keyboard: true,
       });
-      marker.on("click", () => select(place.id, mobile.matches));
+      marker.on("click", () => select(place.id, mobile.matches, "preserve"));
       marker.bindTooltip(place.name, { direction: "top", offset: [0, -16] });
       markers.set(place.id, marker);
     } else marker.setIcon(icon);
@@ -378,7 +411,7 @@ function locate() {
       element("#toast").hidden = true;
       element("#toast").hidePopover();
       // Location permission and the user's coordinates stay in memory, never in a shared URL.
-      render();
+      render("smooth");
     },
     () => {
       locating = false;
@@ -447,7 +480,7 @@ root.addEventListener("click", async (event) => {
       closeDetail();
       break;
     case "open-selected":
-      navigate({ preview: false, map: null });
+      navigate({ preview: false, map: null }, false, "smooth");
       break;
     case "about":
       navigate({ panel: "about", menu: false, directions: false });
@@ -473,11 +506,7 @@ root.addEventListener("click", async (event) => {
     case "reset-map": {
       navigate({ selected: null, preview: false, directions: false, map: null });
       const visible = filterRestaurants(restaurants, state.filters);
-      if (visible.length)
-        map.fitBounds(
-          visible.map((place) => [place.lat, place.lng] as L.LatLngTuple),
-          { paddingTopLeft: [40, 130], paddingBottomRight: [40, 50], maxZoom: 15, animate: false },
-        );
+      fitRestaurants(visible, 15, "smooth");
       break;
     }
     case "share":
@@ -535,7 +564,7 @@ window.addEventListener("popstate", () => {
   const restored = readGuideUrl(new URL(location.href), restaurants);
   if (restored) {
     state = restored;
-    render();
+    render("smooth");
   }
 });
 map.on("moveend", () => {
@@ -547,7 +576,7 @@ map.on("moveend", () => {
 map.on("click", () => {
   if (state.preview) closeDetail();
 });
-mobile.addEventListener("change", render);
+mobile.addEventListener("change", () => render());
 window.addEventListener("resize", positionDirections);
 detail.addEventListener("scroll", positionDirections, true);
-render();
+render("instant");
