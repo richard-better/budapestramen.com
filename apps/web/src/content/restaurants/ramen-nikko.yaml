@@ -1,0 +1,48 @@
+name: "Ramen Nikko"
+address: "Krúdy u. 6, 1088"
+district: "VIII · Józsefváros"
+coordinates:
+  lat: 47.4902951
+  lng: 19.0673047
+styles:
+  - "Tonkotsu"
+  - "Shoyu"
+  - "Shio"
+  - "Miso"
+  - "Tantanmen"
+vegan: true
+recommended: true
+google:
+  rating: 4.9
+  reviews: 600
+priceRangeHuf:
+  min: 4000
+  max: 6000
+recommendation:
+  en: "Recommended for its classic tonkotsu options and a clearly listed vegan miso bowl."
+  hu: "Ajánlott a klasszikus tonkotsu ramenek és a vegán miso ramen miatt."
+menu:
+  - name:
+      en: "Shoyu tonkotsu ramen"
+      hu: "Shoyu tonkotsu ramen"
+    priceHuf: 4150
+  - name:
+      en: "Shio tonkotsu ramen"
+      hu: "Shio tonkotsu ramen"
+    priceHuf: 4150
+  - name:
+      en: "Miso tonkotsu ramen"
+      hu: "Miso tonkotsu ramen"
+    priceHuf: 4350
+  - name:
+      en: "Tantanmen"
+      hu: "Tantanmen"
+    priceHuf: 4750
+  - name:
+      en: "Vegan miso ramen"
+      hu: "Vegán miso ramen"
+    priceHuf: 4150
+source:
+  name: "Google Maps"
+  date: "2026-09-26"
+  url: "https://maps.app.goo.gl/1VHdzQJiXrvMs66R9"

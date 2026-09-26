@@ -1,0 +1,44 @@
+name: "Kawamura Ramen"
+address: "Dohány u. 54, 1074"
+district: "VII · Erzsébetváros"
+coordinates:
+  lat: 47.4975712
+  lng: 19.0682551
+styles:
+  - "Tonkotsu"
+  - "Shoyu"
+  - "Miso"
+  - "Shio"
+  - "Tantanmen"
+vegan: true
+recommended: true
+google:
+  rating: 4.8
+  reviews: 1309
+priceRangeHuf:
+  min: 4000
+  max: 6000
+recommendation:
+  en: "Recommended for its creamy tonkotsu and its separate vegan shoyu and miso bowls."
+  hu: "Krémes tonkotsuja és külön vegán shoyu, illetve miso ramenjei miatt ajánlott."
+menu:
+  - name:
+      en: "Shio tonkotsu ramen"
+      hu: "Shio tonkotsu ramen"
+    priceHuf: 4550
+  - name:
+      en: "Spicy tantanmen"
+      hu: "Csípős tantanmen"
+    priceHuf: 4750
+  - name:
+      en: "Vegan shoyu ramen"
+      hu: "Vegán shoyu ramen"
+    priceHuf: 4250
+  - name:
+      en: "Kamo miso ramen"
+      hu: "Kamo miso ramen"
+    priceHuf: 4750
+source:
+  name: "Google Maps and Kawamura official menu"
+  date: "2026-09-26"
+  url: "https://kawamura.hu/menu.html"
