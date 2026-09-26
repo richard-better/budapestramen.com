@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "id": "hachi-ko",
+  "name": "HACHI-KO Sake & Ramen Bar",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Madách Imre út",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified ramen bar branch, matching official Facebook address."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified ramen bar branch, matching official Facebook address."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1075 Budapest, Madách Imre út 3.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified ramen bar branch, matching official Facebook address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified ramen bar branch, matching official Facebook address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified ramen bar branch, matching official Facebook address."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/hachiko_budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/profile.php?id=61584465086868"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Facebook contact link."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/profile.php?id=61584465086868",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "We Love Budapest links this profile; verified matching address and name."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/profile.php?id=61584465086868"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official MENU highlight, three cards, shown as updated four days ago."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://m.asztalfoglalas.com/forms/Hachi-ko",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/profile.php?id=61584465086868"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile and Maps both link booking form."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/profile.php?id=61584465086868"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile explicitly offers table reservations."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks delivery unavailable."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly offers takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu lists optional smoked chashu, chicken-heart wonton, chicken ham, katsuobushi, nori, dashi espuma, ajitama and pickled egg toppings."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Editorial explicitly describes vegan cold-brew dashi; current official menu marks miso and ice-cold ramen V. Legend not seen, so editorial vegan description supplies corroboration."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Editorial explicitly describes vegan cold-brew dashi; current official menu marks miso and ice-cold ramen V. Legend not seen, so editorial vegan description supplies corroboration."
+        }
+      ]
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Shoyu", "Shio", "Tonkotsu", "Miso", "Cold ramen"],
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Five named ramen styles on official highlighted menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Shoyu Beef with slow-cooked Omaha beef, ajitama and spinach; Shio Chicken with chicken breast and ajitama; Tonkotsu with chashu, pickled egg and nori salt; Miso with sesame tare, kohlrabi, shiitake and matcha; Ice Cold Ramen with fermented dashi, citrus and dill.",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current official highlighted ramen card."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Five ramen bowls on the current official menu; ice-cold bowl may be seasonal, duration unverified."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu posted approximately four days before check."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps regular hours and photos from today; official menu updated four days ago."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-social-2026-09-27",
+      "url": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight",
+      "type": "social",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official Facebook MENU highlight posted approximately four days ago; ramen/toppings card cached. Other cards contain small plates and desserts; not cached.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-official-ramen.jpg",
+            "sourceUrl": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-social-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed five standard bowls4280-5480 HUF. Optional toppings excluded. Relative post age is not an explicit menu effective date; service charge unverified.",
+      "bowls": [
+        {
+          "name": "Shoyu Beef",
+          "price": 5480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shio Chicken",
+          "price": 4280,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu",
+          "price": 4580,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso",
+          "price": 4280,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Ice Cold Ramen",
+          "price": 4280,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "All five standard bowls on official ramen card."
+        }
+      ]
+    }
+  ],
+  "brandId": "hachi"
+}

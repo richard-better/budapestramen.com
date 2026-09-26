@@ -1,0 +1,331 @@
+{
+  "version": 1,
+  "id": "nem-ramen",
+  "name": "Nem Ramen",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Rákóczi Market Hall",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and market-hall location."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and market-hall location."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1084 Budapest, Rákóczi tér 7., Rákóczi Market Hall",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and market-hall location."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VIII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and market-hall location."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and market-hall location."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/nemramenshop/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Editorial links official profile; profile confirms six-seat ramen shop and opening pattern."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps customer photos show complete short handwritten menu."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks unavailable; editorial also describes no takeaway."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks unavailable; editorial also describes no takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photographed menu offers extra noodles for1000 HUF. Ingredient substitutions are not established."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown",
+      "note": "Both pictured noodle dishes contain chicken broth and pork; no alternative or substitution policy established."
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Both pictured noodle dishes contain chicken broth and pork; no alternative or substitution policy established."
+    },
+    "japaneseOwned": {
+      "status": "unknown",
+      "note": "Editorial identifies Márton Hetey as the one-person operator; nationality is not explicitly established and is not inferred from name."
+    },
+    "hungarianOwned": {
+      "status": "unknown",
+      "note": "Editorial identifies Márton Hetey as the one-person operator; nationality is not explicitly established and is not inferred from name."
+    },
+    "japaneseChef": {
+      "status": "unknown",
+      "note": "Editorial identifies Márton Hetey as the one-person operator; nationality is not explicitly established and is not inferred from name."
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Mazesoba"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current photographed menu explicitly names mazesoba; standard ramen tare is not named, unlike earlier editorial shio/miso description."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Ramen: chicken broth,130g homemade noodles, marinated egg and pork neck, spring-onion oil, mayu and bamboo shoots. Mazesoba:160g noodles, chicken broth, shoyu, egg, ground-pork stew, spring onions, sesame, nori and pickled ginger.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching July and August2026 menu photographs; supersedes earlier two-soup editorial description."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "selected-days",
+        "details": "Wednesday-Saturday from11:00 until sold out. Six seats. Earlier editorial reported50 portions per day; present daily count unverified."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nemramenshop/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current official Instagram bio."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Wednesday-Saturday 11:00 until sold out",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nemramenshop/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Instagram bio; do not substitute fixed closing time."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photos dated today and regular hours; official July summer-break notice ended July29."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown",
+      "note": "Menu footer says no service charge included; unclear whether this means no charge or excluded charge. Requires confirmation."
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Customer photos dated July and August2026 show matching menu; effective date not printed.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps-august.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-maps-july.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed ramen3200 HUF. Separate mazesoba3500 HUF recorded in food description but excluded from soup-ramen range pending classification. Extra noodles1000 excluded. Current menu effective date unverified.",
+      "bowls": [
+        {
+          "name": "Ramen",
+          "price": 3200,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching July/August photographed menus show one soup ramen and one mazesoba."
+        }
+      ]
+    }
+  ]
+}

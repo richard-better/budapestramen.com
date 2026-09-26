@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "id": "daiga",
+  "name": "Dáigá Sushi - Krisztina körút",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Krisztina körút",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps sushi restaurant listing and ramen menu section verified; address matches official Facebook."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps sushi restaurant listing and ramen menu section verified; address matches official Facebook."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1122 Budapest, Krisztina körút 2.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps sushi restaurant listing and ramen menu section verified; address matches official Facebook."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "XII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps sushi restaurant listing and ramen menu section verified; address matches official Facebook."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps sushi restaurant listing and ramen menu section verified; address matches official Facebook."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/DaigasushiKrisztina",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Facebook linked by Maps."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps Menu tab contains owner-uploaded menu photos and structured menu."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway and delivery; Facebook also advertises takeaway and delivery platforms."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway and delivery; Facebook also advertises takeaway and delivery platforms."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown",
+      "note": "Vegetable ramen exists, but no explicit meat-free broth or vegan labeling was found."
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetable ramen exists, but no explicit meat-free broth or vegan labeling was found."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Ramen noodle soup with vegetable, chicken, beef, duck or seafood options. Broth style and animal content of vegetable option are unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Ramen section of owner-uploaded menu photo and structured Soup Noodles section."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Regular hours, recent reviews and recent photos on branch listing."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown",
+      "note": "Menu photo footer mentions an added service charge, but percentage is too small to read confidently in available image."
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Owner-uploaded photo dated April2025. Structured Maps prices differ and include Wolt Specials, so may reflect delivery rather than dine-in.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps-ramen.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmO9kSCesqdw-Wm_h5oZ1w89DZhBFpK8DIQTWvZapBjA-Fxqr9OMJbEnNY5ATz8LRJLhLy48CLzBk6VFroVpfRmBnQbYLEoUGZTeQ_f-oT7uVnl8bScNMCv7aZa11tZg2SdzjIJtKBfPUlMu=w2000",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "April2025 owner menu photo shows2790-4490 HUF; current structured Maps menu shows3490-5610 HUF, possibly delivery pricing. Current dine-in range unverified.",
+      "bowls": [
+        {
+          "name": "Vegetable ramen",
+          "price": 2790,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken ramen",
+          "price": 3390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Beef ramen",
+          "price": 3990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Duck ramen",
+          "price": 3990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Seafood ramen",
+          "price": 4490,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Read five ramen prices from cached owner-uploaded menu photo."
+        }
+      ]
+    }
+  ]
+}

@@ -45,7 +45,8 @@
       "followUp": [
         "No ramen on current Wolt menu. Check 101 Bistro dine-in menu before inclusion; do not treat category membership as ramen evidence."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-express"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-express",
+      "researchPriority": "normal"
     },
     {
       "id": "101-neo",
@@ -70,7 +71,8 @@
         "Verify opening hours, ownership, ordering interface, customization and service charge.",
         "Find menu effective date and direct delivery link."
       ],
-      "researchId": "101-neo"
+      "researchId": "101-neo",
+      "researchPriority": "high"
     },
     {
       "id": "101-tigris",
@@ -99,7 +101,8 @@
       "followUp": [
         "Confirm whether the venue currently serves Japanese ramen before inclusion; current delivery menu describes Chinese noodle soups and laksa."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-tigris"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-tigris",
+      "researchPriority": "high"
     },
     {
       "id": "art-of-sushi",
@@ -119,7 +122,8 @@
         "Confirm standalone bowl availability, serving size and current price outside the buffet.",
         "Verify social profiles, ordering interface, customization and ownership."
       ],
-      "researchId": "art-of-sushi"
+      "researchId": "art-of-sushi",
+      "researchPriority": "normal"
     },
     {
       "id": "bambuszliget",
@@ -145,7 +149,8 @@
         "Check cold-ramen topping prices before declaring complete price coverage."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br",
-      "researchId": "bambuszliget"
+      "researchId": "bambuszliget",
+      "researchPriority": "normal"
     },
     {
       "id": "bibimbap",
@@ -167,7 +172,8 @@
         }
       ],
       "followUp": ["No ramen found in current delivery menu. Check dine-in menu before inclusion."],
-      "orderingUrl": "https://wolt.com/hu/hun/budapest/restaurant/bibimbap-korean-restaurant"
+      "orderingUrl": "https://wolt.com/hu/hun/budapest/restaurant/bibimbap-korean-restaurant",
+      "researchPriority": "normal"
     },
     {
       "id": "cantonese-flavor",
@@ -191,7 +197,8 @@
       "followUp": [
         "Do not add as a physical ramen shop: virtual venue, with no ramen established in current menu."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor",
+      "researchPriority": "normal"
     },
     {
       "id": "chiyoko",
@@ -216,7 +223,8 @@
         "Resolve operator and any relationship to an existing physical restaurant before map inclusion."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
-      "researchId": "chiyoko"
+      "researchId": "chiyoko",
+      "researchPriority": "normal"
     },
     {
       "id": "cooked-by-you",
@@ -235,29 +243,44 @@
           "url": "https://wolt.com/en/hun/budapest/category/ramen",
           "checkedOn": "2026-09-26",
           "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/restaurant/cooked-by-you",
+          "checkedOn": "2026-09-27",
+          "note": "Menu lists branded instant noodles (Samyang, Neoguri, Chapagetti, cheese/kimchi ramen) and DIY hotpot with selectable broth/noodles/9 ingredients. This is not evidence of conventional house-made Japanese ramen. Wolt gives1066 Budapest,Jókai23 and Instagram cookedbyu."
         }
       ],
       "followUp": [
-        "Check the current menu for ramen and verify operating status.",
-        "Wolt describes ingredients portioned for home preparation. Verify whether dine-in ramen is available or this is a meal-kit offering."
+        "Resolve inclusion policy for instant-ramyeon/DIY-hotpot venues; do not compare packaged-noodle or hotpot prices with standard Japanese ramen bowls."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cooked-by-you"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cooked-by-you",
+      "researchPriority": "normal"
     },
     {
       "id": "daiga",
       "name": "Dáigá Sushi",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Krisztina körút 2",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
-      "signals": ["maps-search-match"],
+      "signals": ["maps-search-match", "ramen-mention"],
       "sources": [
         {
           "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
           "checkedOn": "2026-09-26",
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+          "checkedOn": "2026-09-27",
+          "note": "Verified five ramen variants in menu photo and structured menu; price sources disagree."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": [
+        "Resolve current dine-in menu prices and service charge.",
+        "Verify hours, reservations, socials beyond Facebook, ownership and broth suitability."
+      ],
+      "researchId": "daiga",
+      "researchPriority": "normal"
     },
     {
       "id": "dimsum-wok-arkad",
@@ -277,7 +300,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
+      "researchPriority": "normal"
     },
     {
       "id": "dumplimester",
@@ -297,7 +321,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dumplimester"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dumplimester",
+      "researchPriority": "normal"
     },
     {
       "id": "ennmann",
@@ -313,7 +338,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "every-day",
@@ -329,7 +355,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "flour-style-muzeum",
@@ -354,7 +381,8 @@
         "Check the current menu for ramen and verify operating status.",
         "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar",
+      "researchPriority": "normal"
     },
     {
       "id": "flour-style-nyugati",
@@ -375,7 +403,8 @@
         "Check the current menu for ramen and verify operating status.",
         "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar-nyugati"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar-nyugati",
+      "researchPriority": "normal"
     },
     {
       "id": "foodhouse",
@@ -396,7 +425,8 @@
         "Check the current menu for ramen and verify operating status.",
         "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
+      "researchPriority": "normal"
     },
     {
       "id": "fuji",
@@ -418,7 +448,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/fuji-japn-tterem"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/fuji-japn-tterem",
+      "researchPriority": "normal"
     },
     {
       "id": "hachi",
@@ -439,7 +470,8 @@
           "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "high"
     },
     {
       "id": "hachi-go",
@@ -460,7 +492,8 @@
         "Check the current menu for ramen and verify operating status.",
         "Check whether this is a delivery brand of HACHI or a separate physical venue."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hachi-go"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hachi-go",
+      "researchPriority": "normal"
     },
     {
       "id": "hachi-ko",
@@ -468,7 +501,12 @@
       "status": "candidate",
       "address": "Budapest, Madách Imre út 3",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
-      "signals": ["maps-search-match", "ramen-name-or-category", "editorial-ramen-mention"],
+      "signals": [
+        "maps-search-match",
+        "ramen-name-or-category",
+        "editorial-ramen-mention",
+        "official-menu-ramen"
+      ],
       "sources": [
         {
           "url": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
@@ -484,9 +522,19 @@
           "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/",
           "checkedOn": "2026-09-26",
           "note": "February 2026 roundup describes this venue serving ramen."
+        },
+        {
+          "url": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight",
+          "checkedOn": "2026-09-27",
+          "note": "Official menu highlight from approximately four days ago; five ramen bowls4280-5480 HUF, optional toppings."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": [
+        "Verify full weekly hours, service charge, ownership and on-site digital ordering.",
+        "Cache remaining small-plate/dessert cards when stable copies are available."
+      ],
+      "researchPriority": "high",
+      "researchId": "hachi-ko"
     },
     {
       "id": "hao-hao",
@@ -506,7 +554,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hao-hao-etterem"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hao-hao-etterem",
+      "researchPriority": "normal"
     },
     {
       "id": "ichiban",
@@ -528,7 +577,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea",
+      "researchPriority": "normal"
     },
     {
       "id": "iki-ramen",
@@ -544,7 +594,8 @@
           "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "itoshii",
@@ -564,7 +615,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/itoshii"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/itoshii",
+      "researchPriority": "normal"
     },
     {
       "id": "japanika",
@@ -580,7 +632,8 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "jia-le",
@@ -600,7 +653,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe",
+      "researchPriority": "normal"
     },
     {
       "id": "k-bunsik",
@@ -620,7 +674,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/k-bunsik"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/k-bunsik",
+      "researchPriority": "normal"
     },
     {
       "id": "kaiszin",
@@ -640,7 +695,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kaiszin-azsiai-konyha"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kaiszin-azsiai-konyha",
+      "researchPriority": "normal"
     },
     {
       "id": "kakurega",
@@ -656,7 +712,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "kawamura-ramen",
@@ -678,7 +735,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchId": "kawamura-ramen"
+      "researchId": "kawamura-ramen",
+      "researchPriority": "high"
     },
     {
       "id": "ke-la-la",
@@ -698,7 +756,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ke-la-la-wok"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ke-la-la-wok",
+      "researchPriority": "normal"
     },
     {
       "id": "kincsan",
@@ -714,7 +773,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "kitsune",
@@ -734,7 +794,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz",
+      "researchPriority": "normal"
     },
     {
       "id": "kkodari",
@@ -750,7 +811,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "komachi",
@@ -777,7 +839,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/komachi-bistro"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/komachi-bistro",
+      "researchPriority": "high"
     },
     {
       "id": "love-asian-food",
@@ -797,7 +860,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/love-asian-food"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/love-asian-food",
+      "researchPriority": "normal"
     },
     {
       "id": "monokini-kantin",
@@ -816,7 +880,8 @@
       ],
       "followUp": [
         "Research lunch versus dinner availability and distinguish full-size bowls from mini portions."
-      ]
+      ],
+      "researchPriority": "high"
     },
     {
       "id": "mori-ramen",
@@ -832,7 +897,8 @@
           "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "nagomi",
@@ -853,7 +919,8 @@
           "note": "February 2026 roundup describes this venue serving ramen."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "high"
     },
     {
       "id": "nem-ramen",
@@ -877,9 +944,19 @@
           "url": "https://welovebudapest.com/en/toplist/4-new-ramen-spots-in-budapest-2026/",
           "checkedOn": "2026-09-26",
           "note": "February 2026 roundup describes this venue serving ramen."
+        },
+        {
+          "url": "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+          "checkedOn": "2026-09-27",
+          "note": "July/August2026 menu photographs show ramen3200 and mazesoba3500, differing from earlier editorial two-soup description."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": [
+        "Verify reservations, ownership nationality, service-charge wording and current menu.",
+        "Decide whether mazesoba belongs in the same price-range calculation as soup ramen."
+      ],
+      "researchPriority": "high",
+      "researchId": "nem-ramen"
     },
     {
       "id": "nobi-sushi-pest",
@@ -899,7 +976,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest",
+      "researchPriority": "normal"
     },
     {
       "id": "nobility-galagonya",
@@ -915,7 +993,8 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "nobility-restaurant-unresolved",
@@ -936,7 +1015,8 @@
         "Check the current menu for ramen and verify operating status.",
         "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant",
+      "researchPriority": "normal"
     },
     {
       "id": "nobility-sushi-unresolved",
@@ -957,7 +1037,8 @@
         "Check the current menu for ramen and verify operating status.",
         "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-sushi"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-sushi",
+      "researchPriority": "normal"
     },
     {
       "id": "nobu",
@@ -973,7 +1054,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "nyuszi",
@@ -993,7 +1075,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nyuszi-kinai-bufe"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nyuszi-kinai-bufe",
+      "researchPriority": "normal"
     },
     {
       "id": "oishi-dohany",
@@ -1015,7 +1098,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
+      "researchPriority": "normal"
     },
     {
       "id": "oishi-synagogue",
@@ -1037,7 +1121,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
+      "researchPriority": "normal"
     },
     {
       "id": "oishi-takeaway-unresolved",
@@ -1058,7 +1143,8 @@
         "Check the current menu for ramen and verify operating status.",
         "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away",
+      "researchPriority": "normal"
     },
     {
       "id": "olive-azsia",
@@ -1078,7 +1164,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/olive-zsia-tterem"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/olive-zsia-tterem",
+      "researchPriority": "normal"
     },
     {
       "id": "oriental-soup-house-balzac",
@@ -1094,7 +1181,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "oriental-soup-house-szervita",
@@ -1110,7 +1198,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "pearl-harbor",
@@ -1126,7 +1215,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "poetry",
@@ -1146,7 +1236,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/poetry-wine-restaurant-and-bar"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/poetry-wine-restaurant-and-bar",
+      "researchPriority": "normal"
     },
     {
       "id": "ramen-mester-etele",
@@ -1181,7 +1272,8 @@
         "Check the current menu for ramen and verify operating status.",
         "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+      "researchPriority": "high"
     },
     {
       "id": "ramen-mester-wesselenyi",
@@ -1206,7 +1298,8 @@
         "Check the current menu for ramen and verify operating status.",
         "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-wesselenyi"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-wesselenyi",
+      "researchPriority": "normal"
     },
     {
       "id": "ramen-nikko",
@@ -1223,7 +1316,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchId": "ramen-nikko"
+      "researchId": "ramen-nikko",
+      "researchPriority": "high"
     },
     {
       "id": "ramenji",
@@ -1260,7 +1354,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ramenji-japanese-restaurant"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ramenji-japanese-restaurant",
+      "researchPriority": "high"
     },
     {
       "id": "ramenka",
@@ -1284,7 +1379,8 @@
       "followUp": [
         "Keep off the active list until reopening and location are verified.",
         "Do not treat Naponta as a ramen venue without menu evidence."
-      ]
+      ],
+      "researchPriority": "high"
     },
     {
       "id": "sakura-ramen",
@@ -1306,7 +1402,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1",
+      "researchPriority": "normal"
     },
     {
       "id": "sakuraku",
@@ -1322,7 +1419,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "senbazuru",
@@ -1344,7 +1442,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
+      "researchPriority": "normal"
     },
     {
       "id": "shibuya",
@@ -1360,7 +1459,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "song-mester",
@@ -1376,7 +1476,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "sushi-heaven",
@@ -1398,7 +1499,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-heaven"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-heaven",
+      "researchPriority": "normal"
     },
     {
       "id": "sushi-sei",
@@ -1414,7 +1516,8 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "sushi-wan",
@@ -1434,7 +1537,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem",
+      "researchPriority": "normal"
     },
     {
       "id": "taste-of-china",
@@ -1454,7 +1558,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/taste-of-china-ulloi"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/taste-of-china-ulloi",
+      "researchPriority": "normal"
     },
     {
       "id": "tokio",
@@ -1470,7 +1575,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "tokyo-izakaya",
@@ -1490,7 +1596,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya",
+      "researchPriority": "normal"
     },
     {
       "id": "ton-ichi",
@@ -1511,7 +1618,8 @@
           "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "high"
     },
     {
       "id": "ume-sushi",
@@ -1527,7 +1635,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "wafu-biangarden",
@@ -1547,7 +1656,8 @@
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
         "Check the current menu for ramen and verify operating status."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
+      "researchPriority": "normal"
     },
     {
       "id": "wafu-budafoki",
@@ -1582,7 +1692,8 @@
         "Check the current menu for ramen and verify operating status.",
         "Address conflict: Maps shows Budafoki út 41; Time Out gives 111. Verify with the branch before publishing."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramenn"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramenn",
+      "researchPriority": "high"
     },
     {
       "id": "wafu-dob",
@@ -1598,7 +1709,8 @@
           "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "wafu-gozsdu",
@@ -1624,7 +1736,8 @@
           "note": "Official restaurant directory lists this named branch and describes the brand’s ramen offering."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "high"
     },
     {
       "id": "wafu-izakaya",
@@ -1645,7 +1758,8 @@
           "note": "Official restaurant directory lists this named branch and describes the brand’s ramen offering."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "wafu-kalvin",
@@ -1663,7 +1777,8 @@
       ],
       "followUp": [
         "Verify existence, current address and opening status; page may contain copied branch links. Do not count as a separate confirmed shop yet."
-      ]
+      ],
+      "researchPriority": "normal"
     },
     {
       "id": "wafu-katona",
@@ -1700,7 +1815,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/paneer"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/paneer",
+      "researchPriority": "high"
     },
     {
       "id": "wasabi-mom",
@@ -1716,7 +1832,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "wasabi-podmaniczky",
@@ -1732,7 +1849,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "wasabi-szepvolgyi",
@@ -1748,7 +1866,8 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "whats-running",
@@ -1764,7 +1883,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "yamato",
@@ -1780,7 +1900,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "yi-du",
@@ -1796,7 +1917,8 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "researchPriority": "normal"
     },
     {
       "id": "yume",
@@ -1818,7 +1940,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchId": "yume"
+      "researchId": "yume",
+      "researchPriority": "high"
     },
     {
       "id": "yume-7",
@@ -1837,7 +1960,8 @@
       "followUp": [
         "Check the current menu for ramen and verify operating status.",
         "Different name and address from YÜME at Baross utca 85. Do not merge without evidence of a relationship."
-      ]
+      ],
+      "researchPriority": "normal"
     },
     {
       "id": "zen-eatery",
@@ -1859,7 +1983,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery",
+      "researchPriority": "normal"
     },
     {
       "id": "art-of-sushi-bazilika",
@@ -1883,7 +2008,8 @@
       "followUp": [
         "Inspect branch-specific Maps menu photos or obtain current menu; ramen not established."
       ],
-      "researchId": "art-of-sushi-bazilika"
+      "researchId": "art-of-sushi-bazilika",
+      "researchPriority": "normal"
     }
   ]
 }
