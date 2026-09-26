@@ -7,7 +7,7 @@ import {
   ramenPriceRange,
   researchSchema,
 } from "./research-schema";
-import seed from "../../../../research/restaurants/ramen-nikko/research.json";
+import seed from "./fixtures/incomplete-research.json";
 
 const evidence = [
   {
