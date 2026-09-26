@@ -8,13 +8,13 @@ export async function loadRestaurants(): Promise<Restaurant[]> {
     name: data.name,
     address: data.address,
     district: data.district,
+    mapsUrl: data.mapsUrl,
+    menuUrl: data.menuUrl,
     ...data.coordinates,
     styles: data.styles,
     vegan: data.vegan,
     rec: data.recommended,
     note: data.recommendation,
     ...data.google,
-    price: `${data.priceRangeHuf.min / 1000}–${data.priceRangeHuf.max / 1000}k`,
-    menu: data.menu,
   }));
 }

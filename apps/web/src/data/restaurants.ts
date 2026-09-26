@@ -11,12 +11,12 @@ export interface Restaurant extends Coordinates {
   name: string;
   address: string;
   district: string;
+  mapsUrl: string;
+  menuUrl: string;
   styles: RamenStyle[];
   vegan: boolean;
   rating: number;
   reviews: number;
-  price: string;
   rec: boolean;
   note?: { en: string; hu: string };
-  menu: { name: { en: string; hu: string }; priceHuf: number }[];
 }

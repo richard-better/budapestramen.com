@@ -8,16 +8,14 @@ export const restaurantSchema = z
     name: z.string().min(1),
     address: z.string().min(1),
     district: z.string().min(1),
+    mapsUrl: z.url(),
+    menuUrl: z.url(),
     coordinates: z.object({ lat: z.number().min(-85).max(85), lng: z.number().min(-180).max(180) }),
     styles: z.array(z.enum(ramenStyles)).min(1),
     vegan: z.boolean(),
     recommended: z.boolean(),
     recommendation: localizedText.optional(),
     google: z.object({ rating: z.number().min(0).max(5), reviews: z.number().int().nonnegative() }),
-    priceRangeHuf: z
-      .object({ min: z.number().int().positive(), max: z.number().int().positive() })
-      .refine((range) => range.max >= range.min, "Maximum price must be at least the minimum"),
-    menu: z.array(z.object({ name: localizedText, priceHuf: z.number().int().positive() })).min(1),
     source: z.object({ name: z.string().min(1), date: z.iso.date(), url: z.url().optional() }),
   })
   .refine(

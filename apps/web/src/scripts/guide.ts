@@ -291,13 +291,6 @@ function render(mapMotion: MapMotion = "preserve") {
   if (place) {
     if (place.note)
       element(`[data-note="${place.id}"]`).textContent = `“${place.note[state.language]}”`;
-    detail.querySelectorAll<HTMLElement>("[data-menu-name]").forEach((node) => {
-      const item = place.menu[Number(node.dataset.menuName)];
-      if (item) node.textContent = item.name[state.language];
-      if (item && node.parentElement)
-        node.parentElement.querySelector("dd")!.textContent =
-          `${item.priceHuf.toLocaleString(state.language)} Ft`;
-    });
     element("[data-detail-distance]").textContent = user
       ? formatDistance(distanceBetween(user, place), state.language)
       : "· · ·";

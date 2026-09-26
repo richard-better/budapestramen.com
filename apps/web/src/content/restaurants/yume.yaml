@@ -1,6 +1,8 @@
 name: "Yüme"
 address: "Baross u. 85, 1082"
 district: "VIII · Józsefváros"
+mapsUrl: "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+menuUrl: "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
 coordinates:
   lat: 47.4890387
   lng: 19.0788343
@@ -13,23 +15,6 @@ recommended: false
 google:
   rating: 4.8
   reviews: 190
-priceRangeHuf:
-  min: 6000
-  max: 16000
-menu:
-  - name:
-      en: "Classic Tokyo shoyu"
-      hu: "Klasszikus tokiói shoyu"
-    priceHuf: 4500
-  - name:
-      en: "Mushroom shoyu"
-      hu: "Gombás shoyu"
-    priceHuf: 4500
-  - name:
-      en: "Tonkotsu ramen"
-      hu: "Tonkotsu ramen"
-    priceHuf: 5800
 source:
   name: "Google Maps"
   date: "2026-09-26"
-  url: "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"

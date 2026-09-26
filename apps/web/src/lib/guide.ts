@@ -123,7 +123,8 @@ export function restaurantLinks(place: Restaurant) {
   const query = encodeURIComponent(`${place.name}, ${place.address}, Budapest`);
   const coordinates = `${place.lat},${place.lng}`;
   return {
-    maps: `https://www.google.com/maps/search/?api=1&query=${query}`,
+    maps: place.mapsUrl,
+    menu: place.menuUrl,
     directions: [
       { name: "Google Maps", href: `https://www.google.com/maps/dir/?api=1&destination=${query}` },
       {

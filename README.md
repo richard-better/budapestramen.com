@@ -19,20 +19,22 @@ user's distance-sorting origin stay in memory; they are never added to shared UR
 ## Restaurant content
 
 Edit one YAML file per restaurant in `apps/web/src/content/restaurants/`. The file
-name is its permanent URL slug. Shared facts live once; recommendations and menu
-names have `en` and `hu` translations. Menu prices are numeric HUF amounts.
+name is its permanent URL slug. Shared facts live once; recommendations have `en`
+and `hu` translations. Each listing includes map and menu links, coordinates,
+address, ramen styles, and dietary details.
 
 Astro loads the files through the `restaurants` content collection. Its Zod schema
 in `apps/web/src/lib/restaurant-schema.ts` validates coordinates, ramen styles,
-prices, ratings, and both translations. Run `bun run check` and `bun run build`
-after editing. Adding a valid YAML file adds a restaurant to both language routes,
-the map, and the list without editing application code.
+map and menu links, ratings, and both recommendation translations. Run
+`bun run check` and `bun run build` after editing. Adding a valid YAML file adds a
+restaurant to both language routes, the map, and the list without editing
+application code.
 
-The initial nine entries, menu prices, ratings, and editorial recommendations are
-imported from the supplied September 2026 design export. `source.date` records the
-source's date, not an independent fact-check or a live Google update. Actual venue
-photos and social URLs were absent from the export; the guide links to Google Maps
-for photos and reviews instead of publishing empty photo slots or placeholder links.
+The four current listings, ramen styles, ratings, and map and menu links were
+gathered from Google Maps and linked restaurant menus on September 26, 2026.
+`source.date` records when the details were checked; ratings and review counts can
+change. The guide links to Google Maps for photos and reviews instead of
+publishing empty photo slots or placeholder links.
 
 Interface translations live in `apps/web/src/lib/translations.ts`. The map uses
 Leaflet with OpenFreeMap's Bright vector style, rendered by MapLibre GL. Map

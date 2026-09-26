@@ -6,19 +6,19 @@ const place = {
   name: "Example ramen shop",
   address: "Budapest",
   district: "VII",
+  mapsUrl: "https://maps.app.goo.gl/example-ramen-shop",
+  menuUrl: "https://example.com/ramen-menu",
   coordinates: { lat: 47.5, lng: 19.06 },
   styles: ["Shoyu"],
   vegan: true,
   recommended: false,
   google: { rating: 4.5, reviews: 100 },
-  priceRangeHuf: { min: 3000, max: 5000 },
-  menu: [{ name: { en: "Vegetable ramen", hu: "Zöldséges ramen" }, priceHuf: 3900 }],
   source: { name: "Supplied guide", date: "2026-09-26" },
 };
 
 describe("restaurant content validation", () => {
-  it("accepts shared facts and bilingual menu content", () => {
-    assert.equal(restaurantSchema.parse(place).menu[0]?.priceHuf, 3900);
+  it("accepts shop facts with map and menu links", () => {
+    assert.equal(restaurantSchema.parse(place).menuUrl, "https://example.com/ramen-menu");
   });
   it("requires an editorial recommendation in both languages for picks", () => {
     assert.equal(restaurantSchema.safeParse({ ...place, recommended: true }).success, false);
@@ -39,13 +39,13 @@ describe("restaurant content validation", () => {
       true,
     );
   });
-  it("rejects impossible coordinates, prices, and unknown styles before publication", () => {
+  it("rejects invalid coordinates, links, and unknown styles before publication", () => {
     for (const patch of [
       { coordinates: { lat: 100, lng: 19 } },
-      { priceRangeHuf: { min: 5000, max: 3000 } },
+      { mapsUrl: "not a URL" },
       { styles: ["Pizza"] },
       { google: { rating: 6, reviews: -1 } },
-      { menu: [{ name: { en: "Ramen", hu: "Ramen" }, priceHuf: -200 }] },
+      { menuUrl: "not a URL" },
     ])
       assert.equal(restaurantSchema.safeParse({ ...place, ...patch }).success, false);
   });

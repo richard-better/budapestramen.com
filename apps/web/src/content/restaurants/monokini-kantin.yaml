@@ -1,6 +1,8 @@
 name: "Monokini Kantin"
 address: "Varsányi Irén u. 33, 1027"
 district: "II · Víziváros"
+mapsUrl: "https://maps.app.goo.gl/iZER9nK8jbrduUnG7"
+menuUrl: "https://www.monokini.hu/menu"
 coordinates:
   lat: 47.5090651
   lng: 19.0294897
@@ -12,27 +14,6 @@ recommended: false
 google:
   rating: 4.8
   reviews: 201
-priceRangeHuf:
-  min: 8000
-  max: 18000
-menu:
-  - name:
-      en: "Chuka soba"
-      hu: "Chuka soba"
-    priceHuf: 4700
-  - name:
-      en: "Cheesy Japanese curry ramen (vegetarian)"
-      hu: "Sajtos japán currys ramen (vegetáriánus)"
-    priceHuf: 4700
-  - name:
-      en: "Salt Bakery x Monokini nduja ramen"
-      hu: "Salt Bakery x Monokini nduja ramen"
-    priceHuf: 4900
-  - name:
-      en: "Salt Bakery x Monokini nduja mini ramen"
-      hu: "Salt Bakery x Monokini nduja mini ramen"
-    priceHuf: 3800
 source:
   name: "Google Maps and Monokini official menu"
   date: "2026-09-26"
-  url: "https://www.monokini.hu/menu"
