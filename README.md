@@ -96,7 +96,13 @@ Alternatively, put `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` in the ign
 
 ### Custom domain
 
-Deployments initially use Cloudflare's `workers.dev` domain. To serve `budapestramen.com`, first add the domain to the same Cloudflare account, then add `domains: ["budapestramen.com"]` to the Astro Worker declaration in `packages/infra/alchemy.run.ts`. The deployment token also needs **Zone: Read** and **Workers Routes: Edit** for that zone. Review existing DNS records before connecting a domain already serving traffic.
+Production is served at [https://budapestramen.com](https://budapestramen.com). The domain is attached to `budapestramen-com-web-production-kdmhm5washrowgrt` in the Personal Cloudflare account. Cloudflare manages its DNS record and TLS certificate.
+
+The zone's **Canonical HTTPS domain** redirect rule sends HTTP and `www.budapestramen.com` requests to `https://budapestramen.com`, preserving paths and query strings. The `www` DNS record must remain proxied so Cloudflare can apply this rule.
+
+Manage the attachment in the Worker's [Domains tab](https://dash.cloudflare.com/b330197c84e64a1a154fa5f6eefa0fc6/workers/services/view/budapestramen-com-web-production-kdmhm5washrowgrt/production/domains). Alchemy's `domain` property is intentionally omitted from `packages/infra/alchemy.run.ts`, which preserves dashboard-managed domain attachments during deployments. The GitHub deployment token does not need zone permissions for this setup.
+
+To reconnect the domain if the Worker is recreated, open its **Domains > Add Domain** action, select `budapestramen.com`, leave the subdomain empty, and select **Production**. Remove conflicting web-hosting records first; preserve email and verification records.
 
 ## Git Hooks and Formatting
 
