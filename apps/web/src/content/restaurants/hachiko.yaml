@@ -1,0 +1,37 @@
+name: "Hachi-Ko"
+address: "Nagymező u. 21, 1065"
+district: "VI · Terézváros"
+coordinates:
+  lat: 47.5036
+  lng: 19.0597
+styles:
+  - "Tsukemen"
+  - "Tonkotsu"
+vegan: true
+recommended: false
+google:
+  rating: 4.5
+  reviews: 340
+priceRangeHuf:
+  min: 5000
+  max: 6000
+menu:
+  - name:
+      en: "Tsukemen"
+      hu: "Tsukemen"
+    priceHuf: 5490
+  - name:
+      en: "Black garlic tonkotsu"
+      hu: "Fekete fokhagymás tonkotsu"
+    priceHuf: 5290
+  - name:
+      en: "Grilled napa cabbage"
+      hu: "Grillezett kínai kel"
+    priceHuf: 2290
+  - name:
+      en: "Jiaozi"
+      hu: "Jiaozi"
+    priceHuf: 2490
+source:
+  name: "Budapest Ramen restaurant guide design export"
+  date: "2026-09-26"

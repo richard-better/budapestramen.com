@@ -1,0 +1,33 @@
+name: "Shio Ya"
+address: "Varsányi Irén u. 33, 1027"
+district: "II · Víziváros"
+coordinates:
+  lat: 47.5129
+  lng: 19.0281
+styles:
+  - "Shio"
+  - "Shoyu"
+vegan: true
+recommended: false
+google:
+  rating: 4.3
+  reviews: 290
+priceRangeHuf:
+  min: 4000
+  max: 5000
+menu:
+  - name:
+      en: "Yuzu shio"
+      hu: "Yuzu shio"
+    priceHuf: 4390
+  - name:
+      en: "Shoyu"
+      hu: "Shoyu"
+    priceHuf: 4290
+  - name:
+      en: "Vegan shio"
+      hu: "Vegán shio"
+    priceHuf: 4190
+source:
+  name: "Budapest Ramen restaurant guide design export"
+  date: "2026-09-26"

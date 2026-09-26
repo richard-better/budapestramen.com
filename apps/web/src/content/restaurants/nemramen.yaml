@@ -1,0 +1,36 @@
+name: "Nem Ramen"
+address: "Rákóczi tér Market Hall, 1084"
+district: "VIII · Józsefváros"
+coordinates:
+  lat: 47.4907
+  lng: 19.0726
+styles:
+  - "Shoyu"
+  - "Shio"
+vegan: false
+recommended: true
+google:
+  rating: 4.8
+  reviews: 210
+priceRangeHuf:
+  min: 3000
+  max: 4000
+recommendation:
+  en: "Two soups, one cook, no takeaway. The shio is quietly the best bowl in Budapest."
+  hu: "Két leves, egy szakács, nincs elvitel. A shio csendben Budapest legjobb ramenje."
+menu:
+  - name:
+      en: "Shio ramen"
+      hu: "Shio ramen"
+    priceHuf: 3900
+  - name:
+      en: "Shoyu ramen"
+      hu: "Shoyu ramen"
+    priceHuf: 3900
+  - name:
+      en: "Extra ajitama"
+      hu: "Extra ajitama"
+    priceHuf: 500
+source:
+  name: "Budapest Ramen restaurant guide design export"
+  date: "2026-09-26"

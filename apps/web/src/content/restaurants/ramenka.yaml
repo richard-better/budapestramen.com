@@ -1,0 +1,41 @@
+name: "Ramenka"
+address: "Kazinczy u. 3, 1075"
+district: "VII · Erzsébetváros"
+coordinates:
+  lat: 47.4956
+  lng: 19.0601
+styles:
+  - "Tonkotsu"
+  - "Shoyu"
+  - "Miso"
+vegan: true
+recommended: true
+google:
+  rating: 4.5
+  reviews: 2840
+priceRangeHuf:
+  min: 4000
+  max: 5000
+recommendation:
+  en: "The tonkotsu is the benchmark in town. Go before 7pm or expect a queue on Kazinczy."
+  hu: "A tonkotsu a városi etalon. Menj este 7 előtt, különben sorban állhatsz a Kazinczy utcában."
+menu:
+  - name:
+      en: "Tonkotsu ramen"
+      hu: "Tonkotsu ramen"
+    priceHuf: 4690
+  - name:
+      en: "Spicy miso"
+      hu: "Csípős miso"
+    priceHuf: 4490
+  - name:
+      en: "Vegan shoyu"
+      hu: "Vegán shoyu"
+    priceHuf: 4290
+  - name:
+      en: "Gyoza (6)"
+      hu: "Gyoza (6 db)"
+    priceHuf: 2190
+source:
+  name: "Budapest Ramen restaurant guide design export"
+  date: "2026-09-26"
