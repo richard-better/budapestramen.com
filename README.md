@@ -35,7 +35,7 @@ photos and social URLs were absent from the export; the guide links to Google Ma
 for photos and reviews instead of publishing empty photo slots or placeholder links.
 
 Interface translations live in `apps/web/src/lib/translations.ts`. The map uses
-Leaflet with OpenFreeMap's Liberty vector style, rendered by MapLibre GL. Map
+Leaflet with OpenFreeMap's Bright vector style, rendered by MapLibre GL. Map
 attribution is read from the style and shown in Leaflet's attribution control.
 Fonts are hosted locally. No API key or database is required.
 

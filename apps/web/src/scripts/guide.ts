@@ -14,9 +14,7 @@ import {
   type GuideState,
   type Language,
 } from "../lib/guide";
-import { isMapStyle, mapStyleUrl, type MapStyle } from "../lib/map-styles";
 import { translations, type TranslationKey } from "../lib/translations";
-import type { Map as MapLibreMap } from "maplibre-gl";
 
 function element<T extends HTMLElement = HTMLElement>(selector: string): T {
   const result = document.querySelector<T>(selector);
@@ -32,8 +30,6 @@ let user: Coordinates | null = null;
 let locating = false;
 let toastTimer: ReturnType<typeof setTimeout>;
 let applyingMap = false;
-let selectedMapStyle: MapStyle = "liberty";
-let maplibreMap: MapLibreMap | undefined;
 type MapMotion = "preserve" | "instant" | "smooth";
 const prefersReducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const mobile = matchMedia("(max-width: 959px)");
@@ -72,10 +68,9 @@ async function loadBasemap() {
       import("maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"),
     ]);
     maplibre.setWorkerUrl(worker.default);
-    const tiles = adapter.maplibreGL({ style: mapStyleUrl(selectedMapStyle) });
+    const tiles = adapter.maplibreGL({ style: "https://tiles.openfreemap.org/styles/bright" });
     tiles.addTo(map);
     const renderer = tiles.getMaplibreMap();
-    maplibreMap = renderer;
     renderer.once("load", () => {
       mapLoaded = true;
       clearTimeout(mapTimeout);
@@ -87,13 +82,6 @@ async function loadBasemap() {
   }
 }
 void loadBasemap();
-
-root.addEventListener("change", (event) => {
-  if (!(event.target instanceof HTMLInputElement) || event.target.name !== "map-style") return;
-  if (!isMapStyle(event.target.value)) return;
-  selectedMapStyle = event.target.value;
-  maplibreMap?.setStyle(mapStyleUrl(selectedMapStyle));
-});
 
 function navigate(patch: Partial<GuideState>, replace = false, mapMotion: MapMotion = "preserve") {
   state = { ...state, ...patch };

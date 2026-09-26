@@ -6,7 +6,6 @@ import { filterRestaurants } from "../lib/guide";
 import Icon from "./Icon.astro";
 import RestaurantRow from "./RestaurantRow.astro";
 import RestaurantDetail from "./RestaurantDetail.astro";
-import { mapStyles } from "../lib/map-styles";
 interface Props { state: GuideState; restaurants: Restaurant[] }
 const { state, restaurants } = Astro.props;
 const t = translations[state.language];
@@ -17,14 +16,6 @@ const selectedPlace = restaurants.find((place) => place.id === state.selected);
 <main class="guide" id="ramen-guide" data-view={state.view} data-detail={!!state.selected && !state.preview}>
   <div id="restaurant-map" class="restaurant-map" role="region" aria-label={t.mapLabel} data-i18n-label="mapLabel"></div>
   <p class="map-message" id="map-message" role="status" data-i18n="mapLoading">{t.mapLoading}</p>
-
-  {import.meta.env.DEV && <details class="map-debug" open>
-    <summary>Map style</summary>
-    <fieldset>
-      <legend class="sr-only">Choose map style</legend>
-      {mapStyles.map(({ id, label }) => <label><input type="radio" name="map-style" value={id} checked={id === "liberty"} /><span>{label}</span></label>)}
-    </fieldset>
-  </details>}
 
   <aside class="sidebar" aria-label={t.restaurantList} data-i18n-label="restaurantList">
     <header class="sidebar-header">
