@@ -1,0 +1,24 @@
+---
+import { translations } from "../lib/translations";
+import { guidePath, type GuideState } from "../lib/guide";
+import type { Restaurant } from "../data/restaurants";
+interface Props { place: Restaurant; state: GuideState; visible?: boolean; template?: boolean }
+const { place, state, visible = true } = Astro.props;
+const t = translations[state.language];
+---
+
+<li data-row={place.id} hidden={!visible}>
+  <a class="restaurant-row" data-select={place.id} href={guidePath({ ...state, selected: place.id, preview: false, panel: null, directions: false })} aria-label={place.name} aria-current={state.selected === place.id ? "page" : undefined}>
+    <span class="row-heading">
+      <span class="restaurant-name">{place.name}</span>
+      {place.rec && <span class="pick-badge">★ <span data-i18n="pick">{t.pick}</span></span>}
+    </span>
+    <span class="row-metric" data-distance={place.id}>★ {place.rating.toFixed(1)}</span>
+    <span class="row-address">{place.address}</span>
+    <span class="row-metric-label" data-metric-label={place.id}>Google</span>
+    <span class="tags">
+      {place.styles.map((style) => <span class="tag">{style}</span>)}
+      {place.vegan && <span class="tag" data-i18n="vegan">{t.vegan}</span>}
+    </span>
+  </a>
+</li>

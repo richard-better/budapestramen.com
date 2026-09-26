@@ -1,15 +1,20 @@
 ---
 import "../styles/global.css";
 import Header from "../components/Header.astro";
+import type { Language } from "../lib/guide";
 
 interface Props {
   title?: string;
   description?: string;
+  fullScreen?: boolean;
+  language: Language;
 }
 
 const {
   title = "Budapest Ramen",
   description = "Discover ramen in Budapest.",
+  fullScreen = false,
+  language,
 } = Astro.props;
 const pageUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url);
 const socialImageUrl = new URL("/og-image.jpg", Astro.site ?? Astro.url);
@@ -17,19 +22,20 @@ const socialImageAlt = "Budapest Ramen logo beside a bowl of ramen and a map of 
 ---
 
 <!doctype html>
-<html lang="en" class="dark">
+<html lang={language}>
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href={`/${language}/site.webmanifest`} />
     <link rel="canonical" href={pageUrl} />
+    {(["en", "hu"] as const).map((locale) => <link rel="alternate" hreflang={locale} href={new URL(Astro.url.pathname.replace(/^\/(en|hu)/, `/${locale}`), pageUrl)} />)}
     <meta name="application-name" content="Budapest Ramen" />
     <meta name="apple-mobile-web-app-title" content="Budapest Ramen" />
-    <meta name="theme-color" content="#0a0a0a" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -49,8 +55,8 @@ const socialImageAlt = "Budapest Ramen logo beside a bowl of ramen and a map of 
     <meta name="twitter:image" content={socialImageUrl} />
     <meta name="twitter:image:alt" content={socialImageAlt} />
   </head>
-  <body class="min-h-screen bg-neutral-950 text-white">
-    <Header />
+  <body>
+    {!fullScreen && <Header language={language} />}
     <slot />
   </body>
 </html>

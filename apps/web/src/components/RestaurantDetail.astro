@@ -1,0 +1,57 @@
+---
+import { translations } from "../lib/translations";
+import { type GuideState } from "../lib/guide";
+import type { Restaurant } from "../data/restaurants";
+import { restaurantLinks } from "../lib/guide";
+import Icon from "./Icon.astro";
+interface Props { place: Restaurant; state: GuideState; visible?: boolean; template?: boolean }
+const { place, state, template = true } = Astro.props;
+const t = translations[state.language];
+const links = restaurantLinks(place);
+const Container = template ? "template" : "div";
+---
+
+<Container id={template ? `detail-${place.id}` : undefined}>
+  <div class="detail-scroll">
+    <div class="detail-topbar">
+      <span class="eyebrow">Budapest Ramen</span>
+      <button class="icon-button" data-action="close-detail" aria-label={t.closeDetails} data-i18n-label="closeDetails" autofocus><Icon name="close" size={15} /></button>
+    </div>
+    <div class="detail-intro">
+      <div class="detail-kicker">
+        {place.rec && <span class="pick-badge">★ <span data-i18n="pickLong">{t.pickLong}</span></span>}
+        <span class="district">{place.district}</span>
+      </div>
+      <h2 id="detail-title">{place.name}</h2>
+      <p class="detail-address">{place.address}</p>
+      <div class="tags">
+        {place.styles.map((style) => <span class="tag">{style}</span>)}
+        {place.vegan && <span class="tag" data-i18n="vegan">{t.vegan}</span>}
+      </div>
+      <div class="detail-actions">
+        <button class="button button-dark directions-button" data-action="directions" aria-controls="directions-menu" aria-expanded="false">
+          <Icon name="locate" size={16} /><span data-i18n="directions">{t.directions}</span><Icon name="chevron" size={12} />
+        </button>
+        <a class="icon-button" href={links.maps} target="_blank" rel="noopener noreferrer" aria-label={t.viewOnGoogle} data-i18n-label="viewOnGoogle"><Icon name="pin" /></a>
+        <button class="icon-button" data-action="share" aria-label={t.share} data-i18n-label="share"><Icon name="link" /></button>
+      </div>
+      <div id="directions-menu" class="directions-menu popover" popover>
+        <p class="eyebrow" data-i18n="openIn">{t.openIn}</p>
+        {links.directions.map((app) => <a href={app.href} target="_blank" rel="noopener noreferrer">{app.name}<span aria-hidden="true">↗</span></a>)}
+      </div>
+    </div>
+    <div class="detail-stats">
+      <a href={links.maps} target="_blank" rel="noopener noreferrer" class="stat">
+        <strong>{place.rating.toFixed(1)}</strong><span>Google · {place.reviews.toLocaleString("en-US")}</span>
+      </a>
+      <div class="stat"><strong>{place.price}</strong><span data-i18n="perBowl">{t.perBowl}</span></div>
+      <div class="stat"><strong data-detail-distance>· · ·</strong><span data-detail-distance-label><button class="distance-locate" data-action="locate"><Icon name="locate" size={12} /><span data-i18n="noLoc">{t.noLoc}</span></button></span></div>
+    </div>
+    {place.note && <aside class="recommendation"><h3 class="eyebrow" data-i18n="why">{t.why}</h3><p data-note={place.id}>“{place.note[state.language]}”</p></aside>}
+    <section class="menu-section" aria-labelledby="menu-title">
+      <h3 class="eyebrow" id="menu-title" data-i18n="menu">{t.menu}</h3>
+      <dl class="menu-items">{place.menu.map(({name, priceHuf}, index) => <div><dt data-menu-name={index}>{name[state.language]}</dt><span class="menu-leader" aria-hidden="true" /><dd>{priceHuf.toLocaleString(state.language)} Ft</dd></div>)}</dl>
+    </section>
+    <a class="photos-link" href={links.maps} target="_blank" rel="noopener noreferrer"><span data-i18n="photos">{t.photos}</span><span aria-hidden="true">↗</span></a>
+  </div>
+</Container>

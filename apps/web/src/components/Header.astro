@@ -1,12 +1,15 @@
 ---
+import type { Language } from "../lib/guide";
+interface Props { language: Language }
+const { language } = Astro.props;
 const links = [
-  { to: "/", label: "Home" },
+  { to: `/${language}`, label: language === "hu" ? "Kezdőlap" : "Home" },
 ];
 ---
 
 <header class="border-b border-neutral-800">
   <div class="flex items-center justify-between gap-4 px-4 py-2 md:px-6">
-    <a href="/" aria-label="Budapest Ramen home" class="flex items-center gap-3 font-semibold">
+    <a href={`/${language}`} aria-label="Budapest Ramen home" class="flex items-center gap-3 font-semibold">
       <img src="/icon-192.png" alt="" width="48" height="48" class="size-12" />
       <span>Budapest Ramen</span>
     </a>

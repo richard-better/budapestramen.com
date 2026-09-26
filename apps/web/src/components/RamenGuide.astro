@@ -1,0 +1,125 @@
+---
+import { translations } from "../lib/translations";
+import { guidePath, type GuideState } from "../lib/guide";
+import { ramenStyles, type Restaurant } from "../data/restaurants";
+import { filterRestaurants } from "../lib/guide";
+import Icon from "./Icon.astro";
+import RestaurantRow from "./RestaurantRow.astro";
+import RestaurantDetail from "./RestaurantDetail.astro";
+interface Props { state: GuideState; restaurants: Restaurant[] }
+const { state, restaurants } = Astro.props;
+const t = translations[state.language];
+const places = filterRestaurants(restaurants, state.filters);
+const selectedPlace = restaurants.find((place) => place.id === state.selected);
+---
+
+<main class="guide" id="ramen-guide" data-view={state.view} data-detail={!!state.selected && !state.preview}>
+  <div id="restaurant-map" class="restaurant-map" role="region" aria-label={t.mapLabel} data-i18n-label="mapLabel"></div>
+  <p class="map-message" id="map-message" role="status" data-i18n="mapLoading">{t.mapLoading}</p>
+
+  <aside class="sidebar" aria-label={t.restaurantList} data-i18n-label="restaurantList">
+    <header class="sidebar-header">
+      <div class="brand-row">
+        <a href={`/${state.language}`} class="brand" aria-label="Budapest Ramen home"><img src="/icon-192.png" width="44" height="44" alt="" /><h1>Budapest Ramen</h1></a>
+        <div class="header-actions">
+          <button class="icon-button" data-action="language" aria-label={t.language} data-i18n-label="language"><Icon name="globe" size={17} /></button>
+          <button class="icon-button" data-action="about" aria-label={t.about} data-i18n-label="about">?</button>
+        </div>
+      </div>
+      <p class="result-count" data-count aria-live="polite">{places.length} {t.places}</p>
+    </header>
+    <div class="list-scroll">
+      <p class="mobile-count result-count" data-count aria-live="polite">{places.length} {t.places}</p>
+      <ul id="restaurant-list">{[...places, ...restaurants.filter((place) => !places.includes(place))].map((place) => <RestaurantRow place={place} state={state} visible={places.includes(place)} />)}</ul>
+      <div class="empty-state" id="empty-state" hidden={places.length > 0}>
+        <Icon name="bowl" size={36} /><h2 data-i18n="noResults">{t.noResults}</h2>
+        <p data-i18n="noResultsHint">{t.noResultsHint}</p>
+        <button class="button" data-action="clear" data-i18n="clearFilters">{t.clearFilters}</button>
+      </div>
+    </div>
+  </aside>
+
+  <header class="mobile-bar">
+    <button class="icon-button menu-toggle" data-action="menu" aria-controls="mobile-menu" aria-expanded="false" aria-label={t.mainMenu} data-i18n-label="mainMenu"><Icon name="menu" /></button>
+    <nav class="view-switch" aria-label="View">
+      <button data-view="map" aria-pressed={state.view === "map"} data-i18n="map">{t.map}</button>
+      <button data-view="list" aria-pressed={state.view === "list"} data-i18n="list">{t.list}</button>
+    </nav>
+    <button class="icon-button locate-button" data-action="locate" aria-label={t.locate} data-i18n-label="locate"><Icon name="locate" /></button>
+  </header>
+
+  <div id="mobile-menu" class="mobile-menu popover" popover>
+    <div class="menu-brand"><img src="/icon-192.png" width="40" height="40" alt="" /><strong>Budapest Ramen</strong></div>
+    <button class="menu-about" data-action="about"><span class="small-help" aria-hidden="true">?</span><span data-i18n="about">{t.about}</span></button>
+    <p class="eyebrow"><Icon name="globe" size={16} /><span data-i18n="language">{t.language}</span></p>
+    <a data-language="en" aria-current={state.language === "en" ? "true" : undefined} href={guidePath({ ...state, language: "en", panel: null, menu: false })}><span lang="en">English</span><span class="language-check" aria-hidden="true">✓</span></a>
+    <a data-language="hu" aria-current={state.language === "hu" ? "true" : undefined} href={guidePath({ ...state, language: "hu", panel: null, menu: false })}><span lang="hu">Magyar</span><span class="language-check" aria-hidden="true">✓</span></a>
+  </div>
+
+  <nav class="quick-filters" aria-label={t.filters} data-i18n-label="filters">
+    <div class="quick-filter-scroll">
+      <button class="chip chip-recommended" data-filter="recommended" aria-pressed={state.filters.recommended}><span aria-hidden="true">★</span><span data-i18n="recommended">{t.recommended}</span></button>
+      <button class="chip" data-filter="vegan" aria-pressed={state.filters.vegan} data-i18n="vegan">{t.vegan}</button>
+      {ramenStyles.slice(0, 4).map((style) => <button class="chip" data-style={style} aria-pressed={state.filters.styles.includes(style)}>{style}</button>)}
+    </div>
+    <button class="chip more-chip" data-action="filters" aria-controls="filters-panel" aria-expanded="false"><Icon name="filter" size={14} /><span data-i18n="more">{t.more}</span><span id="filter-count" hidden></span></button>
+  </nav>
+
+  <div class="map-controls">
+    <button class="icon-button reset-map" data-action="reset-map" aria-label={t.resetMap} data-i18n-label="resetMap"><Icon name="expand" /></button>
+    <button class="icon-button locate-button" data-action="locate" aria-label={t.locate} data-i18n-label="locate"><Icon name="locate" /></button>
+    <div class="zoom-controls">
+      <button data-action="zoom-in" aria-label={t.zoomIn} data-i18n-label="zoomIn">+</button>
+      <button data-action="zoom-out" aria-label={t.zoomOut} data-i18n-label="zoomOut">−</button>
+    </div>
+  </div>
+
+  <button id="map-preview" class="map-preview" data-action="open-selected" hidden>
+    <span class="preview-heading"><strong data-preview-name></strong><span class="pick-badge" data-preview-pick>★ <span data-i18n="pick">{t.pick}</span></span><span class="preview-rating" data-preview-rating></span></span>
+    <span class="preview-address" data-preview-address></span>
+    <span class="preview-bottom"><span data-preview-tags></span><span class="preview-details"><span data-i18n="details">{t.details}</span><Icon name="arrow" size={16} /></span></span>
+  </button>
+
+  <div id="map-empty" class="map-empty" hidden>
+    <h2 data-i18n="noResults">{t.noResults}</h2>
+    <button class="button" data-action="clear" data-i18n="clearFilters">{t.clearFilters}</button>
+  </div>
+
+  <dialog id="filters-panel" class="filters-panel panel" aria-labelledby="filters-title">
+    <div class="panel-header"><h2 id="filters-title" data-i18n="filters">{t.filters}</h2><button class="icon-button" data-action="close-filters" aria-label={t.closeFilters} data-i18n-label="closeFilters" autofocus><Icon name="close" size={14} /></button></div>
+    <div class="filter-content">
+      <div class="recommend-filter"><div><h3 id="recommend-label">★ <span data-i18n="recOnly">{t.recOnly}</span></h3><p data-i18n="recOnlySub">{t.recOnlySub}</p></div><button class="switch" role="switch" aria-checked={state.filters.recommended} data-filter="recommended" aria-labelledby="recommend-label"><span></span></button></div>
+      <fieldset><legend class="eyebrow" data-i18n="style">{t.style}</legend><div class="filter-options">{ramenStyles.map((style) => <button class="chip" data-style={style} aria-pressed={state.filters.styles.includes(style)}>{style}</button>)}</div></fieldset>
+      <fieldset><legend class="eyebrow" data-i18n="diet">{t.diet}</legend><button class="chip" data-filter="vegan" aria-pressed={state.filters.vegan} data-i18n="veganOption">{t.veganOption}</button></fieldset>
+    </div>
+    <footer class="filter-footer"><button class="button" data-action="clear" data-i18n="clear">{t.clear}</button><button class="button button-dark" data-action="close-filters" id="show-results">{t.show} {places.length} {t.places}</button></footer>
+  </dialog>
+
+  <dialog id="detail-panel" class="detail-panel panel" aria-labelledby="detail-title" data-place={selectedPlace?.id} open={!!selectedPlace && !state.preview && !state.panel}>{selectedPlace && <RestaurantDetail place={selectedPlace} state={state} template={false} />}</dialog>
+  {restaurants.map((place) => <RestaurantDetail place={place} state={state} />)}
+
+  <dialog id="about-dialog" class="modal about-dialog" aria-labelledby="about-title">
+    <button class="icon-button modal-close" data-close-dialog aria-label={t.close} data-i18n-label="close"><Icon name="close" size={14} /></button>
+    <img src="/logo.png" width="120" height="120" alt="" />
+    <h2 id="about-title">Budapest Ramen</h2>
+    <p data-i18n="aboutText">{t.aboutText}</p>
+    <p class="muted" data-i18n="aboutText2">{t.aboutText2}</p>
+    <a class="button button-dark" href="mailto:borcsikrichard@gmail.com?subject=Budapest%20Ramen" data-i18n="contact">{t.contact}</a>
+    <p class="about-credit" data-i18n="madeBy">{t.madeBy}</p>
+  </dialog>
+
+  <dialog id="language-dialog" class="modal language-dialog" aria-labelledby="language-title">
+    <div class="modal-heading"><h2 id="language-title" data-i18n="selectLanguage">{t.selectLanguage}</h2><button class="icon-button" data-close-dialog aria-label={t.close} data-i18n-label="close"><Icon name="close" size={14} /></button></div>
+    <a data-language="en" aria-current={state.language === "en" ? "true" : undefined} href={guidePath({ ...state, language: "en", panel: null, menu: false })}><span lang="en">English</span><span class="language-check" aria-hidden="true">✓</span></a>
+    <a data-language="hu" aria-current={state.language === "hu" ? "true" : undefined} href={guidePath({ ...state, language: "hu", panel: null, menu: false })}><span lang="hu">Magyar</span><span class="language-check" aria-hidden="true">✓</span></a>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" popover="manual" hidden></div>
+  <noscript><style>.restaurant-map,.quick-filters,.mobile-bar,.map-controls,.map-message,.header-actions{display:none}.sidebar{display:flex!important;width:100%;position:relative}.sidebar-header{display:block!important}.list-scroll{overflow:visible}.guide{height:auto;overflow:visible}.restaurant-row{cursor:default}</style><p class="noscript-note">Enable JavaScript to explore the interactive map and restaurant details.</p></noscript>
+</main>
+
+<script is:inline type="application/json" id="restaurant-data" set:html={JSON.stringify(restaurants).replace(/</g, "\\u003c")} />
+
+<script>
+  import "../scripts/guide";
+</script>

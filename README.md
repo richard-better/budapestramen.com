@@ -1,5 +1,43 @@
 # budapestramen.com
 
+The guide lives at `/en` and `/hu`. Restaurants have stable paths such as
+`/en/ramen-ya/ramenka` and `/hu/ramen-ya/ramenka`. There is no language-less home route or locale
+redirect. The URL is the source of truth for language, selected restaurant,
+filters, map/list view, map position, and open panels. For example:
+
+```text
+/hu/ramen-ya/ramenka?directions=1
+/en?style=Tonkotsu&vegan=1&view=list
+/hu?panel=filters&recommended=1
+/en/ramen-ya/nemramen?preview=1
+```
+
+Browser back/forward restores the guide. Map gestures replace the current history
+entry so a pan does not create a trail of Back steps. Location permission and the
+user's distance-sorting origin stay in memory; they are never added to shared URLs.
+
+## Restaurant content
+
+Edit one YAML file per restaurant in `apps/web/src/content/restaurants/`. The file
+name is its permanent URL slug. Shared facts live once; recommendations and menu
+names have `en` and `hu` translations. Menu prices are numeric HUF amounts.
+
+Astro loads the files through the `restaurants` content collection. Its Zod schema
+in `apps/web/src/lib/restaurant-schema.ts` validates coordinates, ramen styles,
+prices, ratings, and both translations. Run `bun run check` and `bun run build`
+after editing. Adding a valid YAML file adds a restaurant to both language routes,
+the map, and the list without editing application code.
+
+The initial nine entries, menu prices, ratings, and editorial recommendations are
+imported from the supplied September 2026 design export. `source.date` records the
+source's date, not an independent fact-check or a live Google update. Actual venue
+photos and social URLs were absent from the export; the guide links to Google Maps
+for photos and reviews instead of publishing empty photo slots or placeholder links.
+
+Interface translations live in `apps/web/src/lib/translations.ts`. The map uses
+Leaflet with the Esri light gray tiles from the reference design. Fonts are hosted
+locally. No API key or database is required.
+
 This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines Astro, and more.
 
 ## Features
@@ -25,7 +63,8 @@ Then, run the development server:
 bun run dev
 ```
 
-Open [http://localhost:4321](http://localhost:4321) in your browser to see the web application.
+Open [http://localhost:4321/en](http://localhost:4321/en) or
+[http://localhost:4321/hu](http://localhost:4321/hu) in your browser to see the guide.
 
 ## Environment Configuration
 

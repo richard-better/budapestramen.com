@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import RamenGuide from "./RamenGuide.astro";
+import { loadRestaurants } from "../data/load-restaurants";
+import { readGuideUrl } from "../lib/guide";
+
+const restaurants = await loadRestaurants();
+const state = readGuideUrl(Astro.url, restaurants);
+if (!state) throw new Error("GuidePage requires a valid language and restaurant route");
+const place = restaurants.find((restaurant) => restaurant.id === state.selected);
+const title = place ? `${place.name} - Budapest Ramen` : state.language === "hu"
+  ? "Budapest Ramen - Találd meg a kedvenc ramened"
+  : "Budapest Ramen - Find your next bowl";
+const description = place
+  ? `${place.name}. ${place.address}, Budapest. ${place.styles.join(", ")}.`
+  : state.language === "hu"
+    ? "Kézzel gondozott útmutató Budapest ramenezőihez. Fedezd fel a térképet, és találd meg a következő kedvenc ramened."
+    : "A hand-kept guide to ramen in Budapest. Explore the map, find a favorite broth, and discover personally recommended ramen shops.";
+---
+
+<Layout title={title} description={description} language={state.language} fullScreen>
+  <RamenGuide state={state} restaurants={restaurants} />
+</Layout>
