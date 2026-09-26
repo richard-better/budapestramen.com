@@ -1,0 +1,421 @@
+{
+  "version": 1,
+  "id": "bambuszliget",
+  "name": "Bambuszliget Japán Étterem & Sushi Bár",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Belgrád rakpart",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Japanese restaurant and sushi bar, with ramen among wider dishes. Official postal code 1056 differs from Wolt 1052."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Japanese restaurant and sushi bar, with ramen among wider dishes. Official postal code 1056 differs from Wolt 1052."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1056 Budapest, Belgrád rakpart 18.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Japanese restaurant and sushi bar, with ramen among wider dishes. Official postal code 1056 differs from Wolt 1052."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Japanese restaurant and sushi bar, with ramen among wider dishes. Official postal code 1056 differs from Wolt 1052."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.4892645,
+        "lng": 19.0538666
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Coordinates in Wolt branch map link."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://maps.google.com/?q=47.4892645,19.0538666",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Wolt branch map link; coordinate pin, place-specific listing still to resolve."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://bambuszliget.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website link."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/sushibudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website link."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/bambuszligetetterem",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website link."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links this e-menu; direct ramen section inspected."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://bambuszliget.hu/hu_hu/asztalfoglalas/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active branch delivery menu."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website prominently links reservations."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Wolt offers ordering for this branch."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Normal miso ramen lets diners choose vegetables only, chicken, ginger pork, chashu, shrimp or tempura shrimp."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown",
+      "note": "Vegetable topping option exists, but the miso broth base is not specified; no dietary inference from toppings alone."
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Standard hot and cold ramen contain egg and list milk allergens. Off-menu vegan modifications not established."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown",
+      "note": "Website names Shoji Morita as former head chef, not necessarily current chef. Do not treat historical staffing as current evidence."
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Miso", "Cold miso"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official ramen section."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Homemade ramen noodles, marinated egg, spinach omelette, shiitake, spring onion, corn and butter; optional chashu, chicken, ginger pork, shrimp or tempura shrimp. Cold miso variant also listed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official dish pages list ingredients and toppings; broth animal content unspecified."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Hot miso ramen in normal and small sizes; cold miso also appears in the currently linked menu."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Main ramen category, not a delivery-only dish."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday-Sunday 12:00-22:00",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website dine-in hours; Wolt delivery hours differ."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current restaurant website and active delivery ordering show ongoing operation."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official e-menu ramen category plus normal hot and cold dish details; undated.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-category.html",
+            "sourceUrl": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-hot.html",
+            "sourceUrl": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535/MisoRamen.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-cold.html",
+            "sourceUrl": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535/termek38750.html",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Hot full-size menu configurations span 3990-5190 HUF (base3990 plus selected protein700/1200). Cold full-size displays3990 but says price depends on topping without exposing options. Small2690 excluded. Effective date and service charge unverified.",
+      "bowls": [
+        {
+          "name": "Miso ramen - vegetables only",
+          "price": 3990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso ramen - chicken",
+          "price": 4690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso ramen - ginger pork",
+          "price": 4690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso ramen - chashu",
+          "price": 5190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso ramen - shrimp",
+          "price": 5190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso ramen - tempura shrimp",
+          "price": 5190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Cold miso ramen",
+          "price": 3990,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Category base prices and inspected normal-ramen topping surcharges."
+        }
+      ]
+    }
+  ]
+}

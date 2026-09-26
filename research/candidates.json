@@ -27,7 +27,7 @@
       "id": "101-express",
       "name": "101 BISTRO Express",
       "status": "needs-menu-check",
-      "address": null,
+      "address": "1024 Budapest, Széll Kálmán tér 5.",
       "mapsUrl": null,
       "signals": ["delivery-category-match"],
       "sources": [
@@ -35,11 +35,15 @@
           "url": "https://wolt.com/en/hun/budapest/category/ramen",
           "checkedOn": "2026-09-26",
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/restaurant/101-express",
+          "checkedOn": "2026-09-27",
+          "note": "Inspected the full current delivery menu: salads, rice bian dang boxes, desserts and extras; no ramen dishes listed despite ramen category membership. Address and Facebook identify 101 Bistro."
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "No ramen on current Wolt menu. Check 101 Bistro dine-in menu before inclusion; do not treat category membership as ramen evidence."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-express"
     },
@@ -62,7 +66,11 @@
           "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": [
+        "Verify opening hours, ownership, ordering interface, customization and service charge.",
+        "Find menu effective date and direct delivery link."
+      ],
+      "researchId": "101-neo"
     },
     {
       "id": "101-tigris",
@@ -76,12 +84,22 @@
           "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
           "checkedOn": "2026-09-26",
           "note": "Roundup includes this venue but describes ramen-inspired East Asian noodle soups rather than a classic ramen bar."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/restaurant/101-tigris",
+          "checkedOn": "2026-09-27",
+          "note": "Full delivery menu inspected. Chinese chicken noodle soup, sesame noodle soups, laksa, wonton and red-braised beef noodle soup are named; none explicitly called ramen. Do not automatically classify all noodle soups as ramen."
+        },
+        {
+          "url": "https://linktr.ee/101tigris",
+          "checkedOn": "2026-09-27",
+          "note": "Official link hub offers Facebook menu and Dish table reservations. Facebook menu page loaded business information but no menu images."
         }
       ],
       "followUp": [
-        "Check whether the current menu actually identifies any dish as ramen before inclusion.",
-        "Verify address and Maps listing."
-      ]
+        "Confirm whether the venue currently serves Japanese ramen before inclusion; current delivery menu describes Chinese noodle soups and laksa."
+      ],
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-tigris"
     },
     {
       "id": "art-of-sushi",
@@ -97,27 +115,37 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": [
+        "Confirm standalone bowl availability, serving size and current price outside the buffet.",
+        "Verify social profiles, ordering interface, customization and ownership."
+      ],
+      "researchId": "art-of-sushi"
     },
     {
       "id": "bambuszliget",
       "name": "Bambuszliget Japán Étterem & Sushi Bár",
-      "status": "needs-menu-check",
-      "address": null,
-      "mapsUrl": null,
-      "signals": ["delivery-category-match"],
+      "status": "candidate",
+      "address": "1056 Budapest, Belgrád rakpart 18.",
+      "mapsUrl": "https://maps.google.com/?q=47.4892645,19.0538666",
+      "signals": ["delivery-category-match", "official-menu-ramen"],
       "sources": [
         {
           "url": "https://wolt.com/en/hun/budapest/category/ramen",
           "checkedOn": "2026-09-26",
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        },
+        {
+          "url": "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html",
+          "checkedOn": "2026-09-27",
+          "note": "Official menu confirms hot/cold miso ramen and selectable proteins."
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Resolve place-specific Maps URL, current service charge, broth diet suitability and ownership.",
+        "Check cold-ramen topping prices before declaring complete price coverage."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br",
+      "researchId": "bambuszliget"
     },
     {
       "id": "bibimbap",
@@ -131,9 +159,15 @@
           "url": "https://www.google.com/maps/search/?api=1&query=Bibimbap+Korean+Restaurant+Budapest+Erzs%C3%A9bet+k%C3%B6r%C3%BAt+39&query_place_id=ChIJ_dA9aD3cQUcRhwd6UZIkk98",
           "checkedOn": "2026-09-26",
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
+        },
+        {
+          "url": "https://wolt.com/hu/hun/budapest/restaurant/bibimbap-korean-restaurant",
+          "checkedOn": "2026-09-27",
+          "note": "Current branch menu inspected: Korean stews, rice dishes and other soups, no dish explicitly named ramen or ramyeon found. Maps links Wolt despite service attribute saying no delivery, so delivery status conflicts."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."]
+      "followUp": ["No ramen found in current delivery menu. Check dine-in menu before inclusion."],
+      "orderingUrl": "https://wolt.com/hu/hun/budapest/restaurant/bibimbap-korean-restaurant"
     },
     {
       "id": "cantonese-flavor",
@@ -147,11 +181,15 @@
           "url": "https://wolt.com/en/hun/budapest/category/ramen",
           "checkedOn": "2026-09-26",
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor",
+          "checkedOn": "2026-09-27",
+          "note": "Wolt explicitly calls this a virtual venue in 1081 Budapest. Current menu contains Cantonese pork noodle soup, seafood rice-noodle soup, dumplings and wonton, no ramen named."
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Do not add as a physical ramen shop: virtual venue, with no ramen established in current menu."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"
     },
@@ -167,13 +205,18 @@
           "url": "https://wolt.com/en/hun/budapest/category/ramen",
           "checkedOn": "2026-09-26",
           "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
+          "checkedOn": "2026-09-27",
+          "note": "Explicitly a virtual venue in1025; Shoyu and Yasai ramen4700 HUF each. No physical restaurant established."
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Resolve operator and any relationship to an existing physical restaurant before map inclusion."
       ],
-      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+      "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
+      "researchId": "chiyoko"
     },
     {
       "id": "cooked-by-you",
@@ -1817,6 +1860,30 @@
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery"
+    },
+    {
+      "id": "art-of-sushi-bazilika",
+      "name": "Art of Sushi - Bazilika",
+      "status": "needs-menu-check",
+      "address": "1051 Budapest, Sas utca 4.",
+      "mapsUrl": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8",
+      "signals": ["official-directory-match"],
+      "sources": [
+        {
+          "url": "https://artofsushi.hu/",
+          "checkedOn": "2026-09-27",
+          "note": "Official footer identifies a distinct Bazilika branch and Maps link. No branch-specific ramen menu checked yet."
+        },
+        {
+          "url": "https://artofsushi.hu/istvan",
+          "checkedOn": "2026-09-27",
+          "note": "Collected branch-specific address, socials, reservations and hours. Menu section rendered empty, so ramen remains unconfirmed."
+        }
+      ],
+      "followUp": [
+        "Inspect branch-specific Maps menu photos or obtain current menu; ramen not established."
+      ],
+      "researchId": "art-of-sushi-bazilika"
     }
   ]
 }

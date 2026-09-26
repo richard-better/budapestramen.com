@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "id": "101-neo",
+  "name": "101 NEO Asian Food Bar",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Kazinczy utca",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on the branch Maps listing."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Four ramen choices alongside dumplings, sandwiches and rice bowls; official profile describes an Asian food bar."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1075 Budapest, Kazinczy utca 9.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on the branch Maps listing."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on the branch Maps listing."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on the branch Maps listing."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/101neo.budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.facebook.com/101neo.budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Facebook contact information links Instagram."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/101neo.budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps links this official profile, which matches name and address."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Direct PDF menu linked by the Maps business listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly marks Does not accept reservations."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists delivery and takeaway."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists delivery and takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Oat Milk Miso Tonkotsu Mushroom Ramen is explicitly labeled vegan."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Oat Milk Miso Tonkotsu Mushroom Ramen is explicitly labeled vegan."
+        }
+      ]
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Miso", "Vegan tonkotsu-style"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu names oat-milk miso tonkotsu mushroom ramen; vegan label means this is not pork-bone broth."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Golden Chicken; Black Pepper Beef; vegan Oat Milk Miso Tonkotsu Mushroom; Kaisen Koku. PDF names dishes but does not give complete broth ingredients.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Four ramen descriptions from official PDF."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Four ramen choices on standard menu. Separate weekday lunch promotion excluded from standard prices."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Ramen is a regular section in the current linked menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps shows regular next opening, recently business-updated hours and recent reviews."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "101 NEO branded PDF linked by its Maps listing; no effective date printed.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-official.pdf",
+            "sourceUrl": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed standard ramen range 4490-5490 HUF. Undated PDF; service charge unknown. Separate 3850 HUF lunch promotion omitted.",
+      "bowls": [
+        {
+          "name": "Golden Chicken Ramen",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Black Pepper Beef Ramen",
+          "price": 5490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Oat Milk Miso Tonkotsu Mushroom Ramen (vegan)",
+          "price": 4790,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Kaisen Koku Ramen",
+          "price": 4990,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "All four standard ramen prices read from the PDF and checked against rendered page."
+        }
+      ]
+    }
+  ],
+  "brandId": "101"
+}

@@ -1,0 +1,342 @@
+{
+  "version": 1,
+  "id": "art-of-sushi",
+  "name": "Art of Sushi Budapest - Liszt Ferenc tér",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Liszt Ferenc tér",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on Maps and official branch footer."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official concept is sushi and all-you-can-eat Japanese dishes; ramen is one item in the wider menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1061 Budapest, Liszt Ferenc tér 5.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on Maps and official branch footer."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on Maps and official branch footer."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified on Maps and official branch footer."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://artofsushi.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links hosted menu and has a Liszt branch reservation form."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://menumester.hu/artofsushi-5/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links hosted menu and has a Liszt branch reservation form."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://artofsushi.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links hosted menu and has a Liszt branch reservation form."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Liszt branch booking form and reservation phone number."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway and delivery."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway and delivery."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Pork-and-egg ramen soup (item 149); broth style and other ingredients not specified in menu text.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://menumester.hu/artofsushi-5/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Do not infer tonkotsu solely from pork topping."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday-Sunday 12:00-23:00",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official footer hours for Liszt branch, not Sas utca branch."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists next opening and recent reviews/photos."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 10,
+        "applicability": "Added according to official all-you-can-eat rules; applicability to individual à la carte items requires confirmation."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website expressly adds 10% service."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://menumester.hu/artofsushi-5/",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Five linked official hosted food-menu pages. Liszt branch phone in footer. Undated; buffet heading coexists with individual dish prices.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-official-page-1.html",
+            "sourceUrl": "https://menumester.hu/artofsushi-1/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-official-page-2.html",
+            "sourceUrl": "https://menumester.hu/artofsushi-2/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-official-page-3.html",
+            "sourceUrl": "https://menumester.hu/artofsushi-3/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-official-page-4.html",
+            "sourceUrl": "https://menumester.hu/artofsushi-4/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-official-page-5.html",
+            "sourceUrl": "https://menumester.hu/artofsushi-5/",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "unknown",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Item 149 shows 3600 HUF, but all-you-can-eat heading leaves standalone dine-in availability and serving size unresolved. Do not publish as a verified standard ramen range.",
+      "bowls": [
+        {
+          "name": "149 Sertéshúsos tojásos ramen leves",
+          "price": 3600,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://menumester.hu/artofsushi-5/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Only ramen item found across all five food menu pages."
+        }
+      ]
+    }
+  ],
+  "brandId": "art-of-sushi"
+}

@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "id": "chiyoko",
+  "name": "Chiyoko",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Virtual delivery venue, 1025 Budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Wolt explicitly says This is a virtual venue; no physical dine-in address supplied."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Delivery menu includes ramen, sushi and donburi."
+        }
+      ]
+    },
+    "address": {
+      "status": "unknown"
+    },
+    "district": {
+      "status": "unknown"
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "unknown"
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Only inspected menu source is delivery platform."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch delivery menu."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active delivery listing with scheduled service times."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown",
+      "note": "Yasai ramen has vegetables and egg, but broth animal content is unspecified."
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Both listed ramen include egg; modifications not established."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Shoyu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Shoyu Ramen explicitly named."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Shoyu ramen with pork, egg and homemade broth; Yasai ramen with vegetables, egg and homemade broth. Animal content of Yasai broth unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Delivery dish descriptions."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Delivery Monday-Sunday 12:00-20:30; no dine-in hours established",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Wolt delivery timetable only."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active virtual delivery menu; does not establish a public dine-in restaurant."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "wolt-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Virtual brand; delivery menu only.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-wolt.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "wolt-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Both bowls4700 HUF on Wolt; no dine-in price or physical venue established.",
+      "bowls": [
+        {
+          "name": "Shoyu Ramen",
+          "price": 4700,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Yasai Ramen",
+          "price": 4700,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/chiyoko"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Two ramen dishes and delivery prices."
+        }
+      ]
+    }
+  ]
+}

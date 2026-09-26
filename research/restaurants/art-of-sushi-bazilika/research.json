@@ -1,0 +1,223 @@
+{
+  "version": 1,
+  "id": "art-of-sushi-bazilika",
+  "name": "Art of Sushi - Bazilika",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Bazilika",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific official footer."
+        }
+      ]
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Sushi buffet restaurant; ramen availability not yet established at this branch."
+    },
+    "address": {
+      "status": "known",
+      "value": "1051 Budapest, Sas utca 4.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific official footer."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific official footer."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific official footer."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://artofsushi.hu/istvan",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific official site links and booking form."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/artofsushi.istvan",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific official site links and booking form."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/artofsushiistvan",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific official site links and booking form."
+        }
+      ]
+    },
+    "menu": {
+      "status": "unknown",
+      "note": "Official #menu section has category tabs but showed no dish details, including after selecting Wok."
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://artofsushi.hu/istvan#foglaljonasztalt",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific official site links and booking form."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Bazilika branch has its own online reservation form."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday-Sunday 12:00-00:00",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://artofsushi.hu/istvan"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch opening hours on official site."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [],
+  "pricing": [],
+  "brandId": "art-of-sushi"
+}
