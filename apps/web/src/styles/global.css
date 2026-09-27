@@ -809,30 +809,15 @@ svg {
   background: transparent;
   border: 0;
 }
-.pin-dot {
-  display: grid;
-  place-items: center;
-  width: 16px;
-  height: 16px;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  background: var(--ink);
-  box-shadow: 0 0 0 1.5px var(--ink);
-  color: #fff;
-  font: 700 10px/1 sans-serif;
+.restaurant-pin {
+  display: block;
+  width: 40px;
+  height: 50px;
+  transform-origin: bottom center;
 }
-.ramen-marker.is-recommended .pin-dot {
-  width: 22px;
-  height: 22px;
-  background: var(--accent);
-}
-.ramen-marker.is-selected .pin-dot {
-  width: 28px;
-  height: 28px;
-  border-width: 4px;
-  box-shadow:
-    0 0 0 1.5px var(--ink),
-    0 3px 0 1.5px var(--ink);
+.ramen-marker.is-selected .restaurant-pin {
+  transform: scale(1.2);
+  filter: drop-shadow(0 2px 2px rgb(0 0 0 / 35%));
 }
 .user-location-dot {
   width: 18px;

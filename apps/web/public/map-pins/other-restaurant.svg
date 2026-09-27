@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 48 60" role="img" aria-label="Other restaurant — also serves ramen">
+  <path d="M24 2.5C12.4 2.5 3 11.9 3 23.5c0 8.9 5.5 16.5 13.4 19.6L24 58l7.6-14.9C39.5 40 45 32.4 45 23.5 45 11.9 35.6 2.5 24 2.5Z" fill="none" stroke="#D7D4CE" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M24 2.5C12.4 2.5 3 11.9 3 23.5c0 8.9 5.5 16.5 13.4 19.6L24 58l7.6-14.9C39.5 40 45 32.4 45 23.5 45 11.9 35.6 2.5 24 2.5Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M24 2.5C12.4 2.5 3 11.9 3 23.5c0 8.9 5.5 16.5 13.4 19.6L24 58l7.6-14.9C39.5 40 45 32.4 45 23.5 45 11.9 35.6 2.5 24 2.5Z" fill="#FFFFFF" stroke="#151515" stroke-width="1.8" stroke-linejoin="round"/>
+  <path d="M15.2 12.8v7.5a3.5 3.5 0 0 0 7 0v-7.5M18.7 12.8v24.4" fill="none" stroke="#151515" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M32.2 12c-3.5 0-5.1 5.1-5.1 10.4V26h3.4v10.8a1.6 1.6 0 0 0 3.2 0V13.5A1.5 1.5 0 0 0 32.2 12Z" fill="#151515"/>
+</svg>

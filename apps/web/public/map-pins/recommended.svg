@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="50" viewBox="0 0 48 60" role="img" aria-label="Recommended ramen — my top picks">
+  <path d="M24 2.5C12.4 2.5 3 11.9 3 23.5c0 8.9 5.5 16.5 13.4 19.6L24 58l7.6-14.9C39.5 40 45 32.4 45 23.5 45 11.9 35.6 2.5 24 2.5Z" fill="none" stroke="#D7D4CE" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M24 2.5C12.4 2.5 3 11.9 3 23.5c0 8.9 5.5 16.5 13.4 19.6L24 58l7.6-14.9C39.5 40 45 32.4 45 23.5 45 11.9 35.6 2.5 24 2.5Z" fill="#DF241D" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M24 6.6l1.55 3.45 3.75.45-2.75 2.55.75 3.7-3.3-1.85-3.3 1.85.75-3.7-2.75-2.55 3.75-.45Z" fill="#FFFFFF"/>
+  <path d="M17.7 24c-2.1-2.4 2.1-3.3.4-5.6M24 24c-2.1-2.4 2.1-3.3.4-5.6M30.3 24c-2.1-2.4 2.1-3.3.4-5.6" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M10.7 27H37.3C36.8 33.6 33.1 37.8 28.2 39.2V41H19.8V39.2C14.9 37.8 11.2 33.6 10.7 27ZM13.5 29.5H34.5L33.7 31.7H14.3ZM15.6 34.2H32.4C31.6 35.1 30.6 35.9 29.6 36.6H18.4C17.4 35.9 16.4 35.1 15.6 34.2Z" fill="#FFFFFF" fill-rule="evenodd"/>
+</svg>
