@@ -2,10 +2,21 @@
   "version": 1,
   "id": "wasabi-mom",
   "name": "Wasabi Running Sushi & Wok Restaurant - MOM Park",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
-      "status": "unknown"
+      "status": "known",
+      "value": "MOM Park",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/a-la-carte"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific menu linked from official dine-in page."
+        }
+      ]
     },
     "category": {
       "status": "known",
@@ -14,10 +25,10 @@
         {
           "source": {
             "type": "website",
-            "url": "https://wasabi.hu/etlap?page=2"
+            "url": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf"
           },
           "checkedOn": "2026-09-27",
-          "note": "Shared official menu explicitly lists ramen soup with selectable topping. Branch availability needs reconfirmation."
+          "note": "Broad Asian restaurant; branch-specific dine-in menu page 6 explicitly lists Japanese ramen."
         }
       ]
     },
@@ -36,7 +47,18 @@
       ]
     },
     "district": {
-      "status": "unknown"
+      "status": "known",
+      "value": "XII",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/a-la-carte"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District derived from the official branch postal address."
+        }
+      ]
     },
     "coordinates": {
       "status": "known",
@@ -115,15 +137,15 @@
     },
     "menu": {
       "status": "known",
-      "value": "https://wasabi.hu/etlap",
+      "value": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf",
       "evidence": [
         {
           "source": {
             "type": "website",
-            "url": "https://wasabi.hu/"
+            "url": "https://wasabi.hu/a-la-carte"
           },
           "checkedOn": "2026-09-27",
-          "note": "Linked by official website."
+          "note": "Direct branch-specific dine-in PDF linked by the official site."
         }
       ]
     },
@@ -183,18 +205,38 @@
         {
           "source": {
             "type": "website",
-            "url": "https://wasabi.hu/etlap?page=2"
+            "url": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf"
           },
           "checkedOn": "2026-09-27",
-          "note": "Selectable ramen topping explicitly offered."
+          "note": "Ramen offers a choice of three toppings. Broth and noodle customization not established."
         }
       ]
     },
     "vegetarianRamen": {
-      "status": "unknown"
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "All three listed ramen bowls use meat broth and animal toppings; the separately listed vegetarian miso soup is not ramen."
+        }
+      ]
     },
     "veganRamen": {
-      "status": "unknown"
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "All listed ramen bowls contain egg and meat broth."
+        }
+      ]
     },
     "japaneseOwned": {
       "status": "unknown"
@@ -212,15 +254,15 @@
     },
     "brothAndToppings": {
       "status": "known",
-      "value": "Ramen soup with selectable topping; the website initially displays 0 Ft before options, which is not a valid bowl price.",
+      "value": "Japanese meat broth with baby spinach, spring onion, mung bean sprouts, soft egg, ramen noodles and spicy sauce; pork belly, panko chicken leg or crunchy prawn options.",
       "evidence": [
         {
           "source": {
             "type": "website",
-            "url": "https://wasabi.hu/etlap?page=2"
+            "url": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf"
           },
           "checkedOn": "2026-09-27",
-          "note": "Official menu reviewed; never use the placeholder as a price."
+          "note": "Ramen section on PDF page 6."
         }
       ]
     },
@@ -236,7 +278,22 @@
       "status": "unknown"
     },
     "serviceCharge": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 12,
+        "applicability": "Added to menu prices for dine-in."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu terms explicitly state a 12% service charge."
+        }
+      ]
     }
   },
   "menus": [
@@ -256,9 +313,62 @@
           }
         ]
       }
+    },
+    {
+      "id": "dine-in-pdf-2026-09-27",
+      "url": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Currently linked branch-specific PDF. Filename mentions 2024_11; no effective date verified. Checked date does not imply a newly issued menu.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-official.pdf",
+            "sourceUrl": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
     }
   ],
-  "pricing": [],
+  "pricing": [
+    {
+      "menuId": "dine-in-pdf-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Currently linked official PDF; filename carries an older version date. Excludes service charge and half portions.",
+      "bowls": [
+        {
+          "name": "Pork belly ramen",
+          "price": 6490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Panko chicken leg ramen",
+          "price": 6490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Crunchy prawn ramen",
+          "price": 6490,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Complete ramen section on page 6; all three standard bowls cost 6490 HUF."
+        }
+      ]
+    }
+  ],
   "google": {
     "status": "known",
     "value": {

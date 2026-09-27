@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "checkedOn": "2026-09-26",
+  "checkedOn": "2026-09-27",
   "scope": "Budapest ramen discovery candidates, including broader restaurants and unresolved delivery brands. Not a verified list of active ramen shops.",
   "coverage": {
     "complete": false,
@@ -385,7 +385,8 @@
         }
       ],
       "followUp": [
-        "Current Maps identity and address verified. Still inspect menu photographs or official menu before classifying ramen; ownership, ordering features and prices remain unknown."
+        "Cached Maps menu explicitly describes Chinese hand-pulled noodles. Keep outside Japanese ramen listings.",
+        "Structured Maps prices conflict with menu photograph; do not publish a current price range."
       ],
       "researchPriority": "normal",
       "researchId": "every-day"
@@ -889,7 +890,8 @@
         }
       ],
       "followUp": [
-        "Current Maps identity and address verified. Still inspect menu photographs or official menu before classifying ramen; ownership, ordering features and prices remain unknown."
+        "Cached menu explicitly describes Korean ramyeon at 3500 HUF. Keep outside Japanese ramen listings.",
+        "Official Instagram linked by Maps; ownership and further service details remain unknown."
       ],
       "researchPriority": "normal",
       "researchId": "kkodari"
@@ -1438,7 +1440,10 @@
           "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Official Instagram verified and linked; specialist identity confirmed. Verified research facts now transferred to website YAML.",
+        "Current complete price range remains unknown; cached Maps menu photos are older and partial. Website domain is parked."
+      ],
       "researchId": "ramen-nikko",
       "researchPriority": "high"
     },
@@ -1619,7 +1624,7 @@
         }
       ],
       "followUp": [
-        "Current Maps identity and address verified. Still inspect menu photographs or official menu before classifying ramen; ownership, ordering features and prices remain unknown."
+        "Full Wolt menu and Maps photos checked: Chinese soups, Korean jjigae and stir-fried noodles; no Japanese ramen established. Keep candidate pending direct evidence."
       ],
       "researchPriority": "normal",
       "researchId": "song-mester"
@@ -2026,7 +2031,10 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Branch-specific official dine-in PDF cached and verified: three Japanese ramen bowls at 6490 HUF, plus 12% service. Published in restaurant YAML.",
+        "Ownership and tablet/kiosk/QR ordering remain unverified."
+      ],
       "researchPriority": "normal",
       "researchId": "wasabi-mom"
     },
@@ -2044,7 +2052,9 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Official site confirms Pest a-la-carte service but omits a Pest PDF. Shared ramen menu does not settle branch availability or dine-in price."
+      ],
       "researchPriority": "normal",
       "researchId": "wasabi-podmaniczky"
     },
@@ -2062,7 +2072,10 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Branch-specific official dine-in PDF cached and verified: three Japanese ramen bowls at 6490 HUF, plus 12% service. Published in restaurant YAML.",
+        "Ownership and tablet/kiosk/QR ordering remain unverified."
+      ],
       "researchPriority": "normal",
       "researchId": "wasabi-szepvolgyi"
     },
@@ -2080,7 +2093,9 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Official hot-pot menu explicitly identifies WR RAMEN (pork) and RAMEN (duck) as selectable broths for cooking toppings at the table. No standard prepared ramen bowl established. The 14990 HUF adult package and 3490 HUF a-la-carte broth are not ramen bowl prices."
+      ],
       "researchPriority": "normal",
       "researchId": "whats-running"
     },
@@ -2120,7 +2135,7 @@
         }
       ],
       "followUp": [
-        "Current Maps identity and address verified. Still inspect menu photographs or official menu before classifying ramen; ownership, ordering features and prices remain unknown."
+        "Owner menu cached: chicken/seafood Xin Ramen 3590/4290 HUF. Japanese ramen classification and complete range remain unverified."
       ],
       "researchPriority": "normal",
       "researchId": "yi-du"
@@ -2222,6 +2237,27 @@
       ],
       "researchId": "art-of-sushi-bazilika",
       "researchPriority": "normal"
+    },
+    {
+      "id": "mingji",
+      "name": "MINGJI BEEF NOODLE",
+      "researchId": "mingji",
+      "researchPriority": "normal",
+      "status": "needs-menu-check",
+      "address": "1082 Budapest, Corvin köz 2.",
+      "mapsUrl": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x4741dd77e7f6705d:0xe37e4dac8173150d",
+      "orderingUrl": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen",
+      "signals": ["ramen-name-or-category"],
+      "sources": [
+        {
+          "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen",
+          "checkedOn": "2026-09-27",
+          "note": "Ramen merchant name but handmade beef noodle description and Beijing-style dishes."
+        }
+      ],
+      "followUp": [
+        "Keep outside Japanese ramen listings until a qualifying dish is established; ownership and dine-in ramen prices unknown."
+      ]
     }
   ]
 }

@@ -1,0 +1,50 @@
+name: Wasabi Running Sushi & Wok Restaurant - Szépvölgyi
+address: "Budapest, Szépvölgyi út 15, 1037"
+district: III
+mapsUrl: "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5278872,19.0364867,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d9378d2b3a23:0x605f77b02b3b44f3!8m2!3d47.5278872!4d19.0364867!16s%2Fg%2F1tlw7vv9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wasabi.hu/etlapok/buda/Wasabi_AC_Etlap_2024_11_48oldal_SZEPVOLGYI_01_48_Web.pdf
+coordinates:
+  lat: 47.5278872
+  lng: 19.0364867
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.9
+  reviews: 17646
+source:
+  name: Official restaurant menu and Google Maps
+  date: "2026-09-27"
+  url: https://wasabi.hu/etlapok/buda/Wasabi_AC_Etlap_2024_11_48oldal_SZEPVOLGYI_01_48_Web.pdf
+details:
+  category: serves-ramen
+  links:
+    website: https://wasabi.hu/
+    instagram: https://www.instagram.com/wasabi_hungary_official/
+    facebook: https://www.facebook.com/wasabihungary
+    menu: https://wasabi.hu/etlapok/buda/Wasabi_AC_Etlap_2024_11_48oldal_SZEPVOLGYI_01_48_Web.pdf
+    reservations: https://wasabi.hu/asztalfoglalas
+  features:
+    reservations: "yes"
+    delivery: unknown
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "no"
+    veganRamen: "no"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 6490
+    max: 6490
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 12
+    applicability: Added to menu prices for dine-in.
+  checkedOn: "2026-09-27"
+  menuType: official

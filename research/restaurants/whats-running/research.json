@@ -9,15 +9,15 @@
     },
     "category": {
       "status": "unknown",
-      "note": "Ramen is listed as duck hot-pot broth at 3490 HUF, with separately priced toppings. This is not evidence of a complete standard ramen bowl or range.",
+      "note": "Official hot-pot menu explicitly identifies WR RAMEN (pork) and RAMEN (duck) as selectable broths for cooking toppings at the table. No standard prepared ramen bowl established. The 14990 HUF adult package and 3490 HUF a-la-carte broth are not ramen bowl prices.",
       "evidence": [
         {
           "source": {
             "type": "website",
-            "url": "https://whatsrunning.hu/etlap/"
+            "url": "https://whatsrunning.hu/hot-pot-menu/"
           },
           "checkedOn": "2026-09-27",
-          "note": "Ramen is listed as duck hot-pot broth at 3490 HUF, with separately priced toppings. This is not evidence of a complete standard ramen bowl or range."
+          "note": "Official hot-pot menu explicitly identifies WR RAMEN (pork) and RAMEN (duck) as selectable broths for cooking toppings at the table. No standard prepared ramen bowl established. The 14990 HUF adult package and 3490 HUF a-la-carte broth are not ramen bowl prices."
         }
       ]
     },
@@ -190,7 +190,18 @@
       "status": "unknown"
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Pork WR ramen and duck ramen hot-pot broths; separately selected ingredients cooked at the table.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/hot-pot-menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official hot-pot menu explicitly identifies WR RAMEN (pork) and RAMEN (duck) as selectable broths for cooking toppings at the table. No standard prepared ramen bowl established. The 14990 HUF adult package and 3490 HUF a-la-carte broth are not ramen bowl prices."
+        }
+      ]
     },
     "availability": {
       "status": "unknown"
@@ -198,13 +209,39 @@
   },
   "visiting": {
     "hours": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Daily 11:30-23:30",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/hot-pot-menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official footer hours."
+        }
+      ]
     },
     "operatingStatus": {
       "status": "unknown"
     },
     "serviceCharge": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 12,
+        "applicability": "Hot-pot package bill; drinks excluded from package."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/hot-pot-menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official package explicitly adds 12% service charge."
+        }
+      ]
     }
   },
   "menus": [

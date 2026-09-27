@@ -9,7 +9,17 @@
     },
     "category": {
       "status": "unknown",
-      "note": "Maps identity verified, but menu evidence is still insufficient to classify Japanese ramen. Do not interpret unknown as not served."
+      "note": "Owner-uploaded July 2026 Maps menu shows Chicken Xin Ramen (3590 HUF) and Seafood Xin Ramen (4290 HUF), alongside udon. Broth and Japanese ramen classification are not established; these partial observations are not a verified complete ramen price range.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/YI+DU/@47.5020367,19.0508497,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2181c0376d:0x56851e4d1be6f2c1!8m2!3d47.5020367!4d19.0508497!16s%2Fg%2F11vkj8wrf9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner-uploaded July 2026 Maps menu shows Chicken Xin Ramen (3590 HUF) and Seafood Xin Ramen (4290 HUF), alongside udon. Broth and Japanese ramen classification are not established; these partial observations are not a verified complete ramen price range."
+        }
+      ]
     },
     "address": {
       "status": "known",
@@ -71,7 +81,18 @@
       "status": "unknown"
     },
     "menu": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.google.com/maps/place/YI+DU/@47.5020367,19.0508497,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2181c0376d:0x56851e4d1be6f2c1!8m2!3d47.5020367!4d19.0508497!16s%2Fg%2F11vkj8wrf9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/YI+DU/@47.5020367,19.0508497,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2181c0376d:0x56851e4d1be6f2c1!8m2!3d47.5020367!4d19.0508497!16s%2Fg%2F11vkj8wrf9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu photograph inspected."
+        }
+      ]
     },
     "reservations": {
       "status": "unknown"
@@ -91,7 +112,17 @@
       "status": "unknown"
     },
     "takeaway": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/YI+DU/@47.5020367,19.0508497,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2181c0376d:0x56851e4d1be6f2c1!8m2!3d47.5020367!4d19.0508497!16s%2Fg%2F11vkj8wrf9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists takeaway."
+        }
+      ]
     },
     "tabletOrdering": {
       "status": "unknown"
@@ -126,7 +157,18 @@
       "status": "unknown"
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Chicken Xin Ramen and Seafood Xin Ramen; broth unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/YI+DU/@47.5020367,19.0508497,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2181c0376d:0x56851e4d1be6f2c1!8m2!3d47.5020367!4d19.0508497!16s%2Fg%2F11vkj8wrf9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner-uploaded July 2026 Maps menu shows Chicken Xin Ramen (3590 HUF) and Seafood Xin Ramen (4290 HUF), alongside udon. Broth and Japanese ramen classification are not established; these partial observations are not a verified complete ramen price range."
+        }
+      ]
     },
     "availability": {
       "status": "unknown"
@@ -143,7 +185,35 @@
       "status": "unknown"
     }
   },
-  "menus": [],
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/place/YI+DU/@47.5020367,19.0508497,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2181c0376d:0x56851e4d1be6f2c1!8m2!3d47.5020367!4d19.0508497!16s%2Fg%2F11vkj8wrf9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Owner-uploaded July 2026 Maps menu shows Chicken Xin Ramen (3590 HUF) and Seafood Xin Ramen (4290 HUF), alongside udon. Broth and Japanese ramen classification are not established; these partial observations are not a verified complete ramen price range.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps-1.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNIMrcm4RwMCeOls7DUZHUZazia6eQLZcyNKEh-H87TLv83LVMnZWpr3h5v-9rIY876m67TJamwXuUrbfNPD2GQiL81lO1ig7gUHb6TetGXI0A-XAzmPf-JdhtanmIT5VxEdrmaMioarOzQ=w1600",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-maps-2.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmMf6_Vh_0i84m3VWtau756HSpdA2quAx6JGM1NMz4mXvOSFIWdE8qXuAR4rUgLT1kyACQ_AZ8FJeyyNEJDYCkWnrue6aKbFbblzzagLbyz4jND_apIAV2ecrZKRThTTEDNZhCMOrOLWBOMY=w1600",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-maps-ramen.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNw0JPhr_Y_XOtDM6Ke3-RHC6Pe0UDDJuACMy1itQeUeh8SlJ2mQCXBWURR7MB9Hdm0wLJwBe3DYi7K3sswQwtitPKldV9cPBCv1D9OkdQMaeQ5dWTXV_jQpxULBGBfgYK5OqT8T6DfyAgR=w1600",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
   "pricing": [],
   "google": {
     "status": "known",

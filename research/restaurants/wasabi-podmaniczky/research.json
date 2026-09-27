@@ -5,7 +5,18 @@
   "publication": "candidate",
   "identity": {
     "branch": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Podmaniczky",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/a-la-carte"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official footer confirms Podmaniczky u. 21 and a-la-carte availability in Pest."
+        }
+      ]
     },
     "category": {
       "status": "known",
@@ -36,7 +47,18 @@
       ]
     },
     "district": {
-      "status": "unknown"
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/a-la-carte"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District derived from official postal address 1065."
+        }
+      ]
     },
     "coordinates": {
       "status": "known",
@@ -230,7 +252,18 @@
   },
   "visiting": {
     "hours": {
-      "status": "unknown"
+      "status": "known",
+      "value": "11:30-23:30",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/a-la-carte"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch footer; exceptions not specified."
+        }
+      ]
     },
     "operatingStatus": {
       "status": "unknown"
@@ -245,7 +278,7 @@
       "url": "https://wasabi.hu/etlap?page=2",
       "type": "official",
       "checkedOn": "2026-09-27",
-      "branchNote": "Shared chain menu; prices depend on selected options and branch.",
+      "branchNote": "Shared chain ordering menu. Official a-la-carte page confirms Pest service, but provides PDFs only for Szépvölgyi, MOM and Debrecen. Pest ramen availability and dine-in price remain unverified; do not copy another branch price.",
       "cache": {
         "status": "cached",
         "files": [

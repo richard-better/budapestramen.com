@@ -9,7 +9,17 @@
     },
     "category": {
       "status": "unknown",
-      "note": "Maps identity verified, but menu evidence is still insufficient to classify Japanese ramen. Do not interpret unknown as not served."
+      "note": "Photographed menu explicitly labels Ramyeon: spicy Korean noodle soup with cabbage, carrot, bean sprouts and green onion (3500 HUF). This is Korean ramyeon, not evidence of Japanese ramen.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/KKODARI+-+Korean+Roll+%26+Rice/@47.4902106,19.0670859,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd006e0b5c41:0x661c2a6d21a3a7ad!8m2!3d47.4902106!4d19.0670859!16s%2Fg%2F11nk00cqc6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photographed menu explicitly labels Ramyeon: spicy Korean noodle soup with cabbage, carrot, bean sprouts and green onion (3500 HUF). This is Korean ramyeon, not evidence of Japanese ramen."
+        }
+      ]
     },
     "address": {
       "status": "known",
@@ -65,13 +75,35 @@
       "status": "unknown"
     },
     "instagram": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.instagram.com/_kkodari/",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/KKODARI+-+Korean+Roll+%26+Rice/@47.4902106,19.0670859,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd006e0b5c41:0x661c2a6d21a3a7ad!8m2!3d47.4902106!4d19.0670859!16s%2Fg%2F11nk00cqc6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Instagram linked by Maps."
+        }
+      ]
     },
     "facebook": {
       "status": "unknown"
     },
     "menu": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.google.com/maps/place/KKODARI+-+Korean+Roll+%26+Rice/@47.4902106,19.0670859,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd006e0b5c41:0x661c2a6d21a3a7ad!8m2!3d47.4902106!4d19.0670859!16s%2Fg%2F11nk00cqc6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/KKODARI+-+Korean+Roll+%26+Rice/@47.4902106,19.0670859,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd006e0b5c41:0x661c2a6d21a3a7ad!8m2!3d47.4902106!4d19.0670859!16s%2Fg%2F11nk00cqc6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps menu photographs reviewed."
+        }
+      ]
     },
     "reservations": {
       "status": "unknown"
@@ -126,7 +158,18 @@
       "status": "unknown"
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Korean ramyeon with cabbage, carrot, bean sprouts and green onion.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/KKODARI+-+Korean+Roll+%26+Rice/@47.4902106,19.0670859,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd006e0b5c41:0x661c2a6d21a3a7ad!8m2!3d47.4902106!4d19.0670859!16s%2Fg%2F11nk00cqc6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Photographed menu explicitly labels Ramyeon: spicy Korean noodle soup with cabbage, carrot, bean sprouts and green onion (3500 HUF). This is Korean ramyeon, not evidence of Japanese ramen."
+        }
+      ]
     },
     "availability": {
       "status": "unknown"
@@ -143,7 +186,25 @@
       "status": "unknown"
     }
   },
-  "menus": [],
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/place/KKODARI+-+Korean+Roll+%26+Rice/@47.4902106,19.0670859,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd006e0b5c41:0x661c2a6d21a3a7ad!8m2!3d47.4902106!4d19.0670859!16s%2Fg%2F11nk00cqc6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Photographed menu explicitly labels Ramyeon: spicy Korean noodle soup with cabbage, carrot, bean sprouts and green onion (3500 HUF). This is Korean ramyeon, not evidence of Japanese ramen.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOBckufbCrvGwCe03-T3fyv-WQ_jlnbdODGdKu2600cFwqA1_gj-ddSij110nrS3ab3Z868IAIPAuFY3eZ13ilWhaHkXbtMQuGWOmF32oTj4Fc1GHMagdGVPHypDW_BcRFsiAzvAFTTpzsK=w1600",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
   "pricing": [],
   "google": {
     "status": "known",

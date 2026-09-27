@@ -2,7 +2,7 @@
   "version": 1,
   "id": "ramen-nikko",
   "name": "Ramen Nikko",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -19,8 +19,18 @@
       ]
     },
     "category": {
-      "status": "unknown",
-      "note": "Ramen is prominent, but menu also includes a substantial Japanese set-meal and tapas selection. Specialist classification needs editorial review."
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/ramennikko/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Editorial classification supported by official self-description as a traditional Japanese ramen bar."
+        }
+      ]
     },
     "address": {
       "status": "known",
@@ -84,7 +94,18 @@
       ]
     },
     "instagram": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.instagram.com/ramennikko/",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/ramennikko/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile identifies Ramen Nikko, Krúdy utca 6, and describes a traditional Japanese ramen bar."
+        }
+      ]
     },
     "facebook": {
       "status": "known",

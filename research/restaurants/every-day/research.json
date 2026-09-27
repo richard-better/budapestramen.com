@@ -9,7 +9,17 @@
     },
     "category": {
       "status": "unknown",
-      "note": "Maps identity verified, but menu evidence is still insufficient to classify Japanese ramen. Do not interpret unknown as not served."
+      "note": "Menu photograph explicitly says Hand-Pulled Noodle and describes the dish as Chinese. English ramen labels do not establish Japanese ramen. Photo prices (3000-3580 HUF) differ from structured Maps menu (2580-3280 HUF); neither is promoted as a verified current Japanese ramen range.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu photograph explicitly says Hand-Pulled Noodle and describes the dish as Chinese. English ramen labels do not establish Japanese ramen. Photo prices (3000-3580 HUF) differ from structured Maps menu (2580-3280 HUF); neither is promoted as a verified current Japanese ramen range."
+        }
+      ]
     },
     "address": {
       "status": "known",
@@ -71,7 +81,18 @@
       "status": "unknown"
     },
     "menu": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps menu photographs inspected."
+        }
+      ]
     },
     "reservations": {
       "status": "unknown"
@@ -126,7 +147,18 @@
       "status": "unknown"
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Chinese hand-pulled noodle soups: beef, seafood, vegetables, braised pork, pork intestine and braised beef.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu photograph explicitly says Hand-Pulled Noodle and describes the dish as Chinese. English ramen labels do not establish Japanese ramen. Photo prices (3000-3580 HUF) differ from structured Maps menu (2580-3280 HUF); neither is promoted as a verified current Japanese ramen range."
+        }
+      ]
     },
     "availability": {
       "status": "unknown"
@@ -143,7 +175,25 @@
       "status": "unknown"
     }
   },
-  "menus": [],
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Menu photograph explicitly says Hand-Pulled Noodle and describes the dish as Chinese. English ramen labels do not establish Japanese ramen. Photo prices (3000-3580 HUF) differ from structured Maps menu (2580-3280 HUF); neither is promoted as a verified current Japanese ramen range.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmM1bptr6Wqzecu9SI0kEiaLXBbQwvUT-rjsCsMYYX3amwMHDD_Vu1vpRaw9LUX-3j0eS3pHjT01le6TAEpWP63YCfuFxh0TcvYunyhzn4iL7fOZ0eP2s-voIP69sNemBfuOhF752gFSVTPG=w1600",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
   "pricing": [],
   "google": {
     "status": "known",

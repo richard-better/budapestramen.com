@@ -9,7 +9,17 @@
     },
     "category": {
       "status": "unknown",
-      "note": "Maps identity verified, but menu evidence is still insufficient to classify Japanese ramen. Do not interpret unknown as not served."
+      "note": "Full current Wolt menu inspected: wonton/hundun and hot-sour soups, Korean jjigae and stir-fried noodles; no Japanese ramen listed. Two Maps menu photos show Chinese wok dishes and Korean set meals. A review/photo noodle-soup match is not sufficient for inclusion.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/song-mester-etterem"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full current Wolt menu inspected: wonton/hundun and hot-sour soups, Korean jjigae and stir-fried noodles; no Japanese ramen listed. Two Maps menu photos show Chinese wok dishes and Korean set meals. A review/photo noodle-soup match is not sufficient for inclusion."
+        }
+      ]
     },
     "address": {
       "status": "known",
@@ -71,13 +81,35 @@
       "status": "unknown"
     },
     "menu": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/song-mester-etterem",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/song-mester-etterem"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full merchant menu inspected."
+        }
+      ]
     },
     "reservations": {
       "status": "unknown"
     },
     "delivery": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/song-mester-etterem",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/song-mester-etterem"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant name and Dózsa György út 13 address match."
+        }
+      ]
     },
     "takeaway": {
       "status": "unknown"
@@ -88,10 +120,30 @@
       "status": "unknown"
     },
     "delivery": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Song+Mester+%C3%89tterem+%2F+%E5%AE%8B%E5%B8%88%E5%82%85%E9%A5%AD%E5%BA%97/@47.5049219,19.08801,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd00306d54c3:0xbf9331c540a7ccbb!8m2!3d47.5049219!4d19.08801!16s%2Fg%2F11mk_39y19?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly offers delivery."
+        }
+      ]
     },
     "takeaway": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Song+Mester+%C3%89tterem+%2F+%E5%AE%8B%E5%B8%88%E5%82%85%E9%A5%AD%E5%BA%97/@47.5049219,19.08801,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd00306d54c3:0xbf9331c540a7ccbb!8m2!3d47.5049219!4d19.08801!16s%2Fg%2F11mk_39y19?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly offers takeaway."
+        }
+      ]
     },
     "tabletOrdering": {
       "status": "unknown"
@@ -143,7 +195,30 @@
       "status": "unknown"
     }
   },
-  "menus": [],
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/place/Song+Mester+%C3%89tterem+%2F+%E5%AE%8B%E5%B8%88%E5%82%85%E9%A5%AD%E5%BA%97/@47.5049219,19.08801,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd00306d54c3:0xbf9331c540a7ccbb!8m2!3d47.5049219!4d19.08801!16s%2Fg%2F11mk_39y19?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Partial photographs; no complete Japanese ramen menu established.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps-1.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmOIvQMa9DT3x0ESZyZnhKgZFbz5COyL-tU-rrBkW220I2ObJLmu1d2DY8PaKurExlOaAxmCnr7k4_z_DQ2AbrGpWcWvdz178uZ5briirWpoE_TnrZZprLb2l24csT8OyC-IApnuJ1i0M2IP=w1600",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-maps-2.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmNCSyebJgnVNtfd8cy7d61MTJ3YQo2mE0kcpCwc-1ue1BmbX3bTmNpE0-d-kNScP_mk-2GrpQ43E24M0uRlSWvFrRaB8XRm2yHEL4RSBSFtNGzUUPu2rXwHZJEeZ9fftIUJO0qgcFcwrPoJ=w1600",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
   "pricing": [],
   "google": {
     "status": "known",

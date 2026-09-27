@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "id": "mingji",
+  "name": "MINGJI BEEF NOODLE",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Maps category and Wolt name say ramen, but merchant describes handmade Chinese-style beef noodles and menu shows Beijing-style noodles. Japanese ramen not established.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant menu and description reviewed."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1082 Budapest, Corvin köz 2.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant address matches Google business listing."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VIII",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District from merchant postal address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x4741dd77e7f6705d:0xe37e4dac8173150d",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/search?q=MINGJI+BEEF+NOODLE+Budapest+menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Business knowledge panel links this Maps identity at Corvin köz 2."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Delivery menu and delivery hours shown."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Slow-cooked beef bone broth, beef, fresh handmade noodles and scallion; braised and clear broth options.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant description; no Japanese tare or ramen style specified."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "wolt-2026-09-27",
+      "url": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Corvin köz 2. Four visible items; no standard Japanese ramen established.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-wolt.txt",
+            "sourceUrl": "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 134
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/search?q=MINGJI+BEEF+NOODLE+Budapest+menu"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Business knowledge panel snapshot."
+      }
+    ]
+  }
+}

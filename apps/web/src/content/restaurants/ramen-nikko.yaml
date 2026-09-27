@@ -1,25 +1,49 @@
-name: "Ramen Nikko"
-address: "Krúdy u. 6, 1088"
-district: "VIII · Józsefváros"
-mapsUrl: "https://maps.app.goo.gl/1VHdzQJiXrvMs66R9"
-menuUrl: "https://maps.app.goo.gl/1VHdzQJiXrvMs66R9"
+name: Ramen Nikko
+address: "1088 Budapest, Krúdy utca 6."
+district: VIII
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c
+menuUrl: https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c
 coordinates:
   lat: 47.4902951
   lng: 19.0673047
 styles:
-  - "Tonkotsu"
-  - "Shoyu"
-  - "Shio"
-  - "Miso"
-  - "Tantanmen"
+  - Tonkotsu
+  - Shoyu
+  - Shio
+  - Miso
+  - Tantanmen
 vegan: true
 recommended: true
+recommendation:
+  en: Recommended for its classic tonkotsu options and a clearly listed vegan miso bowl.
+  hu: Ajánlott a klasszikus tonkotsu ramenek és a vegán miso ramen miatt.
 google:
   rating: 4.9
   reviews: 600
-recommendation:
-  en: "Recommended for its classic tonkotsu options and a clearly listed vegan miso bowl."
-  hu: "Ajánlott a klasszikus tonkotsu ramenek és a vegán miso ramen miatt."
 source:
-  name: "Google Maps"
-  date: "2026-09-26"
+  name: Official restaurant menu and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c
+details:
+  category: ramen-specialist
+  links:
+    instagram: https://www.instagram.com/ramennikko/
+    facebook: https://www.facebook.com/ramennikkobp
+    menu: https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c
+  features:
+    reservations: "yes"
+    delivery: "no"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: "yes"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: maps
