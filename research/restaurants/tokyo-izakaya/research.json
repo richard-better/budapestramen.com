@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "id": "tokyo-izakaya",
+  "name": "Tokyo Izakaya",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1119 Budapest, Hadak útja 1",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "XI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "July 2026 photograph of the dine-in menu board."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching merchant name and address."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Delivery menu available."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu board offers chicken, beef, duck, seafood or pork additions to noodles."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Ramen noodles, bean sprouts, wood-ear mushrooms, bamboo shoots, egg, green onion and fried onion; optional meats. Broth composition is unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant ramen description; fried ramen is a separate dish."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Customer menu-board photograph uploaded July 2026. Base ramen noodle soup shown at 2800 HUF; protein additions extra. Broth/style and full menu completeness remain uncertain.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/maps-july-2026.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      },
+      "branchNote": "Delivery menu for matching Hadak útja 1 branch; prices are not dine-in evidence."
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Partial July 2026 menu-board evidence. Optional proteins +580 to +780 HUF are extras, not separate standard bowls. Current dine-in prices, complete range and service charge unknown.",
+      "bowls": [
+        {
+          "name": "Ramen noodle soup base",
+          "price": 2800,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ]
+}

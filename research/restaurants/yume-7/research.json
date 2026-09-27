@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "id": "yume-7",
+  "name": "Yume 7",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/yumebudapest7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official identity leads with ramen, bubble tea and bingsu; menu has eight ramen and supporting rice dishes/snacks."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1061 Budapest, Káldy Gyula u. 5",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/yumebudapest7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile confirms street and 1061 postcode; Maps shows 1066."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/yumebudapest7",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official account linked by Maps and matching address."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner-uploaded July 2026 menu."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly offers takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Yume Red Ramen is offered as soup or tossed noodles."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Vegetable soymilk miso marked with plant symbol; soy-milk broth and tofu, shiitake, corn, edamame, lotus root, nori, scallions, garlic and sesame oil."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetable ramen lists plant ingredients, but allergen code 7 appears; do not assert vegan without clarification."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": [
+        "Tonkotsu",
+        "Jiro-style",
+        "Chicken paitan",
+        "Miso",
+        "Dan dan",
+        "Shoyu",
+        "Soymilk miso"
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Eight named ramen on the cached menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Pork tonkotsu with chashu/egg; Jiro version adds kakuni, cabbage and sprouts. Chicken paitan has wontons. Buttercorn miso uses pork mince and butter. Sesame miso includes kimchi. Soy-milk dan dan includes spicy beef and peanuts. Red ramen has shoyu broth and braised pork, with a tossed-noodle option. Vegetable soymilk miso has tofu and vegetables.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu descriptions."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "none"
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu explicitly states NO SERVICE CHARGE / NINCS SZERVIZDIJ."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Owner-uploaded July 2026 full food menu. Distinct venue at Káldy Gyula u. 5; no established relationship with YÜME at Baross u. 85.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/maps-owner-july-2026.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed full-sized soup ramen range 4490-5490 HUF, no service charge. July 2026 upload is not an explicit menu effective date. Tossed alternative not separately counted.",
+      "bowls": [
+        {
+          "name": "Tonkotsu Black Garlic",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Jiro-style Tonkotsu Garlic Ramen",
+          "price": 5490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Paitan Chicken Wanton",
+          "price": 4990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Buttercorn Creamy Miso",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu Sesame Miso",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Sesame Spicy Dan Dan",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Yume Red Ramen",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegetable Soymilk Miso",
+          "price": 4990,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ]
+}

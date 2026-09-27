@@ -585,9 +585,13 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Find official dine-in QR menu URL and confirm current prices/service charge.",
+        "Verify website/social accounts, reservations, ownership and dietary broth suitability. QR ordering supported by multiple customer accounts, latest five months old."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "ichiban"
     },
     {
       "id": "iki-ramen",
@@ -803,11 +807,13 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Find a current dine-in menu; official food-menu URL is broken.",
+        "Verify service charge and ownership/chef nationality.",
+        "Official delivery links contradict Maps no-delivery attribute; use official evidence."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "kitsune"
     },
     {
       "id": "kkodari",
@@ -1439,9 +1445,12 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Verify dine-in menu/range, broth recipes, service charge, hours, Instagram, ownership and ordering interfaces; resolve Király 10 versus 12 address discrepancy."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "sakura-ramen"
     },
     {
       "id": "sakuraku",
@@ -1631,11 +1640,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Verify complete current dine-in menu and base-bowl composition; delivery base price 3980 HUF is separate.",
+        "Find official social/website accounts, reservations and ownership."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "tokyo-izakaya"
     },
     {
       "id": "ton-ichi",
@@ -1682,8 +1692,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify current dine-in prices against the September 2025 owner menu.",
+        "Find official website/social accounts, reservations, opening hours and ownership evidence; do not infer ownership from branding."
+      ],
+      "researchPriority": "normal",
+      "researchId": "ume-sushi"
     },
     {
       "id": "wafu-biangarden",
@@ -1700,11 +1714,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Find a current dine-in menu and cache it; do not publish delivery prices as the dine-in range.",
+        "Verify branch social accounts, reservations, customization, dietary options and ownership; these remain unknown."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "wafu-biangarden"
     },
     {
       "id": "wafu-budafoki",
@@ -1757,8 +1772,11 @@
           "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify reservations, delivery/takeaway, branch social accounts, digital ordering, ownership, service charge and vegan modifications."
+      ],
+      "researchPriority": "normal",
+      "researchId": "wafu-dob"
     },
     {
       "id": "wafu-gozsdu",
@@ -1809,8 +1827,11 @@
           "note": "Official restaurant directory lists this named branch and describes the brand’s ramen offering."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify Facebook, delivery URL, takeaway, digital ordering and vegan modifications. Japanese ownership explicitly confirmed on official Instagram; Hungarian co-ownership and chef nationality unknown."
+      ],
+      "researchPriority": "normal",
+      "researchId": "wafu-izakaya"
     },
     {
       "id": "wafu-kalvin",
@@ -1824,10 +1845,15 @@
           "url": "https://www.wafujp.com/work/wafu-ramenbar-kalvin/copy-5",
           "checkedOn": "2026-09-26",
           "note": "Official page names Kálvin Square, but its Maps link resolves to WAFU Budafoki and its Wolt link is the Budafoki listing."
+        },
+        {
+          "url": "https://www.wafujp.com/work/wafu-ramenbar-kalvin/copy-5",
+          "checkedOn": "2026-09-27",
+          "note": "Page title says Kálvin but all branch links duplicate Budafoki. Independently unresolved."
         }
       ],
       "followUp": [
-        "Verify existence, current address and opening status; page may contain copied branch links. Do not count as a separate confirmed shop yet."
+        "Official Kálvin page duplicates Budafoki Maps, menu and Wolt URLs; focused Maps search did not resolve a Kálvin branch. Do not count as confirmed separate venue until address/opening verified."
       ],
       "researchPriority": "normal"
     },
@@ -2013,10 +2039,12 @@
         }
       ],
       "followUp": [
-        "Check the current menu for ramen and verify operating status.",
-        "Different name and address from YÜME at Baross utca 85. Do not merge without evidence of a relationship."
+        "Verify reservations, delivery, full hours, ownership and chef nationality; no evidence found yet.",
+        "Clarify vegan suitability because vegetable ramen includes allergen code 7.",
+        "Keep separate from Baross utca YÜME unless a relationship is established. Maps postcode 1066 conflicts with official profile 1061."
       ],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "yume-7"
     },
     {
       "id": "zen-eatery",
@@ -2037,9 +2065,14 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Find service-charge policy, Instagram and ownership/chef evidence.",
+        "Resolve Maps no-delivery attribute against active Wolt ordering; active merchant used as stronger current evidence.",
+        "No vegetarian ramen established: vegetarian pho is not ramen."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "zen-eatery"
     },
     {
       "id": "art-of-sushi-bazilika",

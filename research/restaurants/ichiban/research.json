@@ -1,0 +1,344 @@
+{
+  "version": 1,
+  "id": "ichiban",
+  "name": "Ichiban Ramen, Sushi and Tea",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1054 Budapest, Bajcsy-Zsilinszky út 34",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching merchant linked by Maps."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching merchant linked by Maps."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists this service."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists this service."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Seven customer reviews explicitly describe table QR ordering; latest relevant review edited five months ago, with owner acknowledgement. Review evidence, not direct testing."
+        }
+      ]
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Shoyu", "Miso", "Dan dan", "Tonkotsu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Named ramen categories."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Tonkotsu explicitly uses pork stock. Shoyu and miso bowls come with vegetables, tofu, chicken, pork, beef or fried shrimp; common toppings include ajitama egg, beans, corn, carrot, scallion, bean sprouts and nori. Vegetable and tofu versions do not establish vegetarian broth.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant ingredient lists."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown",
+      "note": "A year-old customer review reports 10%, with owner response discussing service fees. No current official rate verified."
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Delivery menu, not a verified dine-in price source. No photographed menu under Maps menu highlights. Vegetable bowls include egg; broth for those bowls unspecified.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery-only 3690-5190 HUF. Current dine-in range unknown.",
+      "bowls": [
+        {
+          "name": "Shoyu vegetable",
+          "price": 3690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu tofu",
+          "price": 3990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu chicken",
+          "price": 4390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu pork",
+          "price": 4390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu beef",
+          "price": 4590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu fried shrimp",
+          "price": 4990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso vegetable",
+          "price": 3890,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso tofu",
+          "price": 4190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso chicken",
+          "price": 4590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso pork",
+          "price": 4590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso beef",
+          "price": 4790,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso fried shrimp",
+          "price": 5190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Dan dan pork",
+          "price": 4890,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Dan dan beef",
+          "price": 5090,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu pork",
+          "price": 4490,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu."
+        }
+      ]
+    }
+  ]
+}

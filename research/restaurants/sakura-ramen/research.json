@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "id": "sakura-ramen",
+  "name": "Sakura Ramen",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1061 Budapest, Király utca 12., Central Passage, ground floor",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps gives Király 12, Central Passage. Wolt gives Király 10; verify exact entrance before publishing."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/sakuraramenbp",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps links Facebook and Wolt. Wolt menu verified in Chrome."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps links Facebook and Wolt. Wolt menu verified in Chrome."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps links Facebook and Wolt. Wolt menu verified in Chrome."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Maps attribute."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Maps attribute."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Maps attribute."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant explicitly names vegetarian ramen. Broth ingredients not disclosed."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Ramen variants named beef, red-sauce beef, Japanese chashu, Cantonese BBQ pork, red-braised pork, seafood, chicken, fried duck, vegetarian and shrimp tempura. Broth recipes unspecified. Broad menu also includes pho, Chongqing noodles, wok dishes, rice bowls and dim sum.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Live merchant menu."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Anonymous live merchant HTML. Maps September 2025 menu photos inspected include many non-ramen pages; current dine-in ramen pricing not established.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-wolt.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery ramen soup range 4390-5690 HUF, not dine-in. Excludes Chongqing noodles, pho, fried noodles and promotions. Menu effective date unknown.",
+      "bowls": [
+        {
+          "name": "Red sauce beef",
+          "price": 5490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Beef",
+          "price": 5490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Japanese chashu",
+          "price": 5690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Cantonese BBQ pork",
+          "price": 5490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Red braised pork",
+          "price": 5390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Seafood",
+          "price": 5490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken",
+          "price": 5390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Fried duck",
+          "price": 5690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegetarian",
+          "price": 4390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shrimp tempura",
+          "price": 5690,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Live merchant ramen soup section."
+        }
+      ]
+    }
+  ]
+}

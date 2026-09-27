@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "id": "wafu-biangarden",
+  "name": "WAFU Ramen and Sushi Stand - Biangarden",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Sushi stand with one standalone ramen alongside sushi and tempura."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1107 Budapest, Szállás u. 21b",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "X",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.4814898,
+        "lng": 19.1200438
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Coordinates of the distinct Wafu stand listing."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.wafujp.com/",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by the branch Wolt merchant page; delivery and pickup offered."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by the branch Wolt merchant page; delivery and pickup offered."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by the branch Wolt merchant page; delivery and pickup offered."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by the branch Wolt merchant page; delivery and pickup offered."
+        }
+      ]
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch delivery menu available."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant description explicitly says Crafted by a Japanese chef. This does not establish ownership."
+        }
+      ]
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Shoyu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "One standalone Shoyu Ramen listed."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Delivery menu. Maps lists Szállás u. 21b; Wolt uses 21 in the same Bian Garden food court. Maps menu tab shows dish highlights without a readable priced menu.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery prices only. No verified dine-in ramen range; menu effective date unknown. Combo excluded.",
+      "bowls": [
+        {
+          "name": "Shoyu Ramen",
+          "price": 6470,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Ramen Combo",
+          "price": 8990,
+          "eligibility": "combo"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Visible branch delivery menu."
+        }
+      ]
+    }
+  ],
+  "brandId": "wafu"
+}

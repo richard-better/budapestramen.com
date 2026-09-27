@@ -1,0 +1,2428 @@
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: 心
+  - paragraph: の
+  - paragraph: 底
+  - paragraph: か
+  - paragraph: ら
+  - paragraph: あ
+  - paragraph: り
+  - paragraph: が
+  - paragraph: と
+  - paragraph: う
+  - paragraph: Vegetarian
+  - paragraph: Milk
+  - paragraph: Peanut
+  - paragraph: Gluten free
+  - paragraph: Pork
+  - paragraph: "Tuesday - Sunday : 12:00-16:00(L.O15:00) / 17:30-00:00(L.O23:00)"
+  - paragraph: "Monday : Closed"
+  - paragraph: 12% service fee will be added to each bill
+  - paragraph: If you have any request regarding allergies, please let us know
+  - paragraph: Prices in EUR are based on the exchange rate at the time of creating
+  - paragraph: the menu and they change weekly.
+  - paragraph: Sesame
+  - paragraph: Egg
+  - region "Page content":
+    - group "Page 1":
+      - img "Element"
+      - group "Element":
+        - paragraph: 心
+        - paragraph: の
+        - paragraph: 底
+        - paragraph: か
+        - paragraph: ら
+        - paragraph
+        - paragraph: あ
+        - paragraph: り
+        - paragraph: が
+        - paragraph: と
+        - paragraph: う
+        - paragraph
+      - img "Vegetarian symbol"
+      - group "Element":
+        - paragraph: Vegetarian
+      - img "Milk"
+      - group "Element":
+        - paragraph: Milk
+      - img "Peanut Outline Icon"
+      - group "Element":
+        - paragraph: Peanut
+      - img "gluten free"
+      - group "Element":
+        - paragraph: Gluten free
+      - img "Pork Silhouette Meal"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: Pork
+      - group "Element":
+        - paragraph: Egg
+      - group "Element":
+        - paragraph: Sesame
+      - group "Element":
+        - paragraph:
+          - strong: If you have any request regarding allergies, please let us know
+      - img "Element"
+      - group "Element":
+        - paragraph: "Tuesday - Sunday : 12:00-16:00(L.O15:00) / 17:30-00:00(L.O23:00)"
+        - paragraph: "Monday : Closed"
+      - group "Element":
+        - paragraph: Prices in EUR are based on the exchange rate at the time of creating
+        - paragraph: the menu and they change weekly.
+      - group "Element":
+        - paragraph:
+          - strong: 12% service fee will be added to each bill
+      - img "Element"
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page" [disabled]:
+        - button "Go to page":
+          - paragraph: "1"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page":
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: ( SALT or CHILI )
+  - paragraph: TAKOYAKI
+  - paragraph: (5pcs)
+  - paragraph: ナムル3種盛り合わせ
+  - paragraph: 1980FT
+  - paragraph: €5
+  - paragraph: Assorted Namul
+  - paragraph: (Seasoned Bok Choi,Bean Sprouts and Carrots)
+  - paragraph: ピリ旨!
+  - paragraph: ししとうの素揚げ
+  - paragraph: 1780ft
+  - paragraph: €4.4
+  - paragraph: Deep-fried
+  - paragraph: Shishito Peppers
+  - paragraph: 1780FT
+  - paragraph: €3.7
+  - paragraph: HOMEMADE KIMCHI
+  - paragraph: 1780FT
+  - paragraph: 1480FT
+  - paragraph: HOMEMADE
+  - paragraph: ADDICTIVE CUCUMBER
+  - paragraph: SEAWEED SALAD
+  - paragraph: EDAMAME
+  - paragraph: €3.7
+  - paragraph: APPETIZErs
+  - paragraph: 1480FT
+  - paragraph: €4.4
+  - paragraph: €6.4
+  - paragraph: 2580ft
+  - paragraph: やみつきキュウリ
+  - paragraph: キムチ
+  - paragraph: 海藻サラダ
+  - paragraph: €4.4
+  - paragraph: 枝豆
+  - paragraph: たこ焼き
+  - region "Page content":
+    - group "Page 2":
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph: APPETIZErs
+      - img "thick"
+      - img "Element"
+      - img "Element"
+      - img "Abstract Red Watercolor Rectangle Illustration"
+      - group "Element":
+        - paragraph: ピリ旨!
+      - group "Element":
+        - paragraph:
+          - strong: ししとうの素揚げ
+      - group "Element":
+        - paragraph:
+          - strong: Deep-fried
+        - paragraph:
+          - strong: Shishito Peppers
+      - img "Chili Pepper Logo"
+      - img "Sesame Seeds Line Icon"
+      - img "Line egg"
+      - group "Element":
+        - paragraph:
+          - strong: €4.4
+      - group "Element":
+        - paragraph: 1780ft
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: やみつきキュウリ
+      - group "Element":
+        - paragraph:
+          - strong: キムチ
+      - group "Element":
+        - paragraph:
+          - strong: 海藻サラダ
+      - group "Element":
+        - paragraph:
+          - strong: HOMEMADE
+        - paragraph:
+          - strong: ADDICTIVE CUCUMBER
+      - group "Element":
+        - paragraph:
+          - strong: HOMEMADE KIMCHI
+      - group "Element":
+        - paragraph:
+          - strong: SEAWEED SALAD
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €4.4
+      - group "Element":
+        - paragraph: 1780FT
+      - img "Chili Pepper Logo"
+      - img "gluten free"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €4.4
+      - group "Element":
+        - paragraph:
+          - strong: 1780FT
+      - img "Vegetarian symbol"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €3.7
+      - group "Element":
+        - paragraph: 1480FT
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 枝豆
+      - group "Element":
+        - paragraph:
+          - strong: EDAMAME
+      - group "Element":
+        - paragraph: ( SALT or CHILI )
+      - img "Chili Pepper Logo"
+      - group "Element":
+        - paragraph:
+          - strong: たこ焼き
+      - group "Element":
+        - paragraph:
+          - strong: ナムル3種盛り合わせ
+      - group "Element":
+        - paragraph:
+          - strong: Assorted Namul
+      - group "Element":
+        - paragraph:
+          - strong: (Seasoned Bok Choi,Bean Sprouts and Carrots)
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €5
+      - group "Element":
+        - paragraph: 1980FT
+      - group "Element":
+        - paragraph:
+          - strong: TAKOYAKI
+      - group "Element":
+        - paragraph: (5pcs)
+      - img "Vegetarian symbol"
+      - group "Element":
+        - paragraph:
+          - strong: €3.7
+      - group "Element":
+        - paragraph:
+          - strong: 1480FT
+      - img "Line egg"
+      - group "Element":
+        - paragraph:
+          - strong: €6.4
+      - group "Element":
+        - paragraph: 2580ft
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "2"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: (3pcs)
+  - paragraph: マグロ Tuna
+  - paragraph: ミックス刺身
+  - paragraph: Mix Sashimi
+  - paragraph: (3pcs)
+  - paragraph: サーモン Salmon
+  - paragraph: 刺し身 SASHIMI
+  - paragraph: サーモン タルタル
+  - paragraph: SALMON TARTARE
+  - paragraph: ホタテ Scallop
+  - paragraph: (3pcs)
+  - paragraph: €13
+  - paragraph: Tofu
+  - paragraph: 豆腐
+  - paragraph: (KIMCHI ON TOP PLUS SPECIAL SAUCE)
+  - paragraph: €6.4
+  - paragraph: 冷奴
+  - paragraph: €5.7
+  - paragraph: 2280FT
+  - paragraph: Gochu-yakko
+  - paragraph: 2580FT
+  - paragraph: Chilled Tofu
+  - paragraph: ゴチュやっこ
+  - paragraph: APPETIZErs
+  - paragraph: €11
+  - paragraph: 4280ft
+  - paragraph: ask for gluten free soy sauce if in need
+  - paragraph: €6.7
+  - paragraph: 2680ft
+  - paragraph: 2680ft
+  - paragraph: 3480ft
+  - paragraph: ( Scallop / Salmon / Tuna 2pcs each )
+  - paragraph: €6.7
+  - paragraph: €8.7
+  - paragraph: 5580FT
+  - region "Page content":
+    - group "Page 3":
+      - img "Element"
+      - group "Element":
+        - paragraph: APPETIZErs
+      - img "Element"
+      - img "Element"
+      - img "thick"
+      - group "Element":
+        - paragraph:
+          - strong: 刺し身 SASHIMI
+      - img "thin"
+      - group "Element":
+        - paragraph: ask for gluten free soy sauce if in need
+      - img "Line Light Flare"
+      - group "Element":
+        - paragraph:
+          - strong: ミックス刺身
+        - paragraph:
+          - strong: Mix Sashimi
+      - img "Element"
+      - group "Element":
+        - paragraph: ( Scallop / Salmon / Tuna 2pcs each )
+      - img "gluten free"
+      - group "Element":
+        - paragraph:
+          - strong: €13
+      - group "Element":
+        - paragraph:
+          - strong: 5580FT
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: ホタテ Scallop
+      - group "Element":
+        - paragraph: (3pcs)
+      - img "gluten free"
+      - group "Element":
+        - paragraph:
+          - strong: €6.7
+      - group "Element":
+        - paragraph: 2680ft
+      - group "Element":
+        - paragraph:
+          - strong: サーモン Salmon
+      - group "Element":
+        - paragraph: (3pcs)
+      - img "gluten free"
+      - img "Line Light Flare"
+      - group "Element":
+        - paragraph:
+          - strong: €6.7
+      - group "Element":
+        - paragraph: 2680ft
+      - group "Element":
+        - paragraph:
+          - strong: マグロ Tuna
+      - group "Element":
+        - paragraph: (3pcs)
+      - img "gluten free"
+      - group "Element":
+        - paragraph:
+          - strong: €8.7
+      - group "Element":
+        - paragraph: 3480ft
+      - group "Element":
+        - paragraph:
+          - strong: サーモン タルタル
+        - paragraph:
+          - strong: SALMON TARTARE
+      - img "Sesame Seeds Line Icon"
+      - img "Line egg"
+      - group "Element":
+        - paragraph:
+          - strong: €11
+      - group "Element":
+        - paragraph: 4280ft
+      - img "Black Cloud in Oriental Style"
+      - group "Element":
+        - paragraph:
+          - strong: 豆腐
+      - group "Element":
+        - paragraph:
+          - strong: Tofu
+      - img "thin"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 冷奴
+      - img "Vegetarian symbol"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: ゴチュやっこ
+      - img "Chili Pepper Logo"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: Chilled Tofu
+      - group "Element":
+        - paragraph:
+          - strong: Gochu-yakko
+      - group "Element":
+        - paragraph:
+          - strong: €5.7
+      - group "Element":
+        - paragraph:
+          - strong: 2280FT
+      - group "Element":
+        - paragraph:
+          - strong: €6.4
+      - group "Element":
+        - paragraph: 2580FT
+      - group "Element":
+        - paragraph: (KIMCHI ON TOP PLUS SPECIAL SAUCE)
+      - img "Black Cloud in Oriental Style"
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "3"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: (Teriyaki chicken,Avocado,Nori,Mayo,Teriyaki sauce)
+  - paragraph: 帆立の黄金ロール
+  - paragraph: Grilled Scallop
+  - paragraph: (Salmon,Cucumber,Sesame,Spicymayo,chilli)
+  - paragraph: (Tuna,Avocado,Sesame,chilli)
+  - paragraph: 4180ft
+  - paragraph: €10.4
+  - paragraph: €11
+  - paragraph: サーモンアボカド
+  - paragraph: Salmon Avocado
+  - paragraph: (Salmon,Avocado,Cucumber,Sesame,Green onion,Tobikko,Mayo)
+  - paragraph: (Scallop,Cucumber,Sesame,Green onion,Tobikko,Mayo,Teriyaki sauce)
+  - paragraph: 4380ft
+  - paragraph: ベジタリアンロール
+  - paragraph: Vegetarian Roll
+  - paragraph: スパイシーサーモン
+  - paragraph: Spicy Salmon Cucumber
+  - paragraph: 海老天ロール
+  - paragraph: Shrimp Tempura
+  - paragraph: マグロアボカド
+  - paragraph: Tuna Avocado
+  - paragraph: 照り焼きチキンアボカド
+  - paragraph: Teriyaki Chicken Avocado
+  - paragraph: €9.7
+  - paragraph: sushi
+  - paragraph: €9.7
+  - paragraph: €10.4
+  - paragraph: 4380ft
+  - paragraph: (Shrimp tempura,Avocado,Sesame,Mayo,Teriyaki sauce)
+  - paragraph: 4180ft
+  - paragraph: 4380ft
+  - paragraph: 3880ft
+  - paragraph: €11
+  - paragraph: 3880ft
+  - paragraph: (Avocado,Cucumber,Carrots,Sesame,Mayo)
+  - paragraph: €11
+  - paragraph: (8pcs)
+  - paragraph: (8pcs)
+  - paragraph: (8pcs)
+  - paragraph: (8pcs)
+  - paragraph: (8pcs)
+  - paragraph: (8pcs)
+  - paragraph: (8pcs)
+  - paragraph: 一番人気
+  - paragraph: 一番人気
+  - paragraph: ask for gluten free soy sauce if in need
+  - paragraph: <Lightly seared scallop>
+  - region "Page content":
+    - group "Page 4":
+      - group "Element":
+        - paragraph: sushi
+      - img "Black Cloud in Oriental Style"
+      - img "Element"
+      - img "Gold rectangle border frame"
+      - group "Element":
+        - paragraph: ask for gluten free soy sauce if in need
+      - img "Gold Rectangle for Document"
+      - img "Element"
+      - img "gold brush marks, gold stain, golden brush stroke, hand draw"
+      - group "Element":
+        - paragraph: 一番人気
+      - group "Element":
+        - paragraph:
+          - strong: サーモンアボカド
+        - paragraph:
+          - strong: Salmon Avocado
+      - img "Thumbs Up Icon"
+      - group "Element":
+        - paragraph:
+          - strong: (8pcs)
+      - group "Element":
+        - paragraph: (Salmon,Avocado,Cucumber,Sesame,Green onion,Tobikko,Mayo)
+      - img "Gold Elegant Line"
+      - img "gluten free"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €10.4
+      - group "Element":
+        - paragraph: 4180ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 帆立の黄金ロール
+        - paragraph:
+          - strong: Grilled Scallop
+      - img "Thumbs Up Icon"
+      - group "Element":
+        - paragraph:
+          - strong: (8pcs)
+      - group "Element":
+        - paragraph:
+          - strong: <Lightly seared scallop>
+      - group "Element":
+        - paragraph: (Scallop,Cucumber,Sesame,Green onion,Tobikko,Mayo,Teriyaki sauce)
+      - img "Gold Elegant Line"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €11
+      - group "Element":
+        - paragraph: 4380ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 海老天ロール
+        - paragraph:
+          - strong: Shrimp Tempura
+      - group "Element":
+        - paragraph:
+          - strong: (8pcs)
+      - group "Element":
+        - paragraph: (Shrimp tempura,Avocado,Sesame,Mayo,Teriyaki sauce)
+      - img "Gold Elegant Line"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €11
+      - group "Element":
+        - paragraph: 4380ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: マグロアボカド
+        - paragraph:
+          - strong: Tuna Avocado
+      - group "Element":
+        - paragraph:
+          - strong: (8pcs)
+      - img "Gold Elegant Line"
+      - group "Element":
+        - paragraph: (Tuna,Avocado,Sesame,chilli)
+      - img "gluten free"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €11
+      - group "Element":
+        - paragraph: 4380ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 照り焼きチキンアボカド
+        - paragraph:
+          - strong: Teriyaki Chicken Avocado
+      - group "Element":
+        - paragraph:
+          - strong: (8pcs)
+      - group "Element":
+        - paragraph: (Teriyaki chicken,Avocado,Nori,Mayo,Teriyaki sauce)
+      - img "Gold Elegant Line"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €9.7
+      - group "Element":
+        - paragraph: 3880ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: スパイシーサーモン
+        - paragraph:
+          - strong: Spicy Salmon Cucumber
+      - group "Element":
+        - paragraph:
+          - strong: (8pcs)
+      - group "Element":
+        - paragraph: (Salmon,Cucumber,Sesame,Spicymayo,chilli)
+      - img "Gold Elegant Line"
+      - img "Chili Pepper Logo"
+      - img "gluten free"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €10.4
+      - group "Element":
+        - paragraph: 4180ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: ベジタリアンロール
+        - paragraph:
+          - strong: Vegetarian Roll
+      - group "Element":
+        - paragraph:
+          - strong: (8pcs)
+      - group "Element":
+        - paragraph: (Avocado,Cucumber,Carrots,Sesame,Mayo)
+      - img "Gold Elegant Line"
+      - img "Vegetarian"
+      - img "gluten free"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €9.7
+      - group "Element":
+        - paragraph: 3880ft
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "4"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: Negitoro Rice Bowl
+  - paragraph: CLASSIC
+  - paragraph: KOREAN
+  - paragraph: VEGAN
+  - paragraph: rice bowl
+  - paragraph: 海鮮丼
+  - paragraph: （ plus small Miso soup）
+  - paragraph: Aburi Salmon Mayo Rice Bowl
+  - paragraph: Premium WAFU Poke Bowl
+  - paragraph: €12
+  - paragraph: （ plus small Miso soup）
+  - paragraph: （ plus small Miso soup）
+  - paragraph: 4780ft
+  - paragraph: ★Gluten free without spicy sauce
+  - paragraph: €12
+  - paragraph: 4880FT
+  - paragraph: Marinated Tuna Rice Bowl
+  - paragraph: （ plus small Miso soup）
+  - paragraph: €14
+  - paragraph: 5580ft
+  - paragraph: ★ limited quantities
+  - paragraph: Salmon Rice Bowl
+  - paragraph: （ plus small Miso soup）
+  - paragraph: €14
+  - paragraph: €11.7
+  - paragraph: 4680FT
+  - paragraph: ★ Teriyaki tofu
+  - paragraph: ask for gluten free soy sauce if in need
+  - paragraph: 5580FT
+  - paragraph: （ Seared Salmon Rice bowl）
+  - region "Page content":
+    - group "Page 5":
+      - img "Line Light Flare"
+      - group "Element":
+        - paragraph: rice bowl
+      - img "Black Cloud in Oriental Style"
+      - img "Gold rectangle border frame"
+      - group "Element":
+        - paragraph: 海鮮丼
+      - img "Gold Rectangle for Document"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph: ask for gluten free soy sauce if in need
+      - img "Element"
+      - img "Line Light Flare"
+      - group "Element":
+        - paragraph:
+          - strong: Salmon Rice Bowl
+      - group "Element":
+        - paragraph:
+          - strong: （ plus small Miso soup）
+      - img "Element"
+      - img "gluten free"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €11.7
+      - group "Element":
+        - paragraph:
+          - strong: 4680FT
+      - img "Element"
+      - img "Line Light Flare"
+      - group "Element":
+        - paragraph:
+          - strong: Marinated Tuna Rice Bowl
+      - group "Element":
+        - paragraph:
+          - strong: （ plus small Miso soup）
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €14
+      - group "Element":
+        - paragraph: 5580ft
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: （ Seared Salmon Rice bowl）
+      - img "Line Light Flare"
+      - group "Element":
+        - paragraph:
+          - strong: Aburi Salmon Mayo Rice Bowl
+      - group "Element":
+        - paragraph:
+          - strong: （ plus small Miso soup）
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €12
+      - group "Element":
+        - paragraph: 4880FT
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Line Light Flare"
+      - group "Element":
+        - paragraph: ★ limited quantities
+      - group "Element":
+        - paragraph:
+          - strong: Negitoro Rice Bowl
+      - group "Element":
+        - paragraph:
+          - strong: （ plus small Miso soup）
+      - img "Line Light Flare"
+      - img "gluten free"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: €12
+      - group "Element":
+        - paragraph: 4780ft
+      - group "Element":
+        - paragraph:
+          - strong: Premium WAFU Poke Bowl
+      - group "Element":
+        - paragraph:
+          - strong: （ plus small Miso soup）
+      - group "Element":
+        - paragraph: CLASSIC
+        - paragraph: KOREAN
+        - paragraph: VEGAN
+      - img "Sesame Seeds Line Icon"
+      - img "Measurement line"
+      - img "Chili Pepper Logo"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - img "gluten free"
+      - group "Element":
+        - paragraph: ★Gluten free without spicy sauce
+      - img "Measurement line"
+      - img "Vegetarian"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: ★ Teriyaki tofu
+      - img "Measurement line"
+      - group "Element":
+        - paragraph: €14
+      - group "Element":
+        - paragraph: 5580FT
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "5"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: 唐揚げ
+  - paragraph: KARAAGE
+  - paragraph: KARAAGE
+  - paragraph: SPECIALS
+  - paragraph: (5pcs)
+  - paragraph: (5pcs)
+  - paragraph: 8pcs
+  - paragraph: 餃子
+  - paragraph: 2780ft
+  - paragraph: €7
+  - paragraph: 4340Ft
+  - paragraph: €7
+  - paragraph: €10.8
+  - paragraph: 4pcs
+  - paragraph: • WAFU
+  - paragraph: ・Mayo
+  - paragraph: ・Spicy Mayo
+  - paragraph: ・Spicy Honey
+  - paragraph: (Sesami Garlic)
+  - paragraph: Pick One Sauce
+  - paragraph: Pick One Sauce
+  - paragraph: HOMEMADE PORK GYOZA
+  - paragraph: HOMEMADE PORK GYOZA
+  - paragraph: 2780ft
+  - paragraph: (Japanese-style fried chicken)
+  - paragraph: (Japanese-style fried chicken)
+  - paragraph: ( Extra sauce 100FT )
+  - paragraph: ( Extra sauce 100FT )
+  - region "Page content":
+    - group "Page 6, 、":
+      - img "Black Cloud in Oriental Style"
+      - img "Element"
+      - group "Element":
+        - paragraph: SPECIALS
+      - img "Element"
+      - img "thick"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 餃子
+      - group "Element":
+        - paragraph:
+          - emphasis: HOMEMADE PORK GYOZA
+      - img "Black Cloud in Oriental Style"
+      - img "Black Cloud in Oriental Style"
+      - group "Element":
+        - paragraph:
+          - emphasis: (5pcs)
+      - img "Sesame Seeds Line Icon"
+      - img "Pork Silhouette Meal"
+      - group "Element":
+        - paragraph:
+          - strong: €7
+      - group "Element":
+        - paragraph: 2780ft
+      - img "Element"
+      - group "Element":
+        - paragraph: 唐揚げ
+      - group "Element":
+        - paragraph: KARAAGE
+      - img "Element"
+      - img "Sesame Seeds Line Icon"
+      - img "Line egg"
+      - group "Element":
+        - paragraph:
+          - emphasis: (Japanese-style fried chicken)
+      - group "Element":
+        - paragraph:
+          - strong: 4pcs
+      - img "Oriental Border Frame"
+      - group "Element":
+        - paragraph:
+          - strong: €7
+      - group "Element":
+        - paragraph: 2780ft
+      - group "Element":
+        - paragraph:
+          - strong: 8pcs
+      - group "Element":
+        - paragraph:
+          - strong: €10.8
+      - group "Element":
+        - paragraph: 4340Ft
+      - group "Element":
+        - paragraph:
+          - strong:
+            - generic: Pick One Sauce
+      - group "Element":
+        - paragraph:
+          - strong: ( Extra sauce 100FT )
+      - group "Element":
+        - paragraph:
+          - strong: • WAFU
+      - img "recommended sell best seller thumb up icon"
+      - group "Element":
+        - paragraph:
+          - strong: ・Mayo
+      - group "Element":
+        - paragraph: (Sesami Garlic)
+      - group "Element":
+        - paragraph:
+          - strong: ・Spicy Honey
+      - group "Element":
+        - paragraph:
+          - strong: ・Spicy Mayo
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "6"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph
+  - paragraph: SPECIALS
+  - paragraph
+  - paragraph: €10
+  - paragraph: Homemade
+  - paragraph: CHICKEN CURRY
+  - paragraph: Homemade
+  - paragraph: CHICKEN CURRY
+  - paragraph: 自家製 カレーライス
+  - paragraph: 自家製 カレーライス
+  - paragraph: €10.4
+  - paragraph: 4180ft
+  - paragraph: 4180ft
+  - paragraph:
+    - generic: VegeTarian Curry
+  - paragraph:
+    - generic: VegeTarian Curry
+  - paragraph: 野菜たっぷりカレーライス
+  - paragraph: 野菜たっぷりカレーライス
+  - paragraph: 3980ft
+  - paragraph: 3980ft
+  - paragraph: Topping
+  - paragraph: Shrimp Tempura (2pcs) ••• €2.5 / 1000FT
+  - paragraph: Cheese ••••• €1.2 / 480FT
+  - paragraph: Egg ••••••••• €1.1 / 450FT
+  - paragraph: Karaage(2pcs) •••••••••••••• €1.7 / 700FT
+  - region "Page content":
+    - group "Page 7, \"":
+      - group "Dark gray brown, Rectangle":
+        - caption:
+          - paragraph
+          - paragraph:
+            - strong
+      - img "Element"
+      - group "Element":
+        - paragraph: SPECIALS
+      - img "Yellow Paint Blot"
+      - img "thick"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 自家製 カレーライス
+      - group "Element":
+        - paragraph: Homemade
+        - paragraph: CHICKEN CURRY
+      - group "Element":
+        - paragraph:
+          - strong: €10
+      - group "Element":
+        - paragraph: 3980ft
+      - img "Yellow Paint Blot"
+      - img "Element"
+      - group "Element":
+        - paragraph: 野菜たっぷりカレーライス
+      - group "Element":
+        - paragraph: VegeTarian Curry
+      - img "Vegetarian symbol"
+      - group "Element":
+        - paragraph:
+          - strong: €10.4
+      - group "Element":
+        - paragraph: 4180ft
+      - group "Orange, Rectangle":
+        - caption:
+          - paragraph
+          - paragraph:
+            - strong
+      - group "Element":
+        - paragraph:
+          - generic: Topping
+      - group "Element":
+        - paragraph: Egg ••••••••• €1.1 / 450FT
+      - group "Element":
+        - paragraph: Cheese ••••• €1.2 / 480FT
+      - group "Element":
+        - paragraph: Karaage(2pcs) •••••••••••••• €1.7 / 700FT
+      - group "Element":
+        - paragraph: Shrimp Tempura (2pcs) ••• €2.5 / 1000FT
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "7"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: MISO RAMEN
+  - paragraph: tastes good
+  - paragraph
+  - paragraph: with
+  - paragraph: +Butter Topping:)
+  - paragraph: +300ft
+  - paragraph: tastes good
+  - paragraph
+  - paragraph: with
+  - paragraph: +Butter Topping:)
+  - paragraph: +300ft
+  - paragraph: SHOYU RAMEN
+  - paragraph: SPICY MISO RAMEN
+  - paragraph: RAMEN
+  - paragraph: €11
+  - paragraph: 4480ft
+  - paragraph:
+    - generic: Shoyu ramen is all about the soy sauce base—simple at first glance, but deceptively tricky when it comes to building a deep, satisfying flavor.
+  - paragraph:
+    - generic: At WAFU, we take pride in selecting the perfect soy sauce and topping each bowl with succulent pork chashu, delivering a rich, savory experience in every slurp.
+  - paragraph:
+    - generic: Miso ramen is a beloved specialty in Japan’s northern regions—Hokkaido and Tohoku. The robust umami of miso brings a bold, distinctive taste you won’t find in other ramen varieties. Our signature miso ramen pairs perfectly with a pat of butter on top, so don’t miss your chance to try it!
+  - paragraph: €11.4
+  - paragraph: 4580ft
+  - paragraph: 自家製
+  - paragraph: HOMEMADE
+  - paragraph: NOODLE
+  - paragraph: "Toppings:"
+  - paragraph: chasyu,bamboo,green onion,egg,seaweed
+  - paragraph: "Toppings:"
+  - paragraph: chasyu,bamboo,green onion,egg,corn
+  - region "Page content":
+    - group "Page 8, :":
+      - group "Element":
+        - paragraph: RAMEN
+      - img "Paint Brush Stroke"
+      - img "Element"
+      - group "Element":
+        - paragraph: 自家製
+      - group "Element":
+        - paragraph: HOMEMADE
+      - group "Element":
+        - paragraph: NOODLE
+      - img "thick"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: SHOYU RAMEN
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - img "Pork Silhouette Meal"
+      - group "Element":
+        - paragraph: "Toppings:"
+        - paragraph
+        - paragraph: chasyu,bamboo,green onion,egg,seaweed
+      - group "Element":
+        - paragraph:
+          - strong: Shoyu ramen is all about the soy sauce base—simple at first glance, but deceptively tricky when it comes to building a deep, satisfying flavor.
+        - paragraph:
+          - strong: At WAFU, we take pride in selecting the perfect soy sauce and topping each bowl with succulent pork chashu, delivering a rich, savory experience in every slurp.
+      - group "Element":
+        - paragraph:
+          - strong: €11
+      - group "Element":
+        - paragraph: 4480ft
+      - img "Isolated Cutout PNG"
+      - group "Element":
+        - paragraph: tastes good
+        - paragraph
+        - paragraph: with
+        - paragraph
+        - paragraph: +Butter Topping:)
+        - paragraph
+        - paragraph: +300ft
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: MISO RAMEN
+      - img "Sesame Seeds Line Icon"
+      - img "Line egg"
+      - img "Pork Silhouette Meal"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: SPICY MISO RAMEN
+      - img "Chili Pepper Logo"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - img "Pork Silhouette Meal"
+      - group "Element":
+        - paragraph:
+          - strong: "Toppings:"
+        - paragraph
+        - paragraph:
+          - strong: chasyu,bamboo,green onion,egg,corn
+      - group "Element":
+        - paragraph:
+          - strong: Miso ramen is a beloved specialty in Japan’s northern regions—Hokkaido and Tohoku. The robust umami of miso brings a bold, distinctive taste you won’t find in other ramen varieties. Our signature miso ramen pairs perfectly with a pat of butter on top, so don’t miss your chance to try it!
+        - paragraph
+      - group "Element":
+        - paragraph:
+          - strong: €11.4
+      - group "Element":
+        - paragraph: 4580ft
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "8"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph:
+    - generic: At WAFU Group, we go the extra mile to bring you the authentic taste of Japan—we import genuine noodle-making machines and meticulously source our ingredients, from the flour on up, to recreate the beloved flavor of traditional Japanese noodles in every bowl. Enjoy true ramen goodness with us!
+  - paragraph: RAMEN
+  - paragraph: DAN DAN SESAME
+  - paragraph: SPICY RAMEN
+  - paragraph: €12
+  - paragraph: 4780ft
+  - paragraph: Extra Topping
+  - paragraph:
+    - generic: Spicy and rich, with a nutty and tangy flavor from sesame paste, soy milk,
+  - paragraph: chili oil, and other ingredients.
+  - paragraph: "Toppings :"
+  - paragraph: Minced pork , Bamboo ,
+  - paragraph: Green onions , Bokchoy, egg
+  - paragraph: • NOODLE (HALF) •••••••••
+  - paragraph: • NOODLE (FULL)
+  - paragraph: • MARINATED EGG
+  - paragraph: €1.1 / 450ft EACH
+  - paragraph: • BEAN SPROUTS
+  - paragraph: • BAMBOO
+  - paragraph: • CHASHU MEAT (3pcs) ••••••
+  - paragraph: €2.5 / 1000ft
+  - paragraph: €0.75 / 300ft
+  - paragraph: • TOFU (2pcs)
+  - paragraph: • BOK CHOY (2pcs)
+  - paragraph: • CORN
+  - region "Page content":
+    - group "Page 9, :":
+      - img "Element"
+      - group "Element":
+        - paragraph: RAMEN
+      - img "Element"
+      - img "thick"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: DAN DAN SESAME
+        - paragraph:
+          - strong: SPICY RAMEN
+      - img "Element"
+      - img "Chili Pepper Logo"
+      - img "Peanut Outline Icon"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - img "Pork Silhouette Meal"
+      - group "Element":
+        - paragraph:
+          - strong: "Toppings :"
+        - paragraph:
+          - strong: Minced pork , Bamboo ,
+        - paragraph:
+          - strong: Green onions , Bokchoy, egg
+      - group "Element":
+        - paragraph:
+          - strong: Spicy and rich, with a nutty and tangy flavor from sesame paste, soy milk,
+        - paragraph:
+          - strong: chili oil, and other ingredients.
+      - group "Element":
+        - paragraph:
+          - strong: €12
+      - group "Element":
+        - paragraph: 4780ft
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Dark gray, Rectangle"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong:
+            - generic: Extra Topping
+      - group "Element":
+        - paragraph: • NOODLE (HALF) •••••••••
+      - img "thin"
+      - group "Element":
+        - paragraph:
+          - strong:
+            - generic: €0.75 / 300ft
+      - group "Element":
+        - paragraph: • NOODLE (FULL)
+      - img "Element"
+      - group "Element":
+        - paragraph: • MARINATED EGG
+      - group "Element":
+        - paragraph: • TOFU (2pcs)
+      - group "Element":
+        - paragraph: • BEAN SPROUTS
+      - group "Element":
+        - paragraph:
+          - strong:
+            - generic: €1.1 / 450ft EACH
+      - group "Element":
+        - paragraph: • BAMBOO
+      - group "Element":
+        - paragraph: • BOK CHOY (2pcs)
+      - img "Element"
+      - group "Element":
+        - paragraph: • CORN
+      - group "Element":
+        - paragraph: • CHASHU MEAT (3pcs) ••••••
+      - group "Element":
+        - paragraph:
+          - strong:
+            - generic: €2.5 / 1000ft
+      - group "Element":
+        - paragraph:
+          - strong: At WAFU Group, we go the extra mile to bring you the authentic taste of Japan—we import genuine noodle-making machines and meticulously source our ingredients, from the flour on up, to recreate the beloved flavor of traditional Japanese noodles in every bowl. Enjoy true ramen goodness with us!
+      - img "Element"
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "9"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: with rice
+  - paragraph: with rice & Japanese Pickles
+  - paragraph: 炒飯 FRIED RICE
+  - paragraph: €10.7
+  - paragraph: 4280ft
+  - paragraph: 照り焼きチキン
+  - paragraph: TERIYAKI CHICKEN
+  - paragraph: "-Vegetarian"
+  - paragraph: 焼きそば YAKISOBA
+  - paragraph: MAIN DIsH
+  - paragraph: €10
+  - paragraph: 3980ft
+  - paragraph: 特製トンカツ
+  - paragraph: TONKATSU
+  - paragraph: €10.9
+  - paragraph: 4380ft
+  - paragraph: 3980ft
+  - paragraph: €10
+  - paragraph: "-CHICKEN"
+  - paragraph: "-TOFU"
+  - paragraph: お味噌汁 / MISO SOUP
+  - paragraph: ご飯 / RICE
+  - paragraph: €1.2
+  - paragraph: 500ft
+  - paragraph: €1.2
+  - paragraph: 500ft
+  - paragraph: "-Vegan"
+  - paragraph: "-CHICKEN"
+  - paragraph: "-TOFU"
+  - paragraph: (Topping with fish flake)
+  - paragraph: (Topping with fish flake)
+  - region "Page content":
+    - group "Page 10, _":
+      - group "Element":
+        - paragraph: MAIN DIsH
+      - img "Element"
+      - img "thick"
+      - group "Element":
+        - paragraph:
+          - strong: 炒飯 FRIED RICE
+      - group "Element":
+        - paragraph:
+          - strong: 焼きそば YAKISOBA
+      - group "Element":
+        - paragraph: "-CHICKEN"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: "-CHICKEN"
+      - group "Element":
+        - paragraph: (Topping with fish flake)
+      - group "Element":
+        - paragraph: "-TOFU"
+      - img "Vegetarian symbol"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: "-TOFU"
+      - group "Element":
+        - paragraph: (Topping with fish flake)
+      - group "Element":
+        - paragraph: "-Vegan"
+      - img "Element"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph: "-Vegetarian"
+      - img "Vegetarian symbol"
+      - group "Element":
+        - paragraph:
+          - strong: €10
+      - group "Element":
+        - paragraph: 3980ft
+      - img "Black Cloud in Oriental Style"
+      - group "Element":
+        - paragraph:
+          - strong: €10
+      - group "Element":
+        - paragraph: 3980ft
+      - img "Element"
+      - img "Element"
+      - img "thick"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 照り焼きチキン
+        - paragraph:
+          - strong: TERIYAKI CHICKEN
+      - group "Element":
+        - paragraph:
+          - strong: with rice
+      - img "Sesame Seeds Line Icon"
+      - img "Black Cloud in Oriental Style"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: €10.7
+      - group "Element":
+        - paragraph: 4280ft
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 特製トンカツ
+        - paragraph:
+          - strong: TONKATSU
+      - img "Black Cloud in Oriental Style"
+      - group "Element":
+        - paragraph:
+          - strong: with rice & Japanese Pickles
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - img "Pork Silhouette Meal"
+      - group "Element":
+        - paragraph:
+          - strong: €10.9
+      - group "Element":
+        - paragraph: 4380ft
+      - img "Dark gray, Rectangle"
+      - img "thin"
+      - group "Element":
+        - paragraph:
+          - strong: ご飯 / RICE
+      - group "Element":
+        - paragraph:
+          - strong: お味噌汁 / MISO SOUP
+      - img "gluten free"
+      - group "Element":
+        - paragraph:
+          - strong: €1.2
+      - group "Element":
+        - paragraph: 500ft
+      - img "gluten free"
+      - group "Element":
+        - paragraph:
+          - strong: €1.2
+      - group "Element":
+        - paragraph: 500ft
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "10"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: 抹茶チーズケーキ
+  - paragraph: HOMEMADE
+  - paragraph: MATCHA CHEESE CAKE
+  - paragraph: たい焼き
+  - paragraph: 自家製チーズケーキ
+  - paragraph: HOMEMADE
+  - paragraph: CHEESE CAKE
+  - paragraph: DESSERTS
+  - paragraph: €5.4
+  - paragraph: 1980ft
+  - paragraph: €5
+  - paragraph: TAIYAKI
+  - paragraph: "-Fish shaped pastry"
+  - paragraph: with sweet red bean filling-
+  - paragraph: 2180ft
+  - paragraph: もちアイス
+  - paragraph: MOCHI ICECREAM
+  - paragraph: €4.4
+  - paragraph: 1780ft
+  - paragraph: 2380FT
+  - paragraph: €6
+  - region "Page content":
+    - group "Page 11":
+      - img "Element"
+      - group "Element":
+        - paragraph: DESSERTS
+      - img "thick"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 抹茶チーズケーキ
+      - group "Element":
+        - paragraph:
+          - strong: HOMEMADE
+        - paragraph:
+          - strong: MATCHA CHEESE CAKE
+      - img "Element"
+      - img "Vegetarian symbol"
+      - img "Milk"
+      - img "Line egg"
+      - group "Element":
+        - paragraph:
+          - strong: €5.4
+      - group "Element":
+        - paragraph: 2180ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 自家製チーズケーキ
+        - paragraph:
+          - strong: HOMEMADE
+        - paragraph:
+          - strong: CHEESE CAKE
+      - img "Element"
+      - img "Element"
+      - img "Vegetarian symbol"
+      - img "Milk"
+      - img "Line egg"
+      - group "Element":
+        - paragraph:
+          - strong: €5
+      - group "Element":
+        - paragraph: 1980ft
+      - group "Element":
+        - paragraph:
+          - strong: もちアイス
+        - paragraph:
+          - strong: MOCHI ICECREAM
+      - img "Element"
+      - img "Element"
+      - img "Vegetarian symbol"
+      - img "Milk"
+      - group "Element":
+        - paragraph:
+          - strong: €4.4
+      - group "Element":
+        - paragraph: 1780ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: たい焼き
+      - group "Element":
+        - paragraph:
+          - strong: TAIYAKI
+      - group "Element":
+        - paragraph:
+          - strong: "-Fish shaped pastry"
+        - paragraph:
+          - strong: with sweet red bean filling-
+      - img "Element"
+      - img "Milk"
+      - img "Line egg"
+      - group "Element":
+        - paragraph:
+          - strong: €6
+      - group "Element":
+        - paragraph:
+          - strong: 2380FT
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "11"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: VEGGIE dandan
+  - paragraph: sesame spicy ramen
+  - paragraph: veggie roll
+  - paragraph: veggie gyoza
+  - paragraph: ( 5pcs )
+  - paragraph: with soy vinegar
+  - paragraph: "& Coriander base sauce"
+  - paragraph: seaweed salad
+  - paragraph: €10.7
+  - paragraph: veggie paitan RAMEN
+  - paragraph: €10.9
+  - paragraph: edamame
+  - paragraph: The vegitarian version of Dandan ramen which come with
+  - paragraph: soy meat,bok choy,cucumber and soft-boiled egg.
+  - paragraph: ramen
+  - paragraph: sushi
+  - paragraph: €9.7
+  - paragraph: 3880ft
+  - paragraph: veggie curry
+  - paragraph: vegetarian MENU
+  - paragraph: €3.7
+  - paragraph: 1480ft
+  - paragraph: ( SALT or CHILI )
+  - paragraph: Chilled tofu
+  - paragraph: €6
+  - paragraph: 2780ft
+  - paragraph: 4380ft
+  - paragraph: 4280ft
+  - paragraph: €4.4
+  - paragraph: 1780ft
+  - paragraph: Flavors of vegetables harmonize with the richness of traditional paitan broth. Indulge in a velvety, plant-based elixir crafted from carefully simmered umami-laden ingredients.
+  - paragraph: cucumbeR maki
+  - paragraph: (6pcs)
+  - paragraph: 4180fT
+  - paragraph: €10.4
+  - paragraph: €5.7
+  - paragraph: 2280ft
+  - paragraph: €3.7
+  - paragraph: 1480ft
+  - paragraph: Avocado maki
+  - paragraph: (6pcs)
+  - paragraph: ask for gluten free soy sauce if in need
+  - paragraph: ask for gluten free soy sauce if in need
+  - paragraph: €4
+  - paragraph: 1580FT
+  - paragraph: "Toppings:"
+  - paragraph: FriEd onion,paprica,bean sprouts,bok choy,egg,sesame
+  - paragraph: "Toppings:"
+  - paragraph: soy meat,egg,cucumber,bok choy,sesame
+  - region "Page content":
+    - group "Page 12":
+      - group "Element":
+        - paragraph: vegetarian MENU
+      - img "Element"
+      - img "thick"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph: veggie gyoza
+      - group "Element":
+        - paragraph: ( 5pcs )
+      - group "Element":
+        - paragraph:
+          - strong:
+            - generic: with soy vinegar
+        - paragraph:
+          - strong:
+            - generic: "& Coriander base sauce"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €6
+      - group "Element":
+        - paragraph: 2780ft
+      - group "Element":
+        - paragraph: edamame
+      - group "Element":
+        - paragraph: Chilled tofu
+      - group "Element":
+        - paragraph:
+          - strong: ( SALT or CHILI )
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: €3.7
+      - group "Element":
+        - paragraph: 1480ft
+      - group "Element":
+        - paragraph:
+          - strong: €5.7
+      - group "Element":
+        - paragraph: 2280ft
+      - img "Element"
+      - group "Element":
+        - paragraph: seaweed salad
+      - group "Element":
+        - paragraph: veggie curry
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €3.7
+      - group "Element":
+        - paragraph: 1480ft
+      - group "Element":
+        - paragraph:
+          - strong: €10.4
+      - group "Element":
+        - paragraph:
+          - strong: 4180fT
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - generic: sushi
+      - img "Element"
+      - img "Element"
+      - img "gluten free"
+      - group "Element":
+        - paragraph: veggie roll
+      - group "Element":
+        - paragraph: ask for gluten free soy sauce if in need
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: €9.7
+      - group "Element":
+        - paragraph: 3880ft
+      - group "Element":
+        - paragraph: cucumbeR maki
+      - group "Element":
+        - paragraph: Avocado maki
+      - group "Element":
+        - paragraph: (6pcs)
+      - group "Element":
+        - paragraph:
+          - strong: €4
+      - group "Element":
+        - paragraph:
+          - strong: 1580FT
+      - group "Element":
+        - paragraph: (6pcs)
+      - group "Element":
+        - paragraph:
+          - strong: €4.4
+      - group "Element":
+        - paragraph: 1780ft
+      - group "Element":
+        - paragraph:
+          - generic: ramen
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph: VEGGIE dandan
+        - paragraph: sesame spicy ramen
+      - img "Chili Pepper Logo"
+      - img "Peanut Outline Icon"
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: The vegitarian version of Dandan ramen which come with
+        - paragraph:
+          - strong: soy meat,bok choy,cucumber and soft-boiled egg.
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: "Toppings:"
+        - paragraph
+        - paragraph:
+          - strong: soy meat,egg,cucumber,bok choy,sesame
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: €10.9
+      - group "Element":
+        - paragraph: 4380ft
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph: veggie paitan RAMEN
+      - img "Line egg"
+      - img "Sesame Seeds Line Icon"
+      - group "Element":
+        - paragraph:
+          - strong: €10.7
+      - group "Element":
+        - paragraph: 4280ft
+      - group "Element":
+        - paragraph:
+          - strong: "Toppings:"
+        - paragraph
+        - paragraph:
+          - strong: FriEd onion,paprica,bean sprouts,bok choy,egg,sesame
+      - group "Element":
+        - paragraph:
+          - strong: Flavors of vegetables harmonize with the richness of traditional paitan broth. Indulge in a velvety, plant-based elixir crafted from carefully simmered umami-laden ingredients.
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "12"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph: Sashimi set
+  - paragraph: Tonkatsu set
+  - paragraph: Wafu Lunch set menu
+  - paragraph: カレーライスセット
+  - paragraph: 刺身セット
+  - paragraph: 唐揚げセット
+  - paragraph: Karaage set
+  - paragraph: ≪Sauce≫
+  - paragraph: "-Wafu(sesame garlic)"
+  - paragraph: "-Mayo"
+  - paragraph: "-SPICY MAYO"
+  - paragraph: "-spicy honey"
+  - paragraph: 3880ft
+  - paragraph: とんかつセット
+  - paragraph: (Each set menu includes one appetizer and miso soup)
+  - paragraph: (5pcs)
+  - paragraph: Gluten free soy sauce
+  - paragraph: CHICKEN Curry set
+  - paragraph: ≪Topping≫
+  - paragraph: "-EGG 1.1€€/450ft"
+  - paragraph: "-CHEESE 1.1€/480ft"
+  - paragraph: "-KARAAGE(2pcs) 1.7€/700ft"
+  - paragraph: "-SHRIMP TEMPURA 2.4€/1000ft"
+  - paragraph: 12% service fee will be added to each bill
+  - paragraph: (Salmon , tsuna , scallop 3pcs each)
+  - paragraph: 4500Ft
+  - paragraph: 3880Ft
+  - paragraph: 7580FT
+  - paragraph: 4080Ft
+  - paragraph: ★Vegetarian curry set
+  - paragraph: €9.7
+  - paragraph: €11.2
+  - paragraph: €9.7
+  - paragraph: €19
+  - paragraph: €10.2
+  - region "Page content":
+    - group "Page 13":
+      - img "Element"
+      - img "Red, Rectangle"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 唐揚げセット
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: Karaage set
+      - group "Element":
+        - paragraph:
+          - strong: (5pcs)
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: €9.7
+      - group "Element":
+        - paragraph:
+          - strong: 3880ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: ≪Sauce≫
+      - group "Element":
+        - paragraph: "-Wafu(sesame garlic)"
+        - paragraph: "-Mayo"
+        - paragraph: "-SPICY MAYO"
+        - paragraph: "-spicy honey"
+      - img "recommended sell best seller thumb up icon"
+      - group "Element":
+        - paragraph:
+          - strong: とんかつセット
+      - img "Pork Silhouette Meal"
+      - group "Element":
+        - paragraph:
+          - strong: Tonkatsu set
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: €11.2
+      - group "Element":
+        - paragraph:
+          - strong: 4500Ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: Wafu Lunch set menu
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: カレーライスセット
+      - group "Element":
+        - paragraph:
+          - strong: CHICKEN Curry set
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: €9.7
+      - group "Element":
+        - paragraph:
+          - strong: 3880Ft
+      - group "Element":
+        - paragraph:
+          - strong: ≪Topping≫
+      - group "Element":
+        - paragraph:
+          - strong: "-EGG 1.1€€/450ft"
+        - paragraph:
+          - text: "-"
+          - strong: CHEESE 1.1€/480ft
+        - paragraph:
+          - text: "-"
+          - strong: KARAAGE(2pcs) 1.7€/700ft
+        - paragraph:
+          - text: "-"
+          - strong: SHRIMP TEMPURA 2.4€/1000ft
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: ★Vegetarian curry set
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: €10.2
+      - group "Element":
+        - paragraph:
+          - strong: 4080Ft
+      - group "Element":
+        - paragraph:
+          - strong: 刺身セット
+      - group "Element":
+        - paragraph:
+          - strong: Sashimi set
+      - img "Element"
+      - img "gluten free"
+      - group "Element":
+        - paragraph:
+          - strong: Gluten free soy sauce
+      - group "Element":
+        - paragraph:
+          - strong: (Salmon , tsuna , scallop 3pcs each)
+      - group "Element":
+        - paragraph:
+          - strong: €19
+      - group "Element":
+        - paragraph:
+          - strong: 7580FT
+      - group "Element":
+        - paragraph:
+          - strong: (Each set menu includes one appetizer and miso soup)
+      - group "Element":
+        - paragraph:
+          - strong: 12% service fee will be added to each bill
+      - img "Element"
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "13"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen
+
+- banner:
+  - link "Canva ⁠ (opens in a new tab or window)":
+    - /url: https://www.canva.com
+    - generic: Canva
+    - text: ⁠
+    - generic: (opens in a new tab or window)
+  - button "Share":
+    - generic: Share
+  - button "Create with Canva":
+    - generic: Create with Canva
+- main:
+  - paragraph
+  - paragraph: Dessert
+  - paragraph: Pick your
+  - paragraph: miso
+  - paragraph: ラーメンセット
+  - paragraph: 12% service fee will be added to each bill
+  - paragraph: Ramen set
+  - paragraph: 5280ft
+  - paragraph: ❶ pick your ramen
+  - paragraph: ❷ karaage (2pcs)
+  - paragraph: ❸ Fixed appetizers
+  - paragraph: Shoyu
+  - paragraph: dandan
+  - paragraph: shoyu / miso /
+  - paragraph: spicy miso / dandan
+  - paragraph: Wafu(sesame garlic) / Mayo
+  - paragraph: SPICY MAYO / spicy honey
+  - paragraph: Drink
+  - paragraph: ASahi
+  - paragraph: beer
+  - paragraph: (bottle)
+  - paragraph: Mochi
+  - paragraph: icecream
+  - paragraph: Combo
+  - paragraph: Or
+  - paragraph: Or
+  - paragraph: Homemade
+  - paragraph: cheese cake
+  - paragraph: Homemade
+  - paragraph: lemonade
+  - paragraph: Pick your
+  - paragraph: "-Classic"
+  - paragraph: "-mango"
+  - paragraph: "-strawberry"
+  - paragraph: "-raspberry"
+  - paragraph: "-elderflower"
+  - paragraph: +2500ft
+  - paragraph: €13
+  - paragraph: Includes 1Drink & dessert
+  - paragraph: (available with any lunch set)
+  - paragraph: spicy
+  - paragraph: miso
+  - paragraph: /
+  - paragraph: (€6.3)
+  - paragraph: <Kimchi & seaweed salad>
+  - region "Page content":
+    - group "Page 14":
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: Shoyu
+      - group "Element":
+        - paragraph:
+          - strong: dandan
+      - group "Element":
+        - paragraph:
+          - strong: miso
+      - group "Element":
+        - paragraph:
+          - strong: /
+      - group "Element":
+        - paragraph:
+          - strong: spicy
+        - paragraph:
+          - strong: miso
+      - group "Red, Arch up":
+        - caption:
+          - paragraph
+          - paragraph:
+            - strong
+      - group "Element":
+        - paragraph:
+          - strong: ラーメンセット
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: Ramen set
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph: €13
+      - group "Element":
+        - paragraph:
+          - strong: 5280ft
+      - group "Element":
+        - paragraph:
+          - strong: shoyu / miso /
+        - paragraph:
+          - strong: spicy miso / dandan
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong:
+            - generic: ❶ pick your ramen
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph:
+          - strong:
+            - generic: ❷ karaage (2pcs)
+        - paragraph
+        - paragraph
+        - paragraph
+        - paragraph:
+          - strong:
+            - generic: ❸ Fixed appetizers
+      - group "Element":
+        - paragraph: Wafu(sesame garlic) / Mayo
+        - paragraph:
+          - generic: SPICY MAYO / spicy honey
+      - group "Element":
+        - paragraph: <Kimchi & seaweed salad>
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: Combo
+      - group "Element":
+        - paragraph:
+          - generic: (€6.3)
+      - group "Element":
+        - paragraph:
+          - strong: +2500ft
+      - group "Element":
+        - paragraph:
+          - strong: Includes 1Drink & dessert
+        - paragraph:
+          - strong: (available with any lunch set)
+      - img "White, Rectangle"
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: Homemade
+        - paragraph:
+          - strong: lemonade
+      - group "Element":
+        - paragraph:
+          - strong: ASahi
+        - paragraph:
+          - strong: beer
+        - paragraph:
+          - strong: (bottle)
+      - group "Element":
+        - paragraph:
+          - strong: Or
+      - group "Element":
+        - paragraph:
+          - strong: "-Classic"
+        - paragraph:
+          - strong: "-mango"
+        - paragraph:
+          - strong: "-strawberry"
+        - paragraph:
+          - strong: "-raspberry"
+        - paragraph:
+          - strong: "-elderflower"
+      - group "Element":
+        - paragraph:
+          - strong: Pick your
+      - img "thin"
+      - img "thin"
+      - group "Element":
+        - paragraph:
+          - strong: Drink
+      - img "Element"
+      - img "Element"
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: Or
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: Pick your
+      - group "Element":
+        - paragraph:
+          - strong: Dessert
+      - group "Element":
+        - paragraph:
+          - strong: Mochi
+        - paragraph:
+          - strong: icecream
+      - group "Element":
+        - paragraph:
+          - strong: Homemade
+        - paragraph:
+          - strong: cheese cake
+      - img "Element"
+      - group "Element":
+        - paragraph:
+          - strong: 12% service fee will be added to each bill
+      - img "Element"
+- contentinfo "Page controls":
+  - slider "Design slider"
+  - region "Toolbar":
+    - group "Toolbar":
+      - navigation "Slide":
+        - button "Previous page":
+        - button "Go to page":
+          - paragraph: "14"
+          - paragraph: /
+          - paragraph: "14"
+        - button "Next page" [disabled] [active]:
+    - group "Toolbar":
+      - button "Zoom in and out":
+      - button "More":
+      - button "Enter full screen":
+- text: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- generic: Toolbar
+- generic: Previous page
+- generic: Go to page
+- generic: Next page
+- generic: Zoom in and out
+- generic: More
+- generic: Enter full screen

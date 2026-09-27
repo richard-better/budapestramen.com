@@ -1,0 +1,394 @@
+{
+  "version": 1,
+  "id": "kitsune",
+  "name": "Kitsune Japán Étterem és Kávézó",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1096 Budapest, Telepy u. 24",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "IX",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://kitsune.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site links socials, Wolt, phone reservations and collection; its /etelek/ menu URL returns no results."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/kitsune.kavezo/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site links socials, Wolt, phone reservations and collection; its /etelek/ menu URL returns no results."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/kitsunejapan.kavezo.etterem/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site links socials, Wolt, phone reservations and collection; its /etelek/ menu URL returns no results."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site links socials, Wolt, phone reservations and collection; its /etelek/ menu URL returns no results."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://kitsune.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site links socials, Wolt, phone reservations and collection; its /etelek/ menu URL returns no results."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site links socials, Wolt, phone reservations and collection; its /etelek/ menu URL returns no results."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "known",
+      "value": "https://kitsune.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site links socials, Wolt, phone reservations and collection; its /etelek/ menu URL returns no results."
+        }
+      ]
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Telephone booking at least 24 hours ahead; same-day reservations not accepted. Recommended for groups over four."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site explicitly links Wolt and Foodora delivery; no own courier. Overrides Maps no-delivery attribute."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Order in person or by phone for collection at Telepy 24."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Build-your-own ramen allows broth and topping choice."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Dedicated vegan ramen explicitly specifies vegan broth, tofu, shiitake, corn, no egg and no naruto. Do not extend this to other broths."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Dedicated vegan ramen explicitly specifies vegan broth, tofu, shiitake, corn, no egg and no naruto. Do not extend this to other broths."
+        }
+      ]
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Shoyu", "Miso", "Sesame", "Vegan ramen"],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Specific broth descriptions and seasonal sesame ramen."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Chashu uses soy-pork broth; beef uses garlic miso; shrimp uses fish dashi and soy. Vegan uses soy, garlic and ginger broth with tofu, shiitake and corn. Seasonal sesame ramen has grilled chicken and fried egg. Build-your-own base includes cabbage, nori, half egg, naruto and scallion; its all-vegetarian-broth wording applies only to that item.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant descriptions distinguish stocks and toppings."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday and Wednesday-Sunday 12:00-20:00; Tuesday closed. Kitchen closes 19:30.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kitsune.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official homepage hours."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Delivery menu cached because official /etelek/ link returns no results. Includes seasonal sesame ramen; prices not treated as dine-in.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery-only range 3900-5750 HUF including the listed base bowl and seasonal ramen; optional toppings excluded. Current dine-in price range unknown.",
+      "bowls": [
+        {
+          "name": "Build-your-own ramen base",
+          "price": 3900,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chashu Ramen",
+          "price": 5750,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Beef Ramen",
+          "price": 5600,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shrimp Ramen",
+          "price": 5600,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegan Ramen",
+          "price": 5600,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Seasonal sesame ramen",
+          "price": 5600,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant ramen and seasonal sections."
+        }
+      ]
+    }
+  ]
+}

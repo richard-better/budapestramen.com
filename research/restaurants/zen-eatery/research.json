@@ -1,0 +1,332 @@
+{
+  "version": 1,
+  "id": "zen-eatery",
+  "name": "Zen Eatery",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1061 Budapest, Liszt Ferenc tér 10, földszint 16",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://places.neery.net/land/zen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://places.neery.net/land/zen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified public restaurant menu, booking and ordering links."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/zeneaterybudapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://places.neery.net/land/zen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified public restaurant menu, booking and ordering links."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://places.neery.net/land/zen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://places.neery.net/land/zen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified public restaurant menu, booking and ordering links."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://places.neery.net/land/t10205255100222201681351457482321939864126/reserve",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://places.neery.net/land/zen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified public restaurant menu, booking and ordering links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified public restaurant menu, booking and ordering links."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://places.neery.net/land/zen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Reserve a table link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active scheduled-delivery merchant page contradicts Maps no-delivery attribute."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Hanoi fusion ramen", "Shoyu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant describes a pho and dashi-shoyu hybrid."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Hanoi ramen blends pho with dashi-shoyu ramen. Merchant describes chicken and beef bones, black cardamom, cinnamon, star anise, shrimp paste, kombu, lemongrass, sesame oil and fish sauce. Chicken or beef-cheek topping, ramen noodles, chicken fat, shiitake, shiso, onion, coriander and marinated egg.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Detailed merchant ingredient description; vegetarian pho is a separate dish."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Tuesday-Sunday 11:30-22:00; Monday closed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://places.neery.net/land/zen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Opening-hours panel."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://places.neery.net/land/zen",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official NeerY digital menu linked from Maps. Soup category and full-menu ramen search captured; mini-ramen bento and stir-fried Tom Yum noodles excluded.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-2026-09-27.html",
+            "sourceUrl": "https://places.neery.net/land/zen",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-ramen-search-2026-09-27.txt",
+            "sourceUrl": "https://places.neery.net/land/zen",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-soups-2026-09-27.txt",
+            "sourceUrl": "https://places.neery.net/land/zen",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed dine-in range 4990-5490 HUF. Service charge and effective date not stated. Bento mini ramen and stir-fried Tom Yum noodles excluded.",
+      "bowls": [
+        {
+          "name": "Hanoi Ramen with Fried Chicken Thigh Fillet",
+          "price": 4990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Hanoi Ramen with Beef Cheek",
+          "price": 5490,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://places.neery.net/land/zen"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official digital menu soup category and ramen search."
+        }
+      ]
+    }
+  ]
+}

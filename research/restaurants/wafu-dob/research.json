@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "id": "wafu-dob",
+  "name": "WAFU Ramen Bar Dob",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1072 Budapest, Dob utca 2.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.wafujp.com/",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps-listed official brand website. Directory does not yet list Dob."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner-uploaded September 2026 menu."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu lists spicy paste and paid extra noodles, vegetables, tofu, egg, shrimp, pork and chicken."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Veggie dandan explicitly vegetarian; paitan describes plant-based broth. Both contain egg."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetarian ramen includes egg; vegan modifications not confirmed."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Miso", "Dandan", "Chicken shoyu", "Vegetarian paitan"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Five standard bowls on owner menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Miso with minced pork, chashu, butter, egg and sprouts. Dandan sesame, soy milk and chilli with pork; veggie dandan uses soy meat. Chicken shoyu uses three-hour chicken-bone broth and sliced chicken. Plant-based paitan includes egg, fried onion, paprika, sprouts and bok choy. Other food includes donburi, curry, gyoza, karaage and onigiri.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached September owner menu."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Tuesday-Sunday 12:00-23:00; Monday closed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu footer."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner published September menu and responds to September visitor reviews."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Owner-uploaded September 2026 two-page menu. Effective date not printed.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-menu-1.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-menu-2.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "4280-4780 HUF standalone bowls. Excludes 6280 HUF set menus and paid toppings; service charge not stated.",
+      "bowls": [
+        {
+          "name": "Miso",
+          "price": 4780,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Dandan",
+          "price": 4780,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken shoyu",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Veggie dandan",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Paitan",
+          "price": 4280,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ],
+  "brandId": "wafu"
+}

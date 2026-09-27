@@ -1,0 +1,278 @@
+{
+  "version": 1,
+  "id": "ume-sushi",
+  "name": "Ume Sushi",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1052 Budapest, Aranykéz u. 4",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner-uploaded September 2025 ramen menu in Maps gallery."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/ume-sushi-bar",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps links this merchant, which currently lists both ramen."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/hu/hun/budapest/restaurant/ume-sushi-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current delivery menu."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu says ramen can be made vegetarian; tonkotsu has pork or beef topping."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit can be made vegetarian statement. Standard descriptions contain narutomaki; confirm substitutions when ordering."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Tonkotsu", "Shoyu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Two ramen on owner menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Tonkotsu: creamy pork-bone soup, thin noodles, chashu pork or beef, narutomaki, wood-ear mushroom, pickled bamboo. Shoyu: soy-sauce-based soup, wavy noodles, narutomaki, wood-ear mushroom and pickled bamboo. Vegetarian adaptation advertised; vegan status unverified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Transcribed from owner-uploaded September 2025 menu."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Owner menu uploaded September 2025. Upload month is not an explicit effective date. Current Wolt still lists both ramen but at delivery prices of 4390 and 5690 HUF; these do not update dine-in prices.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/maps-owner-september-2025-ramen.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed owner menu range 3690-4590 HUF, uploaded September 2025. Current dine-in prices and service charge need confirmation. No explicit effective date.",
+      "bowls": [
+        {
+          "name": "Shoyu Ramen",
+          "price": 3690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu Ramen",
+          "price": 4590,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ]
+}

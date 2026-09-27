@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "id": "wafu-izakaya",
+  "name": "WAFU Ramen Izakaya",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1075 Budapest, Kazinczy utca 3.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.wafujp.com/work/wafu-kazincy/copy",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-kazincy/copy"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/wafu_ramenizakaya_/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-kazincy/copy"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-kazincy/copy"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://book.easytable.com/book/?ref=mb&id=b9872&lang=en",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/wafu_ramenizakaya_/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Instagram reservation link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Maps attribute; reservation channel corroborated by official profile."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Maps attribute; reservation channel corroborated by official profile."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Page 9 lists extra noodles, egg, tofu, vegetables and chashu; page 8 butter topping."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Vegetarian menu page 12 explicitly includes veggie dandan and plant-based veggie paitan, both with egg."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetarian ramen lists egg. Maps vegan options may refer to other dishes; egg-free ramen not confirmed."
+    },
+    "japaneseOwned": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/wafu_ramenizakaya_/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile explicitly says restaurant is run by a Japanese owner in Budapest. This evidence applies to this venue, not automatically every franchise."
+        }
+      ]
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Shoyu", "Miso", "Spicy miso", "Dandan", "Vegetarian paitan"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Pages 8, 9 and 12 of official menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Homemade noodles. Shoyu with pork chashu, bamboo, onion, egg and seaweed; miso with chashu, bamboo, onion, egg and corn. Dandan sesame/soy milk/chilli with minced pork; vegetarian dandan uses soy meat. Paitan is plant-based but topped with egg. Broad izakaya menu includes sushi, sashimi, curry, rice bowls, gyoza and karaage.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu pages inspected in Chrome."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Standalone ramen on main menu; lunch ramen set listed separately."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Fourteen-page official menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Tue-Sun 12:00-16:00 (last order 15:00), 17:30-00:00 (last order 23:00); Monday closed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Page 1 opening schedule."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 12,
+        "applicability": "Added to each bill."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit on pages 1, 13 and 14."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "All fourteen official Canva pages cached as Chrome screenshots plus accessibility text. Viewer controls overlay image edges; text cache preserves all readable text. No menu effective date printed.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-canva-snapshot.txt",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-01.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-02.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-03.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-04.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-05.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-06.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-07.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-08.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-09.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-10.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-11.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-12.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-13.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-page-14.png",
+            "sourceUrl": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "4280-4780 HUF before 12% service charge. Excludes lunch ramen set 5280 HUF, combo 2500 HUF and extras. Effective date not printed.",
+      "bowls": [
+        {
+          "name": "Shoyu",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso",
+          "price": 4580,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy miso",
+          "price": 4580,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Dandan",
+          "price": 4780,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Veggie dandan",
+          "price": 4380,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Veggie paitan",
+          "price": 4280,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu pages 8, 9, 12; visually checked screenshots."
+        }
+      ]
+    }
+  ],
+  "brandId": "wafu"
+}
