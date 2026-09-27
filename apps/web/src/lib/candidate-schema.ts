@@ -21,6 +21,20 @@ export const candidateListSchema = z
           name: text,
           researchId: id.optional(),
           researchPriority: z.enum(["high", "normal"]).optional(),
+          review: z
+            .strictObject({
+              checkedOn: z.iso.date(),
+              outcome: z.enum([
+                "listed",
+                "ramen-not-confirmed",
+                "identity-unresolved",
+                "alias",
+                "closed",
+              ]),
+              note: text,
+              sources: z.array(url).min(1),
+            })
+            .optional(),
           status: z.enum(["candidate", "needs-menu-check", "needs-branch-check", "closed"]),
           address: text.nullable(),
           mapsUrl: url.nullable(),
