@@ -1,5 +1,6 @@
 import { readdir, readFile, realpath, stat } from "node:fs/promises";
 import { resolve, sep } from "node:path";
+import { gunzipSync } from "node:zlib";
 import { researchSchema } from "../apps/web/src/lib/research-schema";
 import { publishResearch } from "../apps/web/src/lib/publish-research";
 import { candidateListSchema } from "../apps/web/src/lib/candidate-schema";
@@ -29,6 +30,20 @@ for (const directory of await readdir(root, { withFileTypes: true })) {
       const info = await stat(path);
       if (!path.startsWith(`${base}${sep}menus${sep}`) || !info.isFile() || info.size === 0) {
         throw new Error(`Invalid menu cache: ${record.id}/${file.path}`);
+      }
+      if (file.path.endsWith(".html")) {
+        const bytes = await readFile(path);
+        const html = (bytes[0] === 0x1f && bytes[1] === 0x8b ? gunzipSync(bytes) : bytes).toString(
+          "utf8",
+        );
+        if (
+          /STRIPE_PUBLIC_KEY|MAPBOX_ACCESS_TOKEN|DATADOG_RUM_TOKEN|ANALYTICS_API_PUBLIC_KEY/.test(
+            html,
+          )
+        )
+          throw new Error(
+            `Menu cache contains application configuration: ${record.id}/${file.path}. Save static menu content instead of the complete application page.`,
+          );
       }
     }
   }
