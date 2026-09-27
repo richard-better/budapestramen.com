@@ -122,7 +122,7 @@ function currentMapPosition(): GuideState["map"] {
 
 function moveMapTo(center: L.LatLngExpression, zoom: number, motion: MapMotion) {
   if (motion === "smooth" && !prefersReducedMotion) {
-    map.flyTo(center, zoom, { duration: 1.2 });
+    map.flyTo(center, zoom, { duration: 0.7 });
   } else {
     map.setView(center, zoom, { animate: false });
   }
