@@ -365,12 +365,14 @@ function renderMarkers(visible: Restaurant[]) {
       ? "recommended"
       : place.research?.category === "ramen-specialist"
         ? "ramen-specialist"
-        : "other-restaurant";
+        : null;
     const icon = L.divIcon({
       className: `ramen-marker${state.selected === place.id ? " is-selected" : ""}`,
-      html: `<img class="restaurant-pin" src="/map-pins/${pin}.svg" width="40" height="50" alt="" draggable="false">`,
-      iconSize: [44, 50],
-      iconAnchor: [22, 50],
+      html: pin
+        ? `<img class="restaurant-pin" src="/map-pins/${pin}.svg" width="40" height="50" alt="" draggable="false">`
+        : '<span class="pin-dot"></span>',
+      iconSize: [44, pin ? 50 : 44],
+      iconAnchor: [22, pin ? 50 : 22],
     });
     if (!marker) {
       marker = L.marker([place.lat, place.lng], {
@@ -380,7 +382,7 @@ function renderMarkers(visible: Restaurant[]) {
         keyboard: true,
       });
       marker.on("click", () => select(place.id, mobile.matches, "preserve"));
-      marker.bindTooltip(place.name, { direction: "top", offset: [0, -50] });
+      marker.bindTooltip(place.name, { direction: "top", offset: [0, pin ? -50 : -16] });
       markers.set(place.id, marker);
     } else marker.setIcon(icon);
     marker.setZIndexOffset(state.selected === place.id ? 1000 : place.rec ? 500 : 0);

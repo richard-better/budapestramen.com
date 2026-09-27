@@ -809,6 +809,22 @@ svg {
   background: transparent;
   border: 0;
 }
+.pin-dot {
+  width: 16px;
+  height: 16px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: var(--ink);
+  box-shadow: 0 0 0 1.5px var(--ink);
+}
+.ramen-marker.is-selected .pin-dot {
+  width: 28px;
+  height: 28px;
+  border-width: 4px;
+  box-shadow:
+    0 0 0 1.5px var(--ink),
+    0 3px 0 1.5px var(--ink);
+}
 .restaurant-pin {
   display: block;
   width: 40px;
