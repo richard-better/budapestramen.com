@@ -2,7 +2,7 @@
   "version": 1,
   "id": "shibuya",
   "name": "Shibuya",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -58,7 +58,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5107448,
+        "lng": 19.0792342
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Shibuya+Budapest/@47.5107448,19.0792342,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd0009e2faa9:0x7845c47a5f57b208!8m2!3d47.5107448!4d19.0792342!16s%2Fg%2F11wvp_f8zy?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -377,5 +391,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.6,
+      "reviews": 665
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Shibuya+Budapest/@47.5107448,19.0792342,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd0009e2faa9:0x7845c47a5f57b208!8m2!3d47.5107448!4d19.0792342!16s%2Fg%2F11wvp_f8zy?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

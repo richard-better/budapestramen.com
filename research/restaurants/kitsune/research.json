@@ -2,7 +2,7 @@
   "version": 1,
   "id": "kitsune",
   "name": "Kitsune Japán Étterem és Kávézó",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4793456,
+        "lng": 19.0837011
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Kitsune+Jap%C3%A1n+%C3%89tterem+%C3%A9s+K%C3%A1v%C3%A9z%C3%B3/@47.4793456,19.0837011,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dce4beba3a65:0xceb45c1984f7790e!8m2!3d47.4793456!4d19.0837011!16s%2Fg%2F11f0wl3y3c?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -390,5 +404,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.3,
+      "reviews": 810
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Kitsune+Jap%C3%A1n+%C3%89tterem+%C3%A9s+K%C3%A1v%C3%A9z%C3%B3/@47.4793456,19.0837011,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dce4beba3a65:0xceb45c1984f7790e!8m2!3d47.4793456!4d19.0837011!16s%2Fg%2F11f0wl3y3c?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

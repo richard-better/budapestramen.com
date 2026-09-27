@@ -2,7 +2,7 @@
   "version": 1,
   "id": "japanika",
   "name": "Japanika",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -58,7 +58,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5008716,
+        "lng": 19.0522339
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Japanika/@47.5008716,19.0522339,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc152d7c689f:0xba3418c51bdd606d!8m2!3d47.5008716!4d19.0522339!16s%2Fg%2F11c44k3b58?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -412,5 +426,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.2,
+      "reviews": 3594
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Japanika/@47.5008716,19.0522339,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc152d7c689f:0xba3418c51bdd606d!8m2!3d47.5008716!4d19.0522339!16s%2Fg%2F11c44k3b58?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

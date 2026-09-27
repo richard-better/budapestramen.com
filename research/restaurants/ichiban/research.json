@@ -2,7 +2,7 @@
   "version": 1,
   "id": "ichiban",
   "name": "Ichiban Ramen, Sushi and Tea",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5037385,
+        "lng": 19.054781
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Ichiban+Ramen,+Sushi+and+Tea/@47.5037385,19.054781,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd001ea8bd95:0xf955486c635f286d!8m2!3d47.5037385!4d19.054781!16s%2Fg%2F11x1y5rzpp?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -340,5 +354,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.4,
+      "reviews": 145
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Ichiban+Ramen,+Sushi+and+Tea/@47.5037385,19.054781,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd001ea8bd95:0xf955486c635f286d!8m2!3d47.5037385!4d19.054781!16s%2Fg%2F11x1y5rzpp?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

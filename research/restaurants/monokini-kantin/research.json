@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5090651,
+        "lng": 19.0294897
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Monokini+Kantin/@47.5090651,19.0269148,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd917a38d439:0xd4110af9563f2be1!8m2!3d47.5090651!4d19.0294897!16s%2Fg%2F11xfsqlc88?entry=tts&g_ep=EgoyMDI2MDcwOC4wIPu8ASoASAFQAw%3D%3D&skid=258f0a47-27bd-4cff-94ff-54bb5ad66c3b"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -368,5 +382,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 201
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Monokini+Kantin/@47.5090651,19.0269148,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd917a38d439:0xd4110af9563f2be1!8m2!3d47.5090651!4d19.0294897!16s%2Fg%2F11xfsqlc88?entry=tts&g_ep=EgoyMDI2MDcwOC4wIPu8ASoASAFQAw%3D%3D&skid=258f0a47-27bd-4cff-94ff-54bb5ad66c3b"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

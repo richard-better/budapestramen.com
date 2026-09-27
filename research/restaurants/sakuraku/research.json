@@ -2,7 +2,7 @@
   "version": 1,
   "id": "sakuraku",
   "name": "Sakuraku Japanese Izakaya",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5026721,
+        "lng": 19.0638506
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Sakuraku+Japanese+Izakaya/@47.5026721,19.0638506,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd8db2b26ae7:0x7fb81001dff2f8c7!8m2!3d47.5026721!4d19.0638506!16s%2Fg%2F11kywqr325?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -341,5 +355,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.5,
+      "reviews": 732
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Sakuraku+Japanese+Izakaya/@47.5026721,19.0638506,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd8db2b26ae7:0x7fb81001dff2f8c7!8m2!3d47.5026721!4d19.0638506!16s%2Fg%2F11kywqr325?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

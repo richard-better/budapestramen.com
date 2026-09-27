@@ -13,9 +13,9 @@ const t = translations[state.language];
       <span class="restaurant-name">{place.name}</span>
       {place.rec && <span class="pick-badge">★ <span data-i18n="pick">{t.pick}</span></span>}
     </span>
-    <span class="row-metric" data-distance={place.id}>★ {place.rating.toFixed(1)}</span>
+    <span class="row-metric" data-distance={place.id}>{place.rating === null ? "" : `★ ${place.rating.toFixed(1)}`}</span>
     <span class="row-address">{place.address}</span>
-    <span class="row-metric-label" data-metric-label={place.id}>Google</span>
+    <span class="row-metric-label" data-metric-label={place.id}>{place.rating === null ? "" : "Google"}</span>
     <span class="tags">
       {place.styles.map((style) => <span class="tag">{style}</span>)}
       {place.vegan && <span class="tag" data-i18n="vegan">{t.vegan}</span>}

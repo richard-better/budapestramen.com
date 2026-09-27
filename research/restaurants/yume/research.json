@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4890387,
+        "lng": 19.0788343
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Y%C3%9CME/@47.4890423,19.0762594,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dddd4e86a129:0xadeb25384b7a6319!8m2!3d47.4890387!4d19.0788343!16s%2Fg%2F11mckn1l2m?entry=tts&g_ep=EgoyMDI2MDkyMy4wIPu8ASoASAFQAw%3D%3D&skid=b024f4da-5ce9-4e09-968b-33ece534f7e4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -341,5 +355,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 190
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Y%C3%9CME/@47.4890423,19.0762594,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dddd4e86a129:0xadeb25384b7a6319!8m2!3d47.4890387!4d19.0788343!16s%2Fg%2F11mckn1l2m?entry=tts&g_ep=EgoyMDI2MDkyMy4wIPu8ASoASAFQAw%3D%3D&skid=b024f4da-5ce9-4e09-968b-33ece534f7e4"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

@@ -2,7 +2,7 @@
   "version": 1,
   "id": "mori-ramen",
   "name": "Mori Ramen",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5012261,
+        "lng": 19.0643956
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Mori+Ramen/@47.5012297,19.0618207,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddad242aa8b7:0xe0bd0237f58b2a0f!8m2!3d47.5012261!4d19.0643956!16s%2Fg%2F11z1_xp3nt?entry=tts&g_ep=EgoyMDI2MDYwMS4wIPu8ASoASAFQAw%3D%3D&skid=159a402e-9d02-4a29-9567-12f21b1d7def"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -455,5 +469,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 427
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Mori+Ramen/@47.5012297,19.0618207,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddad242aa8b7:0xe0bd0237f58b2a0f!8m2!3d47.5012261!4d19.0643956!16s%2Fg%2F11z1_xp3nt?entry=tts&g_ep=EgoyMDI2MDYwMS4wIPu8ASoASAFQAw%3D%3D&skid=159a402e-9d02-4a29-9567-12f21b1d7def"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

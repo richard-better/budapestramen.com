@@ -2,7 +2,7 @@
   "version": 1,
   "id": "wafu-budafoki",
   "name": "WAFU Ramen Bar - Budafoki",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4784871,
+        "lng": 19.0535107
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/WAFU+Ramen+Bar+-Budafoki-/@47.4784907,19.0509358,615m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4741dda0e9ea26cf:0x1260116f6ab632e8!8m2!3d47.4784871!4d19.0535107!16s%2Fg%2F11w2jmmj78?entry=tts&g_ep=EgoyMDI1MTIwOS4wIPu8ASoASAFQAw%3D%3D&skid=12ee615d-41eb-4a68-a5e3-d054afc4e268"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -375,5 +389,22 @@
       ]
     }
   ],
-  "brandId": "wafu"
+  "brandId": "wafu",
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 418
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/WAFU+Ramen+Bar+-Budafoki-/@47.4784907,19.0509358,615m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4741dda0e9ea26cf:0x1260116f6ab632e8!8m2!3d47.4784871!4d19.0535107!16s%2Fg%2F11w2jmmj78?entry=tts&g_ep=EgoyMDI1MTIwOS4wIPu8ASoASAFQAw%3D%3D&skid=12ee615d-41eb-4a68-a5e3-d054afc4e268"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

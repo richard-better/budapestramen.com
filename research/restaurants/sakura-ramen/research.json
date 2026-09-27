@@ -2,7 +2,7 @@
   "version": 1,
   "id": "sakura-ramen",
   "name": "Sakura Ramen",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4985335,
+        "lng": 19.0567643
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Sakura+Ramen/@47.4985335,19.0567643,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc6a0c8daa65:0xc95d7dba0601f2ec!8m2!3d47.4985335!4d19.0567643!16s%2Fg%2F11f3dvykg5?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -324,5 +338,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 3.9,
+      "reviews": 2749
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Sakura+Ramen/@47.4985335,19.0567643,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc6a0c8daa65:0xc95d7dba0601f2ec!8m2!3d47.4985335!4d19.0567643!16s%2Fg%2F11f3dvykg5?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

@@ -2,7 +2,7 @@
   "version": 1,
   "id": "ramenji",
   "name": "Ramenji Ramen",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4903911,
+        "lng": 19.0549088
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Ramenji+Ramen/@47.4903911,19.0549088,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd87f89d1387:0x4c221ee510b59546!8m2!3d47.4903911!4d19.0549088!16s%2Fg%2F11ms3fsx_6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -408,5 +422,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.9,
+      "reviews": 2149
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Ramenji+Ramen/@47.4903911,19.0549088,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd87f89d1387:0x4c221ee510b59546!8m2!3d47.4903911!4d19.0549088!16s%2Fg%2F11ms3fsx_6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

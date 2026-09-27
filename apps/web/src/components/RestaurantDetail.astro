@@ -1,5 +1,5 @@
 ---
-import { translations } from "../lib/translations";
+import { translations, type TranslationKey } from "../lib/translations";
 import { type GuideState } from "../lib/guide";
 import type { Restaurant } from "../data/restaurants";
 import { restaurantLinks } from "../lib/guide";
@@ -8,6 +8,13 @@ interface Props { place: Restaurant; state: GuideState; visible?: boolean; templ
 const { place, state, template = true } = Astro.props;
 const t = translations[state.language];
 const links = restaurantLinks(place);
+const research = place.research;
+const primaryFeatures = ["reservations", "customization", "vegetarianRamen", "veganRamen"];
+const otherFeatures = ["delivery", "takeaway", "tabletOrdering", "kioskOrdering", "qrOrdering", "japaneseOwned", "hungarianOwned", "japaneseChef"];
+const publicLinks = ["website", "instagram", "facebook", "reservations", "delivery", "takeaway"];
+const categoryKey = research?.category === "ramen-specialist" ? "ramenSpecialist" : "servesRamen";
+const menuKey = research?.menuType === "ordering" ? "orderingMenu" : "menu";
+const money = (value: number) => `${value.toLocaleString("hu-HU")} Ft`;
 const Container = template ? "template" : "div";
 ---
 
@@ -24,6 +31,7 @@ const Container = template ? "template" : "div";
       </div>
       <h2 id="detail-title">{place.name}</h2>
       <p class="detail-address">{place.address}</p>
+      {research?.category && <p class="venue-category" data-i18n={categoryKey}>{t[categoryKey]}</p>}
       <h3 class="eyebrow style-label" data-i18n="style">{t.style}</h3>
       <div class="tags">
         {place.styles.map((style) => <span class="tag">{style}</span>)}
@@ -42,15 +50,43 @@ const Container = template ? "template" : "div";
       </div>
     </div>
     <div class="detail-stats">
-      <a href={links.maps} target="_blank" rel="noopener noreferrer" class="stat">
-        <strong>{place.rating.toFixed(1)}</strong><span>Google · {place.reviews.toLocaleString("en-US")}</span>
-      </a>
+      {place.rating !== null && <a href={links.maps} target="_blank" rel="noopener noreferrer" class="stat">
+        <strong>{place.rating.toFixed(1)}</strong><span>Google · {place.reviews?.toLocaleString("en-US")}</span>
+      </a>}
       <div class="stat"><strong data-detail-distance>· · ·</strong><span data-detail-distance-label><button class="distance-locate" data-action="locate"><Icon name="locate" size={12} /><span data-i18n="noLoc">{t.noLoc}</span></button></span></div>
     </div>
     {place.note && <aside class="recommendation"><h3 class="eyebrow" data-i18n="why">{t.why}</h3><p data-note={place.id}>“{place.note[state.language]}”</p></aside>}
     <a class="button menu-link" href={links.menu} target="_blank" rel="noopener noreferrer">
-      <Icon name="menu" size={16} /><span data-i18n="menu">{t.menu}</span><span aria-hidden="true">↗</span>
+      <Icon name="menu" size={16} /><span data-i18n={menuKey}>{t[menuKey]}</span><span aria-hidden="true">↗</span>
     </a>
+    {research && <section class="restaurant-facts">
+      <h3 class="eyebrow" data-i18n="ramenPrice">{t.ramenPrice}</h3>
+      {research.price ? <>
+        <p class="ramen-price">{money(research.price.min)}{research.price.max !== research.price.min && ` - ${money(research.price.max)}`}</p>
+        <p class="fact-note" data-i18n="priceNote">{t.priceNote}</p>
+      </> : <p class="fact-note" data-i18n="priceUnknown">{t.priceUnknown}</p>}
+      {research.checkedOn && <p class="fact-note"><span data-i18n="checkedOn">{t.checkedOn}</span>: <time datetime={research.checkedOn}>{research.checkedOn}</time></p>}
+      <h3 class="eyebrow" data-i18n="restaurantFacts">{t.restaurantFacts}</h3>
+      <dl class="facts-list">{primaryFeatures.map(key => <div><dt data-i18n={key}>{t[key as TranslationKey]}</dt><dd data-status={research.features[key]} data-i18n={research.features[key]}>{t[research.features[key] as TranslationKey]}</dd></div>)}</dl>
+      <details><summary data-i18n="moreFacts">{t.moreFacts}</summary><dl class="facts-list">{otherFeatures.map(key => <div><dt data-i18n={key}>{t[key as TranslationKey]}</dt><dd data-status={research.features[key]} data-i18n={research.features[key]}>{t[research.features[key] as TranslationKey]}</dd></div>)}</dl></details>
+      <h3 class="eyebrow" data-i18n="visitLinks">{t.visitLinks}</h3>
+      <nav class="venue-links">{publicLinks.filter(key => research.links[key]).map(key => <a href={research.links[key]} target="_blank" rel="noopener noreferrer"><span data-i18n={key}>{t[key as TranslationKey]}</span><span aria-hidden="true">↗</span></a>)}</nav>
+    </section>}
     <a class="photos-link" href={links.maps} target="_blank" rel="noopener noreferrer"><span data-i18n="photos">{t.photos}</span><span aria-hidden="true">↗</span></a>
   </div>
 </Container>
+
+<style>
+  .venue-category { color: var(--muted, #666); font-size: .85rem; margin: .75rem 0; }
+  .restaurant-facts { padding: 22px 28px; }
+  .restaurant-facts h3 { margin: 20px 0 12px; }
+  .ramen-price { font-size: 1.4rem; font-weight: 600; margin: 0 0 8px; }
+  .fact-note { font-size: .8rem; line-height: 1.5; color: #69645e; margin: 6px 0; }
+  .facts-list { margin: 0; font-size: .85rem; }
+  .facts-list > div { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-bottom: 1px solid #e8e3dc; }
+  .facts-list dd { margin: 0; text-align: right; }
+  [data-status="unknown"] { color: #77716a; }
+  .restaurant-facts summary { cursor: pointer; font-size: .85rem; padding: 16px 0 6px; }
+  .venue-links { display: flex; flex-wrap: wrap; gap: 8px; }
+  .venue-links a { display: inline-flex; align-items: center; gap: 10px; padding: 9px 12px; border: 1px solid #ddd6cc; border-radius: 8px; font-size: .85rem; }
+</style>

@@ -68,8 +68,7 @@ export const pricingSchema = z.strictObject({
 });
 export type Pricing = z.infer<typeof pricingSchema>;
 export function ramenPriceRange(pricing: Pricing) {
-  if (pricing.basis !== "dine-in" || pricing.coverage !== "complete" || !pricing.menuDate)
-    return null;
+  if (pricing.basis !== "dine-in" || pricing.coverage !== "complete") return null;
   const prices = pricing.bowls
     .filter((bowl) => bowl.eligibility === "standard")
     .map((bowl) => bowl.price);
@@ -89,6 +88,9 @@ export const researchSchema = z
     name: text,
     brandId: text.optional(),
     publication: z.enum(["candidate", "listed"]),
+    google: fact(
+      z.strictObject({ rating: z.number().min(0).max(5), reviews: z.number().int().nonnegative() }),
+    ).optional(),
     identity: z.strictObject({
       branch: fact(text),
       category: fact(z.enum(["ramen-specialist", "serves-ramen"])),

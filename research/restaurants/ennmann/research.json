@@ -2,7 +2,7 @@
   "version": 1,
   "id": "ennmann",
   "name": "Ennmann Japán Étterem",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.503101,
+        "lng": 19.039342
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Ennmann+Jap%C3%A1n+%C3%89tterem/@47.503101,19.039342,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc18281da5d1:0x5ecd08803925d025!8m2!3d47.503101!4d19.039342!16s%2Fg%2F11c2r7jhh6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -310,5 +324,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.6,
+      "reviews": 1207
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Ennmann+Jap%C3%A1n+%C3%89tterem/@47.503101,19.039342,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc18281da5d1:0x5ecd08803925d025!8m2!3d47.503101!4d19.039342!16s%2Fg%2F11c2r7jhh6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

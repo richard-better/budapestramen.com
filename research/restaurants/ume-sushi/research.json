@@ -2,7 +2,7 @@
   "version": 1,
   "id": "ume-sushi",
   "name": "Ume Sushi",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4946855,
+        "lng": 19.0510703
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Ume+sushi/@47.4946855,19.0510703,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd047ef8b5f9:0x8b24122946abf285!8m2!3d47.4946855!4d19.0510703!16s%2Fg%2F11t_tfnbnw?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -274,5 +288,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 365
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Ume+sushi/@47.4946855,19.0510703,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd047ef8b5f9:0x8b24122946abf285!8m2!3d47.4946855!4d19.0510703!16s%2Fg%2F11t_tfnbnw?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

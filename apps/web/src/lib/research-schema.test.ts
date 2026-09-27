@@ -104,7 +104,10 @@ describe("restaurant research", () => {
       checkedOn: "2026-09-26",
     });
     assert.equal(ramenPriceRange({ ...pricing, basis: "delivery" }), null);
-    assert.equal(ramenPriceRange({ ...pricing, menuDate: undefined }), null);
+    assert.deepEqual(
+      ramenPriceRange({ ...pricing, menuDate: undefined }),
+      ramenPriceRange(pricing),
+    );
     assert.equal(ramenPriceRange({ ...pricing, coverage: "partial" }), null);
     assert.equal(
       ramenPriceRange({

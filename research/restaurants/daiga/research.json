@@ -2,7 +2,7 @@
   "version": 1,
   "id": "daiga",
   "name": "Dáigá Sushi - Krisztina körút",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5065556,
+        "lng": 19.0231276
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/D%C3%A1ig%C3%A1+sushi/@47.5065556,19.0231276,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dfabffb3ca03:0x8c8bc1dc0adb7e90!8m2!3d47.5065556!4d19.0231276!16s%2Fg%2F11lgwq4g35?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -293,5 +307,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.7,
+      "reviews": 894
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/D%C3%A1ig%C3%A1+sushi/@47.5065556,19.0231276,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dfabffb3ca03:0x8c8bc1dc0adb7e90!8m2!3d47.5065556!4d19.0231276!16s%2Fg%2F11lgwq4g35?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

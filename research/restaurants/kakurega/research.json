@@ -2,7 +2,7 @@
   "version": 1,
   "id": "kakurega",
   "name": "Kakurega Japanese Restaurant",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5019627,
+        "lng": 19.0495141
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Kakurega+Japanese+Restaurant/@47.5019627,19.0495141,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd0010c78e3b:0x182db5928f80efa5!8m2!3d47.5019627!4d19.0495141!16s%2Fg%2F11xw8g0dx1?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -384,5 +398,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.9,
+      "reviews": 61
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Kakurega+Japanese+Restaurant/@47.5019627,19.0495141,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd0010c78e3b:0x182db5928f80efa5!8m2!3d47.5019627!4d19.0495141!16s%2Fg%2F11xw8g0dx1?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

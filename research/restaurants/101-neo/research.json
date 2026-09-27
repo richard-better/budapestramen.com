@@ -2,7 +2,7 @@
   "version": 1,
   "id": "101-neo",
   "name": "101 NEO Asian Food Bar",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4968953,
+        "lng": 19.0637513
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/101+NEO+Asian+Food+Bar/@47.4968953,19.0637513,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd70e567cca7:0x8d48b6cc19c62ed!8m2!3d47.4968953!4d19.0637513!16s%2Fg%2F11l5hjdfvz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -352,5 +366,22 @@
       ]
     }
   ],
-  "brandId": "101"
+  "brandId": "101",
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.7,
+      "reviews": 462
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/101+NEO+Asian+Food+Bar/@47.4968953,19.0637513,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd70e567cca7:0x8d48b6cc19c62ed!8m2!3d47.4968953!4d19.0637513!16s%2Fg%2F11l5hjdfvz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

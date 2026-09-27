@@ -275,10 +275,16 @@ function render(mapMotion: MapMotion = "preserve") {
     });
     element(`[data-distance="${restaurant.id}"]`).textContent = user
       ? formatDistance(distanceBetween(user, restaurant), state.language)
-      : `★ ${restaurant.rating.toFixed(1)}`;
+      : restaurant.rating === null
+        ? ""
+        : `★ ${restaurant.rating.toFixed(1)}`;
     element(`[data-metric-label="${restaurant.id}"]`).textContent = user
-      ? `★ ${restaurant.rating.toFixed(1)}`
-      : "Google";
+      ? restaurant.rating === null
+        ? ""
+        : `★ ${restaurant.rating.toFixed(1)}`
+      : restaurant.rating === null
+        ? ""
+        : "Google";
   });
   const countLabel = `${visible.length} ${t.places}${user ? ` · ${t.near}` : ""}`;
   document.querySelectorAll("[data-count]").forEach((node) => {
@@ -299,7 +305,9 @@ function render(mapMotion: MapMotion = "preserve") {
     element("[data-preview-address]").textContent = place.address;
     element("[data-preview-rating]").textContent = user
       ? formatDistance(distanceBetween(user, place), state.language)
-      : `★ ${place.rating.toFixed(1)}`;
+      : place.rating === null
+        ? ""
+        : `★ ${place.rating.toFixed(1)}`;
     element("[data-preview-tags]").textContent = [
       ...place.styles,
       ...(place.vegan ? [t.vegan] : []),

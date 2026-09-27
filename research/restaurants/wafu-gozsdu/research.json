@@ -2,7 +2,7 @@
   "version": 1,
   "id": "wafu-gozsdu",
   "name": "WAFU Ramen Bar Gozsdu",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4989347,
+        "lng": 19.0615548
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/WAFU+Ramen+Bar+-Gozsdu-/@47.4989383,19.0589799,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd28aa964367:0xfd6a02bf1ea577b!8m2!3d47.4989347!4d19.0615548!16s%2Fg%2F11vqp5f0n8?entry=tts&g_ep=EgoyMDI1MDMyNC4wIPu8ASoASAFQAw%3D%3D&skid=eead398f-8d44-4d3b-ba50-46e996dba74d"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -324,5 +338,22 @@
       ]
     }
   ],
-  "brandId": "wafu"
+  "brandId": "wafu",
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.9,
+      "reviews": 1326
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/WAFU+Ramen+Bar+-Gozsdu-/@47.4989383,19.0589799,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd28aa964367:0xfd6a02bf1ea577b!8m2!3d47.4989347!4d19.0615548!16s%2Fg%2F11vqp5f0n8?entry=tts&g_ep=EgoyMDI1MDMyNC4wIPu8ASoASAFQAw%3D%3D&skid=eead398f-8d44-4d3b-ba50-46e996dba74d"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

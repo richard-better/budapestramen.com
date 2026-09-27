@@ -472,6 +472,7 @@ svg {
   flex: 1;
 }
 .detail-panel {
+  height: calc(100% - 24px);
   z-index: 45;
   top: 12px;
   right: 12px;

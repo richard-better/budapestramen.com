@@ -2,7 +2,7 @@
   "version": 1,
   "id": "yume-7",
   "name": "Yume 7",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4998638,
+        "lng": 19.0577366
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Yume+7/@47.4998638,19.0577366,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd8a2a47ef71:0xdc43bf8b4df0a435!8m2!3d47.4998638!4d19.0577366!16s%2Fg%2F11y_q_fc_l?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -326,5 +340,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.7,
+      "reviews": 125
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Yume+7/@47.4998638,19.0577366,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd8a2a47ef71:0xdc43bf8b4df0a435!8m2!3d47.4998638!4d19.0577366!16s%2Fg%2F11y_q_fc_l?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

@@ -2,7 +2,7 @@
   "version": 1,
   "id": "zen-eatery",
   "name": "Zen Eatery",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.503896,
+        "lng": 19.0635176
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Zen+Eatery/@47.503896,19.0635176,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddeae57cca85:0x902d53a3500b1b53!8m2!3d47.503896!4d19.0635176!16s%2Fg%2F11y1yd5w79?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -328,5 +342,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.9,
+      "reviews": 669
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Zen+Eatery/@47.503896,19.0635176,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddeae57cca85:0x902d53a3500b1b53!8m2!3d47.503896!4d19.0635176!16s%2Fg%2F11y1yd5w79?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

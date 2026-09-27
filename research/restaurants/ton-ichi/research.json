@@ -2,7 +2,7 @@
   "version": 1,
   "id": "ton-ichi",
   "name": "Ton-Ichi Ramen",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5025257,
+        "lng": 19.0508091
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Ton-Ichi+Ramen/@47.5025257,19.0508091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2f1dd5bbbf:0xef4485d653a3bdd0!8m2!3d47.5025257!4d19.0508091!16s%2Fg%2F11sts3tq8x?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -308,5 +322,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.3,
+      "reviews": 832
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Ton-Ichi+Ramen/@47.5025257,19.0508091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2f1dd5bbbf:0xef4485d653a3bdd0!8m2!3d47.5025257!4d19.0508091!16s%2Fg%2F11sts3tq8x?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

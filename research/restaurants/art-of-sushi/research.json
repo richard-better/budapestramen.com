@@ -2,7 +2,7 @@
   "version": 1,
   "id": "art-of-sushi",
   "name": "Art of Sushi Budapest - Liszt Ferenc tér",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5034179,
+        "lng": 19.063483
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Art+of+Sushi+Budapest/@47.5034179,19.063483,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddbd4d057b7f:0xcf9dce8fa4342beb!8m2!3d47.5034179!4d19.063483!16s%2Fg%2F11x1v06h8s?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -338,5 +352,22 @@
       ]
     }
   ],
-  "brandId": "art-of-sushi"
+  "brandId": "art-of-sushi",
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 1589
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Art+of+Sushi+Budapest/@47.5034179,19.063483,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddbd4d057b7f:0xcf9dce8fa4342beb!8m2!3d47.5034179!4d19.063483!16s%2Fg%2F11x1v06h8s?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

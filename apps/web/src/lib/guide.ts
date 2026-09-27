@@ -58,7 +58,9 @@ export function filterRestaurants(
     .sort((a, b) =>
       user
         ? distanceBetween(user, a) - distanceBetween(user, b)
-        : Number(b.rec) - Number(a.rec) || b.rating - a.rating || a.name.localeCompare(b.name),
+        : Number(b.rec) - Number(a.rec) ||
+          (b.rating ?? -1) - (a.rating ?? -1) ||
+          a.name.localeCompare(b.name),
     );
 }
 

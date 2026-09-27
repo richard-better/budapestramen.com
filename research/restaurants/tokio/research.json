@@ -2,7 +2,7 @@
   "version": 1,
   "id": "tokio",
   "name": "TOKIO",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5002927,
+        "lng": 19.0476861
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/TOKIO+Budapest/@47.5002927,19.0476861,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc15939ab27f:0xbbff7834f98cbcff!8m2!3d47.5002927!4d19.0476861!16s%2Fg%2F119wp7x_y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -358,5 +372,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.7,
+      "reviews": 7924
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/TOKIO+Budapest/@47.5002927,19.0476861,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc15939ab27f:0xbbff7834f98cbcff!8m2!3d47.5002927!4d19.0476861!16s%2Fg%2F119wp7x_y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

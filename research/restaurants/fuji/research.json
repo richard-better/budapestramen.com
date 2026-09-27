@@ -2,7 +2,7 @@
   "version": 1,
   "id": "fuji",
   "name": "Fuji Japanese Restaurant",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5253705,
+        "lng": 19.0239347
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Fuji+Jap%C3%A1n+%C3%89tterem/@47.5253705,19.0239347,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d935b6214b3b:0x33a7042e30b271f4!8m2!3d47.5253705!4d19.0239347!16s%2Fg%2F1tjdkjgk?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -358,5 +372,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.6,
+      "reviews": 865
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Fuji+Jap%C3%A1n+%C3%89tterem/@47.5253705,19.0239347,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d935b6214b3b:0x33a7042e30b271f4!8m2!3d47.5253705!4d19.0239347!16s%2Fg%2F1tjdkjgk?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

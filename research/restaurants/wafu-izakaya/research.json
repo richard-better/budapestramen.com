@@ -2,7 +2,7 @@
   "version": 1,
   "id": "wafu-izakaya",
   "name": "WAFU Ramen Izakaya",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4961452,
+        "lng": 19.0641191
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/WAFU+-Ramen+Izakaya-/@47.4961452,19.0641191,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd3db64cc323:0xf2d9faf85a918708!8m2!3d47.4961452!4d19.0641191!16s%2Fg%2F11j14wqpc3?entry=tts&g_ep=EgoyMDI1MDMyNC4wIPu8ASoASAFQAw%3D%3D&skid=f5791bf7-fee6-4678-ae16-32e958dbd3bf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -448,5 +462,22 @@
       ]
     }
   ],
-  "brandId": "wafu"
+  "brandId": "wafu",
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.6,
+      "reviews": 2983
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/WAFU+-Ramen+Izakaya-/@47.4961452,19.0641191,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd3db64cc323:0xf2d9faf85a918708!8m2!3d47.4961452!4d19.0641191!16s%2Fg%2F11j14wqpc3?entry=tts&g_ep=EgoyMDI1MDMyNC4wIPu8ASoASAFQAw%3D%3D&skid=f5791bf7-fee6-4678-ae16-32e958dbd3bf"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

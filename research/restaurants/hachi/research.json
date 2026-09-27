@@ -2,7 +2,7 @@
   "version": 1,
   "id": "hachi",
   "name": "HACHI Budapest",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.500699,
+        "lng": 19.0511419
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Yama+Budapest/@47.500699,19.0511419,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddcaab55a69b:0x617311d8ecf1c3b!8m2!3d47.500699!4d19.0511419!16s%2Fg%2F11rj4zxhbx"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Former Yama premises at number 9, the temporary HACHI location confirmed by the official booking notice. Yama is closed; its rating is not HACHI’s rating."
+        }
+      ]
     },
     "maps": {
       "status": "known",

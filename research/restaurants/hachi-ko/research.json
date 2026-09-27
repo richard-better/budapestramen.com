@@ -2,7 +2,7 @@
   "version": 1,
   "id": "hachi-ko",
   "name": "HACHI-KO Sake & Ramen Bar",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -61,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4977226,
+        "lng": 19.0577454
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/HACHI-KO+Ramen+Bar/@47.4977226,19.0577454,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd000187829b:0xfb36da6f708fe16d!8m2!3d47.4977226!4d19.0577454!16s%2Fg%2F11yt5crhyk?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -404,5 +418,22 @@
       ]
     }
   ],
-  "brandId": "hachi"
+  "brandId": "hachi",
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 411
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/HACHI-KO+Ramen+Bar/@47.4977226,19.0577454,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd000187829b:0xfb36da6f708fe16d!8m2!3d47.4977226!4d19.0577454!16s%2Fg%2F11yt5crhyk?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }

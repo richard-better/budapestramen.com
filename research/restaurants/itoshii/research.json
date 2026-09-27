@@ -2,7 +2,7 @@
   "version": 1,
   "id": "itoshii",
   "name": "Itoshii",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "unknown"
@@ -50,7 +50,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.5100349,
+        "lng": 19.0585964
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Itoshii/@47.5100349,19.0585964,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d17c76fd1:0xa949d7d5139839ca!8m2!3d47.5100349!4d19.0585964!16s%2Fg%2F11b73sg7pt?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -367,5 +381,22 @@
         }
       ]
     }
-  ]
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.1,
+      "reviews": 2210
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Itoshii/@47.5100349,19.0585964,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d17c76fd1:0xa949d7d5139839ca!8m2!3d47.5100349!4d19.0585964!16s%2Fg%2F11b73sg7pt?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing checked against venue name and address; coordinates are the place marker, not the map viewport."
+      }
+    ]
+  }
 }
