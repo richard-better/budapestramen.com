@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "id": "wafu-kalvin",
+  "name": "WAFU Ramen Bar - Kálvin",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown",
+      "note": "Official Kálvin page repeats Kazinczy copy and links to Budafoki Maps/menu/delivery. Focused Maps search did not resolve Papnövelde 3 as an operating branch. Separate identity and current operation remain unverified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramenbar-kalvin/copy-5"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Kálvin page repeats Kazinczy copy and links to Budafoki Maps/menu/delivery. Focused Maps search did not resolve Papnövelde 3 as an operating branch. Separate identity and current operation remain unverified."
+        }
+      ]
+    },
+    "category": {
+      "status": "unknown"
+    },
+    "address": {
+      "status": "unknown"
+    },
+    "district": {
+      "status": "unknown"
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "unknown"
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.wafujp.com/work/wafu-ramenbar-kalvin/copy-5",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramenbar-kalvin/copy-5"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official but internally inconsistent branch page."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "unknown"
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [],
+  "pricing": [],
+  "brandId": "wafu"
+}

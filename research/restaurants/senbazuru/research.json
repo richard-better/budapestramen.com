@@ -1,0 +1,310 @@
+{
+  "version": 1,
+  "id": "senbazuru",
+  "name": "Senbazuru Bistro",
+  "publication": "listed",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Akadémia utca 11",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Four large Japanese ramen soups with fresh homemade noodles, egg, naruto and vegetables. Pho is a separate category."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Four large Japanese ramen soups with fresh homemade noodles, egg, naruto and vegetables. Pho is a separate category."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1054 Budapest, Akadémia utca 11",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District from merchant postal address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.5028239,
+        "lng": 19.0466618
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Senbazuru+Bistro/@47.5028239,19.0466618,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddae84ede12f:0x34e6dfcb1bf030c2!8m2!3d47.5028239!4d19.0466618!16s%2Fg%2F11h76kzw61?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/Senbazuru+Bistro/@47.5028239,19.0466618,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddae84ede12f:0x34e6dfcb1bf030c2!8m2!3d47.5028239!4d19.0466618!16s%2Fg%2F11h76kzw61?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Senbazuru+Bistro/@47.5028239,19.0466618,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddae84ede12f:0x34e6dfcb1bf030c2!8m2!3d47.5028239!4d19.0466618!16s%2Fg%2F11h76kzw61?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "http://hanoipho.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by merchant."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Four large Japanese ramen soups with fresh homemade noodles, egg, naruto and vegetables. Pho is a separate category.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full menu reviewed in shared browser."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Four large Japanese ramen soups with fresh homemade noodles, egg, naruto and vegetables. Pho is a separate category.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.txt",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery menu only; never substitute these prices for a verified dine-in range. Optional paid choices may affect the final order.",
+      "bowls": [
+        {
+          "name": "Pork ramen",
+          "price": 3590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken ramen",
+          "price": 3890,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Beef ramen",
+          "price": 4090,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tiger shrimp ramen",
+          "price": 4090,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Browser-visible merchant menu captured as static text."
+        }
+      ]
+    }
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.1,
+      "reviews": 335
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Senbazuru+Bistro/@47.5028239,19.0466618,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddae84ede12f:0x34e6dfcb1bf030c2!8m2!3d47.5028239!4d19.0466618!16s%2Fg%2F11h76kzw61?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  }
+}

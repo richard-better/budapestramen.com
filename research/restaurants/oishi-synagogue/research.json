@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "id": "oishi-synagogue",
+  "name": "Oishi Sushi Synagogue",
+  "publication": "listed",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Dohány utca 1/a",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1074 Budapest, Dohány utca 1/a",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District from merchant postal address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.4955391,
+        "lng": 19.0600283
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Oishi+Sushi+Synagogue/data=!4m7!3m6!1s0x4741dd7603e1c311:0x41b891a0b1a624e2!8m2!3d47.4955391!4d19.0600283!16s%2Fg%2F11rtnln9b9!19sChIJEcPhA3bdQUcR4iSmsaCRuEE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/Oishi+Sushi+Synagogue/data=!4m7!3m6!1s0x4741dd7603e1c311:0x41b891a0b1a624e2!8m2!3d47.4955391!4d19.0600283!16s%2Fg%2F11rtnln9b9!19sChIJEcPhA3bdQUcR4iSmsaCRuEE",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Oishi+Sushi+Synagogue/data=!4m7!3m6!1s0x4741dd7603e1c311:0x41b891a0b1a624e2!8m2!3d47.4955391!4d19.0600283!16s%2Fg%2F11rtnln9b9!19sChIJEcPhA3bdQUcR4iSmsaCRuEE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full menu reviewed in shared browser."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.txt",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery menu only; never substitute these prices for a verified dine-in range. Optional paid choices may affect the final order.",
+      "bowls": [
+        {
+          "name": "Beef ramen",
+          "price": 5190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken ramen",
+          "price": 4190,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Duck ramen",
+          "price": 4890,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Browser-visible merchant menu captured as static text."
+        }
+      ]
+    }
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.7,
+      "reviews": 1112
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Oishi+Sushi+Synagogue/data=!4m7!3m6!1s0x4741dd7603e1c311:0x41b891a0b1a624e2!8m2!3d47.4955391!4d19.0600283!16s%2Fg%2F11rtnln9b9!19sChIJEcPhA3bdQUcR4iSmsaCRuEE"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  }
+}

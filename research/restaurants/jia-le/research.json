@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "id": "jia-le",
+  "name": "Jia le Kínai büfé",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Üllői út 89/A",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and broth ingredients remain unverified; vegetable topping alone does not prove vegetarian broth."
+        }
+      ]
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and broth ingredients remain unverified; vegetable topping alone does not prove vegetarian broth.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and broth ingredients remain unverified; vegetable topping alone does not prove vegetarian broth."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1091 Budapest, Üllői út 89/A",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "IX",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District from merchant postal address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "unknown"
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and broth ingredients remain unverified; vegetable topping alone does not prove vegetarian broth.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full menu reviewed in shared browser."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and broth ingredients remain unverified; vegetable topping alone does not prove vegetarian broth.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.txt",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": []
+}

@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "id": "foodhouse",
+  "name": "FOODHOUSE",
+  "publication": "listed",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Podmaniczky utca 20.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Chinese noodle restaurant also explicitly lists tonkotsu ramen. Lanzhou beef noodles are kept distinct from that Japanese-style bowl."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Chinese noodle restaurant also explicitly lists tonkotsu ramen. Lanzhou beef noodles are kept distinct from that Japanese-style bowl."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1065 Budapest, Podmaniczky utca 20.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District from merchant postal address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.5087884,
+        "lng": 19.0576252
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Food+house/@47.5087884,19.0576252,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf873d743af:0x32cc773e5abfe4b2!8m2!3d47.5087884!4d19.0576252!16s%2Fg%2F11vwprrvtb?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/Food+house/@47.5087884,19.0576252,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf873d743af:0x32cc773e5abfe4b2!8m2!3d47.5087884!4d19.0576252!16s%2Fg%2F11vwprrvtb?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Food+house/@47.5087884,19.0576252,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf873d743af:0x32cc773e5abfe4b2!8m2!3d47.5087884!4d19.0576252!16s%2Fg%2F11vwprrvtb?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Tonkotsu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit tonkotsu description."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Chinese noodle restaurant also explicitly lists tonkotsu ramen. Lanzhou beef noodles are kept distinct from that Japanese-style bowl.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full menu reviewed in shared browser."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Chinese noodle restaurant also explicitly lists tonkotsu ramen. Lanzhou beef noodles are kept distinct from that Japanese-style bowl.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.txt",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery menu only; never substitute these prices for a verified dine-in range. Optional paid choices may affect the final order.",
+      "bowls": [
+        {
+          "name": "A1 Tonkotsu ramen",
+          "price": 4000,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Browser-visible merchant menu captured as static text."
+        }
+      ]
+    }
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.6,
+      "reviews": 164
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Food+house/@47.5087884,19.0576252,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf873d743af:0x32cc773e5abfe4b2!8m2!3d47.5087884!4d19.0576252!16s%2Fg%2F11vwprrvtb?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  }
+}

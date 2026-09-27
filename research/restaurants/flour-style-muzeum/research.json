@@ -1,0 +1,227 @@
+{
+  "version": 1,
+  "id": "flour-style-muzeum",
+  "name": "Flour Style Wok Bar - Múzeum",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Múzeum krt. 39.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant describes an authentic Chinese restaurant. Seven noodle soups named ramen; Japanese ramen style is not established. Vegetable A0 uses vegetable stock, but egg vegetable A1 explicitly uses meat stock."
+        }
+      ]
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Merchant describes an authentic Chinese restaurant. Seven noodle soups named ramen; Japanese ramen style is not established. Vegetable A0 uses vegetable stock, but egg vegetable A1 explicitly uses meat stock.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant describes an authentic Chinese restaurant. Seven noodle soups named ramen; Japanese ramen style is not established. Vegetable A0 uses vegetable stock, but egg vegetable A1 explicitly uses meat stock."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1053 Budapest, Múzeum krt. 39.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District from merchant postal address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "unknown"
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.flourstylewokbar.com/",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by merchant."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Merchant describes an authentic Chinese restaurant. Seven noodle soups named ramen; Japanese ramen style is not established. Vegetable A0 uses vegetable stock, but egg vegetable A1 explicitly uses meat stock.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full menu reviewed in shared browser."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Merchant describes an authentic Chinese restaurant. Seven noodle soups named ramen; Japanese ramen style is not established. Vegetable A0 uses vegetable stock, but egg vegetable A1 explicitly uses meat stock.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.txt",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": []
+}

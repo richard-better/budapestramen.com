@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "id": "nobi-sushi-pest",
+  "name": "Nobi Sushi Pest",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "This is a virtual venue",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit virtual venue. Same telephone and near-identical location as Nobility Sushi at Röppentyű 58; probable delivery alias, not an additional physical restaurant."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit virtual venue. Same telephone and near-identical location as Nobility Sushi at Röppentyű 58; probable delivery alias, not an additional physical restaurant."
+        }
+      ]
+    },
+    "address": {
+      "status": "unknown"
+    },
+    "district": {
+      "status": "unknown"
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "unknown"
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/profile.php?id=61577340523122",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by merchant."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Explicit virtual venue. Same telephone and near-identical location as Nobility Sushi at Röppentyű 58; probable delivery alias, not an additional physical restaurant.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full menu reviewed in shared browser."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Explicit virtual venue. Same telephone and near-identical location as Nobility Sushi at Röppentyű 58; probable delivery alias, not an additional physical restaurant.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.txt",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery menu only; never substitute these prices for a verified dine-in range. Optional paid choices may affect the final order.",
+      "bowls": [
+        {
+          "name": "Shrimp ramen",
+          "price": 5270,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken ramen",
+          "price": 4830,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Beef ramen",
+          "price": 5160,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tofu ramen",
+          "price": 4830,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Browser-visible merchant menu captured as static text."
+        }
+      ]
+    }
+  ]
+}

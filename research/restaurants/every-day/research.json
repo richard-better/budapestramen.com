@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "id": "every-day",
+  "name": "Every Day Restaurant",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Maps identity verified, but menu evidence is still insufficient to classify Japanese ramen. Do not interpret unknown as not served."
+    },
+    "address": {
+      "status": "known",
+      "value": "Budapest, 邮政编码:, Török Pál u. 3, 1093",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps branch address."
+        }
+      ]
+    },
+    "district": {
+      "status": "unknown"
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.4880715,
+        "lng": 19.0624149
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "unknown"
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [],
+  "pricing": [],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.7,
+      "reviews": 384
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  }
+}

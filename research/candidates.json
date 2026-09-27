@@ -320,11 +320,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Ten soup bowls including explicitly Japanese-style chashu ramen. Fried ramen, miso soup and hot-sour soup are excluded from ramen bowl prices.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "dimsum-wok-arkad"
     },
     {
       "id": "dumplimester",
@@ -341,11 +342,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Explicit tonkotsu with slow-cooked pork bone broth. Beef and shrimp noodle soups are not automatically classified as Japanese ramen.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dumplimester",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "dumplimester"
     },
     {
       "id": "ennmann",
@@ -382,8 +384,11 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Current Maps identity and address verified. Still inspect menu photographs or official menu before classifying ramen; ownership, ordering features and prices remain unknown."
+      ],
+      "researchPriority": "normal",
+      "researchId": "every-day"
     },
     {
       "id": "flour-style-muzeum",
@@ -405,11 +410,12 @@
         }
       ],
       "followUp": [
-        "Check the current menu for ramen and verify operating status.",
-        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+        "Merchant describes an authentic Chinese restaurant. Seven noodle soups named ramen; Japanese ramen style is not established. Vegetable A0 uses vegetable stock, but egg vegetable A1 explicitly uses meat stock.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "flour-style-muzeum"
     },
     {
       "id": "flour-style-nyugati",
@@ -426,12 +432,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status.",
-        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+        "Separate Radnóti Miklós branch. Merchant describes authentic Chinese cuisine; Japanese ramen style is not established. A0 vegetable stock differs from A1 meat stock.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar-nyugati",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "flour-style-nyugati"
     },
     {
       "id": "foodhouse",
@@ -448,12 +454,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status.",
-        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+        "Chinese noodle restaurant also explicitly lists tonkotsu ramen. Lanzhou beef noodles are kept distinct from that Japanese-style bowl.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "foodhouse"
     },
     {
       "id": "fuji",
@@ -595,11 +601,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Beef and seafood soups sold as ramen, but the descriptions do not establish Japanese ramen style.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hao-hao-etterem",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "hao-hao"
     },
     {
       "id": "ichiban",
@@ -706,11 +713,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and broth ingredients remain unverified; vegetable topping alone does not prove vegetarian broth.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "jia-le"
     },
     {
       "id": "k-bunsik",
@@ -727,11 +735,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Explicit Korean-style K-Ramen, jjajang and buldak. Retained as adjacent Korean ramyeon, not confirmed Japanese ramen.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/k-bunsik",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "k-bunsik"
     },
     {
       "id": "kaiszin",
@@ -748,11 +757,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Menu labels soups ramen / 拉面 in a Chinese and Asian kitchen. Japanese ramen style and broth ingredients remain unverified.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kaiszin-azsiai-konyha",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "kaiszin"
     },
     {
       "id": "kakurega",
@@ -813,11 +823,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Three soups sold as ramen at a Chinese restaurant. Japanese ramen style remains unverified.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ke-la-la-wok",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "ke-la-la"
     },
     {
       "id": "kincsan",
@@ -877,8 +888,11 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Current Maps identity and address verified. Still inspect menu photographs or official menu before classifying ramen; ownership, ordering features and prices remain unknown."
+      ],
+      "researchPriority": "normal",
+      "researchId": "kkodari"
     },
     {
       "id": "komachi",
@@ -927,11 +941,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Packaged instant noodles and snacks, with preparation instructions. Not a prepared Japanese ramen restaurant.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/love-asian-food",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "love-asian-food"
     },
     {
       "id": "monokini-kantin",
@@ -1050,11 +1065,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Explicit virtual venue. Same telephone and near-identical location as Nobility Sushi at Röppentyű 58; probable delivery alias, not an additional physical restaurant.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "nobi-sushi-pest"
     },
     {
       "id": "nobility-galagonya",
@@ -1071,7 +1087,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "nobility-galagonya"
     },
     {
       "id": "nobility-restaurant-unresolved",
@@ -1088,12 +1105,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status.",
-        "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
+        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "nobility-galagonya"
     },
     {
       "id": "nobility-sushi-unresolved",
@@ -1110,12 +1127,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status.",
-        "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
+        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-sushi",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "nobility-sushi-unresolved"
     },
     {
       "id": "nobu",
@@ -1153,11 +1170,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and vegetable broth remain unverified.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nyuszi-kinai-bufe",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "nyuszi"
     },
     {
       "id": "oishi-dohany",
@@ -1178,9 +1196,13 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "oishi-dohany"
     },
     {
       "id": "oishi-synagogue",
@@ -1201,9 +1223,13 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "oishi-synagogue"
     },
     {
       "id": "oishi-takeaway-unresolved",
@@ -1220,12 +1246,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status.",
-        "May duplicate another candidate under a delivery alias; do not count as an additional physical shop until resolved."
+        "Resolved to Fényes Elek utca 4, distinct from the two Dohány branches. Delivery promotions and fried noodles must not enter a dine-in ramen range.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "oishi-takeaway-unresolved"
     },
     {
       "id": "olive-azsia",
@@ -1242,11 +1268,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Five soups sold as ramen at a Chinese restaurant. Japanese ramen style and vegetable broth remain unverified.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/olive-zsia-tterem",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "olive-azsia"
     },
     {
       "id": "oriental-soup-house-balzac",
@@ -1263,7 +1290,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "oriental-soup-house-balzac"
     },
     {
       "id": "oriental-soup-house-szervita",
@@ -1280,7 +1308,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "oriental-soup-house-szervita"
     },
     {
       "id": "pearl-harbor",
@@ -1297,7 +1326,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "pearl-harbor"
     },
     {
       "id": "poetry",
@@ -1319,12 +1349,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status.",
-        "Iki official Instagram retains Poetry Wine posts at same Andrássy út 38 address; likely predecessor/rebrand, verify before counting separately."
+        "Delivery page remains at Andrássy út 38, the verified Iki Ramen Izakaya address. Possible stale predecessor listing; do not create a separate public venue until identity is resolved.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/poetry-wine-restaurant-and-bar",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "poetry"
     },
     {
       "id": "ramen-mester-etele",
@@ -1387,11 +1417,12 @@
         }
       ],
       "followUp": [
-        "Check the current menu for ramen and verify operating status.",
-        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+        "Explicit authentic Chinese hand-pulled beef noodles. Retained as adjacent lamian, not confirmed Japanese ramen.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-wesselenyi",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "ramen-mester-wesselenyi"
     },
     {
       "id": "ramen-nikko",
@@ -1544,9 +1575,13 @@
           "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Four large Japanese ramen soups with fresh homemade noodles, egg, naruto and vegetables. Pho is a separate category.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "senbazuru"
     },
     {
       "id": "shibuya",
@@ -1583,8 +1618,11 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Current Maps identity and address verified. Still inspect menu photographs or official menu before classifying ramen; ownership, ordering features and prices remain unknown."
+      ],
+      "researchPriority": "normal",
+      "researchId": "song-mester"
     },
     {
       "id": "sushi-heaven",
@@ -1605,9 +1643,13 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Menu calls this Thai ramen with shiitake, wakame and egg. Retain as fusion ramen; do not infer a traditional Japanese broth style.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-heaven",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "sushi-heaven"
     },
     {
       "id": "sushi-sei",
@@ -1645,11 +1687,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Four ramen soup options. The vegetable ramen explicitly contains chicken stock and egg; no vegetarian or vegan ramen is evidenced by this complete menu.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "sushi-wan"
     },
     {
       "id": "taste-of-china",
@@ -1666,11 +1709,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Menu reviewed: Chinese rice bowls, soups and snacks; ramen category membership does not establish a Japanese ramen dish. Current merchant address is Rákóczi út 71, despite historical URL mentioning Üllői.",
+        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/taste-of-china-ulloi",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "taste-of-china"
     },
     {
       "id": "tokio",
@@ -1921,9 +1965,10 @@
         }
       ],
       "followUp": [
-        "Official Kálvin page duplicates Budafoki Maps, menu and Wolt URLs; focused Maps search did not resolve a Kálvin branch. Do not count as confirmed separate venue until address/opening verified."
+        "Official Kálvin page repeats Kazinczy copy and links to Budafoki Maps/menu/delivery. Focused Maps search did not resolve Papnövelde 3 as an operating branch. Separate identity and current operation remain unverified."
       ],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "wafu-kalvin"
     },
     {
       "id": "wafu-katona",
@@ -1982,7 +2027,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "wasabi-mom"
     },
     {
       "id": "wasabi-podmaniczky",
@@ -1999,7 +2045,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "wasabi-podmaniczky"
     },
     {
       "id": "wasabi-szepvolgyi",
@@ -2016,7 +2063,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "wasabi-szepvolgyi"
     },
     {
       "id": "whats-running",
@@ -2033,7 +2081,8 @@
         }
       ],
       "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "whats-running"
     },
     {
       "id": "yamato",
@@ -2070,8 +2119,11 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Current Maps identity and address verified. Still inspect menu photographs or official menu before classifying ramen; ownership, ordering features and prices remain unknown."
+      ],
+      "researchPriority": "normal",
+      "researchId": "yi-du"
     },
     {
       "id": "yume",

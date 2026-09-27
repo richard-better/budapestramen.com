@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "id": "wasabi-mom",
+  "name": "Wasabi Running Sushi & Wok Restaurant - MOM Park",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/etlap?page=2"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Shared official menu explicitly lists ramen soup with selectable topping. Branch availability needs reconfirmation."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "Budapest, Alkotás u. 53, 1123",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park/@47.4909813,19.022886,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc2f29e7d3a1:0x9ca7dfd8cf7cea48!8m2!3d47.4909813!4d19.022886!16s%2Fg%2F1td3dt7y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps branch address."
+        }
+      ]
+    },
+    "district": {
+      "status": "unknown"
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.4909813,
+        "lng": 19.022886
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park/@47.4909813,19.022886,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc2f29e7d3a1:0x9ca7dfd8cf7cea48!8m2!3d47.4909813!4d19.022886!16s%2Fg%2F1td3dt7y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park/@47.4909813,19.022886,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc2f29e7d3a1:0x9ca7dfd8cf7cea48!8m2!3d47.4909813!4d19.022886!16s%2Fg%2F1td3dt7y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park/@47.4909813,19.022886,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc2f29e7d3a1:0x9ca7dfd8cf7cea48!8m2!3d47.4909813!4d19.022886!16s%2Fg%2F1td3dt7y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://wasabi.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by official website."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/wasabi_hungary_official/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by official website."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/wasabihungary",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by official website."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wasabi.hu/etlap",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by official website."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://wasabi.hu/asztalfoglalas",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by official website."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/asztalfoglalas"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official reservation page."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/etlap?page=2"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Selectable ramen topping explicitly offered."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Ramen soup with selectable topping; the website initially displays 0 Ft before options, which is not a valid bowl price.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://wasabi.hu/etlap?page=2"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu reviewed; never use the placeholder as a price."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://wasabi.hu/etlap?page=2",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Shared chain menu; prices depend on selected options and branch.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-2026-09-27.txt",
+            "sourceUrl": "https://wasabi.hu/etlap?page=2",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.9,
+      "reviews": 15291
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park/@47.4909813,19.022886,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc2f29e7d3a1:0x9ca7dfd8cf7cea48!8m2!3d47.4909813!4d19.022886!16s%2Fg%2F1td3dt7y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  },
+  "brandId": "wasabi"
+}

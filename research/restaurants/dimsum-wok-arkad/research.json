@@ -1,0 +1,350 @@
+{
+  "version": 1,
+  "id": "dimsum-wok-arkad",
+  "name": "DimSum & Wok go - Árkád",
+  "publication": "listed",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Örs vezér tere 25/a.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Ten soup bowls including explicitly Japanese-style chashu ramen. Fried ramen, miso soup and hot-sour soup are excluded from ramen bowl prices."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Ten soup bowls including explicitly Japanese-style chashu ramen. Fried ramen, miso soup and hot-sour soup are excluded from ramen bowl prices."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1106 Budapest, Örs vezér tere 25/a.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "X",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District from merchant postal address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.502842,
+        "lng": 19.139091
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/DimSum+%26+Wok+Go/@47.502842,19.139091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddc12d1c7175:0x993df1ce0eb98dcf!8m2!3d47.502842!4d19.139091!16s%2Fg%2F11sv6w51gx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/DimSum+%26+Wok+Go/@47.502842,19.139091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddc12d1c7175:0x993df1ce0eb98dcf!8m2!3d47.502842!4d19.139091!16s%2Fg%2F11sv6w51gx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/DimSum+%26+Wok+Go/@47.502842,19.139091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddc12d1c7175:0x993df1ce0eb98dcf!8m2!3d47.502842!4d19.139091!16s%2Fg%2F11sv6w51gx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "http://hu-hu.facebook.com/sakuraramenbp",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by merchant."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit vegetarian ramen listed."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Ten soup bowls including explicitly Japanese-style chashu ramen. Fried ramen, miso soup and hot-sour soup are excluded from ramen bowl prices.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full menu reviewed in shared browser."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Ten soup bowls including explicitly Japanese-style chashu ramen. Fried ramen, miso soup and hot-sour soup are excluded from ramen bowl prices.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.txt",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery menu only; never substitute these prices for a verified dine-in range. Optional paid choices may affect the final order.",
+      "bowls": [
+        {
+          "name": "Vörös szószos marha ramen",
+          "price": 4080,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Marha ramen",
+          "price": 4080,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Japanese chashu ramen",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Cantonese BBQ pork ramen",
+          "price": 4080,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Soy-marinated pork ramen",
+          "price": 4080,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Seafood ramen",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken ramen",
+          "price": 3780,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Duck ramen",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegetarian ramen",
+          "price": 3080,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shrimp tempura ramen",
+          "price": 4480,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Browser-visible merchant menu captured as static text."
+        }
+      ]
+    }
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 2.1,
+      "reviews": 200
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/DimSum+%26+Wok+Go/@47.502842,19.139091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddc12d1c7175:0x993df1ce0eb98dcf!8m2!3d47.502842!4d19.139091!16s%2Fg%2F11sv6w51gx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  }
+}

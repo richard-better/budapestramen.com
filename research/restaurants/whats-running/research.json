@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "id": "whats-running",
+  "name": "WHAT'S RUNNING SOUP-SUSHI-HOTPOT",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Ramen is listed as duck hot-pot broth at 3490 HUF, with separately priced toppings. This is not evidence of a complete standard ramen bowl or range.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/etlap/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Ramen is listed as duck hot-pot broth at 3490 HUF, with separately priced toppings. This is not evidence of a complete standard ramen bowl or range."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "Budapest, Hercegprímás u. 4, 1051",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/WHAT'S+RUNNING+SOUP-SUSHI-HOTPOT+%E2%8B%85+RESTAURANT/@47.499655,19.0531133,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd5ce908dc7f:0x5fc20acf37dc843!8m2!3d47.499655!4d19.0531133!16s%2Fg%2F11sjh0zq41?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps branch address."
+        }
+      ]
+    },
+    "district": {
+      "status": "unknown"
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.499655,
+        "lng": 19.0531133
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/WHAT'S+RUNNING+SOUP-SUSHI-HOTPOT+%E2%8B%85+RESTAURANT/@47.499655,19.0531133,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd5ce908dc7f:0x5fc20acf37dc843!8m2!3d47.499655!4d19.0531133!16s%2Fg%2F11sjh0zq41?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/WHAT'S+RUNNING+SOUP-SUSHI-HOTPOT+%E2%8B%85+RESTAURANT/@47.499655,19.0531133,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd5ce908dc7f:0x5fc20acf37dc843!8m2!3d47.499655!4d19.0531133!16s%2Fg%2F11sjh0zq41?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/WHAT'S+RUNNING+SOUP-SUSHI-HOTPOT+%E2%8B%85+RESTAURANT/@47.499655,19.0531133,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd5ce908dc7f:0x5fc20acf37dc843!8m2!3d47.499655!4d19.0531133!16s%2Fg%2F11sjh0zq41?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://whatsrunning.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website link."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/whatsrunningsoup/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website link."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/whatsrunningsoup",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website link."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://whatsrunning.hu/etlap/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website link."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://whatsrunning.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website strongly recommends advance booking."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://whatsrunning.hu/etlap/",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Ramen is listed as duck hot-pot broth at 3490 HUF, with separately priced toppings. This is not evidence of a complete standard ramen bowl or range.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-2026-09-27.txt",
+            "sourceUrl": "https://whatsrunning.hu/etlap/",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.8,
+      "reviews": 4886
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/WHAT'S+RUNNING+SOUP-SUSHI-HOTPOT+%E2%8B%85+RESTAURANT/@47.499655,19.0531133,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd5ce908dc7f:0x5fc20acf37dc843!8m2!3d47.499655!4d19.0531133!16s%2Fg%2F11sjh0zq41?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  }
+}

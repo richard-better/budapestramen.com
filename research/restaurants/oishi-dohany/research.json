@@ -1,0 +1,350 @@
+{
+  "version": 1,
+  "id": "oishi-dohany",
+  "name": "Oishi Sushi Budapest",
+  "publication": "listed",
+  "identity": {
+    "branch": {
+      "status": "known",
+      "value": "Dohány u. 47",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown."
+        }
+      ]
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1074 Budapest, Dohány u. 47",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District from merchant postal address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.4980654,
+        "lng": 19.0694025
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Oishi+Sushi+Budapest/@47.4980654,19.0694025,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc670639617b:0x21464914d7b38b3b!8m2!3d47.4980654!4d19.0694025!16s%2Fg%2F11cp5z8px0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/Oishi+Sushi+Budapest/@47.4980654,19.0694025,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc670639617b:0x21464914d7b38b3b!8m2!3d47.4980654!4d19.0694025!16s%2Fg%2F11cp5z8px0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Oishi+Sushi+Budapest/@47.4980654,19.0694025,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc670639617b:0x21464914d7b38b3b!8m2!3d47.4980654!4d19.0694025!16s%2Fg%2F11cp5z8px0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "http://oishisushitogo.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by merchant."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu and delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit vegetarian ramen listed."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full menu reviewed in shared browser."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.txt",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Delivery menu only; never substitute these prices for a verified dine-in range. Optional paid choices may affect the final order.",
+      "bowls": [
+        {
+          "name": "Duck ramen",
+          "price": 4390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken ramen",
+          "price": 3690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegetarian ramen",
+          "price": 3290,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Seafood ramen",
+          "price": 4390,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Pork ramen",
+          "price": 4590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Beef ramen",
+          "price": 4690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Seafood xin ramen",
+          "price": 4790,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken xin ramen",
+          "price": 3990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Beef xin ramen",
+          "price": 4790,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Bacon ramen",
+          "price": 4690,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Browser-visible merchant menu captured as static text."
+        }
+      ]
+    }
+  ],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.5,
+      "reviews": 990
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Oishi+Sushi+Budapest/@47.4980654,19.0694025,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc670639617b:0x21464914d7b38b3b!8m2!3d47.4980654!4d19.0694025!16s%2Fg%2F11cp5z8px0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "id": "oriental-soup-house-szervita",
+  "name": "Oriental Soup House - Szervita",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Official menu lists pho and other Vietnamese/Asian soups, not Japanese ramen; do not classify noodle soups as ramen.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://orientalsouphouse.com/szervita/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu lists pho and other Vietnamese/Asian soups, not Japanese ramen; do not classify noodle soups as ramen."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "Budapest, Szervita tér 2, 1052",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Oriental+Soup+House+Szervita+t%C3%A9r/@47.4954147,19.0525291,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dff8de846c7d:0x701de8bcef33c409!8m2!3d47.4954147!4d19.0525291!16s%2Fg%2F11fngyw465?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps branch address."
+        }
+      ]
+    },
+    "district": {
+      "status": "unknown"
+    },
+    "coordinates": {
+      "status": "known",
+      "value": {
+        "lat": 47.4954147,
+        "lng": 19.0525291
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Oriental+Soup+House+Szervita+t%C3%A9r/@47.4954147,19.0525291,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dff8de846c7d:0x701de8bcef33c409!8m2!3d47.4954147!4d19.0525291!16s%2Fg%2F11fngyw465?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates."
+        }
+      ]
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/place/Oriental+Soup+House+Szervita+t%C3%A9r/@47.4954147,19.0525291,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dff8de846c7d:0x701de8bcef33c409!8m2!3d47.4954147!4d19.0525291!16s%2Fg%2F11fngyw465?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Oriental+Soup+House+Szervita+t%C3%A9r/@47.4954147,19.0525291,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dff8de846c7d:0x701de8bcef33c409!8m2!3d47.4954147!4d19.0525291!16s%2Fg%2F11fngyw465?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching branch name and street address verified."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://orientalsouphouse.com/szervita/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://orientalsouphouse.com/szervita/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/orientalsouphouse/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://orientalsouphouse.com/szervita/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/bestorientalsoup/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://orientalsouphouse.com/szervita/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://orientalsouphouse.com/wp-content/uploads/2026/05/OSHO_szervita_menu_HU__2026.05.07.pdf",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://orientalsouphouse.com/szervita/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://orientalsouphouse.com/asztalfoglalas/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://orientalsouphouse.com/szervita/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://orientalsouphouse.com/szervita/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official booking link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://orientalsouphouse.com/wp-content/uploads/2026/05/OSHO_szervita_menu_HU__2026.05.07.pdf",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official menu lists pho and other Vietnamese/Asian soups, not Japanese ramen; do not classify noodle soups as ramen.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/OSHO_szervita_menu_HU__2026.05.07.pdf",
+            "sourceUrl": "https://orientalsouphouse.com/wp-content/uploads/2026/05/OSHO_szervita_menu_HU__2026.05.07.pdf",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [],
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.5,
+      "reviews": 2903
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://www.google.com/maps/place/Oriental+Soup+House+Szervita+t%C3%A9r/@47.4954147,19.0525291,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dff8de846c7d:0x701de8bcef33c409!8m2!3d47.4954147!4d19.0525291!16s%2Fg%2F11fngyw465?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps rating snapshot."
+      }
+    ]
+  }
+}
