@@ -1,0 +1,43 @@
+name: Ling’s - Ramen Mester Etele tér
+address: "1115 Budapest, Etele tér 5."
+district: XI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter
+coordinates:
+  lat: 47.4653659
+  lng: 19.0226417
+styles:
+  - Chinese hand-pulled lamian
+vegan: false
+recommended: false
+google:
+  rating: 4.4
+  reviews: 468
+source:
+  name: Google Maps and merchant menu
+  date: "2026-09-27"
+  url: https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter
+details:
+  category: serves-ramen
+  links:
+    instagram: https://www.instagram.com/ramenmester.lings/
+    menu: https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter
+    delivery: https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter
+    takeaway: https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

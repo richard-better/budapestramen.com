@@ -7,6 +7,7 @@ export const ramenStyles = [
   "Tsukemen",
   "Paitan",
   "Cold ramen",
+  "Chinese hand-pulled lamian",
 ] as const;
 export type RamenStyle = (typeof ramenStyles)[number];
 

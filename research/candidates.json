@@ -1835,7 +1835,7 @@
     {
       "id": "ramen-mester-etele",
       "name": "Ling’s - Ramen Mester Etele tér",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Etele tér 5",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34",
       "signals": [
@@ -1867,19 +1867,18 @@
         }
       ],
       "followUp": [
-        "Merchant explicitly describes Chinese hand-pulled lamian, not Japanese ramen. Inclusion requires editorial decision; do not classify from translated name alone.",
-        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
+        "Current dine-in bowl price range, reservations, ownership and ordering-device features remain unknown."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
       "researchPriority": "high",
       "researchId": "ramen-mester-etele",
       "review": {
         "checkedOn": "2026-09-27",
-        "outcome": "ramen-not-confirmed",
-        "note": "Merchant explicitly describes Chinese hand-pulled lamian, not Japanese ramen. Inclusion requires editorial decision; do not classify from translated name alone.",
+        "outcome": "listed",
+        "note": "Included at the user's request, explicitly labelled Chinese hand-pulled lamian. Verified facts transferred to website YAML; Japanese style is not inferred.",
         "sources": [
-          "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
-          "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34"
+          "https://maps.app.goo.gl/nrw3Sca4bsEvqYsF7",
+          "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
         ]
       }
     },

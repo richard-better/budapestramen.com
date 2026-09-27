@@ -2,14 +2,35 @@
   "version": 1,
   "id": "ramen-mester-etele",
   "name": "Ling’s - Ramen Mester Etele tér",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Etele tér",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/nrw3Sca4bsEvqYsF7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps listing at Etele tér 5."
+        }
+      ]
     },
     "category": {
-      "status": "unknown",
-      "note": "Merchant explicitly describes Chinese hand-pulled lamian, not Japanese ramen. Inclusion requires editorial decision; do not classify from translated name alone."
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Chinese hand-pulled lamian sold as ramen. Included at the user's request; no Japanese broth style is inferred."
+        }
+      ]
     },
     "address": {
       "status": "known",
@@ -40,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4653659,
+        "lng": 19.0226417
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/nrw3Sca4bsEvqYsF7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Place marker coordinates verified in the resolved Google Maps URL."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -247,5 +282,22 @@
     }
   ],
   "pricing": [],
-  "brandId": "ramen-mester"
+  "brandId": "ramen-mester",
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.4,
+      "reviews": 468
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://maps.app.goo.gl/nrw3Sca4bsEvqYsF7"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Google Maps listing snapshot."
+      }
+    ]
+  }
 }
