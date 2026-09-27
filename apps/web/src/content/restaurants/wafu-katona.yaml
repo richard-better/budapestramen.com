@@ -11,10 +11,7 @@ styles:
   - Shoyu
   - Tantanmen
 vegan: false
-recommended: true
-recommendation:
-  en: Recommended for its tonkotsu, shoyu and tantanmen, with vegetarian bowls available.
-  hu: Ajánlott tonkotsu, shoyu és tantanmen ramenjeiért, vegetáriánus tálakkal is.
+recommended: false
 google:
   rating: 4.7
   reviews: 743

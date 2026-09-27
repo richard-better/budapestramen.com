@@ -9,10 +9,7 @@ coordinates:
 styles:
   - Shoyu
 vegan: false
-recommended: true
-recommendation:
-  en: Recommended for WAFU's shoyu ramen at the Biangarden food court.
-  hu: Ajánlott, ha WAFU shoyu rament ennél a Biangarden ételudvarban.
+recommended: false
 google:
   rating: null
   reviews: null
