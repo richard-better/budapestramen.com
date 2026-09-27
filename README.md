@@ -83,6 +83,8 @@ Import the generated `ENV` accessor in application code. Shared database and aut
 
 For Cloudflare, Alchemy loads and validates deployment inputs with `varlock/auto-load` in its Node/Bun deployment process. Worker code reads native bindings; web clients use the framework's public env API through `src/env.public.ts` where needed. Alchemy supplies resource URLs and managed database credentials. In-Worker Varlock protections are deferred until an official Alchemy integration is available; see [the non-Wrangler deployment guidance](https://varlock.dev/integrations/cloudflare/#non-wrangler-deploy-tools-alchemy-sst-pulumi).
 
+The web app uses `PUBLIC_POSTHOG_PROJECT_TOKEN` and `PUBLIC_POSTHOG_HOST` at build time. Set them in `apps/web/.env` for local development and as repository Actions variables for CI and production deployments. The project token is a public ingestion key embedded in the browser bundle.
+
 Bun's automatic env loading is disabled in `bunfig.toml`; the framework integration or server bootstrap loads Varlock. Node deployments must include Varlock and its dependencies alongside the app schema.
 
 Run standalone Node/Bun tools that use Varlock from the owning app directory so they load that app's schema and env files. `env:generate` only generates TypeScript files; it does not initialize environment values in a subsequent command.
@@ -107,10 +109,12 @@ Production deployments are serialized so two runs cannot update Alchemy's state 
 2. Copy that account's **Account ID** from Cloudflare's Workers & Pages overview.
 3. Configure this repository's [Actions secrets and variables](https://github.com/richard-better/budapestramen.com/settings/secrets/actions):
 
-   | Kind     | Name                    | Value                     |
-   | -------- | ----------------------- | ------------------------- |
-   | Secret   | `CLOUDFLARE_API_TOKEN`  | The custom API token      |
-   | Variable | `CLOUDFLARE_ACCOUNT_ID` | The Cloudflare account ID |
+   | Kind     | Name                           | Value                                                          |
+   | -------- | ------------------------------ | -------------------------------------------------------------- |
+   | Secret   | `CLOUDFLARE_API_TOKEN`         | The custom API token                                           |
+   | Variable | `CLOUDFLARE_ACCOUNT_ID`        | The Cloudflare account ID                                      |
+   | Variable | `PUBLIC_POSTHOG_PROJECT_TOKEN` | PostHog project token                                          |
+   | Variable | `PUBLIC_POSTHOG_HOST`          | PostHog ingestion host, for example `https://us.i.posthog.com` |
 
    Alternatively, use the GitHub CLI from the repository root. The secret command prompts for the token without including it in your command history:
 

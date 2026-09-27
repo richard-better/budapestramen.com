@@ -10,6 +10,10 @@ on:
 permissions:
   contents: read
 
+env:
+  PUBLIC_POSTHOG_PROJECT_TOKEN: ${{ vars.PUBLIC_POSTHOG_PROJECT_TOKEN }}
+  PUBLIC_POSTHOG_HOST: ${{ vars.PUBLIC_POSTHOG_HOST }}
+
 concurrency:
   group: cloudflare-${{ github.ref }}
   cancel-in-progress: false
@@ -27,6 +31,16 @@ jobs:
       - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
         with:
           bun-version-file: package.json
+      - name: Verify PostHog configuration is available
+        run: |
+          if [ -z "$PUBLIC_POSTHOG_PROJECT_TOKEN" ]; then
+            echo "::error::Set the PUBLIC_POSTHOG_PROJECT_TOKEN repository variable."
+            exit 1
+          fi
+          if [ -z "$PUBLIC_POSTHOG_HOST" ]; then
+            echo "::error::Set the PUBLIC_POSTHOG_HOST repository variable."
+            exit 1
+          fi
       - run: bun install --frozen-lockfile
       - run: bun run check
       - run: bun run build

@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import Header from "../components/Header.astro";
+import PostHog from "../components/posthog.astro";
 import type { Language } from "../lib/guide";
 
 interface Props {
@@ -54,6 +55,7 @@ const socialImageAlt = "Budapest Ramen logo beside a bowl of ramen and a map of 
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={socialImageUrl} />
     <meta name="twitter:image:alt" content={socialImageAlt} />
+    <PostHog />
   </head>
   <body>
     {!fullScreen && <Header language={language} />}

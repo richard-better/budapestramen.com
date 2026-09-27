@@ -1,0 +1,16 @@
+---
+const missingVariables = [
+  ["PUBLIC_POSTHOG_PROJECT_TOKEN", import.meta.env.PUBLIC_POSTHOG_PROJECT_TOKEN],
+  ["PUBLIC_POSTHOG_HOST", import.meta.env.PUBLIC_POSTHOG_HOST],
+]
+  .filter(([, value]) => !value)
+  .map(([name]) => name);
+
+if (missingVariables.length > 0) {
+  throw new Error(`PostHog configuration is missing: ${missingVariables.join(", ")}`);
+}
+---
+
+<script>
+  import "../scripts/posthog";
+</script>

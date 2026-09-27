@@ -15,6 +15,7 @@ import {
   type Language,
 } from "../lib/guide";
 import { translations, type TranslationKey } from "../lib/translations";
+import { capture, guideLogger } from "./posthog";
 
 function element<T extends HTMLElement = HTMLElement>(selector: string): T {
   const result = document.querySelector<T>(selector);
@@ -52,9 +53,14 @@ const map = L.map(mapElement, {
   fadeAnimation: false,
 }).setView([47.502, 19.056], 14);
 let mapLoaded = false;
+let mapFailureLogged = false;
 const mapTimeout = setTimeout(showMapError, 12_000);
 function showMapError() {
   if (mapLoaded) return;
+  if (!mapFailureLogged) {
+    mapFailureLogged = true;
+    guideLogger.warn("guide basemap unavailable", { map_provider: "openfreemap" });
+  }
   const message = element("#map-message");
   message.dataset.i18n = "mapError";
   message.textContent = translations[state.language].mapError;
@@ -74,6 +80,7 @@ async function loadBasemap() {
     renderer.once("load", () => {
       mapLoaded = true;
       clearTimeout(mapTimeout);
+      guideLogger.info("guide basemap ready", { map_provider: "openfreemap" });
       element("#map-message").hidden = true;
     });
     renderer.on("error", showMapError);
@@ -100,7 +107,9 @@ function select(
   id: string,
   showPreview = false,
   mapMotion: Extract<MapMotion, "preserve" | "smooth"> = "smooth",
+  source: "list" | "map" = "list",
 ) {
+  capture("restaurant_selected", { restaurant_id: id, source });
   navigate(
     {
       selected: id,
@@ -381,7 +390,7 @@ function renderMarkers(visible: Restaurant[]) {
         alt: place.name,
         keyboard: true,
       });
-      marker.on("click", () => select(place.id, mobile.matches, "preserve"));
+      marker.on("click", () => select(place.id, mobile.matches, "preserve", "map"));
       marker.bindTooltip(place.name, { direction: "top", offset: [0, pin ? -50 : -16] });
       markers.set(place.id, marker);
     } else marker.setIcon(icon);
@@ -393,9 +402,14 @@ function renderMarkers(visible: Restaurant[]) {
 
 function setFilter(patch: Partial<GuideState["filters"]>) {
   const next = { ...state.filters, ...patch };
-  const keepSelected = filterRestaurants(restaurants, next).some(
-    (place) => place.id === state.selected,
-  );
+  const visible = filterRestaurants(restaurants, next);
+  const keepSelected = visible.some((place) => place.id === state.selected);
+  capture("filters_updated", {
+    styles: next.styles,
+    vegan: next.vegan,
+    recommended: next.recommended,
+    result_count: visible.length,
+  });
   navigate({
     filters: next,
     ...(keepSelected ? {} : { selected: null, preview: false, directions: false }),
@@ -404,6 +418,7 @@ function setFilter(patch: Partial<GuideState["filters"]>) {
 
 function locate() {
   if (locating) return;
+  capture("geolocation_requested", { browser_support: Boolean(navigator.geolocation) });
   if (!navigator.geolocation) {
     showToast(translations[state.language].locFail);
     return;
@@ -425,10 +440,12 @@ function locate() {
       element("#toast").hidden = true;
       element("#toast").hidePopover();
       // Location permission and the user's coordinates stay in memory, never in a shared URL.
+      guideLogger.info("guide geolocation resolved", { outcome: "success" });
       render("smooth");
     },
     () => {
       locating = false;
+      guideLogger.warn("guide geolocation resolved", { outcome: "unavailable" });
       render();
       showToast(translations[state.language].locFail);
     },
@@ -506,6 +523,12 @@ root.addEventListener("click", async (event) => {
       navigate({ menu: !state.menu });
       break;
     case "directions":
+      if (!state.directions) {
+        capture(
+          "directions_opened",
+          state.selected ? { restaurant_id: state.selected } : undefined,
+        );
+      }
       navigate({ directions: !state.directions });
       break;
     case "locate":
@@ -526,6 +549,7 @@ root.addEventListener("click", async (event) => {
     case "share":
       try {
         await navigator.clipboard.writeText(location.href);
+        capture("guide_shared", { restaurant_id: state.selected ?? undefined });
         showToast(translations[state.language].copied);
       } catch {
         showToast(translations[state.language].copyFailed);
