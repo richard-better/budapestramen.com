@@ -1,0 +1,41 @@
+name: FOODHOUSE
+address: "1065 Budapest, Podmaniczky utca 20."
+district: VI
+mapsUrl: "https://www.google.com/maps/place/Food+house/@47.5087884,19.0576252,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf873d743af:0x32cc773e5abfe4b2!8m2!3d47.5087884!4d19.0576252!16s%2Fg%2F11vwprrvtb?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp
+coordinates:
+  lat: 47.5087884
+  lng: 19.0576252
+styles:
+  - Tonkotsu
+vegan: false
+recommended: false
+google:
+  rating: 4.6
+  reviews: 164
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: "https://www.google.com/maps/place/Food+house/@47.5087884,19.0576252,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf873d743af:0x32cc773e5abfe4b2!8m2!3d47.5087884!4d19.0576252!16s%2Fg%2F11vwprrvtb?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+details:
+  category: serves-ramen
+  links:
+    menu: https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp
+    delivery: https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

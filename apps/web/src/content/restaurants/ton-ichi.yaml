@@ -1,0 +1,44 @@
+name: Ton-Ichi Ramen
+address: "1051 Budapest, Október 6. utca 21."
+district: V
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Ton-Ichi+Ramen+Budapest+Okt%C3%B3ber+6.+utca+21&query_place_id=ChIJv7vVHS_dQUcR0L2jU9aFRO8
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/ton-ichi
+coordinates:
+  lat: 47.5025257
+  lng: 19.0508091
+styles:
+  - Tonkotsu
+  - Shoyu
+  - Miso
+vegan: true
+recommended: false
+google:
+  rating: 4.3
+  reviews: 832
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Ton-Ichi+Ramen+Budapest+Okt%C3%B3ber+6.+utca+21&query_place_id=ChIJv7vVHS_dQUcR0L2jU9aFRO8
+details:
+  category: ramen-specialist
+  links:
+    instagram: https://www.instagram.com/tonichi_budapest/
+    menu: https://wolt.com/en/hun/budapest/restaurant/ton-ichi
+    delivery: https://wolt.com/en/hun/budapest/restaurant/ton-ichi
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: "yes"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

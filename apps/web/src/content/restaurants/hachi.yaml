@@ -1,0 +1,50 @@
+name: HACHI Budapest
+address: "1051 Budapest, Október 6. utca 9. (temporary pop-up)"
+district: V
+mapsUrl: https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo
+menuUrl: https://www.instagram.com/stories/highlights/18030367751462924/
+coordinates:
+  lat: 47.500699
+  lng: 19.0511419
+styles:
+  - Tonkotsu
+  - Miso
+  - Shoyu
+  - Tantanmen
+vegan: false
+recommended: false
+google:
+  rating: null
+  reviews: null
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo
+details:
+  category: serves-ramen
+  links:
+    instagram: https://www.instagram.com/hachi_budapest/
+    facebook: https://www.facebook.com/451671441352388
+    menu: https://www.instagram.com/stories/highlights/18030367751462924/
+    reservations: https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search
+  features:
+    reservations: "yes"
+    delivery: unknown
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 5480
+    max: 6980
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: social

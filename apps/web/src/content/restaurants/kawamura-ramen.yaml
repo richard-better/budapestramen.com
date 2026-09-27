@@ -1,25 +1,53 @@
-name: "Kawamura Ramen"
-address: "Dohány u. 54, 1074"
-district: "VII · Erzsébetváros"
-mapsUrl: "https://maps.app.goo.gl/Sphez1kHo4RsQRqCA"
-menuUrl: "https://kawamura.hu/menu.html"
+name: Kawamura Ramen
+address: "1074 Budapest, Dohány utca 54."
+district: VII
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo
+menuUrl: https://www.kawamura.hu/menu.html
 coordinates:
   lat: 47.4975712
   lng: 19.0682551
 styles:
-  - "Tonkotsu"
-  - "Shoyu"
-  - "Miso"
-  - "Shio"
-  - "Tantanmen"
+  - Shio
+  - Shoyu
+  - Miso
+  - Tonkotsu
+  - Tantanmen
 vegan: true
 recommended: true
+recommendation:
+  en: Recommended for its creamy tonkotsu and its separate vegan shoyu and miso bowls.
+  hu: "Krémes tonkotsuja és külön vegán shoyu, illetve miso ramenjei miatt ajánlott."
 google:
   rating: 4.8
   reviews: 1309
-recommendation:
-  en: "Recommended for its creamy tonkotsu and its separate vegan shoyu and miso bowls."
-  hu: "Krémes tonkotsuja és külön vegán shoyu, illetve miso ramenjei miatt ajánlott."
 source:
-  name: "Google Maps and Kawamura official menu"
-  date: "2026-09-26"
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo
+details:
+  category: ramen-specialist
+  links:
+    website: https://www.kawamura.hu/
+    instagram: https://www.instagram.com/kawamuraramen
+    menu: https://www.kawamura.hu/menu.html
+  features:
+    reservations: "no"
+    delivery: "no"
+    takeaway: "no"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: "yes"
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: "yes"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4250
+    max: 5850
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: official

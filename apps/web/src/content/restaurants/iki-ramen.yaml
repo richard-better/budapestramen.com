@@ -1,0 +1,42 @@
+name: Iki Ramen Izakaya
+address: "1061 Budapest, Andrássy út 38."
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc
+menuUrl: https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc
+coordinates:
+  lat: 47.5041139
+  lng: 19.0613169
+styles: []
+vegan: true
+recommended: false
+google:
+  rating: 4.6
+  reviews: 424
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc
+details:
+  category: serves-ramen
+  links:
+    website: http://www.ikiramen.info/
+    instagram: https://www.instagram.com/iki_ramen_izakaya/
+    menu: https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc
+    delivery: https://foodora.hu/restaurant/jarj/iki-izakaya
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: "yes"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: maps

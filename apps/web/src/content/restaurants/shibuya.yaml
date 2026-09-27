@@ -1,0 +1,50 @@
+name: Shibuya
+address: "1068 Budapest, Városligeti fasor 46-48"
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg
+menuUrl: https://shibuyabudapest.com/menu/
+coordinates:
+  lat: 47.5107448
+  lng: 19.0792342
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.6
+  reviews: 665
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg
+details:
+  category: serves-ramen
+  links:
+    website: https://shibuyabudapest.com/
+    instagram: https://www.instagram.com/shibuyabudapest/
+    facebook: https://www.facebook.com/shibuyabudapest
+    menu: https://shibuyabudapest.com/menu/
+    reservations: https://www.sevenrooms.com/explore/shibuyabudapest/reservations/create/search/
+  features:
+    reservations: "yes"
+    delivery: "no"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 5500
+    max: 6200
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 10
+    applicability: Added to the bill.
+  checkedOn: "2026-09-27"
+  menuType: official

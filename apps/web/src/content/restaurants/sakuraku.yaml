@@ -1,0 +1,48 @@
+name: Sakuraku Japanese Izakaya
+address: "1068 Budapest, Király utca 58"
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8
+menuUrl: https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8
+coordinates:
+  lat: 47.5026721
+  lng: 19.0638506
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.5
+  reviews: 732
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8
+details:
+  category: serves-ramen
+  links:
+    facebook: https://www.facebook.com/profile.php?id=61590410248307
+    menu: https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8
+    delivery: https://wolt.com/hu/hun/budapest/restaurant/sakuraku-japanese-izakaya
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 3480
+    max: 4380
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 10
+    applicability: Added to the bill.
+  checkedOn: "2026-09-27"
+  menuType: maps

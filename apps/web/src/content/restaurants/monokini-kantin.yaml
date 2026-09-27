@@ -1,19 +1,49 @@
-name: "Monokini Kantin"
-address: "Varsányi Irén u. 33, 1027"
-district: "II · Víziváros"
-mapsUrl: "https://maps.app.goo.gl/iZER9nK8jbrduUnG7"
-menuUrl: "https://www.monokini.hu/menu"
+name: Monokini Kantin
+address: "1027 Budapest, Varsányi Irén utca 33."
+district: II
+mapsUrl: https://maps.app.goo.gl/L7YTngLh1H1SPNn59
+menuUrl: https://www.monokini.hu/hu/menu
 coordinates:
   lat: 47.5090651
   lng: 19.0294897
 styles:
-  - "Shoyu"
-  - "Shio"
+  - Shoyu
+  - Shio
 vegan: false
 recommended: false
 google:
   rating: 4.8
   reviews: 201
 source:
-  name: "Google Maps and Monokini official menu"
-  date: "2026-09-26"
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://maps.app.goo.gl/L7YTngLh1H1SPNn59
+details:
+  category: serves-ramen
+  links:
+    website: https://www.monokini.hu/hu
+    instagram: https://www.instagram.com/monokini_kantin/
+    facebook: https://www.facebook.com/p/Monokini-Kantin-61575146075926/
+    menu: https://www.monokini.hu/hu/menu
+    reservations: https://www.monokini.hu/hu/reservation
+  features:
+    reservations: "yes"
+    delivery: "no"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4700
+    max: 4900
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: official

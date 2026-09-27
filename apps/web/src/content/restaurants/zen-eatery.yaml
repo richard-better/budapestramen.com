@@ -1,0 +1,48 @@
+name: Zen Eatery
+address: "1061 Budapest, Liszt Ferenc tér 10, földszint 16"
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA
+menuUrl: https://places.neery.net/land/zen
+coordinates:
+  lat: 47.503896
+  lng: 19.0635176
+styles:
+  - Shoyu
+vegan: false
+recommended: false
+google:
+  rating: 4.9
+  reviews: 669
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA
+details:
+  category: serves-ramen
+  links:
+    website: https://places.neery.net/land/zen
+    facebook: https://www.facebook.com/zeneaterybudapest
+    menu: https://places.neery.net/land/zen
+    reservations: https://places.neery.net/land/t10205255100222201681351457482321939864126/reserve
+    delivery: https://wolt.com/en/hun/budapest/restaurant/zen-eatery
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4990
+    max: 5490
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: official

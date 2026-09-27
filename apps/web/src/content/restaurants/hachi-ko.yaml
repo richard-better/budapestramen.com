@@ -1,0 +1,51 @@
+name: HACHI-KO Sake & Ramen Bar
+address: "1075 Budapest, Madách Imre út 3."
+district: VII
+mapsUrl: https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs
+menuUrl: https://www.facebook.com/stories/880800567692967/?source=profile_highlight
+coordinates:
+  lat: 47.4977226
+  lng: 19.0577454
+styles:
+  - Shoyu
+  - Shio
+  - Tonkotsu
+  - Miso
+  - Cold ramen
+vegan: true
+recommended: false
+google:
+  rating: 4.8
+  reviews: 411
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs
+details:
+  category: ramen-specialist
+  links:
+    instagram: https://www.instagram.com/hachiko_budapest
+    facebook: https://www.facebook.com/profile.php?id=61584465086868
+    menu: https://www.facebook.com/stories/880800567692967/?source=profile_highlight
+    reservations: https://m.asztalfoglalas.com/forms/Hachi-ko
+  features:
+    reservations: "yes"
+    delivery: unknown
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: "yes"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4280
+    max: 5480
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: social

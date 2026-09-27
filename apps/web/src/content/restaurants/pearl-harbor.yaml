@@ -1,0 +1,49 @@
+name: Pearl Harbor Restaurant Bowling & Bar
+address: "Budapest, Bécsi út 136, 1032"
+district: Budapest
+mapsUrl: "https://www.google.com/maps/place/Pearl+Harbor+Restaurant+Bowling+%26+Bar/@47.5439222,19.0285957,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d94239942805:0xbc7f1b884bfb2d87!8m2!3d47.5439222!4d19.0285957!16s%2Fg%2F1w2ysnjl?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://pearlharbor.hu/wp-content/uploads/2026/09/harbor-etlap-2026-09.-webs.pdf
+coordinates:
+  lat: 47.5439222
+  lng: 19.0285957
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.1
+  reviews: 2838
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: "https://www.google.com/maps/place/Pearl+Harbor+Restaurant+Bowling+%26+Bar/@47.5439222,19.0285957,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d94239942805:0xbc7f1b884bfb2d87!8m2!3d47.5439222!4d19.0285957!16s%2Fg%2F1w2ysnjl?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+details:
+  category: serves-ramen
+  links:
+    website: https://pearlharbor.hu/
+    instagram: https://www.instagram.com/pearlharborbp/
+    facebook: https://www.facebook.com/pearlharborbowling
+    menu: https://pearlharbor.hu/wp-content/uploads/2026/09/harbor-etlap-2026-09.-webs.pdf
+  features:
+    reservations: unknown
+    delivery: unknown
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "no"
+    veganRamen: "no"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4890
+    max: 4890
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 15
+    applicability: Added to menu prices.
+  checkedOn: "2026-09-27"
+  menuType: official

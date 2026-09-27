@@ -1,0 +1,43 @@
+name: WAFU Ramen and Sushi Stand - Biangarden
+address: "1107 Budapest, Szállás u. 21b"
+district: X
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden
+coordinates:
+  lat: 47.4814898
+  lng: 19.1200438
+styles:
+  - Shoyu
+vegan: false
+recommended: false
+google:
+  rating: null
+  reviews: null
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg
+details:
+  category: serves-ramen
+  links:
+    website: https://www.wafujp.com/
+    menu: https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden
+    delivery: https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden
+    takeaway: https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: "yes"
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

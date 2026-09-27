@@ -1,0 +1,47 @@
+name: Kitsune Japán Étterem és Kávézó
+address: "1096 Budapest, Telepy u. 24"
+district: IX
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz
+coordinates:
+  lat: 47.4793456
+  lng: 19.0837011
+styles:
+  - Shoyu
+  - Miso
+vegan: true
+recommended: false
+google:
+  rating: 4.3
+  reviews: 810
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest
+details:
+  category: serves-ramen
+  links:
+    website: https://kitsune.hu/
+    instagram: https://www.instagram.com/kitsune.kavezo/
+    facebook: https://www.facebook.com/kitsunejapan.kavezo.etterem/
+    menu: https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz
+    reservations: https://kitsune.hu/
+    delivery: https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz
+    takeaway: https://kitsune.hu/
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: "yes"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

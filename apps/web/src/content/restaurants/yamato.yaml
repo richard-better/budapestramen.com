@@ -1,0 +1,47 @@
+name: Yamato Table Grill & Sushi Restaurant
+address: "1066 Budapest, Jókai utca 30"
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE
+menuUrl: https://yamatorestaurant.hu/hu_hu/menu/
+coordinates:
+  lat: 47.5082293
+  lng: 19.0577512
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.7
+  reviews: 3208
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE
+details:
+  category: serves-ramen
+  links:
+    website: https://yamatorestaurant.hu/hu_hu/
+    instagram: https://www.instagram.com/yamatotablegrill
+    facebook: https://www.facebook.com/yamatotablegrill
+    menu: https://yamatorestaurant.hu/hu_hu/menu/
+    reservations: https://yamatorestaurant.hu/hu_hu/foglalas
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 6980
+    max: 6980
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: null

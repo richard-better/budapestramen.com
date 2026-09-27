@@ -1,0 +1,50 @@
+name: Ramenji Ramen
+address: "1056 Budapest, Váci utca 49."
+district: V
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw
+menuUrl: https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw
+coordinates:
+  lat: 47.4903911
+  lng: 19.0549088
+styles:
+  - Miso
+  - Shoyu
+vegan: false
+recommended: false
+google:
+  rating: 4.9
+  reviews: 2149
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw
+details:
+  category: ramen-specialist
+  links:
+    instagram: https://www.instagram.com/ramenjibudapest/
+    menu: https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw
+    delivery: https://wolt.com/hu/hun/budapest/restaurant/ramenji-japanese-restaurant
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4090
+    max: 5590
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 10
+    applicability: Added to menu prices for dine-in.
+  checkedOn: "2026-09-27"
+  menuType: maps

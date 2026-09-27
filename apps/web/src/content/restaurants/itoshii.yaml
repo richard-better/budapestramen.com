@@ -1,0 +1,46 @@
+name: Itoshii
+address: "1062 Budapest, Teréz körút 55-57"
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest
+menuUrl: http://www.itoshii.hu/menu
+coordinates:
+  lat: 47.5100349
+  lng: 19.0585964
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.1
+  reviews: 2210
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest
+details:
+  category: serves-ramen
+  links:
+    website: http://www.itoshii.hu/
+    facebook: https://www.facebook.com/itoshiibudapest
+    menu: http://www.itoshii.hu/menu
+    reservations: http://www.itoshii.hu/asztalfoglalas
+    delivery: https://wolt.com/en/hun/budapest/restaurant/itoshii
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: "yes"
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge:
+    type: percentage
+    amount: 10
+    applicability: Added to the final bill.
+  checkedOn: "2026-09-27"
+  menuType: official

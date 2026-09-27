@@ -1,0 +1,50 @@
+name: Yume 7
+address: "1061 Budapest, Káldy Gyula u. 5"
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w
+menuUrl: https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w
+coordinates:
+  lat: 47.4998638
+  lng: 19.0577366
+styles:
+  - Tonkotsu
+  - Paitan
+  - Miso
+  - Tantanmen
+  - Shoyu
+vegan: false
+recommended: false
+google:
+  rating: 4.7
+  reviews: 125
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w
+details:
+  category: ramen-specialist
+  links:
+    instagram: https://www.instagram.com/yumebudapest7
+    menu: https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w
+  features:
+    reservations: unknown
+    delivery: unknown
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4490
+    max: 5490
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: none
+  checkedOn: "2026-09-27"
+  menuType: maps

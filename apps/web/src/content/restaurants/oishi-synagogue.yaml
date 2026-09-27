@@ -1,0 +1,40 @@
+name: Oishi Sushi Synagogue
+address: "1074 Budapest, Dohány utca 1/a"
+district: VII
+mapsUrl: https://www.google.com/maps/place/Oishi+Sushi+Synagogue/data=!4m7!3m6!1s0x4741dd7603e1c311:0x41b891a0b1a624e2!8m2!3d47.4955391!4d19.0600283!16s%2Fg%2F11rtnln9b9!19sChIJEcPhA3bdQUcR4iSmsaCRuEE
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago
+coordinates:
+  lat: 47.4955391
+  lng: 19.0600283
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.7
+  reviews: 1112
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/place/Oishi+Sushi+Synagogue/data=!4m7!3m6!1s0x4741dd7603e1c311:0x41b891a0b1a624e2!8m2!3d47.4955391!4d19.0600283!16s%2Fg%2F11rtnln9b9!19sChIJEcPhA3bdQUcR4iSmsaCRuEE
+details:
+  category: serves-ramen
+  links:
+    menu: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago
+    delivery: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

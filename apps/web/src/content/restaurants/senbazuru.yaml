@@ -1,0 +1,41 @@
+name: Senbazuru Bistro
+address: "1054 Budapest, Akadémia utca 11"
+district: V
+mapsUrl: "https://www.google.com/maps/place/Senbazuru+Bistro/@47.5028239,19.0466618,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddae84ede12f:0x34e6dfcb1bf030c2!8m2!3d47.5028239!4d19.0466618!16s%2Fg%2F11h76kzw61?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto
+coordinates:
+  lat: 47.5028239
+  lng: 19.0466618
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.1
+  reviews: 335
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: "https://www.google.com/maps/place/Senbazuru+Bistro/@47.5028239,19.0466618,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddae84ede12f:0x34e6dfcb1bf030c2!8m2!3d47.5028239!4d19.0466618!16s%2Fg%2F11h76kzw61?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+details:
+  category: serves-ramen
+  links:
+    website: http://hanoipho.hu/
+    menu: https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto
+    delivery: https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

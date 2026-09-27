@@ -1,0 +1,48 @@
+name: Japanika
+address: "1051 Budapest, Szent István tér 7"
+district: V
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo
+menuUrl: "https://japanika.hu/#levesek"
+coordinates:
+  lat: 47.5008716
+  lng: 19.0522339
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.2
+  reviews: 3594
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo
+details:
+  category: serves-ramen
+  links:
+    website: https://japanika.hu/
+    instagram: https://www.instagram.com/japanikasushibar/
+    facebook: https://www.facebook.com/japanikasushibar
+    menu: "https://japanika.hu/#levesek"
+    reservations: https://reservours.com/japanika/tablereservation
+    delivery: https://wolt.com/hu/hun/budapest/restaurant/japanika-sushi-bar
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 3590
+    max: 3590
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: null

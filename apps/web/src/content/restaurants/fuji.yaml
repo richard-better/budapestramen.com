@@ -1,0 +1,49 @@
+name: Fuji Japanese Restaurant
+address: "1025 Budapest, Pusztaszeri út 57."
+district: II
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM
+menuUrl: https://fujirestaurant.hu/menu
+coordinates:
+  lat: 47.5253705
+  lng: 19.0239347
+styles:
+  - Shoyu
+vegan: false
+recommended: false
+google:
+  rating: 4.6
+  reviews: 865
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM
+details:
+  category: serves-ramen
+  links:
+    website: https://fujirestaurant.hu/
+    instagram: https://www.instagram.com/fujirestaurantbudapest/
+    facebook: https://www.facebook.com/fujirestaurant.hu/
+    menu: https://fujirestaurant.hu/menu
+    reservations: https://www.sevenrooms.com/explore/fujijapntterem/reservations/create/search/
+    delivery: https://wolt.com/hu/hun/budapest/restaurant/fuji-japn-tterem
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 5900
+    max: 7100
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: official

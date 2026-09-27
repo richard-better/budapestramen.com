@@ -1,0 +1,41 @@
+name: DimSum & Wok go - Árkád
+address: "1106 Budapest, Örs vezér tere 25/a."
+district: X
+mapsUrl: "https://www.google.com/maps/place/DimSum+%26+Wok+Go/@47.502842,19.139091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddc12d1c7175:0x993df1ce0eb98dcf!8m2!3d47.502842!4d19.139091!16s%2Fg%2F11sv6w51gx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad
+coordinates:
+  lat: 47.502842
+  lng: 19.139091
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 2.1
+  reviews: 200
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: "https://www.google.com/maps/place/DimSum+%26+Wok+Go/@47.502842,19.139091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddc12d1c7175:0x993df1ce0eb98dcf!8m2!3d47.502842!4d19.139091!16s%2Fg%2F11sv6w51gx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+details:
+  category: serves-ramen
+  links:
+    facebook: http://hu-hu.facebook.com/sakuraramenbp
+    menu: https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad
+    delivery: https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

@@ -1,0 +1,45 @@
+name: Ennmann Japán Étterem
+address: "1011 Budapest, Bem rakpart 20"
+district: I
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4
+menuUrl: https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4
+coordinates:
+  lat: 47.503101
+  lng: 19.039342
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.6
+  reviews: 1207
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4
+details:
+  category: serves-ramen
+  links:
+    facebook: https://www.facebook.com/ennmannsushibudapest/
+    menu: https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4
+    delivery: https://wolt.com/hu/hun/budapest/restaurant/ennmann-japan-etterem
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4150
+    max: 4150
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: maps

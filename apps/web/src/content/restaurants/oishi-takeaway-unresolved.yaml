@@ -1,0 +1,41 @@
+name: Oishi Sushi Take Away - Fényes Elek
+address: "1024 Budapest, Fényes Elek u. 4."
+district: II
+mapsUrl: "https://www.google.com/maps/place/Oishi+Sushi+Take+Away+(II.+Ker%C3%BClet)/@47.510511,19.029663,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc1d7f841a6f:0x648f0c75780b6a6d!8m2!3d47.510511!4d19.029663!16s%2Fg%2F11dyqyd_tz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away
+coordinates:
+  lat: 47.510511
+  lng: 19.029663
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.2
+  reviews: 291
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: "https://www.google.com/maps/place/Oishi+Sushi+Take+Away+(II.+Ker%C3%BClet)/@47.510511,19.029663,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc1d7f841a6f:0x648f0c75780b6a6d!8m2!3d47.510511!4d19.029663!16s%2Fg%2F11dyqyd_tz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+details:
+  category: serves-ramen
+  links:
+    website: https://oishi-sushi-azsiai-magyar-etelbar.eatbu.com/
+    menu: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away
+    delivery: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

@@ -1,0 +1,44 @@
+name: "Ichiban Ramen, Sushi and Tea"
+address: "1054 Budapest, Bajcsy-Zsilinszky út 34"
+district: V
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea
+coordinates:
+  lat: 47.5037385
+  lng: 19.054781
+styles:
+  - Shoyu
+  - Miso
+  - Tantanmen
+  - Tonkotsu
+vegan: false
+recommended: false
+google:
+  rating: 4.4
+  reviews: 145
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest
+details:
+  category: ramen-specialist
+  links:
+    menu: https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea
+    delivery: https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: "yes"
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

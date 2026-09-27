@@ -1,0 +1,40 @@
+name: Dáigá Sushi - Krisztina körút
+address: "1122 Budapest, Krisztina körút 2."
+district: XII
+mapsUrl: https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w
+menuUrl: https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w
+coordinates:
+  lat: 47.5065556
+  lng: 19.0231276
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.7
+  reviews: 894
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w
+details:
+  category: serves-ramen
+  links:
+    facebook: https://www.facebook.com/DaigasushiKrisztina
+    menu: https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: maps

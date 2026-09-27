@@ -1,0 +1,41 @@
+name: DumpliMester
+address: "1134 Budapest, Tüzér u. 44. fszt."
+district: XIII
+mapsUrl: "https://www.google.com/maps/place/DumpliMester/@47.5243509,19.0700841,17z/data=!3m1!4b1!4m6!3m5!1s0x4741db00567c249b:0x16b27ae0f8d3e2a8!8m2!3d47.5243509!4d19.0700841!16s%2Fg%2F11ymk95tdh?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/dumplimester
+coordinates:
+  lat: 47.5243509
+  lng: 19.0700841
+styles:
+  - Tonkotsu
+vegan: false
+recommended: false
+google:
+  rating: 5
+  reviews: 141
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: "https://www.google.com/maps/place/DumpliMester/@47.5243509,19.0700841,17z/data=!3m1!4b1!4m6!3m5!1s0x4741db00567c249b:0x16b27ae0f8d3e2a8!8m2!3d47.5243509!4d19.0700841!16s%2Fg%2F11ymk95tdh?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+details:
+  category: serves-ramen
+  links:
+    menu: https://wolt.com/en/hun/budapest/restaurant/dumplimester
+    delivery: https://wolt.com/en/hun/budapest/restaurant/dumplimester
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

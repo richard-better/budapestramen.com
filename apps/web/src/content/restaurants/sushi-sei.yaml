@@ -1,0 +1,50 @@
+name: Sushi Sei
+address: "1036 Budapest, Bécsi út 58"
+district: III
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4
+menuUrl: https://sushisei.hu/etlap/
+coordinates:
+  lat: 47.5300222
+  lng: 19.0376569
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.7
+  reviews: 1665
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4
+details:
+  category: serves-ramen
+  links:
+    website: https://sushisei.hu/
+    facebook: https://www.facebook.com/SushiSeiEtterem
+    menu: https://sushisei.hu/etlap/
+    reservations: https://reservation.dish.co/widget/hydra-67e91c10-4167-11ec-9ac5-97033565de95
+    delivery: https://sushisei.hu/etelrendeles/
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 6200
+    max: 6200
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 12
+    applicability: Added to the final bill.
+  checkedOn: "2026-09-27"
+  menuType: official

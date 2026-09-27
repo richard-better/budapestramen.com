@@ -1,0 +1,43 @@
+name: Komachi Bistro
+address: "1073 Budapest, Kertész utca 33."
+district: VII
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA
+menuUrl: https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA
+coordinates:
+  lat: 47.5014391
+  lng: 19.0660282
+styles:
+  - Miso
+  - Shoyu
+  - Shio
+vegan: false
+recommended: false
+google:
+  rating: 4.6
+  reviews: 2062
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA
+details:
+  category: serves-ramen
+  links:
+    facebook: https://www.facebook.com/komachibistro/
+    menu: https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: maps

@@ -1,0 +1,50 @@
+name: TOKIO
+address: "1051 Budapest, Széchenyi István tér 7-8"
+district: V
+mapsUrl: https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s
+menuUrl: https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf
+coordinates:
+  lat: 47.5002927
+  lng: 19.0476861
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.7
+  reviews: 7924
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s
+details:
+  category: serves-ramen
+  links:
+    website: https://tokiobudapest.com/en/
+    instagram: https://www.instagram.com/tokiobudapest/
+    facebook: https://www.facebook.com/tokiobudapest/
+    menu: https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf
+    reservations: https://www.sevenrooms.com/reservations/tokio
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 5500
+    max: 5500
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 15
+    applicability: Added to the bill according to English menu note; Hungarian text says the final bill includes it.
+  checkedOn: "2026-09-27"
+  menuType: official

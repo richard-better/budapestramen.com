@@ -1,0 +1,40 @@
+name: Sushi Wan Japán Étterem
+address: "1072 Budapest, Király utca 59 B"
+district: VII
+mapsUrl: "https://www.google.com/maps/place/Sushi+wan/@47.5028684,19.0649469,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddb08a816dbf:0x2eed79a7cf0dbba7!8m2!3d47.5028684!4d19.0649469!16s%2Fg%2F11tn5f42nn?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem
+coordinates:
+  lat: 47.5028684
+  lng: 19.0649469
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.6
+  reviews: 1054
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: "https://www.google.com/maps/place/Sushi+wan/@47.5028684,19.0649469,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddb08a816dbf:0x2eed79a7cf0dbba7!8m2!3d47.5028684!4d19.0649469!16s%2Fg%2F11tn5f42nn?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+details:
+  category: serves-ramen
+  links:
+    menu: https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem
+    delivery: https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "no"
+    veganRamen: "no"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

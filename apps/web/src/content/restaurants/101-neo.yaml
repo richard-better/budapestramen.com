@@ -1,0 +1,46 @@
+name: 101 NEO Asian Food Bar
+address: "1075 Budapest, Kazinczy utca 9."
+district: VII
+mapsUrl: https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag
+menuUrl: https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825
+coordinates:
+  lat: 47.4968953
+  lng: 19.0637513
+styles:
+  - Miso
+vegan: true
+recommended: false
+google:
+  rating: 4.7
+  reviews: 462
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag
+details:
+  category: serves-ramen
+  links:
+    instagram: https://www.instagram.com/101neo.budapest
+    facebook: https://www.facebook.com/101neo.budapest
+    menu: https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825
+  features:
+    reservations: "no"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: "yes"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4490
+    max: 5490
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: official

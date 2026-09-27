@@ -2,7 +2,6 @@ import { readdir, readFile, realpath, stat } from "node:fs/promises";
 import { resolve, sep } from "node:path";
 import { gunzipSync } from "node:zlib";
 import { researchSchema } from "../apps/web/src/lib/research-schema";
-import { publishResearch } from "../apps/web/src/lib/publish-research";
 import { candidateListSchema } from "../apps/web/src/lib/candidate-schema";
 
 const root = new URL("../research/restaurants/", import.meta.url);
@@ -21,8 +20,9 @@ for (const directory of await readdir(root, { withFileTypes: true })) {
   if (record.id !== directory.name)
     throw new Error(`Research ID does not match directory: ${directory.name}`);
   researchIds.add(record.id);
+  if (record.publication === "listed" && !listed.has(record.id))
+    throw new Error(`Missing restaurant YAML for listed research: ${record.id}`);
   listed.delete(record.id);
-  publishResearch(record);
   for (const menu of record.menus) {
     if (menu.cache.status !== "cached") continue;
     for (const file of menu.cache.files) {

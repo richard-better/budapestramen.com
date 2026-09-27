@@ -1,0 +1,46 @@
+name: WAFU Ramen Bar Gozsdu
+address: "1075 Budapest, Kazinczy utca 35."
+district: VII
+mapsUrl: https://maps.app.goo.gl/ckMRmMLJr11xpKXi8
+menuUrl: https://www.canva.com/design/DAG92R6YhGM/OkP8lk-NqLh3na_JPiDl5g/edit
+coordinates:
+  lat: 47.4989347
+  lng: 19.0615548
+styles:
+  - Tantanmen
+vegan: false
+recommended: false
+google:
+  rating: 4.9
+  reviews: 1326
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://maps.app.goo.gl/ckMRmMLJr11xpKXi8
+details:
+  category: ramen-specialist
+  links:
+    website: https://www.wafujp.com/work/wafu-ramen-bar-goszdu/copy-3
+    instagram: https://www.instagram.com/wafuramenbar_gozsdu/
+    menu: https://www.canva.com/design/DAG92R6YhGM/OkP8lk-NqLh3na_JPiDl5g/edit
+  features:
+    reservations: unknown
+    delivery: unknown
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4080
+    max: 4580
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: null

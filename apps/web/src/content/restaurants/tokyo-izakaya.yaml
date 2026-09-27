@@ -1,0 +1,40 @@
+name: Tokyo Izakaya
+address: "1119 Budapest, Hadak útja 1"
+district: XI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest
+menuUrl: https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest
+coordinates:
+  lat: 47.4643045
+  lng: 19.0253782
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.1
+  reviews: 86
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest
+details:
+  category: serves-ramen
+  links:
+    menu: https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest
+    delivery: https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: maps

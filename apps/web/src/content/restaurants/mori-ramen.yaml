@@ -1,0 +1,53 @@
+name: Mori Ramen
+address: "1073 Budapest, Akácfa utca 55."
+district: VII
+mapsUrl: https://maps.app.goo.gl/6tfPGZshmtzABWuz7
+menuUrl: https://www.moriramen.hu/menu.html
+coordinates:
+  lat: 47.5012261
+  lng: 19.0643956
+styles:
+  - Tonkotsu
+  - Miso
+  - Tantanmen
+vegan: false
+recommended: false
+google:
+  rating: 4.8
+  reviews: 427
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://maps.app.goo.gl/6tfPGZshmtzABWuz7
+details:
+  category: ramen-specialist
+  links:
+    website: https://www.moriramen.hu/
+    instagram: https://www.instagram.com/moribudapest/
+    facebook: https://www.facebook.com/p/Mori-Ramen-61584412675031/
+    menu: https://www.moriramen.hu/menu.html
+    reservations: https://www.moriramen.hu/
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 3990
+    max: 4890
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 10
+    applicability: Added to final bill.
+  checkedOn: "2026-09-27"
+  menuType: official

@@ -1,0 +1,40 @@
+name: Nem Ramen
+address: "1084 Budapest, Rákóczi tér 7., Rákóczi Market Hall"
+district: VIII
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA
+menuUrl: https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA
+coordinates:
+  lat: 47.4928009
+  lng: 19.0733349
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.9
+  reviews: 228
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA
+details:
+  category: ramen-specialist
+  links:
+    instagram: https://www.instagram.com/nemramenshop/
+    menu: https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA
+  features:
+    reservations: unknown
+    delivery: "no"
+    takeaway: "no"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: maps

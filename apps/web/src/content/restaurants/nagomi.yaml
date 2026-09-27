@@ -1,0 +1,49 @@
+name: Nagomi
+address: "1111 Budapest, Bartók Béla út 50."
+district: XI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8
+menuUrl: https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8
+coordinates:
+  lat: 47.4784014
+  lng: 19.0494102
+styles:
+  - Shoyu
+  - Shio
+  - Tonkotsu
+  - Miso
+vegan: true
+recommended: false
+google:
+  rating: 4.7
+  reviews: 213
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8
+details:
+  category: ramen-specialist
+  links:
+    instagram: https://www.instagram.com/nagomibar/
+    menu: https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8
+  features:
+    reservations: "no"
+    delivery: "no"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: "yes"
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4190
+    max: 4790
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: none
+  checkedOn: "2026-09-27"
+  menuType: maps

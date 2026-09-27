@@ -1,0 +1,41 @@
+name: Sakura Ramen
+address: "1061 Budapest, Király utca 12., Central Passage, ground floor"
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1
+coordinates:
+  lat: 47.4985335
+  lng: 19.0567643
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 3.9
+  reviews: 2749
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck
+details:
+  category: serves-ramen
+  links:
+    facebook: https://www.facebook.com/sakuraramenbp
+    menu: https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1
+    delivery: https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

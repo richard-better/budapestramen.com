@@ -19,7 +19,7 @@
     "build": "vp run -r build",
     "check-types": "vp run -r check-types",
     "check": "vp check && vp run -r check-types && bun run test && bun run check:research",
-    "test": "bun test apps/web/src/lib",
+    "test": "bun test apps/web/src/lib scripts/restaurant-content.test.ts",
     "lint": "vp lint",
     "format": "vp fmt",
     "staged": "vp staged",

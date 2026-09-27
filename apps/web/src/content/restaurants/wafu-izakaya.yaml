@@ -1,0 +1,52 @@
+name: WAFU Ramen Izakaya
+address: "1075 Budapest, Kazinczy utca 3."
+district: VII
+mapsUrl: https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9
+menuUrl: https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view
+coordinates:
+  lat: 47.4961452
+  lng: 19.0641191
+styles:
+  - Shoyu
+  - Miso
+  - Tantanmen
+vegan: false
+recommended: false
+google:
+  rating: 4.6
+  reviews: 2983
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9
+details:
+  category: serves-ramen
+  links:
+    website: https://www.wafujp.com/work/wafu-kazincy/copy
+    instagram: https://www.instagram.com/wafu_ramenizakaya_/
+    menu: https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view
+    reservations: https://book.easytable.com/book/?ref=mb&id=b9872&lang=en
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: "yes"
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4280
+    max: 4780
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 12
+    applicability: Added to each bill.
+  checkedOn: "2026-09-27"
+  menuType: official

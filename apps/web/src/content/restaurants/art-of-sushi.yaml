@@ -1,0 +1,44 @@
+name: Art of Sushi Budapest - Liszt Ferenc tér
+address: "1061 Budapest, Liszt Ferenc tér 5."
+district: VI
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8
+menuUrl: https://menumester.hu/artofsushi-5/
+coordinates:
+  lat: 47.5034179
+  lng: 19.063483
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.8
+  reviews: 1589
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8
+details:
+  category: serves-ramen
+  links:
+    website: https://artofsushi.hu/
+    menu: https://menumester.hu/artofsushi-5/
+    reservations: https://artofsushi.hu/
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge:
+    type: percentage
+    amount: 10
+    applicability: Added according to official all-you-can-eat rules; applicability to individual à la carte items requires confirmation.
+  checkedOn: "2026-09-27"
+  menuType: official

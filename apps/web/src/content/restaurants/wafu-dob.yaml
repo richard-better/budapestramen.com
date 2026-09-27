@@ -1,0 +1,46 @@
+name: WAFU Ramen Bar Dob
+address: "1072 Budapest, Dob utca 2."
+district: VII
+mapsUrl: https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8
+menuUrl: https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8
+coordinates:
+  lat: 47.4962055
+  lng: 19.0589364
+styles:
+  - Miso
+  - Tantanmen
+vegan: false
+recommended: false
+google:
+  rating: 4.9
+  reviews: 14
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8
+details:
+  category: ramen-specialist
+  links:
+    website: https://www.wafujp.com/
+    menu: https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8
+  features:
+    reservations: unknown
+    delivery: unknown
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 4280
+    max: 4780
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: maps

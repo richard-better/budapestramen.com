@@ -1,20 +1,48 @@
-name: "Yüme"
-address: "Baross u. 85, 1082"
-district: "VIII · Józsefváros"
-mapsUrl: "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
-menuUrl: "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6"
+name: Yüme
+address: "1082 Budapest, Baross utca 85."
+district: VIII
+mapsUrl: https://maps.app.goo.gl/BGtRyqSGTeWWWvse6
+menuUrl: https://maps.app.goo.gl/BGtRyqSGTeWWWvse6
 coordinates:
   lat: 47.4890387
   lng: 19.0788343
 styles:
-  - "Tonkotsu"
-  - "Shoyu"
-  - "Shio"
+  - Shoyu
+  - Tonkotsu
+  - Shio
 vegan: false
 recommended: false
 google:
   rating: 4.8
   reviews: 190
 source:
-  name: "Google Maps"
-  date: "2026-09-26"
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://maps.app.goo.gl/BGtRyqSGTeWWWvse6
+details:
+  category: ramen-specialist
+  links:
+    website: https://yumebudapest.hu/
+    facebook: https://www.facebook.com/yume.budapest
+    menu: https://maps.app.goo.gl/BGtRyqSGTeWWWvse6
+    reservations: https://www.facebook.com/yume.budapest
+  features:
+    reservations: "yes"
+    delivery: "no"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge:
+    type: percentage
+    amount: 15
+    applicability: Included in displayed prices according to June 2026 menu photo; current policy needs reconfirmation.
+  checkedOn: "2026-09-27"
+  menuType: maps

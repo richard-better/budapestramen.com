@@ -1,0 +1,41 @@
+name: Oishi Sushi Budapest
+address: "1074 Budapest, Dohány u. 47"
+district: VII
+mapsUrl: "https://www.google.com/maps/place/Oishi+Sushi+Budapest/@47.4980654,19.0694025,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc670639617b:0x21464914d7b38b3b!8m2!3d47.4980654!4d19.0694025!16s%2Fg%2F11cp5z8px0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest
+coordinates:
+  lat: 47.4980654
+  lng: 19.0694025
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.5
+  reviews: 990
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: "https://www.google.com/maps/place/Oishi+Sushi+Budapest/@47.4980654,19.0694025,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc670639617b:0x21464914d7b38b3b!8m2!3d47.4980654!4d19.0694025!16s%2Fg%2F11cp5z8px0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+details:
+  category: serves-ramen
+  links:
+    website: http://oishisushitogo.hu/
+    menu: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest
+    delivery: https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: unknown
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: ordering

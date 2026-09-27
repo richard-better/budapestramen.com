@@ -1,0 +1,51 @@
+name: Kakurega Japanese Restaurant
+address: "1051 Budapest, Arany János utca 13"
+district: V
+mapsUrl: https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg
+menuUrl: https://kakuregabudapest.com/menu/
+coordinates:
+  lat: 47.5019627
+  lng: 19.0495141
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.9
+  reviews: 61
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg
+details:
+  category: serves-ramen
+  links:
+    website: https://kakuregabudapest.com/
+    instagram: https://www.instagram.com/kakuregabudapest/
+    facebook: https://www.facebook.com/kakuregabudapest
+    menu: https://kakuregabudapest.com/menu/
+    reservations: https://kakuregabudapest.com/booking/
+    delivery: https://wolt.com/hu/hun/budapest/restaurant/kakurega-japanese-restaurant
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price:
+    min: 6000
+    max: 6500
+    currency: HUF
+    checkedOn: "2026-09-27"
+  serviceCharge:
+    type: percentage
+    amount: 15
+    applicability: Added to menu prices.
+  checkedOn: "2026-09-27"
+  menuType: official

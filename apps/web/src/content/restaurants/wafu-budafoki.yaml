@@ -1,0 +1,45 @@
+name: WAFU Ramen Bar - Budafoki
+address: "1111 Budapest, Budafoki út 41."
+district: XI
+mapsUrl: https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA
+menuUrl: https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit
+coordinates:
+  lat: 47.4784871
+  lng: 19.0535107
+styles:
+  - Miso
+  - Shoyu
+  - Tantanmen
+vegan: false
+recommended: false
+google:
+  rating: 4.8
+  reviews: 418
+source:
+  name: Verified restaurant sources and Google Maps
+  date: "2026-09-27"
+  url: https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA
+details:
+  category: ramen-specialist
+  links:
+    website: https://www.wafujp.com/work/wafu-ramen-bar-budafoki/copy-5
+    instagram: https://www.instagram.com/wafuramenbar_hu/
+    menu: https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit
+    delivery: https://wolt.com/hu/hun/budapest/restaurant/wafu-ramenn
+  features:
+    reservations: unknown
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: "yes"
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: official
