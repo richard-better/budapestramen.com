@@ -20,24 +20,8 @@ describe("restaurant content validation", () => {
   it("accepts shop facts with map and menu links", () => {
     assert.equal(restaurantSchema.parse(place).menuUrl, "https://example.com/ramen-menu");
   });
-  it("requires an editorial recommendation in both languages for picks", () => {
-    assert.equal(restaurantSchema.safeParse({ ...place, recommended: true }).success, false);
-    assert.equal(
-      restaurantSchema.safeParse({
-        ...place,
-        recommended: true,
-        recommendation: { en: "Good broth" },
-      }).success,
-      false,
-    );
-    assert.equal(
-      restaurantSchema.safeParse({
-        ...place,
-        recommended: true,
-        recommendation: { en: "Good broth", hu: "Finom alaplé" },
-      }).success,
-      true,
-    );
+  it("allows recommendations without explanatory notes", () => {
+    assert.equal(restaurantSchema.safeParse({ ...place, recommended: true }).success, true);
   });
   it("rejects invalid coordinates, links, and unknown styles before publication", () => {
     for (const patch of [

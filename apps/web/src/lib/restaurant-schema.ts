@@ -54,8 +54,4 @@ export const restaurantSchema = z
       })
       .optional(),
     source: z.object({ name: z.string().min(1), date: z.iso.date(), url: z.url().optional() }),
-  })
-  .refine(
-    (place) => !place.recommended || !!place.recommendation,
-    "Recommended places need a note in both languages",
-  );
+  });

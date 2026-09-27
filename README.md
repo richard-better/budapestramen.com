@@ -25,13 +25,13 @@ evidence, menu caches, pricing rules, and three-state facts to collect before
 choosing which details to publish. It is broader than the current site schema.
 
 Edit one YAML file per restaurant in `apps/web/src/content/restaurants/`. The file
-name is its permanent URL slug. Shared facts live once; recommendations have `en`
-and `hu` translations. Each listing includes map and menu links, coordinates,
-address, ramen styles, and dietary details.
+name is its permanent URL slug. Optional recommendation notes have `en` and `hu`
+translations. Each listing includes map and menu links, coordinates, address,
+ramen styles, and dietary details.
 
 Astro loads the files through the `restaurants` content collection. Its Zod schema
 in `apps/web/src/lib/restaurant-schema.ts` validates coordinates, ramen styles,
-map and menu links, ratings, and both recommendation translations. Run
+map and menu links, ratings, and optional recommendation notes. Run
 `bun run check` and `bun run build` after editing. Adding a valid YAML file adds a
 restaurant to both language routes, the map, and the list without editing
 application code.
