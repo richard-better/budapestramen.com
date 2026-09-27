@@ -10,7 +10,10 @@ styles:
   - Miso
   - Tantanmen
 vegan: false
-recommended: false
+recommended: true
+recommendation:
+  en: Recommended for its miso and tantanmen, with vegetarian ramen choices too.
+  hu: Ajánlott miso és tantanmen ramenjeiért, vegetáriánus lehetőségekkel is.
 google:
   rating: 4.9
   reviews: 14

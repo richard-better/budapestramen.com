@@ -11,7 +11,10 @@ styles:
   - Shoyu
   - Tantanmen
 vegan: false
-recommended: false
+recommended: true
+recommendation:
+  en: Recommended for its dedicated ramen menu, with miso, shoyu and vegetarian tantanmen.
+  hu: Ajánlott a ramenre összpontosító étlapja miatt, miso, shoyu és vegetáriánus tantanmen kínálattal.
 google:
   rating: 4.8
   reviews: 418

@@ -13,7 +13,10 @@ styles:
   - Miso
   - Cold ramen
 vegan: true
-recommended: false
+recommended: true
+recommendation:
+  en: Recommended for its ramen-focused menu of shoyu, shio, tonkotsu, miso and cold ramen, including vegan bowls.
+  hu: Ajánlott ramenközpontú étlapja miatt: shoyu, shio, tonkotsu, miso és hideg ramen is kapható, vegán tálakkal.
 google:
   rating: 4.8
   reviews: 411

@@ -9,7 +9,10 @@ coordinates:
 styles:
   - Tantanmen
 vegan: false
-recommended: false
+recommended: true
+recommendation:
+  en: Recommended for its tantanmen, customizable bowls and vegetarian ramen options.
+  hu: Ajánlott a tantanmenért, a személyre szabható tálakért és a vegetáriánus ramenlehetőségekért.
 google:
   rating: 4.9
   reviews: 1326
