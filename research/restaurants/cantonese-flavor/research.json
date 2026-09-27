@@ -1,0 +1,184 @@
+{
+  "version": 1,
+  "id": "cantonese-flavor",
+  "name": "Cantonese Flavor",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Explicitly a virtual venue. Menu contains Cantonese pork noodle soup, dumpling and wonton soups and seafood rice-noodle soup; no Japanese ramen found.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Full food menu reviewed in Chrome."
+        }
+      ]
+    },
+    "address": {
+      "status": "unknown",
+      "note": "Wolt explicitly says virtual venue and only gives 1081 Budapest; no physical street address established."
+    },
+    "district": {
+      "status": "known",
+      "value": "VIII",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "District derived from the verified merchant street address."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "unknown"
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current delivery listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Delivery merchant page."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Explicitly a virtual venue. Menu contains Cantonese pork noodle soup, dumpling and wonton soups and seafood rice-noodle soup; no Japanese ramen found.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/wolt-2026-09-27.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": []
+}

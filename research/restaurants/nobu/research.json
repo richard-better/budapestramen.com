@@ -1,0 +1,269 @@
+{
+  "version": 1,
+  "id": "nobu",
+  "name": "Nobu Budapest",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Broader Japanese fine-dining restaurant. Current official Budapest menu has no ramen; do not include as confirmed ramen venue.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/menus-2"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Soup section lists miso, mushroom and spicy seafood soup, none named ramen."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1051 Budapest, Erzsébet tér 7-8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nobu+Restaurant+Budapest+Erzs%C3%A9bet+t%C3%A9r+7-8&query_place_id=ChIJHQsWakDcQUcR1B_6XP72tBQ"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nobu+Restaurant+Budapest+Erzs%C3%A9bet+t%C3%A9r+7-8&query_place_id=ChIJHQsWakDcQUcR1B_6XP72tBQ"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Nobu+Restaurant+Budapest+Erzs%C3%A9bet+t%C3%A9r+7-8&query_place_id=ChIJHQsWakDcQUcR1B_6XP72tBQ",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Nobu+Restaurant+Budapest+Erzs%C3%A9bet+t%C3%A9r+7-8&query_place_id=ChIJHQsWakDcQUcR1B_6XP72tBQ"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.noburestaurants.com/budapest/home/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/home/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Budapest site links."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/nobu_budapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/home/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Budapest site links."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/nobubudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/home/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Budapest site links."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.noburestaurants.com/budapest/menus-2",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/home/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Budapest site links."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://www.noburestaurants.com/budapest/reservations",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/home/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Budapest site links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/home/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official booking links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/home/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site announces reopening after transformation and October 2-3 guest event."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 15,
+        "applicability": "Added to final bill."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.noburestaurants.com/budapest/menus-2"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit menu footer."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://www.noburestaurants.com/budapest/menus-2",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Full current official Budapest food menu in HTML and browser text. No ramen found; retained as inclusion-screening evidence.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-menu-2026-09-27.html",
+            "sourceUrl": "https://www.noburestaurants.com/budapest/menus-2",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-menu-2026-09-27.txt",
+            "sourceUrl": "https://www.noburestaurants.com/budapest/menus-2",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": []
+}

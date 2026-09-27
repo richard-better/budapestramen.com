@@ -43,10 +43,12 @@
         }
       ],
       "followUp": [
-        "No ramen on current Wolt menu. Check 101 Bistro dine-in menu before inclusion; do not treat category membership as ramen evidence."
+        "No confirmed Japanese ramen in the reviewed menu. Current menu contains salads, bian dang rice boxes, dessert and pantry extras; no ramen dish found. Same address as 101 Bistro, physical-brand relationship needs confirmation.",
+        "Retain as an investigated candidate, not a confirmed ramen restaurant; reopen if new menu evidence appears."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-express",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "101-express"
     },
     {
       "id": "101-neo",
@@ -79,7 +81,7 @@
       "name": "101 Tigris",
       "status": "needs-menu-check",
       "address": "1133 Budapest, Hegedűs Gyula utca 56",
-      "mapsUrl": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56",
       "signals": ["editorial-ramen-mention"],
       "sources": [
         {
@@ -96,13 +98,26 @@
           "url": "https://linktr.ee/101tigris",
           "checkedOn": "2026-09-27",
           "note": "Official link hub offers Facebook menu and Dish table reservations. Facebook menu page loaded business information but no menu images."
+        },
+        {
+          "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/Tigris-etlap-2026-09.10.pdf?v=1789113639",
+          "checkedOn": "2026-09-27",
+          "note": "Current full official menu linked from Maps. Six noodle soups, none called Japanese ramen."
+        },
+        {
+          "url": "https://welovebudapest.com/cikk/2023/9/12/gasztro-101-tigris-azsiai-kantin-etterem-noodle-house",
+          "checkedOn": "2026-09-27",
+          "note": "Read positive 2023 editorial recommendation; Chinese/Taiwanese noodle-house concept and QR ordering. Historical prices not reused."
         }
       ],
       "followUp": [
-        "Confirm whether the venue currently serves Japanese ramen before inclusion; current delivery menu describes Chinese noodle soups and laksa."
+        "Keep as editorially recommended adjacent noodle-house candidate until Japanese ramen is established.",
+        "Current menu explicitly offers vegan sesame soup and vegan dry noodles, but these do not establish vegan ramen.",
+        "Verify ownership, chef nationality, current hours and service charge; old reviews are insufficient for current fee."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-tigris",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "researchId": "101-tigris"
     },
     {
       "id": "art-of-sushi",
@@ -171,9 +186,13 @@
           "note": "Current branch menu inspected: Korean stews, rice dishes and other soups, no dish explicitly named ramen or ramyeon found. Maps links Wolt despite service attribute saying no delivery, so delivery status conflicts."
         }
       ],
-      "followUp": ["No ramen found in current delivery menu. Check dine-in menu before inclusion."],
+      "followUp": [
+        "No confirmed Japanese ramen in the reviewed menu. Current Korean menu lists soups and stews such as kimchi-jjigae, sundubu-jjigae, yukgaejang and budae-jjigae, but no Japanese ramen. Category inclusion was a false-positive signal.",
+        "Retain as an investigated candidate, not a confirmed ramen restaurant; reopen if new menu evidence appears."
+      ],
       "orderingUrl": "https://wolt.com/hu/hun/budapest/restaurant/bibimbap-korean-restaurant",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "bibimbap"
     },
     {
       "id": "cantonese-flavor",
@@ -195,10 +214,12 @@
         }
       ],
       "followUp": [
-        "Do not add as a physical ramen shop: virtual venue, with no ramen established in current menu."
+        "No confirmed Japanese ramen in the reviewed menu. Explicitly a virtual venue. Menu contains Cantonese pork noodle soup, dumpling and wonton soups and seafood rice-noodle soup; no Japanese ramen found.",
+        "Retain as an investigated candidate, not a confirmed ramen restaurant; reopen if new menu evidence appears."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "cantonese-flavor"
     },
     {
       "id": "chiyoko",
@@ -251,10 +272,12 @@
         }
       ],
       "followUp": [
-        "Resolve inclusion policy for instant-ramyeon/DIY-hotpot venues; do not compare packaged-noodle or hotpot prices with standard Japanese ramen bowls."
+        "No confirmed Japanese ramen in the reviewed menu. Menu primarily lists branded instant noodles (Samyang, Neoguri, Mama, Chapagetti) and customizable DIY hotpot. These do not establish restaurant-prepared Japanese ramen; do not compare packet prices with full ramen bowls.",
+        "Retain as an investigated candidate, not a confirmed ramen restaurant; reopen if new menu evidence appears."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cooked-by-you",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "cooked-by-you"
     },
     {
       "id": "daiga",
@@ -493,23 +516,28 @@
       "id": "hachi-go",
       "name": "Hachi-Go",
       "status": "candidate",
-      "address": null,
-      "mapsUrl": null,
+      "address": "1075 Budapest, Madách Imre út 3",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
       "signals": ["delivery-category-match", "ramen-mention"],
       "sources": [
         {
           "url": "https://wolt.com/en/hun/budapest/category/ramen",
           "checkedOn": "2026-09-26",
           "note": "Wolt’s ramen category card explicitly describes this venue offering ramen. Physical branch and current menu still need verification."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/restaurant/hachi-go",
+          "checkedOn": "2026-09-27",
+          "note": "Verified Madách Imre út 3 address and five matching HACHI-KO ramen recipes; inferred probable alias, official linkage still unresolved."
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status.",
-        "Check whether this is a delivery brand of HACHI or a separate physical venue."
+        "Probable HACHI-KO delivery alias: identical address and five distinctive ramen recipes. Evidence cached in hachi-ko; do not count as a separate physical restaurant.",
+        "Confirm alias through an official cross-link and resolve Maps no-delivery attribute. Delivery prices differ from the official dine-in menu."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hachi-go",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "hachi-ko"
     },
     {
       "id": "hachi-ko",
@@ -805,8 +833,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "No ramen found in May 2026 menu. Keep excluded from confirmed ramen listings unless a newer menu establishes ramen.",
+        "No official website linked on Maps; social accounts and ownership unverified."
+      ],
+      "researchPriority": "normal",
+      "researchId": "kincsan"
     },
     {
       "id": "kitsune",
@@ -1099,8 +1131,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "No ramen on current official menu. Keep out of confirmed ramen listings unless newer or seasonal menu establishes it.",
+        "Global founder identity does not establish local ownership or resident chef nationality."
+      ],
+      "researchPriority": "normal",
+      "researchId": "nobu"
     },
     {
       "id": "nyuszi",

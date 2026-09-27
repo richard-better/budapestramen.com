@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "id": "101-tigris",
+  "name": "101 TIGRIS Noodle House",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Asian noodle house, editorially recommended. Current September 2026 menu does not label any dish Japanese ramen; do not equate all noodle soups with ramen.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/Tigris-etlap-2026-09.10.pdf?v=1789113639"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Six noodle soups: wonton, Chinese golden chicken, red braised beef, vegan sesame, spicy sesame pork and coconut shrimp."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1133 Budapest, Hegedűs Gyula utca 56",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "XIII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://linktr.ee/101tigris",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://linktr.ee/101tigris"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official link hub and Maps restaurant links."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://instagram.com/101tigris",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official link hub and Maps restaurant links."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/101tigris",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://linktr.ee/101tigris"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official link hub and Maps restaurant links."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/Tigris-etlap-2026-09.10.pdf?v=1789113639",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official link hub and Maps restaurant links."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://reservation.dish.co/widget/hydra-2da94690-4c7f-11ee-b8e6-09e61dea872c",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://linktr.ee/101tigris"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official link hub and Maps restaurant links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/101-tigris",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/101-tigris"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant menu previously inspected this date."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://linktr.ee/101tigris"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Dish table reservation link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/101-tigris"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant delivery menu."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner response six months ago explicitly describes its QR-code-based ordering; another response eight months ago confirms ordering to the table."
+        },
+        {
+          "source": {
+            "type": "website",
+            "url": "https://welovebudapest.com/cikk/2023/9/12/gasztro-101-tigris-azsiai-kantin-etterem-noodle-house"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "September 2023 editorial describes ordering to the table by QR code."
+        }
+      ]
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current menu link and recent reviews."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/Tigris-etlap-2026-09.10.pdf?v=1789113639",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Full current menu PDF linked by restaurant Maps listing. Filename September 10, 2026; no Japanese ramen dish named.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-2026-09-10.pdf",
+            "sourceUrl": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/Tigris-etlap-2026-09.10.pdf?v=1789113639",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-2026-09-10.txt",
+            "sourceUrl": "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/Tigris-etlap-2026-09.10.pdf?v=1789113639",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [],
+  "brandId": "101"
+}

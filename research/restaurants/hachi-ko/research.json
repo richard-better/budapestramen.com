@@ -160,7 +160,8 @@
       ]
     },
     "delivery": {
-      "status": "no",
+      "status": "unknown",
+      "note": "Conflicting evidence: Maps explicitly says no delivery, while Hachi-Go on Wolt has the same address and five matching ramen recipes. Probable delivery alias needs an official cross-link.",
       "evidence": [
         {
           "source": {
@@ -169,6 +170,14 @@
           },
           "checkedOn": "2026-09-27",
           "note": "Maps explicitly marks delivery unavailable."
+        },
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/hachi-go"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Matching Madách Imre út 3 address, Shoyu Beef with Omaha beef, Shio Chicken, Tonkotsu, Miso with kohlrabi/shiitake/matcha, and Ice Cold Ramen with citrus/dill."
         }
       ]
     },
@@ -325,6 +334,23 @@
           {
             "path": "menus/2026-09-27-official-ramen.jpg",
             "sourceUrl": "https://www.facebook.com/stories/880800567692967/?source=profile_highlight",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    },
+    {
+      "id": "possible-delivery-alias-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/hachi-go",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Hachi-Go lists the same Madách Imre út 3 address and the same five distinctive ramen recipes as HACHI-KO. Probable delivery alias, not independently confirmed by an official cross-link. Keep delivery prices separate and do not create a second physical venue.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/hachi-go-wolt-2026-09-27.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/hachi-go",
             "capturedOn": "2026-09-27"
           }
         ]

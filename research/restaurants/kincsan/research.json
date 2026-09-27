@@ -1,0 +1,199 @@
+{
+  "version": 1,
+  "id": "kincsan",
+  "name": "Japan Okonomiyaki Kincsán",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Okonomiyaki specialist. May 2026 menu shows Hiroshima/Kansai okonomiyaki, yakisoba and sides; no ramen found. Keep out of confirmed ramen listings pending contrary evidence."
+    },
+    "address": {
+      "status": "known",
+      "value": "1092 Budapest, Ráday utca 14",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "IX",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "unknown"
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks delivery unavailable."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks takeaway available."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active listing with current hours and recent reviews."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Two May 2026 customer menu photos: okonomiyaki/yakisoba and soup/sides. Only miso soup appears; no ramen found. These are inclusion-screening evidence, not ramen pricing.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/maps-2026-05-main.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/maps-2026-05-sides.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": []
+}
