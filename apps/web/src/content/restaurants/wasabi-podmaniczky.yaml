@@ -1,0 +1,43 @@
+name: Wasabi Running Sushi & Wok Restaurant - Podmaniczky
+address: "Budapest, Podmaniczky u. 21, 1065"
+district: VI
+mapsUrl: "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+menuUrl: https://wasabi.hu/etlap
+coordinates:
+  lat: 47.5082823
+  lng: 19.0574266
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.7
+  reviews: 11710
+source:
+  name: Official restaurant menu and Google Maps
+  date: "2026-09-27"
+  url: https://wasabi.hu/etlap
+details:
+  category: serves-ramen
+  links:
+    website: https://wasabi.hu/
+    instagram: https://www.instagram.com/wasabi_hungary_official/
+    facebook: https://www.facebook.com/wasabihungary
+    menu: https://wasabi.hu/etlap
+    reservations: https://wasabi.hu/asztalfoglalas
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: "yes"
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge: null
+  checkedOn: "2026-09-27"
+  menuType: official

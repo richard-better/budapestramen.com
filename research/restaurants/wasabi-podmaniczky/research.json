@@ -2,7 +2,7 @@
   "version": 1,
   "id": "wasabi-podmaniczky",
   "name": "Wasabi Running Sushi & Wok Restaurant - Podmaniczky",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -24,11 +24,11 @@
       "evidence": [
         {
           "source": {
-            "type": "website",
-            "url": "https://wasabi.hu/etlap?page=2"
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
           },
           "checkedOn": "2026-09-27",
-          "note": "Shared official menu explicitly lists ramen soup with selectable topping. Branch availability needs reconfirmation."
+          "note": "Branch-specific Maps Levesek menu explicitly lists traditional Japanese ramen soup."
         }
       ]
     },
@@ -185,10 +185,30 @@
       ]
     },
     "delivery": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly offers no-contact delivery and kerbside pickup."
+        }
+      ]
     },
     "takeaway": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly offers no-contact delivery and kerbside pickup."
+        }
+      ]
     },
     "tabletOrdering": {
       "status": "unknown"
@@ -234,15 +254,15 @@
     },
     "brothAndToppings": {
       "status": "known",
-      "value": "Ramen soup with selectable topping; the website initially displays 0 Ft before options, which is not a valid bowl price.",
+      "value": "Japanese meat broth, baby spinach, spring onion, mung bean sprouts, soft egg, ramen noodles and spicy sauce.",
       "evidence": [
         {
           "source": {
-            "type": "website",
-            "url": "https://wasabi.hu/etlap?page=2"
+            "type": "maps",
+            "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
           },
           "checkedOn": "2026-09-27",
-          "note": "Official menu reviewed; never use the placeholder as a price."
+          "note": "Branch menu description."
         }
       ]
     },
@@ -285,6 +305,23 @@
           {
             "path": "menus/official-2026-09-27.txt",
             "sourceUrl": "https://wasabi.hu/etlap?page=2",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    },
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Branch-specific ramen confirmed; no price shown. Shared official ordering menu remains the official menu link.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps.txt",
+            "sourceUrl": "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
             "capturedOn": "2026-09-27"
           }
         ]

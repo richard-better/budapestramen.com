@@ -97,7 +97,18 @@
       "status": "unknown"
     },
     "instagram": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.instagram.com/nobility_sushi_bar_restaurant/",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nobility_sushi_bar_restaurant/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Profile gives Galagonya utca 5 and current September menu posts."
+        }
+      ]
     },
     "facebook": {
       "status": "known",
@@ -128,7 +139,18 @@
       ]
     },
     "reservations": {
-      "status": "unknown"
+      "status": "known",
+      "value": "https://www.instagram.com/nobility_sushi_bar_restaurant/",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nobility_sushi_bar_restaurant/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile posts advertise phone reservations: +36 30 358 9998."
+        }
+      ]
     },
     "delivery": {
       "status": "known",
@@ -150,7 +172,17 @@
   },
   "features": {
     "reservations": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nobility_sushi_bar_restaurant/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official posts explicitly invite telephone reservations."
+        }
+      ]
     },
     "delivery": {
       "status": "yes",
@@ -166,7 +198,17 @@
       ]
     },
     "takeaway": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nobility_sushi_bar_restaurant/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Pentecost post explicitly lists collection and Wolt/Foodora delivery."
+        }
+      ]
     },
     "tabletOrdering": {
       "status": "unknown"
@@ -198,7 +240,18 @@
   },
   "food": {
     "styles": {
-      "status": "unknown"
+      "status": "known",
+      "value": ["Tonkotsu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nobility_sushi_bar_restaurant/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Pinned new-menu announcement explicitly names Tonkotsu ramen."
+        }
+      ]
     },
     "brothAndToppings": {
       "status": "known",

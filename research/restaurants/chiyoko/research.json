@@ -42,7 +42,18 @@
       "status": "unknown"
     },
     "maps": {
-      "status": "unknown"
+      "status": "unknown",
+      "note": "Focused search finds a permanently closed Chiyoko Asian Food Bar at Szent István krt. 17 (1055), while current Wolt identifies a virtual venue in 1025. Their relationship is unverified; do not reuse the closed place marker.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/search?q=Chiyoko+Budapest+restaurant"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google business panel marks the Szent István körút restaurant permanently closed."
+        }
+      ]
     }
   },
   "links": {

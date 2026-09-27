@@ -43,12 +43,18 @@
         }
       ],
       "followUp": [
-        "No confirmed Japanese ramen in the reviewed menu. Current menu contains salads, bian dang rice boxes, dessert and pantry extras; no ramen dish found. Same address as 101 Bistro, physical-brand relationship needs confirmation.",
-        "Retain as an investigated candidate, not a confirmed ramen restaurant; reopen if new menu evidence appears."
+        "Current menu contains salads, bian dang rice boxes, dessert and pantry extras; no ramen dish found. Same address as 101 Bistro, physical-brand relationship needs confirmation.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-express",
       "researchPriority": "normal",
-      "researchId": "101-express"
+      "researchId": "101-express",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Current menu contains salads, bian dang rice boxes, dessert and pantry extras; no ramen dish found. Same address as 101 Bistro, physical-brand relationship needs confirmation.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/101-express"]
+      }
     },
     {
       "id": "101-neo",
@@ -70,11 +76,20 @@
         }
       ],
       "followUp": [
-        "Verify opening hours, ownership, ordering interface, customization and service charge.",
-        "Find menu effective date and direct delivery link."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchId": "101-neo",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag",
+          "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825",
+          "https://www.google.com/maps/place/101+NEO+Asian+Food+Bar/@47.4968953,19.0637513,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd70e567cca7:0x8d48b6cc19c62ed!8m2!3d47.4968953!4d19.0637513!16s%2Fg%2F11l5hjdfvz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "101-tigris",
@@ -111,13 +126,21 @@
         }
       ],
       "followUp": [
-        "Keep as editorially recommended adjacent noodle-house candidate until Japanese ramen is established.",
-        "Current menu explicitly offers vegan sesame soup and vegan dry noodles, but these do not establish vegan ramen.",
-        "Verify ownership, chef nationality, current hours and service charge; old reviews are insufficient for current fee."
+        "Asian noodle house, editorially recommended. Current September 2026 menu does not label any dish Japanese ramen; do not equate all noodle soups with ramen.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/101-tigris",
       "researchPriority": "high",
-      "researchId": "101-tigris"
+      "researchId": "101-tigris",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Asian noodle house, editorially recommended. Current September 2026 menu does not label any dish Japanese ramen; do not equate all noodle soups with ramen.",
+        "sources": [
+          "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/Tigris-etlap-2026-09.10.pdf?v=1789113639",
+          "https://www.google.com/maps/search/?api=1&query=101+Tigris+Budapest+Hegedus+Gyula+56"
+        ]
+      }
     },
     {
       "id": "art-of-sushi",
@@ -134,11 +157,22 @@
         }
       ],
       "followUp": [
-        "Confirm standalone bowl availability, serving size and current price outside the buffet.",
-        "Verify social profiles, ordering interface, customization and ownership."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchId": "art-of-sushi",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8",
+          "https://artofsushi.hu/",
+          "https://www.google.com/maps/place/Art+of+Sushi+Budapest/@47.5034179,19.063483,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddbd4d057b7f:0xcf9dce8fa4342beb!8m2!3d47.5034179!4d19.063483!16s%2Fg%2F11x1v06h8s?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://menumester.hu/artofsushi-5/"
+        ]
+      }
     },
     {
       "id": "bambuszliget",
@@ -160,12 +194,22 @@
         }
       ],
       "followUp": [
-        "Resolve place-specific Maps URL, current service charge, broth diet suitability and ownership.",
-        "Check cold-ramen topping prices before declaring complete price coverage."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br",
       "researchId": "bambuszliget",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://bambuszliget.hu/",
+          "https://wolt.com/en/hun/budapest/restaurant/bambuszliget-japn-tterem-sushi-br",
+          "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html"
+        ]
+      }
     },
     {
       "id": "bibimbap",
@@ -187,12 +231,18 @@
         }
       ],
       "followUp": [
-        "No confirmed Japanese ramen in the reviewed menu. Current Korean menu lists soups and stews such as kimchi-jjigae, sundubu-jjigae, yukgaejang and budae-jjigae, but no Japanese ramen. Category inclusion was a false-positive signal.",
-        "Retain as an investigated candidate, not a confirmed ramen restaurant; reopen if new menu evidence appears."
+        "Current Korean menu lists soups and stews such as kimchi-jjigae, sundubu-jjigae, yukgaejang and budae-jjigae, but no Japanese ramen. Category inclusion was a false-positive signal.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/hu/hun/budapest/restaurant/bibimbap-korean-restaurant",
       "researchPriority": "normal",
-      "researchId": "bibimbap"
+      "researchId": "bibimbap",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Current Korean menu lists soups and stews such as kimchi-jjigae, sundubu-jjigae, yukgaejang and budae-jjigae, but no Japanese ramen. Category inclusion was a false-positive signal.",
+        "sources": ["https://wolt.com/hu/hun/budapest/restaurant/bibimbap-korean-restaurant"]
+      }
     },
     {
       "id": "cantonese-flavor",
@@ -214,17 +264,23 @@
         }
       ],
       "followUp": [
-        "No confirmed Japanese ramen in the reviewed menu. Explicitly a virtual venue. Menu contains Cantonese pork noodle soup, dumpling and wonton soups and seafood rice-noodle soup; no Japanese ramen found.",
-        "Retain as an investigated candidate, not a confirmed ramen restaurant; reopen if new menu evidence appears."
+        "Explicitly a virtual venue. Menu contains Cantonese pork noodle soup, dumpling and wonton soups and seafood rice-noodle soup; no Japanese ramen found.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor",
       "researchPriority": "normal",
-      "researchId": "cantonese-flavor"
+      "researchId": "cantonese-flavor",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Explicitly a virtual venue. Menu contains Cantonese pork noodle soup, dumpling and wonton soups and seafood rice-noodle soup; no Japanese ramen found.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/cantonese-flavor"]
+      }
     },
     {
       "id": "chiyoko",
       "name": "Chiyoko",
-      "status": "candidate",
+      "status": "needs-branch-check",
       "address": null,
       "mapsUrl": null,
       "signals": ["delivery-category-match", "ramen-mention"],
@@ -241,16 +297,26 @@
         }
       ],
       "followUp": [
-        "Resolve operator and any relationship to an existing physical restaurant before map inclusion."
+        "Focused search finds a permanently closed Chiyoko Asian Food Bar at Szent István krt. 17 (1055), while current Wolt identifies a virtual venue in 1025. Their relationship is unverified; do not reuse the closed place marker.",
+        "A current public physical identity or an official relationship to an existing venue is required before adding another map listing."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
       "researchId": "chiyoko",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "identity-unresolved",
+        "note": "Focused search finds a permanently closed Chiyoko Asian Food Bar at Szent István krt. 17 (1055), while current Wolt identifies a virtual venue in 1025. Their relationship is unverified; do not reuse the closed place marker.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/chiyoko",
+          "https://www.google.com/search?q=Chiyoko+Budapest+restaurant"
+        ]
+      }
     },
     {
       "id": "cooked-by-you",
       "name": "Cooked By You",
-      "status": "candidate",
+      "status": "needs-menu-check",
       "address": "Budapest, Jókai utca 23",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Cooked+By+You+Budapest+J%C3%B3kai+utca+23&query_place_id=ChIJI6yLQQDdQUcRTTUpcypAihA",
       "signals": ["maps-search-match", "delivery-category-match", "ramen-mention"],
@@ -272,12 +338,18 @@
         }
       ],
       "followUp": [
-        "No confirmed Japanese ramen in the reviewed menu. Menu primarily lists branded instant noodles (Samyang, Neoguri, Mama, Chapagetti) and customizable DIY hotpot. These do not establish restaurant-prepared Japanese ramen; do not compare packet prices with full ramen bowls.",
-        "Retain as an investigated candidate, not a confirmed ramen restaurant; reopen if new menu evidence appears."
+        "Menu primarily lists branded instant noodles (Samyang, Neoguri, Mama, Chapagetti) and customizable DIY hotpot. These do not establish restaurant-prepared Japanese ramen; do not compare packet prices with full ramen bowls.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/cooked-by-you",
       "researchPriority": "normal",
-      "researchId": "cooked-by-you"
+      "researchId": "cooked-by-you",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Menu primarily lists branded instant noodles (Samyang, Neoguri, Mama, Chapagetti) and customizable DIY hotpot. These do not establish restaurant-prepared Japanese ramen; do not compare packet prices with full ramen bowls.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/cooked-by-you"]
+      }
     },
     {
       "id": "daiga",
@@ -299,16 +371,25 @@
         }
       ],
       "followUp": [
-        "Resolve current dine-in menu prices and service charge.",
-        "Verify hours, reservations, socials beyond Facebook, ownership and broth suitability."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchId": "daiga",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+          "https://www.google.com/maps/place/D%C3%A1ig%C3%A1+sushi/@47.5065556,19.0231276,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dfabffb3ca03:0x8c8bc1dc0adb7e90!8m2!3d47.5065556!4d19.0231276!16s%2Fg%2F11lgwq4g35?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "dimsum-wok-arkad",
       "name": "DimSum & Wok go - Árkád",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": null,
       "mapsUrl": null,
       "signals": ["delivery-category-match"],
@@ -320,17 +401,26 @@
         }
       ],
       "followUp": [
-        "Ten soup bowls including explicitly Japanese-style chashu ramen. Fried ramen, miso soup and hot-sour soup are excluded from ramen bowl prices.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
       "researchPriority": "normal",
-      "researchId": "dimsum-wok-arkad"
+      "researchId": "dimsum-wok-arkad",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
+          "https://www.google.com/maps/place/DimSum+%26+Wok+Go/@47.502842,19.139091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddc12d1c7175:0x993df1ce0eb98dcf!8m2!3d47.502842!4d19.139091!16s%2Fg%2F11sv6w51gx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "dumplimester",
       "name": "DumpliMester",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": null,
       "mapsUrl": null,
       "signals": ["delivery-category-match"],
@@ -342,17 +432,26 @@
         }
       ],
       "followUp": [
-        "Explicit tonkotsu with slow-cooked pork bone broth. Beef and shrimp noodle soups are not automatically classified as Japanese ramen.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/dumplimester",
       "researchPriority": "normal",
-      "researchId": "dumplimester"
+      "researchId": "dumplimester",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/dumplimester",
+          "https://www.google.com/maps/place/DumpliMester/@47.5243509,19.0700841,17z/data=!3m1!4b1!4m6!3m5!1s0x4741db00567c249b:0x16b27ae0f8d3e2a8!8m2!3d47.5243509!4d19.0700841!16s%2Fg%2F11ymk95tdh?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "ennmann",
       "name": "Ennmann Japán Étterem",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Bem rakpart 20",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
       "signals": ["maps-search-match"],
@@ -364,11 +463,19 @@
         }
       ],
       "followUp": [
-        "Verify ownership, Instagram, service charge and ordering/customization options.",
-        "Confirm whether any off-menu vegetarian or vegan ramen exists; the regular menu lists only chicken ramen."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "ennmann"
+      "researchId": "ennmann",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+          "https://www.google.com/maps/place/Ennmann+Jap%C3%A1n+%C3%89tterem/@47.503101,19.039342,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc18281da5d1:0x5ecd08803925d025!8m2!3d47.503101!4d19.039342!16s%2Fg%2F11c2r7jhh6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "every-day",
@@ -385,16 +492,24 @@
         }
       ],
       "followUp": [
-        "Cached Maps menu explicitly describes Chinese hand-pulled noodles. Keep outside Japanese ramen listings.",
-        "Structured Maps prices conflict with menu photograph; do not publish a current price range."
+        "Menu photograph explicitly says Hand-Pulled Noodle and describes the dish as Chinese. English ramen labels do not establish Japanese ramen. Photo prices (3000-3580 HUF) differ from structured Maps menu (2580-3280 HUF); neither is promoted as a verified current Japanese ramen range.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "researchPriority": "normal",
-      "researchId": "every-day"
+      "researchId": "every-day",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Menu photograph explicitly says Hand-Pulled Noodle and describes the dish as Chinese. English ramen labels do not establish Japanese ramen. Photo prices (3000-3580 HUF) differ from structured Maps menu (2580-3280 HUF); neither is promoted as a verified current Japanese ramen range.",
+        "sources": [
+          "https://www.google.com/maps/place/%E5%A4%A9%E5%A4%A9%E8%A7%81%E9%9D%A2+365Ramen/@47.4880715,19.0624149,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd1d2ed158ef:0xd4b229f4d5082d75!8m2!3d47.4880715!4d19.0624149!16s%2Fg%2F11q8wm0vmf?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "flour-style-muzeum",
       "name": "Flour Style Wok Bar - Múzeum",
-      "status": "candidate",
+      "status": "needs-menu-check",
       "address": "Budapest, Múzeum körút 39",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Flour+Style+Wok+Bar+-+M%C3%BAzeum+Budapest+M%C3%BAzeum+k%C3%B6r%C3%BAt+39&query_place_id=ChIJ61OpO1vcQUcRtJw2eadcPZQ",
       "signals": ["maps-search-match", "delivery-category-match", "ramen-mention"],
@@ -412,16 +527,22 @@
       ],
       "followUp": [
         "Merchant describes an authentic Chinese restaurant. Seven noodle soups named ramen; Japanese ramen style is not established. Vegetable A0 uses vegetable stock, but egg vegetable A1 explicitly uses meat stock.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar",
       "researchPriority": "normal",
-      "researchId": "flour-style-muzeum"
+      "researchId": "flour-style-muzeum",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Merchant describes an authentic Chinese restaurant. Seven noodle soups named ramen; Japanese ramen style is not established. Vegetable A0 uses vegetable stock, but egg vegetable A1 explicitly uses meat stock.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar"]
+      }
     },
     {
       "id": "flour-style-nyugati",
       "name": "Flour Style Wok Bar - Nyugati",
-      "status": "candidate",
+      "status": "needs-menu-check",
       "address": null,
       "mapsUrl": null,
       "signals": ["delivery-category-match", "ramen-mention"],
@@ -434,11 +555,17 @@
       ],
       "followUp": [
         "Separate Radnóti Miklós branch. Merchant describes authentic Chinese cuisine; Japanese ramen style is not established. A0 vegetable stock differs from A1 meat stock.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar-nyugati",
       "researchPriority": "normal",
-      "researchId": "flour-style-nyugati"
+      "researchId": "flour-style-nyugati",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Separate Radnóti Miklós branch. Merchant describes authentic Chinese cuisine; Japanese ramen style is not established. A0 vegetable stock differs from A1 meat stock.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/flour-style-wok-bar-nyugati"]
+      }
     },
     {
       "id": "foodhouse",
@@ -455,12 +582,21 @@
         }
       ],
       "followUp": [
-        "Chinese noodle restaurant also explicitly lists tonkotsu ramen. Lanzhou beef noodles are kept distinct from that Japanese-style bowl.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
       "researchPriority": "normal",
-      "researchId": "foodhouse"
+      "researchId": "foodhouse",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
+          "https://www.google.com/maps/place/Food+house/@47.5087884,19.0576252,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf873d743af:0x32cc773e5abfe4b2!8m2!3d47.5087884!4d19.0576252!16s%2Fg%2F11vwprrvtb?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "fuji",
@@ -482,11 +618,21 @@
         }
       ],
       "followUp": [
-        "Verify opening hours, service charge, broth suitability, ownership, chef nationality and digital ordering."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/fuji-japn-tterem",
       "researchPriority": "normal",
-      "researchId": "fuji"
+      "researchId": "fuji",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM",
+          "https://www.google.com/maps/place/Fuji+Jap%C3%A1n+%C3%89tterem/@47.5253705,19.0239347,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d935b6214b3b:0x33a7042e30b271f4!8m2!3d47.5253705!4d19.0239347!16s%2Fg%2F1tjdkjgk?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://fujirestaurant.hu/menu"
+        ]
+      }
     },
     {
       "id": "hachi",
@@ -513,16 +659,26 @@
         }
       ],
       "followUp": [
-        "Track return from pop-up to original address; Maps still shows number 8.",
-        "Verify service charge, ownership, ordering interface, vegan broth and Hachi-Go delivery relationship."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "high",
-      "researchId": "hachi"
+      "researchId": "hachi",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.sevenrooms.com/explore/hachibudapest/reservations/create/search",
+          "https://www.google.com/maps/place/Yama+Budapest/@47.500699,19.0511419,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddcaab55a69b:0x617311d8ecf1c3b!8m2!3d47.500699!4d19.0511419!16s%2Fg%2F11rj4zxhbx",
+          "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo",
+          "https://www.instagram.com/stories/highlights/18030367751462924/"
+        ]
+      }
     },
     {
       "id": "hachi-go",
       "name": "Hachi-Go",
-      "status": "candidate",
+      "status": "needs-branch-check",
       "address": "1075 Budapest, Madách Imre út 3",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
       "signals": ["delivery-category-match", "ramen-mention"],
@@ -539,12 +695,23 @@
         }
       ],
       "followUp": [
-        "Probable HACHI-KO delivery alias: identical address and five distinctive ramen recipes. Evidence cached in hachi-ko; do not count as a separate physical restaurant.",
-        "Confirm alias through an official cross-link and resolve Maps no-delivery attribute. Delivery prices differ from the official dine-in menu."
+        "Research is attached to hachi-ko; do not create an additional physical listing from this discovery entry.",
+        "Probable HACHI-KO delivery alias: identical address and five distinctive ramen recipes. Evidence cached in hachi-ko; do not count as a separate physical restaurant."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hachi-go",
       "researchPriority": "normal",
-      "researchId": "hachi-ko"
+      "researchId": "hachi-ko",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "alias",
+        "note": "Research is attached to hachi-ko; do not create an additional physical listing from this discovery entry.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
+          "https://www.google.com/maps/place/HACHI-KO+Ramen+Bar/@47.4977226,19.0577454,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd000187829b:0xfb36da6f708fe16d!8m2!3d47.4977226!4d19.0577454!16s%2Fg%2F11yt5crhyk?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://www.facebook.com/stories/880800567692967/?source=profile_highlight",
+          "https://wolt.com/en/hun/budapest/restaurant/hachi-go"
+        ]
+      }
     },
     {
       "id": "hachi-ko",
@@ -581,11 +748,21 @@
         }
       ],
       "followUp": [
-        "Verify full weekly hours, service charge, ownership and on-site digital ordering.",
-        "Cache remaining small-plate/dessert cards when stable copies are available."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "high",
-      "researchId": "hachi-ko"
+      "researchId": "hachi-ko",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
+          "https://www.google.com/maps/place/HACHI-KO+Ramen+Bar/@47.4977226,19.0577454,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd000187829b:0xfb36da6f708fe16d!8m2!3d47.4977226!4d19.0577454!16s%2Fg%2F11yt5crhyk?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://www.facebook.com/stories/880800567692967/?source=profile_highlight",
+          "https://wolt.com/en/hun/budapest/restaurant/hachi-go"
+        ]
+      }
     },
     {
       "id": "hao-hao",
@@ -603,11 +780,17 @@
       ],
       "followUp": [
         "Beef and seafood soups sold as ramen, but the descriptions do not establish Japanese ramen style.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/hao-hao-etterem",
       "researchPriority": "normal",
-      "researchId": "hao-hao"
+      "researchId": "hao-hao",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Beef and seafood soups sold as ramen, but the descriptions do not establish Japanese ramen style.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/hao-hao-etterem"]
+      }
     },
     {
       "id": "ichiban",
@@ -629,12 +812,22 @@
         }
       ],
       "followUp": [
-        "Find official dine-in QR menu URL and confirm current prices/service charge.",
-        "Verify website/social accounts, reservations, ownership and dietary broth suitability. QR ordering supported by multiple customer accounts, latest five months old."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea",
       "researchPriority": "normal",
-      "researchId": "ichiban"
+      "researchId": "ichiban",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest",
+          "https://www.google.com/maps/place/Ichiban+Ramen,+Sushi+and+Tea/@47.5037385,19.054781,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd001ea8bd95:0xf955486c635f286d!8m2!3d47.5037385!4d19.054781!16s%2Fg%2F11x1y5rzpp?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea"
+        ]
+      }
     },
     {
       "id": "iki-ramen",
@@ -651,15 +844,26 @@
         }
       ],
       "followUp": [
-        "Verify latest post-renovation menu, service charge, hours, Facebook, ownership and digital ordering. Official Instagram contains earlier Poetry Wine posts at same address; investigate duplicate candidate."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "iki-ramen"
+      "researchId": "iki-ramen",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.instagram.com/iki_ramen_izakaya/",
+          "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+          "https://www.google.com/maps/place/Iki+Ramen+Izakaya/@47.5041139,19.0613169,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddbcad90bd6b:0xf709e37623b1b05d!8m2!3d47.5041139!4d19.0613169!16s%2Fg%2F11lvvccm1q?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "itoshii",
       "name": "Itoshii",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": null,
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest",
       "signals": ["delivery-category-match"],
@@ -671,12 +875,22 @@
         }
       ],
       "followUp": [
-        "Confirm current full-sized standalone ramen and current à la carte prices; linked images have 2024 filenames.",
-        "Verify Instagram, ownership, chef nationality and customization; QR phone ordering confirmed, tablet/kiosk unknown."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/itoshii",
       "researchPriority": "normal",
-      "researchId": "itoshii"
+      "researchId": "itoshii",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest",
+          "https://www.google.com/maps/place/Itoshii/@47.5100349,19.0585964,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d17c76fd1:0xa949d7d5139839ca!8m2!3d47.5100349!4d19.0585964!16s%2Fg%2F11b73sg7pt?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "http://www.itoshii.hu/menu"
+        ]
+      }
     },
     {
       "id": "japanika",
@@ -693,11 +907,20 @@
         }
       ],
       "followUp": [
-        "Resolve official-site address 11 versus Maps number 7.",
-        "Verify broth/noodle suitability, service charge, ownership and chef nationality."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "japanika"
+      "researchId": "japanika",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo",
+          "https://japanika.hu/",
+          "https://www.google.com/maps/place/Japanika/@47.5008716,19.0522339,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc152d7c689f:0xba3418c51bdd606d!8m2!3d47.5008716!4d19.0522339!16s%2Fg%2F11c44k3b58?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "jia-le",
@@ -715,11 +938,17 @@
       ],
       "followUp": [
         "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and broth ingredients remain unverified; vegetable topping alone does not prove vegetarian broth.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe",
       "researchPriority": "normal",
-      "researchId": "jia-le"
+      "researchId": "jia-le",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and broth ingredients remain unverified; vegetable topping alone does not prove vegetarian broth.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/jia-le-kinai-bufe"]
+      }
     },
     {
       "id": "k-bunsik",
@@ -737,11 +966,17 @@
       ],
       "followUp": [
         "Explicit Korean-style K-Ramen, jjajang and buldak. Retained as adjacent Korean ramyeon, not confirmed Japanese ramen.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/k-bunsik",
       "researchPriority": "normal",
-      "researchId": "k-bunsik"
+      "researchId": "k-bunsik",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Explicit Korean-style K-Ramen, jjajang and buldak. Retained as adjacent Korean ramyeon, not confirmed Japanese ramen.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/k-bunsik"]
+      }
     },
     {
       "id": "kaiszin",
@@ -759,16 +994,22 @@
       ],
       "followUp": [
         "Menu labels soups ramen / 拉面 in a Chinese and Asian kitchen. Japanese ramen style and broth ingredients remain unverified.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kaiszin-azsiai-konyha",
       "researchPriority": "normal",
-      "researchId": "kaiszin"
+      "researchId": "kaiszin",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Menu labels soups ramen / 拉面 in a Chinese and Asian kitchen. Japanese ramen style and broth ingredients remain unverified.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/kaiszin-azsiai-konyha"]
+      }
     },
     {
       "id": "kakurega",
       "name": "Kakurega Japanese Restaurant",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Arany János utca 13",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg",
       "signals": ["maps-search-match"],
@@ -780,11 +1021,20 @@
         }
       ],
       "followUp": [
-        "Verify ownership and chef nationality, digital ordering and any vegetarian ramen modifications.",
-        "Vegan udon should not be treated as vegan ramen."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "kakurega"
+      "researchId": "kakurega",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg",
+          "https://www.google.com/maps/place/Kakurega+Japanese+Restaurant/@47.5019627,19.0495141,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd0010c78e3b:0x182db5928f80efa5!8m2!3d47.5019627!4d19.0495141!16s%2Fg%2F11xw8g0dx1?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://kakuregabudapest.com/menu/"
+        ]
+      }
     },
     {
       "id": "kawamura-ramen",
@@ -805,9 +1055,21 @@
           "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering. Keep these unknown until verified."
+      ],
       "researchId": "kawamura-ramen",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.kawamura.hu/",
+          "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo",
+          "https://www.kawamura.hu/menu.html"
+        ]
+      }
     },
     {
       "id": "ke-la-la",
@@ -825,11 +1087,17 @@
       ],
       "followUp": [
         "Three soups sold as ramen at a Chinese restaurant. Japanese ramen style remains unverified.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ke-la-la-wok",
       "researchPriority": "normal",
-      "researchId": "ke-la-la"
+      "researchId": "ke-la-la",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Three soups sold as ramen at a Chinese restaurant. Japanese ramen style remains unverified.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/ke-la-la-wok"]
+      }
     },
     {
       "id": "kincsan",
@@ -846,16 +1114,24 @@
         }
       ],
       "followUp": [
-        "No ramen found in May 2026 menu. Keep excluded from confirmed ramen listings unless a newer menu establishes ramen.",
-        "No official website linked on Maps; social accounts and ownership unverified."
+        "Okonomiyaki specialist. May 2026 menu shows Hiroshima/Kansai okonomiyaki, yakisoba and sides; no ramen found. Keep out of confirmed ramen listings pending contrary evidence.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "researchPriority": "normal",
-      "researchId": "kincsan"
+      "researchId": "kincsan",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Okonomiyaki specialist. May 2026 menu shows Hiroshima/Kansai okonomiyaki, yakisoba and sides; no ramen found. Keep out of confirmed ramen listings pending contrary evidence.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Japan+Okonomiyaki+Kincs%C3%A1n+Budapest+R%C3%A1day+utca+14&query_place_id=ChIJD6SXOObdQUcR9xDnoD564oU"
+        ]
+      }
     },
     {
       "id": "kitsune",
       "name": "Kitsune Japán Étterem és Kávézó",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": null,
       "mapsUrl": null,
       "signals": ["delivery-category-match"],
@@ -867,13 +1143,22 @@
         }
       ],
       "followUp": [
-        "Find a current dine-in menu; official food-menu URL is broken.",
-        "Verify service charge and ownership/chef nationality.",
-        "Official delivery links contradict Maps no-delivery attribute; use official evidence."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz",
       "researchPriority": "normal",
-      "researchId": "kitsune"
+      "researchId": "kitsune",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest",
+          "https://www.google.com/maps/place/Kitsune+Jap%C3%A1n+%C3%89tterem+%C3%A9s+K%C3%A1v%C3%A9z%C3%B3/@47.4793456,19.0837011,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dce4beba3a65:0xceb45c1984f7790e!8m2!3d47.4793456!4d19.0837011!16s%2Fg%2F11f0wl3y3c?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz"
+        ]
+      }
     },
     {
       "id": "kkodari",
@@ -890,11 +1175,19 @@
         }
       ],
       "followUp": [
-        "Cached menu explicitly describes Korean ramyeon at 3500 HUF. Keep outside Japanese ramen listings.",
-        "Official Instagram linked by Maps; ownership and further service details remain unknown."
+        "Photographed menu explicitly labels Ramyeon: spicy Korean noodle soup with cabbage, carrot, bean sprouts and green onion (3500 HUF). This is Korean ramyeon, not evidence of Japanese ramen.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "researchPriority": "normal",
-      "researchId": "kkodari"
+      "researchId": "kkodari",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Photographed menu explicitly labels Ramyeon: spicy Korean noodle soup with cabbage, carrot, bean sprouts and green onion (3500 HUF). This is Korean ramyeon, not evidence of Japanese ramen.",
+        "sources": [
+          "https://www.google.com/maps/place/KKODARI+-+Korean+Roll+%26+Rice/@47.4902106,19.0670859,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd006e0b5c41:0x661c2a6d21a3a7ad!8m2!3d47.4902106!4d19.0670859!16s%2Fg%2F11nk00cqc6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "komachi",
@@ -921,12 +1214,22 @@
         }
       ],
       "followUp": [
-        "Confirm ramen serving days versus Sunday Udon Day, full hours and latest complete menu.",
-        "Verify ownership, Japanese chef, Instagram, direct ordering link, service charge and tablet/kiosk/QR ordering."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/komachi-bistro",
       "researchPriority": "high",
-      "researchId": "komachi"
+      "researchId": "komachi",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+          "https://www.google.com/maps/place/Komachi+Bistro/@47.5014391,19.0660282,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc68cae3d3b3:0x20be659b1f85f8ff!8m2!3d47.5014391!4d19.0660282!16s%2Fg%2F11b67nlyqv?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://www.facebook.com/komachibistro/"
+        ]
+      }
     },
     {
       "id": "love-asian-food",
@@ -944,11 +1247,17 @@
       ],
       "followUp": [
         "Packaged instant noodles and snacks, with preparation instructions. Not a prepared Japanese ramen restaurant.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/love-asian-food",
       "researchPriority": "normal",
-      "researchId": "love-asian-food"
+      "researchId": "love-asian-food",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Packaged instant noodles and snacks, with preparation instructions. Not a prepared Japanese ramen restaurant.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/love-asian-food"]
+      }
     },
     {
       "id": "monokini-kantin",
@@ -966,9 +1275,20 @@
         }
       ],
       "followUp": [
-        "Research lunch versus dinner availability and distinguish full-size bowls from mini portions."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.monokini.hu/hu",
+          "https://www.google.com/maps/place/Monokini+Kantin/@47.5090651,19.0269148,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd917a38d439:0xd4110af9563f2be1!8m2!3d47.5090651!4d19.0294897!16s%2Fg%2F11xfsqlc88?entry=tts&g_ep=EgoyMDI2MDcwOC4wIPu8ASoASAFQAw%3D%3D&skid=258f0a47-27bd-4cff-94ff-54bb5ad66c3b",
+          "https://maps.app.goo.gl/L7YTngLh1H1SPNn59",
+          "https://www.monokini.hu/hu/menu"
+        ]
+      }
     },
     {
       "id": "mori-ramen",
@@ -985,10 +1305,21 @@
         }
       ],
       "followUp": [
-        "Verify current ownership nationality, Japanese chef, digital ordering, vegan modifications and direct Wolt URL."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "mori-ramen"
+      "researchId": "mori-ramen",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://maps.app.goo.gl/6tfPGZshmtzABWuz7",
+          "https://www.google.com/maps/place/Mori+Ramen/@47.5012297,19.0618207,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddad242aa8b7:0xe0bd0237f58b2a0f!8m2!3d47.5012261!4d19.0643956!16s%2Fg%2F11z1_xp3nt?entry=tts&g_ep=EgoyMDI2MDYwMS4wIPu8ASoASAFQAw%3D%3D&skid=159a402e-9d02-4a29-9567-12f21b1d7def",
+          "https://www.moriramen.hu/",
+          "https://www.moriramen.hu/menu.html"
+        ]
+      }
     },
     {
       "id": "nagomi",
@@ -1010,11 +1341,20 @@
         }
       ],
       "followUp": [
-        "Verify ownership nationality, takeaway, ordering interface and any official website or Facebook profile.",
-        "Find exact menu effective date; current cached owner upload is September 2026."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "high",
-      "researchId": "nagomi"
+      "researchId": "nagomi",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+          "https://www.google.com/maps/place/Nagomi/@47.4784014,19.0494102,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd003a9b3e29:0x1f3c78ca3d7ea0b4!8m2!3d47.4784014!4d19.0494102!16s%2Fg%2F11ywkvb8wl?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://www.instagram.com/nagomibar/"
+        ]
+      }
     },
     {
       "id": "nem-ramen",
@@ -1046,16 +1386,25 @@
         }
       ],
       "followUp": [
-        "Verify reservations, ownership nationality, service-charge wording and current menu.",
-        "Decide whether mazesoba belongs in the same price-range calculation as soup ramen."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "high",
-      "researchId": "nem-ramen"
+      "researchId": "nem-ramen",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+          "https://www.google.com/maps/place/Nem+Ramen/@47.4928009,19.0733349,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf81f0adbeb:0xe0b2667f32d21cfb!8m2!3d47.4928009!4d19.0733349!16s%2Fg%2F11yrf_cxf2?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "nobi-sushi-pest",
       "name": "Nobi Sushi Pest",
-      "status": "candidate",
+      "status": "needs-branch-check",
       "address": null,
       "mapsUrl": null,
       "signals": ["delivery-category-match", "ramen-mention"],
@@ -1068,11 +1417,17 @@
       ],
       "followUp": [
         "Explicit virtual venue. Same telephone and near-identical location as Nobility Sushi at Röppentyű 58; probable delivery alias, not an additional physical restaurant.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "A current public physical identity or an official relationship to an existing venue is required before adding another map listing."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest",
       "researchPriority": "normal",
-      "researchId": "nobi-sushi-pest"
+      "researchId": "nobi-sushi-pest",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "identity-unresolved",
+        "note": "Explicit virtual venue. Same telephone and near-identical location as Nobility Sushi at Röppentyű 58; probable delivery alias, not an additional physical restaurant.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/nobi-sushi-pest"]
+      }
     },
     {
       "id": "nobility-galagonya",
@@ -1088,9 +1443,21 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
+      ],
       "researchPriority": "normal",
-      "researchId": "nobility-galagonya"
+      "researchId": "nobility-galagonya",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant",
+          "https://www.google.com/maps/place/Nobility+Sushi+Bar+%26+Restaurant/@47.5312105,19.0385159,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d90019fe7a47:0x858f071864c50d76!8m2!3d47.5312105!4d19.0385159!16s%2Fg%2F11lcgyvmtp?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "nobility-restaurant-unresolved",
@@ -1107,12 +1474,21 @@
         }
       ],
       "followUp": [
-        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Research is attached to nobility-galagonya; do not create an additional physical listing from this discovery entry.",
+        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant",
       "researchPriority": "normal",
-      "researchId": "nobility-galagonya"
+      "researchId": "nobility-galagonya",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "alias",
+        "note": "Research is attached to nobility-galagonya; do not create an additional physical listing from this discovery entry.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant",
+          "https://www.google.com/maps/place/Nobility+Sushi+Bar+%26+Restaurant/@47.5312105,19.0385159,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d90019fe7a47:0x858f071864c50d76!8m2!3d47.5312105!4d19.0385159!16s%2Fg%2F11lcgyvmtp?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "nobility-sushi-unresolved",
@@ -1129,12 +1505,18 @@
         }
       ],
       "followUp": [
-        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Official social profile linked by merchant points to Galagonya 5; no public dine-in branch at Röppentyű 58 established. Keep as unresolved delivery identity.",
+        "A current public physical identity or an official relationship to an existing venue is required before adding another map listing."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nobility-sushi",
       "researchPriority": "normal",
-      "researchId": "nobility-sushi-unresolved"
+      "researchId": "nobility-sushi-unresolved",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "identity-unresolved",
+        "note": "Official social profile linked by merchant points to Galagonya 5; no public dine-in branch at Röppentyű 58 established. Keep as unresolved delivery identity.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/nobility-sushi"]
+      }
     },
     {
       "id": "nobu",
@@ -1151,11 +1533,21 @@
         }
       ],
       "followUp": [
-        "No ramen on current official menu. Keep out of confirmed ramen listings unless newer or seasonal menu establishes it.",
-        "Global founder identity does not establish local ownership or resident chef nationality."
+        "Broader Japanese fine-dining restaurant. Current official Budapest menu has no ramen; do not include as confirmed ramen venue.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "researchPriority": "normal",
-      "researchId": "nobu"
+      "researchId": "nobu",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Broader Japanese fine-dining restaurant. Current official Budapest menu has no ramen; do not include as confirmed ramen venue.",
+        "sources": [
+          "https://www.noburestaurants.com/budapest/menus-2",
+          "https://www.google.com/maps/search/?api=1&query=Nobu+Restaurant+Budapest+Erzs%C3%A9bet+t%C3%A9r+7-8&query_place_id=ChIJHQsWakDcQUcR1B_6XP72tBQ",
+          "https://www.noburestaurants.com/budapest/home/"
+        ]
+      }
     },
     {
       "id": "nyuszi",
@@ -1173,16 +1565,22 @@
       ],
       "followUp": [
         "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and vegetable broth remain unverified.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/nyuszi-kinai-bufe",
       "researchPriority": "normal",
-      "researchId": "nyuszi"
+      "researchId": "nyuszi",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Four soups sold as ramen at a Chinese buffet. Japanese ramen style and vegetable broth remain unverified.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/nyuszi-kinai-bufe"]
+      }
     },
     {
       "id": "oishi-dohany",
       "name": "Oishi Sushi Budapest",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Dohány utca 47",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oishi+Sushi+Budapest+Budapest+Doh%C3%A1ny+utca+47&query_place_id=ChIJe2E5BmfcQUcRO4uz1xRJRiE",
       "signals": ["maps-search-match", "delivery-category-match"],
@@ -1199,17 +1597,26 @@
         }
       ],
       "followUp": [
-        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
       "researchPriority": "normal",
-      "researchId": "oishi-dohany"
+      "researchId": "oishi-dohany",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
+          "https://www.google.com/maps/place/Oishi+Sushi+Budapest/@47.4980654,19.0694025,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc670639617b:0x21464914d7b38b3b!8m2!3d47.4980654!4d19.0694025!16s%2Fg%2F11cp5z8px0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "oishi-synagogue",
       "name": "Oishi Sushi Synagogue",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Dohány utca 1",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Oishi+Sushi+Synagogue+Budapest+Doh%C3%A1ny+utca+1&query_place_id=ChIJEcPhA3bdQUcR4iSmsaCRuEE",
       "signals": ["maps-search-match", "delivery-category-match"],
@@ -1226,17 +1633,26 @@
         }
       ],
       "followUp": [
-        "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
       "researchPriority": "normal",
-      "researchId": "oishi-synagogue"
+      "researchId": "oishi-synagogue",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
+          "https://www.google.com/maps/place/Oishi+Sushi+Synagogue/data=!4m7!3m6!1s0x4741dd7603e1c311:0x41b891a0b1a624e2!8m2!3d47.4955391!4d19.0600283!16s%2Fg%2F11rtnln9b9!19sChIJEcPhA3bdQUcR4iSmsaCRuEE"
+        ]
+      }
     },
     {
       "id": "oishi-takeaway-unresolved",
       "name": "Oishi Sushi",
-      "status": "needs-branch-check",
+      "status": "candidate",
       "address": null,
       "mapsUrl": null,
       "signals": ["delivery-category-match"],
@@ -1248,12 +1664,21 @@
         }
       ],
       "followUp": [
-        "Resolved to Fényes Elek utca 4, distinct from the two Dohány branches. Delivery promotions and fried noodles must not enter a dine-in ramen range.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away",
       "researchPriority": "normal",
-      "researchId": "oishi-takeaway-unresolved"
+      "researchId": "oishi-takeaway-unresolved",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away",
+          "https://www.google.com/maps/place/Oishi+Sushi+Take+Away+(II.+Ker%C3%BClet)/@47.510511,19.029663,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc1d7f841a6f:0x648f0c75780b6a6d!8m2!3d47.510511!4d19.029663!16s%2Fg%2F11dyqyd_tz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "olive-azsia",
@@ -1271,11 +1696,17 @@
       ],
       "followUp": [
         "Five soups sold as ramen at a Chinese restaurant. Japanese ramen style and vegetable broth remain unverified.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/olive-zsia-tterem",
       "researchPriority": "normal",
-      "researchId": "olive-azsia"
+      "researchId": "olive-azsia",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Five soups sold as ramen at a Chinese restaurant. Japanese ramen style and vegetable broth remain unverified.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/olive-zsia-tterem"]
+      }
     },
     {
       "id": "oriental-soup-house-balzac",
@@ -1291,9 +1722,22 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Official menu lists pho and other Vietnamese/Asian soups, not Japanese ramen; do not classify noodle soups as ramen.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
+      ],
       "researchPriority": "normal",
-      "researchId": "oriental-soup-house-balzac"
+      "researchId": "oriental-soup-house-balzac",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Official menu lists pho and other Vietnamese/Asian soups, not Japanese ramen; do not classify noodle soups as ramen.",
+        "sources": [
+          "https://orientalsouphouse.com/balzac/",
+          "https://www.google.com/maps/place/Oriental+Soup+House+Balzac/@47.5168415,19.0521548,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc08567028b1:0xa334398a44a61500!8m2!3d47.5168415!4d19.0521548!16s%2Fg%2F11cn92wr56?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://orientalsouphouse.com/wp-content/uploads/2026/04/OSHO_balzac_menu_HU__22026.04.07.pdf"
+        ]
+      }
     },
     {
       "id": "oriental-soup-house-szervita",
@@ -1309,14 +1753,27 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Official menu lists pho and other Vietnamese/Asian soups, not Japanese ramen; do not classify noodle soups as ramen.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
+      ],
       "researchPriority": "normal",
-      "researchId": "oriental-soup-house-szervita"
+      "researchId": "oriental-soup-house-szervita",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Official menu lists pho and other Vietnamese/Asian soups, not Japanese ramen; do not classify noodle soups as ramen.",
+        "sources": [
+          "https://orientalsouphouse.com/szervita/",
+          "https://www.google.com/maps/place/Oriental+Soup+House+Szervita+t%C3%A9r/@47.4954147,19.0525291,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dff8de846c7d:0x701de8bcef33c409!8m2!3d47.4954147!4d19.0525291!16s%2Fg%2F11fngyw465?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://orientalsouphouse.com/wp-content/uploads/2026/05/OSHO_szervita_menu_HU__2026.05.07.pdf"
+        ]
+      }
     },
     {
       "id": "pearl-harbor",
       "name": "Pearl Harbor Restaurant Bowling & Bar",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Bécsi út 136",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pearl+Harbor+Restaurant+Bowling+%26+Bar+Budapest+B%C3%A9csi+%C3%BAt+136&query_place_id=ChIJBSiUOULZQUcRhy37S4gbf7w",
       "signals": ["maps-search-match"],
@@ -1327,14 +1784,25 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
+      ],
       "researchPriority": "normal",
-      "researchId": "pearl-harbor"
+      "researchId": "pearl-harbor",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://pearlharbor.hu/wp-content/uploads/2026/09/harbor-etlap-2026-09.-webs.pdf",
+          "https://www.google.com/maps/place/Pearl+Harbor+Restaurant+Bowling+%26+Bar/@47.5439222,19.0285957,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d94239942805:0xbc7f1b884bfb2d87!8m2!3d47.5439222!4d19.0285957!16s%2Fg%2F1w2ysnjl?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "poetry",
       "name": "Poetry Wine Restaurant and Bar",
-      "status": "needs-menu-check",
+      "status": "needs-branch-check",
       "address": null,
       "mapsUrl": null,
       "signals": ["delivery-category-match"],
@@ -1352,11 +1820,17 @@
       ],
       "followUp": [
         "Delivery page remains at Andrássy út 38, the verified Iki Ramen Izakaya address. Possible stale predecessor listing; do not create a separate public venue until identity is resolved.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "A current public physical identity or an official relationship to an existing venue is required before adding another map listing."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/poetry-wine-restaurant-and-bar",
       "researchPriority": "normal",
-      "researchId": "poetry"
+      "researchId": "poetry",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "identity-unresolved",
+        "note": "Delivery page remains at Andrássy út 38, the verified Iki Ramen Izakaya address. Possible stale predecessor listing; do not create a separate public venue until identity is resolved.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/poetry-wine-restaurant-and-bar"]
+      }
     },
     {
       "id": "ramen-mester-etele",
@@ -1393,16 +1867,26 @@
         }
       ],
       "followUp": [
-        "Chinese lamian confirmed. Decide inclusion separately from Japanese ramen; verify dine-in menu, prices, hours, reservations, ownership and social links."
+        "Merchant explicitly describes Chinese hand-pulled lamian, not Japanese ramen. Inclusion requires editorial decision; do not classify from translated name alone.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
       "researchPriority": "high",
-      "researchId": "ramen-mester-etele"
+      "researchId": "ramen-mester-etele",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Merchant explicitly describes Chinese hand-pulled lamian, not Japanese ramen. Inclusion requires editorial decision; do not classify from translated name alone.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+          "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34"
+        ]
+      }
     },
     {
       "id": "ramen-mester-wesselenyi",
       "name": "Ling’s - Ramen Mester Wesselényi",
-      "status": "candidate",
+      "status": "needs-menu-check",
       "address": "Budapest, Wesselényi utca 49",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Wessel%C3%A9nyi+Budapest+Wessel%C3%A9nyi+utca+49&query_place_id=ChIJnZvgDwDdQUcR3PzFDh78Yps",
       "signals": ["maps-search-match", "ramen-name-or-category", "delivery-category-match"],
@@ -1420,11 +1904,17 @@
       ],
       "followUp": [
         "Explicit authentic Chinese hand-pulled beef noodles. Retained as adjacent lamian, not confirmed Japanese ramen.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-wesselenyi",
       "researchPriority": "normal",
-      "researchId": "ramen-mester-wesselenyi"
+      "researchId": "ramen-mester-wesselenyi",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Explicit authentic Chinese hand-pulled beef noodles. Retained as adjacent lamian, not confirmed Japanese ramen.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-wesselenyi"]
+      }
     },
     {
       "id": "ramen-nikko",
@@ -1441,11 +1931,21 @@
         }
       ],
       "followUp": [
-        "Official Instagram verified and linked; specialist identity confirmed. Verified research facts now transferred to website YAML.",
-        "Current complete price range remains unknown; cached Maps menu photos are older and partial. Website domain is parked."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchId": "ramen-nikko",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c",
+          "https://www.instagram.com/ramennikko/",
+          "https://www.facebook.com/ramennikkobp"
+        ]
+      }
     },
     {
       "id": "ramenji",
@@ -1482,12 +1982,21 @@
         }
       ],
       "followUp": [
-        "Resolve vegan-labelled bowl including egg; verify ownership, ordering interface and official Facebook/website.",
-        "Find exact effective menu date and reservation channel."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ramenji-japanese-restaurant",
       "researchPriority": "high",
-      "researchId": "ramenji"
+      "researchId": "ramenji",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+          "https://www.google.com/maps/place/Ramenji+Ramen/@47.4903911,19.0549088,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd87f89d1387:0x4c221ee510b59546!8m2!3d47.4903911!4d19.0549088!16s%2Fg%2F11ms3fsx_6?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://www.instagram.com/ramenjibudapest/"
+        ]
+      }
     },
     {
       "id": "ramenka",
@@ -1512,7 +2021,13 @@
         "Keep off active list until official reopening date, address and menu are verified. Naponta is not automatically a ramen venue."
       ],
       "researchPriority": "high",
-      "researchId": "ramenka"
+      "researchId": "ramenka",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "closed",
+        "note": "Official closure/reopening notice checked. A current reopening date, address and ramen menu are not established.",
+        "sources": ["https://ramenka.hu/en/"]
+      }
     },
     {
       "id": "sakura-ramen",
@@ -1534,16 +2049,27 @@
         }
       ],
       "followUp": [
-        "Verify dine-in menu/range, broth recipes, service charge, hours, Instagram, ownership and ordering interfaces; resolve Király 10 versus 12 address discrepancy."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1",
       "researchPriority": "normal",
-      "researchId": "sakura-ramen"
+      "researchId": "sakura-ramen",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck",
+          "https://www.google.com/maps/place/Sakura+Ramen/@47.4985335,19.0567643,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc6a0c8daa65:0xc95d7dba0601f2ec!8m2!3d47.4985335!4d19.0567643!16s%2Fg%2F11f3dvykg5?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1"
+        ]
+      }
     },
     {
       "id": "sakuraku",
       "name": "Sakuraku Japanese Izakaya",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Király utca 58",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
       "signals": ["maps-search-match"],
@@ -1555,11 +2081,19 @@
         }
       ],
       "followUp": [
-        "Verify standalone website, Instagram, ownership, hours and customization/digital ordering.",
-        "Confirm vegetable ramen broth/noodles before marking vegan."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "sakuraku"
+      "researchId": "sakuraku",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+          "https://www.google.com/maps/place/Sakuraku+Japanese+Izakaya/@47.5026721,19.0638506,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd8db2b26ae7:0x7fb81001dff2f8c7!8m2!3d47.5026721!4d19.0638506!16s%2Fg%2F11kywqr325?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "senbazuru",
@@ -1581,17 +2115,26 @@
         }
       ],
       "followUp": [
-        "Four large Japanese ramen soups with fresh homemade noodles, egg, naruto and vegetables. Pho is a separate category.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
       "researchPriority": "normal",
-      "researchId": "senbazuru"
+      "researchId": "senbazuru",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
+          "https://www.google.com/maps/place/Senbazuru+Bistro/@47.5028239,19.0466618,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddae84ede12f:0x34e6dfcb1bf030c2!8m2!3d47.5028239!4d19.0466618!16s%2Fg%2F11h76kzw61?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "shibuya",
       "name": "Shibuya",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Városligeti fasor 46-48",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg",
       "signals": ["maps-search-match"],
@@ -1603,11 +2146,21 @@
         }
       ],
       "followUp": [
-        "Resolve Maps address 46-48 versus official contact page 44-46.",
-        "Verify tofu ramen ingredients, ownership, chef nationality, hours and digital ordering."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "shibuya"
+      "researchId": "shibuya",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg",
+          "https://shibuyabudapest.com/kapcsolat/",
+          "https://www.google.com/maps/place/Shibuya+Budapest/@47.5107448,19.0792342,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd0009e2faa9:0x7845c47a5f57b208!8m2!3d47.5107448!4d19.0792342!16s%2Fg%2F11wvp_f8zy?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://shibuyabudapest.com/menu/"
+        ]
+      }
     },
     {
       "id": "song-mester",
@@ -1624,15 +2177,25 @@
         }
       ],
       "followUp": [
-        "Full Wolt menu and Maps photos checked: Chinese soups, Korean jjigae and stir-fried noodles; no Japanese ramen established. Keep candidate pending direct evidence."
+        "Full current Wolt menu inspected: wonton/hundun and hot-sour soups, Korean jjigae and stir-fried noodles; no Japanese ramen listed. Two Maps menu photos show Chinese wok dishes and Korean set meals. A review/photo noodle-soup match is not sufficient for inclusion.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "researchPriority": "normal",
-      "researchId": "song-mester"
+      "researchId": "song-mester",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Full current Wolt menu inspected: wonton/hundun and hot-sour soups, Korean jjigae and stir-fried noodles; no Japanese ramen listed. Two Maps menu photos show Chinese wok dishes and Korean set meals. A review/photo noodle-soup match is not sufficient for inclusion.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/song-mester-etterem",
+          "https://www.google.com/maps/place/Song+Mester+%C3%89tterem+%2F+%E5%AE%8B%E5%B8%88%E5%82%85%E9%A5%AD%E5%BA%97/@47.5049219,19.08801,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd00306d54c3:0xbf9331c540a7ccbb!8m2!3d47.5049219!4d19.08801!16s%2Fg%2F11mk_39y19?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "sushi-heaven",
       "name": "Sushi Heaven",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Hajós utca 16",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi+Heaven+Budapest+Haj%C3%B3s+utca+16&query_place_id=ChIJXbvE6S3dQUcRXdSTTwtxmIs",
       "signals": ["maps-search-match", "delivery-category-match"],
@@ -1649,12 +2212,21 @@
         }
       ],
       "followUp": [
-        "Menu calls this Thai ramen with shiitake, wakame and egg. Retain as fusion ramen; do not infer a traditional Japanese broth style.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-heaven",
       "researchPriority": "normal",
-      "researchId": "sushi-heaven"
+      "researchId": "sushi-heaven",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/sushi-heaven",
+          "https://www.google.com/maps/place/Sushi+Heaven/@47.5038174,19.0574936,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2de9c4bb5d:0x8b98710b4f93d45d!8m2!3d47.5038174!4d19.0574936!16s%2Fg%2F11x0tyvp00?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "sushi-sei",
@@ -1671,11 +2243,21 @@
         }
       ],
       "followUp": [
-        "Verify Japanese/Hungarian ownership, chef nationality, Instagram and ramen customization.",
-        "Vegetarian/vegan soups elsewhere are not evidence of vegetarian/vegan ramen."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "sushi-sei"
+      "researchId": "sushi-sei",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4",
+          "https://www.google.com/maps/place/Sushi+Sei+Jap%C3%A1n+%C3%89tterem/@47.5300222,19.0376569,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d956e8b3e4b3:0x3e0c9a26fe86efad!8m2!3d47.5300222!4d19.0376569!16s%2Fg%2F1tgy_cb2?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://sushisei.hu/",
+          "https://sushisei.hu/etlap/"
+        ]
+      }
     },
     {
       "id": "sushi-wan",
@@ -1692,12 +2274,21 @@
         }
       ],
       "followUp": [
-        "Four ramen soup options. The vegetable ramen explicitly contains chicken stock and egg; no vegetarian or vegan ramen is evidenced by this complete menu.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem",
       "researchPriority": "normal",
-      "researchId": "sushi-wan"
+      "researchId": "sushi-wan",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem",
+          "https://www.google.com/maps/place/Sushi+wan/@47.5028684,19.0649469,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddb08a816dbf:0x2eed79a7cf0dbba7!8m2!3d47.5028684!4d19.0649469!16s%2Fg%2F11tn5f42nn?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "taste-of-china",
@@ -1715,16 +2306,22 @@
       ],
       "followUp": [
         "Menu reviewed: Chinese rice bowls, soups and snacks; ramen category membership does not establish a Japanese ramen dish. Current merchant address is Rákóczi út 71, despite historical URL mentioning Üllői.",
-        "Verify official dine-in menu, social profiles and visit features; preserve unknown values until sourced."
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/taste-of-china-ulloi",
       "researchPriority": "normal",
-      "researchId": "taste-of-china"
+      "researchId": "taste-of-china",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Menu reviewed: Chinese rice bowls, soups and snacks; ramen category membership does not establish a Japanese ramen dish. Current merchant address is Rákóczi út 71, despite historical URL mentioning Üllői.",
+        "sources": ["https://wolt.com/en/hun/budapest/restaurant/taste-of-china-ulloi"]
+      }
     },
     {
       "id": "tokio",
       "name": "TOKIO",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Széchenyi István tér 7-8",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s",
       "signals": ["maps-search-match"],
@@ -1736,11 +2333,20 @@
         }
       ],
       "followUp": [
-        "Verify direct delivery URL, customization/digital ordering, ownership and chef nationality.",
-        "No vegetarian ramen established; vegetarian miso tofu soup is not a ramen bowl."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "tokio"
+      "researchId": "tokio",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s",
+          "https://www.google.com/maps/place/TOKIO+Budapest/@47.5002927,19.0476861,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc15939ab27f:0xbbff7834f98cbcff!8m2!3d47.5002927!4d19.0476861!16s%2Fg%2F119wp7x_y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf"
+        ]
+      }
     },
     {
       "id": "tokyo-izakaya",
@@ -1757,12 +2363,22 @@
         }
       ],
       "followUp": [
-        "Verify complete current dine-in menu and base-bowl composition; delivery base price 3980 HUF is separate.",
-        "Find official social/website accounts, reservations and ownership."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya",
       "researchPriority": "normal",
-      "researchId": "tokyo-izakaya"
+      "researchId": "tokyo-izakaya",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest",
+          "https://www.google.com/maps/place/Tokyo+Izakaya+jap%C3%A1n+%C3%A9tterem/@47.4643045,19.0253782,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd00177af967:0xff1dada3e9691350!8m2!3d47.4643045!4d19.0253782!16s%2Fg%2F11xl1sc0zq?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://wolt.com/en/hun/budapest/restaurant/tokyo-izakaya"
+        ]
+      }
     },
     {
       "id": "ton-ichi",
@@ -1789,16 +2405,26 @@
         }
       ],
       "followUp": [
-        "Obtain current dine-in menu and prices; verify reservations, takeaway, service charge, hours, ownership and ordering interface.",
-        "Verify official website/Facebook; retain Wolt as temporary menu fallback."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "high",
-      "researchId": "ton-ichi"
+      "researchId": "ton-ichi",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/ton-ichi",
+          "https://www.google.com/maps/place/Ton-Ichi+Ramen/@47.5025257,19.0508091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2f1dd5bbbf:0xef4485d653a3bdd0!8m2!3d47.5025257!4d19.0508091!16s%2Fg%2F11sts3tq8x?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://www.google.com/maps/search/?api=1&query=Ton-Ichi+Ramen+Budapest+Okt%C3%B3ber+6.+utca+21&query_place_id=ChIJv7vVHS_dQUcR0L2jU9aFRO8"
+        ]
+      }
     },
     {
       "id": "ume-sushi",
       "name": "Ume Sushi",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Aranykéz utca 4",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
       "signals": ["maps-search-match"],
@@ -1810,11 +2436,19 @@
         }
       ],
       "followUp": [
-        "Verify current dine-in prices against the September 2025 owner menu.",
-        "Find official website/social accounts, reservations, opening hours and ownership evidence; do not infer ownership from branding."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "ume-sushi"
+      "researchId": "ume-sushi",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+          "https://www.google.com/maps/place/Ume+sushi/@47.4946855,19.0510703,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd047ef8b5f9:0x8b24122946abf285!8m2!3d47.4946855!4d19.0510703!16s%2Fg%2F11t_tfnbnw?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "wafu-biangarden",
@@ -1831,12 +2465,21 @@
         }
       ],
       "followUp": [
-        "Find a current dine-in menu and cache it; do not publish delivery prices as the dine-in range.",
-        "Verify branch social accounts, reservations, customization, dietary options and ownership; these remain unknown."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
       "researchPriority": "normal",
-      "researchId": "wafu-biangarden"
+      "researchId": "wafu-biangarden",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
+          "https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg"
+        ]
+      }
     },
     {
       "id": "wafu-budafoki",
@@ -1868,12 +2511,22 @@
         }
       ],
       "followUp": [
-        "Reconcile Canva prices with cached Maps menu and obtain export.",
-        "Verify reservations, hours, service charge, ownership, Facebook and on-site ordering interface."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/wafu-ramenn",
       "researchPriority": "high",
-      "researchId": "wafu-budafoki"
+      "researchId": "wafu-budafoki",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA",
+          "https://www.google.com/maps/place/WAFU+Ramen+Bar+-Budafoki-/@47.4784907,19.0509358,615m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4741dda0e9ea26cf:0x1260116f6ab632e8!8m2!3d47.4784871!4d19.0535107!16s%2Fg%2F11w2jmmj78?entry=tts&g_ep=EgoyMDI1MTIwOS4wIPu8ASoASAFQAw%3D%3D&skid=12ee615d-41eb-4a68-a5e3-d054afc4e268",
+          "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit"
+        ]
+      }
     },
     {
       "id": "wafu-dob",
@@ -1890,10 +2543,19 @@
         }
       ],
       "followUp": [
-        "Verify reservations, delivery/takeaway, branch social accounts, digital ordering, ownership, service charge and vegan modifications."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "wafu-dob"
+      "researchId": "wafu-dob",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+          "https://www.google.com/maps/place/WAFU+Ramen+Bar+-Dob-/@47.4962055,19.0589364,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd83deff2075:0x9fed1476e6a48565!8m2!3d47.4962055!4d19.0589364!16s%2Fg%2F11nw13v89_?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "wafu-gozsdu",
@@ -1920,10 +2582,19 @@
         }
       ],
       "followUp": [
-        "Verify current prices against official Canva menu, reservations, delivery/takeaway, vegan modifications, ownership, hours and service charge. Paper ordering confirmed, digital ordering remains unknown."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "high",
-      "researchId": "wafu-gozsdu"
+      "researchId": "wafu-gozsdu",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8",
+          "https://www.google.com/maps/place/WAFU+Ramen+Bar+-Gozsdu-/@47.4989383,19.0589799,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd28aa964367:0xfd6a02bf1ea577b!8m2!3d47.4989347!4d19.0615548!16s%2Fg%2F11vqp5f0n8?entry=tts&g_ep=EgoyMDI1MDMyNC4wIPu8ASoASAFQAw%3D%3D&skid=eead398f-8d44-4d3b-ba50-46e996dba74d"
+        ]
+      }
     },
     {
       "id": "wafu-izakaya",
@@ -1945,10 +2616,20 @@
         }
       ],
       "followUp": [
-        "Verify Facebook, delivery URL, takeaway, digital ordering and vegan modifications. Japanese ownership explicitly confirmed on official Instagram; Hungarian co-ownership and chef nationality unknown."
+        "Public evidence does not establish Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "wafu-izakaya"
+      "researchId": "wafu-izakaya",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9",
+          "https://www.google.com/maps/place/WAFU+-Ramen+Izakaya-/@47.4961452,19.0641191,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd3db64cc323:0xf2d9faf85a918708!8m2!3d47.4961452!4d19.0641191!16s%2Fg%2F11j14wqpc3?entry=tts&g_ep=EgoyMDI1MDMyNC4wIPu8ASoASAFQAw%3D%3D&skid=f5791bf7-fee6-4678-ae16-32e958dbd3bf",
+          "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view"
+        ]
+      }
     },
     {
       "id": "wafu-kalvin",
@@ -1970,10 +2651,17 @@
         }
       ],
       "followUp": [
-        "Official Kálvin page repeats Kazinczy copy and links to Budafoki Maps/menu/delivery. Focused Maps search did not resolve Papnövelde 3 as an operating branch. Separate identity and current operation remain unverified."
+        "Official Kálvin page repeats Kazinczy copy and links to Budafoki Maps/menu/delivery. Focused Maps search did not resolve Papnövelde 3 as an operating branch. Separate identity and current operation remain unverified.",
+        "A current public physical identity or an official relationship to an existing venue is required before adding another map listing."
       ],
       "researchPriority": "normal",
-      "researchId": "wafu-kalvin"
+      "researchId": "wafu-kalvin",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "identity-unresolved",
+        "note": "Official Kálvin page repeats Kazinczy copy and links to Budafoki Maps/menu/delivery. Focused Maps search did not resolve Papnövelde 3 as an operating branch. Separate identity and current operation remain unverified.",
+        "sources": ["https://www.wafujp.com/work/wafu-ramenbar-kalvin/copy-5"]
+      }
     },
     {
       "id": "wafu-katona",
@@ -2010,17 +2698,26 @@
         }
       ],
       "followUp": [
-        "Replace broken official Canva menu link; verify latest prices, full hours, service charge, ownership and on-site ordering interface.",
-        "Confirm Facebook and direct reservation channel."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/paneer",
       "researchPriority": "high",
-      "researchId": "wafu-katona"
+      "researchId": "wafu-katona",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA",
+          "https://www.google.com/maps/place/WAFU+Ramen+Bar+-Katona-/@47.5144792,19.0493816,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf3a50c3e3d:0x2905b9f6c15bb4e3!8m2!3d47.5144792!4d19.0493816!16s%2Fg%2F11v4m4wk17?entry=tts&g_ep=EgoyMDI1MDMyNC4wIPu8ASoASAFQAw%3D%3D&skid=f9dbfc27-f7f7-44a1-9caf-a4916ae77b59"
+        ]
+      }
     },
     {
       "id": "wasabi-mom",
       "name": "Wasabi Running Sushi & Wok Restaurant - MOM Park",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Alkotás utca 53",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park+Budapest+Alkot%C3%A1s+utca+53&query_place_id=ChIJodPnKS_cQUcRSOp8z9jfp5w",
       "signals": ["maps-search-match"],
@@ -2032,16 +2729,26 @@
         }
       ],
       "followUp": [
-        "Branch-specific official dine-in PDF cached and verified: three Japanese ramen bowls at 6490 HUF, plus 12% service. Published in restaurant YAML.",
-        "Ownership and tablet/kiosk/QR ordering remain unverified."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "wasabi-mom"
+      "researchId": "wasabi-mom",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wasabi.hu/a-la-carte",
+          "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf",
+          "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park/@47.4909813,19.022886,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc2f29e7d3a1:0x9ca7dfd8cf7cea48!8m2!3d47.4909813!4d19.022886!16s%2Fg%2F1td3dt7y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://wasabi.hu/etlap?page=2"
+        ]
+      }
     },
     {
       "id": "wasabi-podmaniczky",
       "name": "Wasabi Running Sushi & Wok Restaurant - Podmaniczky",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Podmaniczky utca 21",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wasabi+Running+Sushi+%26+Wok+Restaurant+-+Podmaniczky+Budapest+Podmaniczky+utca+21&query_place_id=ChIJv1LCVQ3cQUcRldzBiOLOL3g",
       "signals": ["maps-search-match"],
@@ -2053,10 +2760,21 @@
         }
       ],
       "followUp": [
-        "Official site confirms Pest a-la-carte service but omits a Pest PDF. Shared ramen menu does not settle branch availability or dine-in price."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "wasabi-podmaniczky"
+      "researchId": "wasabi-podmaniczky",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wasabi.hu/a-la-carte",
+          "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://wasabi.hu/etlap?page=2"
+        ]
+      }
     },
     {
       "id": "wasabi-szepvolgyi",
@@ -2073,11 +2791,21 @@
         }
       ],
       "followUp": [
-        "Branch-specific official dine-in PDF cached and verified: three Japanese ramen bowls at 6490 HUF, plus 12% service. Published in restaurant YAML.",
-        "Ownership and tablet/kiosk/QR ordering remain unverified."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "wasabi-szepvolgyi"
+      "researchId": "wasabi-szepvolgyi",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://wasabi.hu/a-la-carte",
+          "https://wasabi.hu/etlapok/buda/Wasabi_AC_Etlap_2024_11_48oldal_SZEPVOLGYI_01_48_Web.pdf",
+          "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5278872,19.0364867,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d9378d2b3a23:0x605f77b02b3b44f3!8m2!3d47.5278872!4d19.0364867!16s%2Fg%2F1tlw7vv9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://wasabi.hu/etlap?page=2"
+        ]
+      }
     },
     {
       "id": "whats-running",
@@ -2094,15 +2822,26 @@
         }
       ],
       "followUp": [
-        "Official hot-pot menu explicitly identifies WR RAMEN (pork) and RAMEN (duck) as selectable broths for cooking toppings at the table. No standard prepared ramen bowl established. The 14990 HUF adult package and 3490 HUF a-la-carte broth are not ramen bowl prices."
+        "Official hot-pot menu explicitly identifies WR RAMEN (pork) and RAMEN (duck) as selectable broths for cooking toppings at the table. No standard prepared ramen bowl established. The 14990 HUF adult package and 3490 HUF a-la-carte broth are not ramen bowl prices.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "researchPriority": "normal",
-      "researchId": "whats-running"
+      "researchId": "whats-running",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Official hot-pot menu explicitly identifies WR RAMEN (pork) and RAMEN (duck) as selectable broths for cooking toppings at the table. No standard prepared ramen bowl established. The 14990 HUF adult package and 3490 HUF a-la-carte broth are not ramen bowl prices.",
+        "sources": [
+          "https://whatsrunning.hu/hot-pot-menu/",
+          "https://www.google.com/maps/place/WHAT'S+RUNNING+SOUP-SUSHI-HOTPOT+%E2%8B%85+RESTAURANT/@47.499655,19.0531133,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd5ce908dc7f:0x5fc20acf37dc843!8m2!3d47.499655!4d19.0531133!16s%2Fg%2F11sjh0zq41?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://whatsrunning.hu/etlap/"
+        ]
+      }
     },
     {
       "id": "yamato",
       "name": "Yamato Étterem",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Jókai utca 30",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE",
       "signals": ["maps-search-match"],
@@ -2114,11 +2853,20 @@
         }
       ],
       "followUp": [
-        "Verify service charge, ownership and chef nationality.",
-        "Find direct delivery destination and clarify any vegetarian ramen option; menu explicitly describes meat broth."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "yamato"
+      "researchId": "yamato",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE",
+          "https://www.google.com/maps/place/Yamato+Table+Grill+%26+Sushi+Restaurant/@47.5082293,19.0577512,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d42793427:0x2137c6e0d2db5552!8m2!3d47.5082293!4d19.0577512!16s%2Fg%2F11b6t0bprq?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://yamatorestaurant.hu/menu/ramen-leves/"
+        ]
+      }
     },
     {
       "id": "yi-du",
@@ -2135,10 +2883,19 @@
         }
       ],
       "followUp": [
-        "Owner menu cached: chicken/seafood Xin Ramen 3590/4290 HUF. Japanese ramen classification and complete range remain unverified."
+        "Owner-uploaded July 2026 Maps menu shows Chicken Xin Ramen (3590 HUF) and Seafood Xin Ramen (4290 HUF), alongside udon. Broth and Japanese ramen classification are not established; these partial observations are not a verified complete ramen price range.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
       ],
       "researchPriority": "normal",
-      "researchId": "yi-du"
+      "researchId": "yi-du",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Owner-uploaded July 2026 Maps menu shows Chicken Xin Ramen (3590 HUF) and Seafood Xin Ramen (4290 HUF), alongside udon. Broth and Japanese ramen classification are not established; these partial observations are not a verified complete ramen price range.",
+        "sources": [
+          "https://www.google.com/maps/place/YI+DU/@47.5020367,19.0508497,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2181c0376d:0x56851e4d1be6f2c1!8m2!3d47.5020367!4d19.0508497!16s%2Fg%2F11vkj8wrf9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "yume",
@@ -2159,14 +2916,27 @@
           "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
+      ],
       "researchId": "yume",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6",
+          "https://www.facebook.com/yume.budapest",
+          "https://www.google.com/maps/place/Y%C3%9CME/@47.4890423,19.0762594,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dddd4e86a129:0xadeb25384b7a6319!8m2!3d47.4890387!4d19.0788343!16s%2Fg%2F11mckn1l2m?entry=tts&g_ep=EgoyMDI2MDkyMy4wIPu8ASoASAFQAw%3D%3D&skid=b024f4da-5ce9-4e09-968b-33ece534f7e4"
+        ]
+      }
     },
     {
       "id": "yume-7",
       "name": "Yume 7",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Káldy Gyula utca 5",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
       "signals": ["maps-search-match"],
@@ -2178,17 +2948,25 @@
         }
       ],
       "followUp": [
-        "Verify reservations, delivery, full hours, ownership and chef nationality; no evidence found yet.",
-        "Clarify vegan suitability because vegetable ramen includes allergen code 7.",
-        "Keep separate from Baross utca YÜME unless a relationship is established. Maps postcode 1066 conflicts with official profile 1061."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchPriority": "normal",
-      "researchId": "yume-7"
+      "researchId": "yume-7",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.instagram.com/yumebudapest7",
+          "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+          "https://www.google.com/maps/place/Yume+7/@47.4998638,19.0577366,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd8a2a47ef71:0xdc43bf8b4df0a435!8m2!3d47.4998638!4d19.0577366!16s%2Fg%2F11y_q_fc_l?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D"
+        ]
+      }
     },
     {
       "id": "zen-eatery",
       "name": "Zen Eatery",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "Budapest, Liszt Ferenc tér 10, földszint 16",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA",
       "signals": ["maps-search-match", "delivery-category-match"],
@@ -2205,18 +2983,26 @@
         }
       ],
       "followUp": [
-        "Find service-charge policy, Instagram and ownership/chef evidence.",
-        "Resolve Maps no-delivery attribute against active Wolt ordering; active merchant used as stronger current evidence.",
-        "No vegetarian ramen established: vegetarian pho is not ramen."
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/zen-eatery",
       "researchPriority": "normal",
-      "researchId": "zen-eatery"
+      "researchId": "zen-eatery",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": [
+          "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA",
+          "https://www.google.com/maps/place/Zen+Eatery/@47.503896,19.0635176,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddeae57cca85:0x902d53a3500b1b53!8m2!3d47.503896!4d19.0635176!16s%2Fg%2F11y1yd5w79?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+          "https://places.neery.net/land/zen"
+        ]
+      }
     },
     {
       "id": "art-of-sushi-bazilika",
       "name": "Art of Sushi - Bazilika",
-      "status": "needs-menu-check",
+      "status": "candidate",
       "address": "1051 Budapest, Sas utca 4.",
       "mapsUrl": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8",
       "signals": ["official-directory-match"],
@@ -2233,10 +3019,17 @@
         }
       ],
       "followUp": [
-        "Inspect branch-specific Maps menu photos or obtain current menu; ramen not established."
+        "Current complete standard dine-in ramen price range remains unverified; delivery, buffet and partial-menu prices are not substituted.",
+        "Public evidence does not establish Japanese ownership, Hungarian ownership, tablet ordering, kiosk ordering, QR ordering. Keep these unknown until verified."
       ],
       "researchId": "art-of-sushi-bazilika",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "listed",
+        "note": "Verified venue and ramen evidence are represented in the website YAML. Remaining unsupported facts retain unknown values.",
+        "sources": ["https://artofsushi.hu/istvan", "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"]
+      }
     },
     {
       "id": "mingji",
@@ -2256,8 +3049,18 @@
         }
       ],
       "followUp": [
-        "Keep outside Japanese ramen listings until a qualifying dish is established; ownership and dine-in ramen prices unknown."
-      ]
+        "Maps category and Wolt name say ramen, but merchant describes handmade Chinese-style beef noodles and menu shows Beijing-style noodles. Japanese ramen not established.",
+        "Reopen inclusion only when a current menu explicitly establishes Japanese or Japanese-style ramen; unknown does not mean the restaurant never serves it."
+      ],
+      "review": {
+        "checkedOn": "2026-09-27",
+        "outcome": "ramen-not-confirmed",
+        "note": "Maps category and Wolt name say ramen, but merchant describes handmade Chinese-style beef noodles and menu shows Beijing-style noodles. Japanese ramen not established.",
+        "sources": [
+          "https://wolt.com/hu/hun/budapest/restaurant/mingji-ramen",
+          "https://www.google.com/search?q=MINGJI+BEEF+NOODLE+Budapest+menu"
+        ]
+      }
     }
   ]
 }

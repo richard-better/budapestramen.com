@@ -1,0 +1,46 @@
+name: Art of Sushi - Bazilika
+address: "1051 Budapest, Sas utca 4."
+district: V
+mapsUrl: https://maps.app.goo.gl/p2oUVppGKDuV3i9S8
+menuUrl: https://maps.app.goo.gl/p2oUVppGKDuV3i9S8
+coordinates:
+  lat: 47.4998144
+  lng: 19.0521313
+styles: []
+vegan: false
+recommended: false
+google:
+  rating: 4.9
+  reviews: 1477
+source:
+  name: Official restaurant menu and Google Maps
+  date: "2026-09-27"
+  url: https://maps.app.goo.gl/p2oUVppGKDuV3i9S8
+details:
+  category: serves-ramen
+  links:
+    website: https://artofsushi.hu/istvan
+    instagram: https://www.instagram.com/artofsushi.istvan
+    facebook: https://www.facebook.com/artofsushiistvan
+    menu: https://maps.app.goo.gl/p2oUVppGKDuV3i9S8
+    reservations: "https://artofsushi.hu/istvan#foglaljonasztalt"
+  features:
+    reservations: "yes"
+    delivery: "yes"
+    takeaway: "yes"
+    tabletOrdering: unknown
+    kioskOrdering: unknown
+    qrOrdering: unknown
+    customization: unknown
+    vegetarianRamen: unknown
+    veganRamen: unknown
+    japaneseOwned: unknown
+    hungarianOwned: unknown
+    japaneseChef: unknown
+  price: null
+  serviceCharge:
+    type: percentage
+    amount: 15
+    applicability: Photographed all-you-can-eat menu; a-la-carte applicability unverified.
+  checkedOn: "2026-09-27"
+  menuType: maps

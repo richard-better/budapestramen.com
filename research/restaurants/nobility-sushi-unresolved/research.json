@@ -15,6 +15,14 @@
           },
           "checkedOn": "2026-09-27",
           "note": "Merchant ramen menu reviewed; delivery prices are not dine-in prices. Broth, ownership and unsupported features remain unknown."
+        },
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/nobility_sushi_bar_restaurant/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official social profile linked by merchant points to Galagonya 5; no public dine-in branch at Röppentyű 58 established. Keep as unresolved delivery identity."
         }
       ]
     },
@@ -73,16 +81,16 @@
       "status": "unknown"
     },
     "instagram": {
-      "status": "known",
-      "value": "https://www.instagram.com/nobility_sushi_bar_restaurant/?igsh=MWoxem9sOXpheWR6OA%3D%3D",
+      "status": "unknown",
+      "note": "Wolt links the Nobility profile, but that profile explicitly identifies Galagonya utca 5, not Röppentyű 58. No branch-specific social account established.",
       "evidence": [
         {
           "source": {
-            "type": "ordering",
-            "url": "https://wolt.com/en/hun/budapest/restaurant/nobility-sushi"
+            "type": "social",
+            "url": "https://www.instagram.com/nobility_sushi_bar_restaurant/"
           },
           "checkedOn": "2026-09-27",
-          "note": "Linked by merchant."
+          "note": "Official profile address checked."
         }
       ]
     },

@@ -2,7 +2,7 @@
   "version": 1,
   "id": "art-of-sushi-bazilika",
   "name": "Art of Sushi - Bazilika",
-  "publication": "candidate",
+  "publication": "listed",
   "identity": {
     "branch": {
       "status": "known",
@@ -19,8 +19,18 @@
       ]
     },
     "category": {
-      "status": "unknown",
-      "note": "Sushi buffet restaurant; ramen availability not yet established at this branch."
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific Ramenek menu lists classic Japanese beef ramen, egg, vegetables and soy sauce."
+        }
+      ]
     },
     "address": {
       "status": "known",
@@ -51,7 +61,21 @@
       ]
     },
     "coordinates": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "lat": 47.4998144,
+        "lng": 19.0521313
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Coordinates of the branch place marker."
+        }
+      ]
     },
     "maps": {
       "status": "known",
@@ -112,8 +136,18 @@
       ]
     },
     "menu": {
-      "status": "unknown",
-      "note": "Official #menu section has category tabs but showed no dish details, including after selecting Wok."
+      "status": "known",
+      "value": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch-specific structured menu, Ramenek section. Official website menu rendered empty."
+        }
+      ]
     },
     "reservations": {
       "status": "known",
@@ -151,10 +185,30 @@
       ]
     },
     "delivery": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch Maps service attributes explicitly offer this service."
+        }
+      ]
     },
     "takeaway": {
-      "status": "unknown"
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Branch Maps service attributes explicitly offer this service."
+        }
+      ]
     },
     "tabletOrdering": {
       "status": "unknown"
@@ -189,7 +243,18 @@
       "status": "unknown"
     },
     "brothAndToppings": {
-      "status": "unknown"
+      "status": "known",
+      "value": "Classic Japanese beef ramen with boiled egg, fresh vegetables and soy sauce.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Structured menu dish description; broth recipe not specified."
+        }
+      ]
     },
     "availability": {
       "status": "unknown"
@@ -214,10 +279,65 @@
       "status": "unknown"
     },
     "serviceCharge": {
-      "status": "unknown"
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 15,
+        "applicability": "Photographed all-you-can-eat menu; a-la-carte applicability unverified."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu photograph explicitly states 15% service charge."
+        }
+      ]
     }
   },
-  "menus": [],
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Structured ramen menu plus photographed buffet terms. Full-size standalone bowl price not established.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-maps-ramen.txt",
+            "sourceUrl": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-maps.jpg",
+            "sourceUrl": "https://lh3.googleusercontent.com/grass-cs/ACvplmONhA-Xqg5Y-5XUPiCoz9fCHJATxtWinZcgw8Ka1bClA2wbkSEnNvOFjLo4c3hRBBHKCf8tbwNpXqQ1U1ql0HM6XA7GUgrlw1CqI6pLtMJ4wd3WprIii3c1L2NPtIBqx0R474FHDnkLRVda=w1600",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
   "pricing": [],
-  "brandId": "art-of-sushi"
+  "brandId": "art-of-sushi",
+  "google": {
+    "status": "known",
+    "value": {
+      "rating": 4.9,
+      "reviews": 1477
+    },
+    "evidence": [
+      {
+        "source": {
+          "type": "maps",
+          "url": "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8"
+        },
+        "checkedOn": "2026-09-27",
+        "note": "Maps snapshot."
+      }
+    ]
+  }
 }

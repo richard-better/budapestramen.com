@@ -6,7 +6,8 @@ menuUrl: https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant
 coordinates:
   lat: 47.5312105
   lng: 19.0385159
-styles: []
+styles:
+  - Tonkotsu
 vegan: false
 recommended: false
 google:
@@ -22,10 +23,12 @@ details:
     facebook: https://www.facebook.com/profile.php?id=61554106097842
     menu: https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant
     delivery: https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant
+    instagram: https://www.instagram.com/nobility_sushi_bar_restaurant/
+    reservations: https://www.instagram.com/nobility_sushi_bar_restaurant/
   features:
-    reservations: unknown
+    reservations: "yes"
     delivery: "yes"
-    takeaway: unknown
+    takeaway: "yes"
     tabletOrdering: unknown
     kioskOrdering: unknown
     qrOrdering: unknown
