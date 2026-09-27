@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "id": "sushi-sei",
+  "name": "Sushi Sei",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1036 Budapest, Bécsi út 58",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "III",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://sushisei.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website navigation and footer."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/SushiSeiEtterem",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website navigation and footer."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://sushisei.hu/etlap/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website navigation and footer."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://reservation.dish.co/widget/hydra-67e91c10-4167-11ec-9ac5-97033565de95",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website navigation and footer."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://sushisei.hu/etelrendeles/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website navigation and footer."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site provides booking and home delivery."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site provides booking and home delivery."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["miso"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/etlap/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Kimchi miso ramen listed."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Miso soup base, ramen noodles, roasted pork loin, egg, kimchi, wakame and mung bean sprouts. Underlying stock ingredients are unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/etlap/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Kimchi miso ramen ingredient list."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Ramen appears in the regular soup section, separate from lunch menus."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/etlap/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Regular menu section."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday-Thursday and Sunday 12:00-22:00 (kitchen 21:30); Friday-Saturday 12:00-23:00 (kitchen 22:00).",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official opening hours."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current autumn-winter 2026 events, ordering and booking offered."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 12,
+        "applicability": "Added to the final bill."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/etlap/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit notice at top of dine-in menu."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://sushisei.hu/etlap/",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official dine-in HTML menu and browser-rendered text, captured September 27, 2026.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-menu-2026-09-27.html",
+            "sourceUrl": "https://sushisei.hu/etlap/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-menu-2026-09-27.txt",
+            "sourceUrl": "https://sushisei.hu/etlap/",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Single ramen in the complete regular menu, 6,200 Ft before 12% service charge. Soba, udon and nabe excluded. Menu effective date unspecified.",
+      "bowls": [
+        {
+          "name": "Kimchi miso ramen",
+          "price": 6200,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://sushisei.hu/etlap/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official dine-in soup menu."
+        }
+      ]
+    }
+  ]
+}

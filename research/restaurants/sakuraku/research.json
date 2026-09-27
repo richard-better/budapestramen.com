@@ -1,0 +1,345 @@
+{
+  "version": 1,
+  "id": "sakuraku",
+  "name": "Sakuraku Japanese Izakaya",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1068 Budapest, Király utca 58",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/profile.php?id=61590410248307",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile linked from Maps."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner-uploaded June 2026 food menu photographs."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/sakuraku-japanese-izakaya",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps ordering overlay also offers Foodora restaurant vqyk."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms this service."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms this service."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly confirms this service."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu lists Japanese Vegetable Ramen. Full stock recipe not disclosed; recorded based on menu label."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegetable ramen label does not establish vegan broth/noodles."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["miso", "spicy"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu ramen section."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Miso and spicy ramen list pork, boiled egg, fish ball, kombu, corn and spinach; spicy also lists spring onion. Vegetable ramen ingredients and broth are unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "June 2026 owner menu."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Three ramen bowls in regular menu."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current listing and July 2026 owner post."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 10,
+        "applicability": "Added to the bill."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu Guest Notes explicitly states additional 10% service charge."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "June 2026 owner-uploaded menu with all three ramen bowls and service-charge note. Prices are undated.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/maps-2026-06-ramen.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed full ramen section: 3,480-4,380 Ft, plus 10% service. Curry and stir-fried udon excluded. Owner upload June 2026; no explicit price effective date.",
+      "bowls": [
+        {
+          "name": "Japanese Vegetable Ramen",
+          "price": 3480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy Ramen",
+          "price": 3980,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso Ramen",
+          "price": 4380,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ]
+}

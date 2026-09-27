@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "id": "kakurega",
+  "name": "Kakurega Japanese Restaurant",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1051 Budapest, Arany János utca 13",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://kakuregabudapest.com/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/kakuregabudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/kakuregabudapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://kakuregabudapest.com/menu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://kakuregabudapest.com/booking/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/kakurega-japanese-restaurant",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Direct order link on Maps."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official booking page."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists no-contact delivery and takeaway."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists no-contact delivery and takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Ramen extras: egg, extra meat, nori, greens, noodles and tempura prawns."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["miso tonkotsu", "kimchi tonkotsu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Two named ramen dishes."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Miso tonkotsu and kimchi tonkotsu, both with pork belly. Egg is a paid extra, not included by default. Detailed stock recipe not published.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu ingredients and separate ramen egg line."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Two ramen choices in main-course section."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Tuesday-Thursday 17:00-23:00; Friday-Saturday 17:00-00:00; kitchen closes 22:00. Sunday/Monday not listed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official opening hours footer."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active listing with current reviews and official booking."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 15,
+        "applicability": "Added to menu prices."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit service fee notice."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://kakuregabudapest.com/menu/",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official full HTML menu plus browser text, undated.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-menu-2026-09-27.html",
+            "sourceUrl": "https://kakuregabudapest.com/menu/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-menu-2026-09-27.txt",
+            "sourceUrl": "https://kakuregabudapest.com/menu/",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "6,000-6,500 Ft before 15% service. Ramen egg +1,000 and other extras excluded. Vegan daikon dashi udon is not ramen. Effective date unspecified.",
+      "bowls": [
+        {
+          "name": "Miso Tonkotsu Ramen, pork belly",
+          "price": 6000,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Kimchi Tonkotsu Ramen, pork belly",
+          "price": 6500,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://kakuregabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official main-course menu and fee notice."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "version": 1,
+  "id": "ennmann",
+  "name": "Ennmann Japán Étterem",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1011 Budapest, Bem rakpart 20",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "I",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/ennmannsushibudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Linked by restaurant Maps listing."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner uploaded two full menu spreads in September 2026."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/ennmann-japan-etterem",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Order link on Maps listing."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly lists accepts reservations and takeaway."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps provides a Wolt order link."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps About explicitly lists accepts reservations and takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Chicken ramen, marked spicy. The menu describes noodle soup with chicken; broth composition is not specified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Item 116 on September 2026 owner menu."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Chicken ramen appears in the regular hot dishes section."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner menu hot dishes section."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Tuesday-Sunday 11:30-15:00 and 17:00-22:00; Monday closed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current menu header and owner opening-hours notice."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active listing and September 2026 owner menu."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Two owner menu spreads, uploaded September 2026. Includes all 145 numbered dishes. Menu publication date is not an explicit price effective date.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/menu-2026-09-page2.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/menu-2026-09.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "One ramen on the complete food menu, 4,150 Ft. Udon soup is excluded. Owner upload is September 2026; explicit effective date is absent. Vegetarian dishes elsewhere do not establish vegetarian ramen.",
+      "bowls": [
+        {
+          "name": "Chicken ramen",
+          "price": 4150,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ]
+}

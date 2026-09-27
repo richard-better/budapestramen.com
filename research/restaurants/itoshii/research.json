@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "id": "itoshii",
+  "name": "Itoshii",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1062 Budapest, Teréz körút 55-57",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "http://www.itoshii.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site menu, footer and contact links."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/itoshiibudapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site menu, footer and contact links."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "http://www.itoshii.hu/menu",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site menu, footer and contact links."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "http://www.itoshii.hu/asztalfoglalas",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/kapcsolat"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site menu, footer and contact links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/itoshii",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/itoshii"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant link identified in prior candidate research."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/kapcsolat"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official reservation link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly confirms delivery and takeaway."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly confirms delivery and takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/hogyan-mukodik"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official instructions say guests scan a QR code and order on their own phone; five items per person per round, minimum five minutes between rounds."
+        }
+      ]
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu item 80 yak sai ramen explicitly translated vegetarian ramen; small tasting portion."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Vegetarian ramen listed, with no detailed broth recipe. Fried ramen noodles are a separate dish, not soup. Several other noodle soups are named udon.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official à la carte photo, items 76-80."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Small tasting portions in all-you-can-eat model and à la carte menu; confirm full-sized bowl availability separately."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site explicitly says portions are small."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday-Sunday 11:30-22:00.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/kapcsolat"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official contact page."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active listing and current reviews."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 10,
+        "applicability": "Added to the final bill."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current official pricing text and à la carte photo footer."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "http://www.itoshii.hu/menu",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Two à la carte menu images currently linked by official website, filename April 19, 2024. Site explicitly states small portions; avoid treating these as full-sized ramen prices.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/alacarte-2024-page1.jpg",
+            "sourceUrl": "http://www.itoshii.hu/documents/itoshii_alacarte_19042024_00.jpg",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/alacarte-2024-page2.jpg",
+            "sourceUrl": "http://www.itoshii.hu/documents/itoshii_alacarte_19042024_01.jpg",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Vegetarian ramen 890 Ft is a small tasting portion on an older linked à la carte image. Exclude it and all-you-can-eat package prices from full-sized ramen range.",
+      "bowls": [
+        {
+          "name": "Vegetarian ramen (small tasting portion)",
+          "price": 890,
+          "eligibility": "small"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "http://www.itoshii.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official item 80 plus explicit small-portion description."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "version": 1,
+  "id": "japanika",
+  "name": "Japanika",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1051 Budapest, Szent István tér 7",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        },
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official footer instead says Szent István tér 11 and links the same Maps place. Street number conflict unresolved."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://japanika.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links; Foodora restaurant w5ar also linked."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/japanikasushibar/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links; Foodora restaurant w5ar also linked."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/japanikasushibar",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links; Foodora restaurant w5ar also linked."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://japanika.hu/#levesek",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links; Foodora restaurant w5ar also linked."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://reservours.com/japanika/tablereservation",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links; Foodora restaurant w5ar also linked."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/japanika-sushi-bar",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links; Foodora restaurant w5ar also linked."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website booking and delivery links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website booking and delivery links."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps confirms kerbside pickup."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Ramen optional teriyaki chicken topping +1,590 Ft or prawn +2,590 Ft."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["shoyu"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current official menu calls it shoyu ramen, but lists soba noodles."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Menu-labelled shoyu ramen with soba noodles, carrot, corn, spring onion, egg and bean sprouts. Optional teriyaki chicken or prawn. Broth composition unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official June-uploaded menu page 3; preserve noodle wording rather than assume alkaline ramen noodles."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Listed in regular Slow Start soup section."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official regular menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday-Sunday 12:00-00:00.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official footer opening hours."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active official menu, booking and current social feed."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://japanika.hu/",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Eight current menu images linked by official site, uploaded June 2026; ramen on page 3. Effective date unspecified.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-page2.jpg",
+            "sourceUrl": "https://japanika.hu/wp-content/uploads/2026/06/magyar-2-scaled.jpg",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-page3.jpg",
+            "sourceUrl": "https://japanika.hu/wp-content/uploads/2026/06/magyar-3-scaled.jpg",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-page4.jpg",
+            "sourceUrl": "https://japanika.hu/wp-content/uploads/2026/06/magyar-4-scaled.jpg",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-page5.jpg",
+            "sourceUrl": "https://japanika.hu/wp-content/uploads/2026/06/magyar-5-scaled.jpg",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-page6.jpg",
+            "sourceUrl": "https://japanika.hu/wp-content/uploads/2026/06/magyar-6-scaled.jpg",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-page7.jpg",
+            "sourceUrl": "https://japanika.hu/wp-content/uploads/2026/06/magyar-7-scaled.jpg",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-page8.jpg",
+            "sourceUrl": "https://japanika.hu/wp-content/uploads/2026/06/magyar-8-scaled.jpg",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-page9.jpg",
+            "sourceUrl": "https://japanika.hu/wp-content/uploads/2026/06/magyar-9-scaled.jpg",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Base bowl 3,590 Ft. Optional teriyaki chicken +1,590 Ft and prawn +2,590 Ft excluded as extras. Menu calls noodles soba. Effective date and service charge unknown.",
+      "bowls": [
+        {
+          "name": "Shoyu ramen (base bowl)",
+          "price": 3590,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Optional teriyaki chicken topping",
+          "price": 1590,
+          "eligibility": "extra"
+        },
+        {
+          "name": "Optional prawn topping",
+          "price": 2590,
+          "eligibility": "extra"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://japanika.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu page 3, linked from homepage."
+        }
+      ]
+    }
+  ]
+}

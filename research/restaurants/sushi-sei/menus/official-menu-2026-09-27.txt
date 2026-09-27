@@ -1,0 +1,1023 @@
+Étlap
+
+A számla végösszegéhez 12% szervízdíjat számolunk fel.
+
+ 
+
+Ugrás: 
+
+Előétel
+Sashimi
+Maki
+Nigiri
+Set
+Leves
+Tempura
+Főétel
+Köret
+Saláta
+Bento
+Desszert
+Ebéd menü
+ELŐÉTEL
+SAKE NO GOMAAE
+3 100 Ft
+
+鮭の胡麻和え
+Nyers lazac szeletek, szezámmag
+Raw salmon, sesame seed
+Cырой лосос, в кунжуте
+
+SHIITAKE NO TSUKUDANI
+1 200 Ft
+
+椎茸の佃煮
+Édes, szójás shiitake gomba
+Shiitake with sweet soy sauce
+Грибы шиитаке в сладком соевом соусе
+
+EDAMAME
+1 100 Ft
+
+枝豆
+Párolt szójabab
+Steamed soy beans
+Соевые бобы на пару
+
+TAKO WASABI
+4 050 Ft
+
+タコ、ワカメ、きゅうり、マスタード
+Polipsaláta
+Octopus salad
+Cалат из осьминога
+
+MAGURO TARTARE
+8 900 Ft
+
+鮪のタルタル
+Nyers tonhal, avokádó, yuzu szósz
+Tuna, avocado, yuzu sauce
+Тунец, авокадо, соус юзy
+
+
+AGEDASHI TOFU
+2 500 Ft
+
+揚げ出し豆腐
+Rántott tofu, édes szójaszósz
+Fried tofu with sweet soy sauce
+Жареный тофу со сладким соевым соусом
+
+
+CHAWANMUSHI
+2 400 Ft
+
+茶碗蒸し
+Gőzölt tojás
+Steamed egg custard
+Японское яйцо на пару
+
+
+GYOZA
+3 300 Ft
+
+餃子
+Húsos batyu
+Dumplings filled with meat
+Японские пельмени гедза
+
+
+SAKE GYOZA
+3 500 Ft
+
+サーモン餃子
+Lazacos batyu
+Dumplings filled with salmon
+Японские пельмени гедза c ласосьом
+
+
+OSZTRIGA
+6 990 Ft
+
+生牡蠣
+Nyers osztriga, 2db/adag
+Oyster, 2 pcs/portion
+Устрица, 2 шт/порция
+
+
+SASHIMI
+AMAEBI SASHIMI
+7 600 Ft
+
+甘海老刺身
+Nyers édesrák
+Raw sweet prawn
+Cерые сладкие креветки
+
+MAGURO SASHIMI
+13 400 Ft
+
+マグロ刺身
+Nyers tonhal szeletek
+Sliced raw tuna
+Ломтики сырого тунца
+
+SAKE SASHIMI
+7 300 Ft
+
+鮭刺身
+Nyers lazac szeletek
+Sliced raw king salmon
+Ломтики сырого лосося
+
+SUZUKI SASHIMI
+9 900 Ft
+
+スズキの刺身
+Nyers tengeri sügér szeletek
+Sliced raw sea bass
+Ломтики сырого морского окуня
+
+HOTATE SASHIMI
+14 100 Ft
+
+帆立刺身
+Szent Jakab kagyló szeletek
+Sliced scallop
+Ломтики морскиx гребешкoв Хотате
+
+SHIME SABA
+4 650 Ft
+
+しめ鯖
+Ecetes makréla szeletek
+Sliced vinegar-pickled mackerel
+Ломтики маринованной макрели
+
+SUMOOKU SASHIMI
+4 900 Ft
+
+刺身の燻製
+Nyers hal szeletek füstben
+Sliced raw fish in smoke
+Ломтики сырого рыба в дыму
+
+SASHIMI MORIAWASE
+17 900 Ft
+
+刺身盛り合わせ
+Nyers tengeri vegyes tál
+Assorted sliced raw fish
+Ассорти из ломтиков сырой рыбы
+
+MAKI SUSHI
+
+Az alábbi ételek wasabit tartalmaznak
+
+CALIFORNIA MAKI
+3 200 Ft
+
+カルフォルニア巻き
+Sushi tekercs rákkal és avokádóval (6 db)
+Sushi roll with prawn and avocado (6 pcs)
+Роллы с креветками и авокадо (6 шт)
+
+EBI TEМPURA MAKI
+3 200 Ft
+
+海老天婦羅巻き
+Sushi tekercs tempurázott rákkal és uborkával (6 db)
+Sushi roll with prawn tempura and cucumber (6 pcs)
+Роллы с тэмпурой из креветок и огурцом (6 шт)
+
+UNAKYURI MAKI
+3 600 Ft
+
+うなぎときゅうり巻き
+Sushi tekercs angolnával és uborkával (6 db)
+Sushi roll with eel and cucumber (6 pcs)
+Роллы с угрем и с огурцем (6 шт)
+
+SAKE TERIYAKI URA MAKI
+5 800 Ft
+
+鮭の炙り焼きとアボカド巻き
+Sushi tekercs perzselt lazaccal, avokádóval, teriyaki szósszal (9 db)
+Sushi roll with flamed teriyaki salmon and avocado (9 db)
+Роллы с подрумяненным ласосьом, с авокадо (9 шт)
+
+SPICY NEGI MAGURO MAKI
+5 200 Ft
+
+ピリ辛葱マグロ巻き
+Sushi tekercs csípős tonhallal, zöldhagymával (6 db)
+Sushi roll with spicy tuna and spring onion (6 pcs)
+Роллы с тунцом в остром соусе и зеленым луком (6 шт)
+
+SAKE MAKI
+3 100 Ft
+
+鮭巻き
+Sushi tekercs lazaccal (6 db
+Sushi roll with salmon (6 pcs)
+Роллы с лососем (6 шт)
+
+SAKE-AVOCADO MAKI
+3 100 Ft
+
+鮭アボカド巻き
+Sushi tekercs lazaccal és avokádóval (6 db)
+Sushi roll with salmon and avocado (6 pcs)
+Роллы с лососем и авокадо (6 шт)
+
+TEKKA MAKI
+4 700 Ft
+
+鉄火巻き
+Sushi tekercs tonhallal (6 db)
+Sushi roll with tuna (6 pcs)
+Роллы с тунцом (6 шт)
+
+KAPPA MAKI
+1 700 Ft
+
+かっぱ巻き
+Sushi tekercs uborkával, szezámmaggal (6 db)
+Sushi roll with cucumber and sesame seed (6 pcs)
+Роллы с огурцом и кунжутом (6 шт)
+
+SHIITAKE MAKI
+2 500 Ft
+
+椎茸巻き
+Sushi tekercs shiitake gombával (6 db)
+Sushi roll with shiitake mushoom (6 pcs)
+Роллы с грибами шиитаке (6 шт)
+
+AVOCADO MAKI
+2 500 Ft
+
+アボカド巻き
+Sushi tekercs avokádóval (6 db)
+Sushi roll with avocado (6 pcs)
+Роллы с авокадо (6 шт)
+
+SHINKO MAKI
+1 700 Ft
+
+新香巻き
+Sushi tekercs marinált japán retekkel (6 db)
+Marinated Japanese radish roll (6 pcs)
+Роллы с японским редисом Такуан (6 шт)
+
+VEGA FUTO MAKI
+3 100 Ft
+
+野菜巻き
+Sushi tekercs zöldségekkel (9 db)
+Sushi roll with vegetables (9pcs)
+Роллы с овощами (9 шт)
+
+SEI MAKI
+3 500 Ft
+
+誠巻き
+Sushi tekercs rántott csirkehússal (9 db)
+Sushi roll with deep fried chicken (9 pcs)
+Роллы с цыпленком в панировке (9 шт)
+
+BUDAPEST MAKI
+3 500 Ft
+
+ブダペスト巻き
+Sushi tekercs rántott hússal, kaliforniai paprikával, majonézzel (9 db)
+Sushi roll with deep fried pork cutlet, bell pepper, mayonnaise (9 pcs)
+Роллы со свининой в панировке, сладким перцем, майонезом (9 шт)
+
+HAMACHI NEGI MAKI
+4 000 Ft
+
+ハマチ葱巻き
+Sushi tekercs sárgafarkú sügérrel, zöldhagymával (6 db)
+Sushi roll with yellowtail and spring onion (6 pcs)
+Роллы с желтохвостом и зеленым луком (6 шт)
+
+FUTO MAKI
+4 400 Ft
+
+太巻き
+Sushi tekercs uborkával, lazaccal, salátával, majonézzel, masagoval (9 db)
+Sushi roll with cucumber, salmon, lettuce, mayonnaise, masago (9 pcs)
+Ролли с лососем, огурцем, майонезом, листяьми салата и масаго (9 шт)
+
+NIGIRI SUSHI (1 db/ adag)
+
+Az alábbi ételek wasabit tartalmaznak
+
+TAMAGO NIGIRI
+1 200 Ft
+
+卵握り
+Tojáslepény nigiri
+Fried egg nigiri
+Нигири с омлетом
+
+
+MAGURO NIGIRI
+2 300 Ft
+
+マグロ握り
+Tonhal nigiri
+Tuna nigiri
+Нигири с тунцом
+
+
+SAKE NIGIRI
+1 600 Ft
+
+鮭握り
+Lazac nigiri
+Salmon nigiri
+Нигири с лососем
+
+
+EBI NIGIRI
+1 700 Ft
+
+海老握り
+Rák nigiri
+Prawn nigiri
+Нигири с креветками
+
+
+АМАEBI NIGIRI
+1 600 Ft
+
+甘海老
+Édesrák nigiri
+Sweet shrimps nigiri
+Нигири со сладкими криветками
+
+IKURA NIGIRI
+2 800 Ft
+
+いくら握り
+Lazackaviár nigiri
+Salmon roe nigiri
+Нигири с лососевой икрой
+
+UNAGI NIGIRI
+2 200 Ft
+
+ウナギ握り
+Angolna nigiri
+Eel nigiri
+Нигири с угрём
+
+HOTATE NIGIRI
+2 700 Ft
+
+帆立握り
+Szent Jakab kagyló nigiri
+Scallop nigiri
+Нигири с морским гребешкoм Хотате
+
+SUZUKI NIGIRI
+1 750 Ft
+
+スズキ握り寿司
+Tengeri sügér nigiri
+Sea bass nigiri
+Нигири с морским окунем
+
+SABA NIGIRI
+1 300 Ft
+
+鯖握り
+Makréla nigiri
+Mackerel nigiri
+Нигири с макрелью
+
+HAMACHI NIGIRI
+2 600 Ft
+
+ハマチ握り
+Sárgafarkú sügér nigiri
+Yellowtail nigiri
+Нигири с желтохвостом
+
+NIGIRI MORIAWASE
+15 800 Ft
+
+握り盛り合わせ
+Nigiri válogatás (8 db)
+Assorted nigiri (8 pcs)
+Aссорти из нигири (8 шт)
+
+SET / VÁLOGATÁS
+
+Az alábbi ételek wasabit tartalmaznak
+
+SAKE SUSHI KYU KAN
+7 400 Ft
+
+鮭寿司９貫（鮭巻き３個、鮭アボカド巻き ３個、鮭握り３貫）
+Lazac maki (3 db), Lazac-avokádó maki (3 db), Lazac nigiri (3 db)
+Salmon roll (3 pcs), Sushi roll with salmon and avocado (3 pcs), Sake nigiri (3 pcs)
+Роллы с лососем (3 шт), Роллы с лососем и авокадо (3 шт), Нигири с лососем (3 шт)
+
+SUSHI MORIAWASE KYU KAN
+8 200 Ft
+
+寿司盛合わせ９貫 （海老天婦羅巻き６個と握り３貫）
+Sushi tekercs tempurázott rákkal és uborkával (6 db), nigiri válogatás (3 db)
+Sushi roll with prawn tempura and cucumber (6 pcs), assorted nigiri (3 pcs)
+Роллы с тэмпурой из креветок и огурцом (6 шт), Aссорти из нигири (3 шт)
+
+EBI SUSHI KYU KAN
+7 800 Ft
+
+寿司盛合わせ９貫（海老握り３貫、 海老アボカド巻き６個）
+Ebi nigiri (3 db), Californiai maki (6db)
+Prawn nigiri (3 pcs), Sushi roll with prawn and avocado (6 pcs)
+Нигири с креветками (3 шт), Роллы с креветками и авокадо (6 шт)
+
+SUSHI MORIAWASE NIJUU ICHI KAN
+16 500 Ft
+
+寿司盛合わせ２１貫 （アボカド巻き６個、太巻９個、握り６貫）
+Avokádó maki (6 db), Futo maki (9 db), nigiri válogatás (6 db)
+Avocado roll (6 pcs), Sushi roll with cucumber, salmon, lettuce, mayonnaise, masago (9 pcs), assorted nigiri (6 pcs)
+Роллы с авокадо (6 шт), Ролли с лососем, огурцем, майонезом, листяьми салата и масаго (9 шт), Aссорти из нигири (6 шт)
+
+PARTY BOX (48 pcs)
+36 950 Ft
+
+にぎり (12), 寿司巻き (36)
+Nigiri (12 db) , sushi maki (36 db)
+Nigiri (12 pcs), sushi roll (36 pcs)
+Нигири (12 шт), Роллы (36 шт)
+
+SAKE DON
+9 500 Ft
+
+鮭丼, 味噌汁、サラダ
+Nyers lazac szeletek, shiitake gombás sushirizs, nori, miso leves, saláta
+Sliced raw salmon on sushi rice with shiitake, nori, miso soup, salad
+Ломтики сырого лосося, рис с грибами шиитаке, нори, суп мисо, салат
+
+SAKE IKURA DON
+12 000 Ft
+
+スズキ握り寿司
+Tengeri sügér nigiri
+Sea bass nigiri
+Нигири с морским окунем
+
+TEKKA DON
+16 200 Ft
+
+鉄火丼、味噌汁、サラダ
+Nyers tonhal szeletek, sushirizs, nori, miso leves, saláta
+Sliced raw tuna, sushi rice, nori, miso soup, salad
+Ломтики сырого тунца, суши рис, нори, суп мисо, салат
+
+CHIRASI
+13 100 Ft
+
+チラシ, 味噌汁、サラダ
+Nyers vegyes tengeri halválogatás, grillezett angolna, shiitake gombás sushirizs, nori, tojáslepény, miso leves, saláta
+Raw fish and grilled eal on sushi rice with shiitake mushroom, nori, fried egg, miso soup, salad
+Ассорти из сырой рыбы, угорь на гриле, рис с грибами шиитаке, нори, яйцо, суп мисо, салат
+
+LEVES
+MISO SHIRU
+1 050 Ft
+
+味噌汁
+Miso leves
+Miso soup
+Суп мисо
+
+WAKAME SOUP
+1 050 Ft
+
+きのこスープ
+Alga leves, szezámmaggal
+Seaweed soup with sesame seed
+Суп из водорослей с кунжутом
+
+MISO GAI
+1 150 Ft
+
+豆腐と貝の味噌汁
+Miso leves, sárgarépa, tofu, feketekagyló, zöldhagyma
+Miso soup, carrot, tofu, black mussel, spring onion
+Суп мисо, морковь, тофу, моллюски и зелены лук
+
+KINOKO SOUP
+1 300 Ft
+
+きのこスープ
+Gomba leves
+Mushroom soup
+Суп с грибами
+
+VEGA SOUP
+3 800 Ft
+
+天婦羅そば
+Shiitake gombás leves, szója, zöldség tempura, hajdina tészta, alga, tojás, zöldhagyma
+Buckwheat noodles in soy soup with tempura, seaweed, spring onion, egg
+Соевый суп, гречневая лапша, тэмпура, водоросли, зеленый лук, яйцо
+
+KIMCHI MISO RAMEN
+6 200 Ft
+
+キムチ味噌ラーメン
+Miso alaplé, ramen tészta, pirított sertéskaraj, tojás, kimcsi, wakame, mungobab csíra
+Miso soup, ramen, pork, egg, kimchi, wakame, mung bean sprout
+Мисо суп, рамен, свинина, варенное яйцо, кимчи, водоросли, ростки Фасоли Мунго
+
+TEMPURA SOBA
+5 200 Ft
+
+キムチ入り天婦羅そば
+Szójás leves, tempura, hajdina tészta, alga, tojás, zöldhagyma, kimcsi
+Buckwheat noodles in soy soup with tempura, seaweed, spring onion, egg, kimchi
+Соевый суп, гречневая лапша, тэмпура, водоросли, зеленый лук, яйцо и кимчи
+
+TEMPURA UDON
+5 200 Ft
+
+キムチ入り天婦羅うどん
+Szójás leves, tempura, udon tészta, alga, tojás, zöldhagyma, kimcsi
+Buckwheat noodles in soy soup with tempura, seaweed, spring onion, egg, kimchi
+Соевый суп, лапша удон, тэмпура, водоросли, зелены лук, яйцо и кимчи
+
+SUKIYAKI NABE
+7 500 Ft
+
+すき焼き鍋
+Pirított marha, rák tempura, zöldségek, udon tészta, tofu, tojás, kimcsi
+Fried beef, prawn tempura, vegetables, udon noodle, tofu, egg, kimchi
+Лапша удонй, жареная говядина, тэмпура из креветок, овощи, тофу, яйцо и кимчи
+
+SEI NABE
+7 500 Ft
+
+誠鍋
+Lazac, rák, kagyló, udon tészta, csirke, tofu, zöldség, tojás, kimcsi
+Salmon, prawn, black mussel , udon noodles, chicken, tofu, vegetables, egg, kimchi
+Лапша удон, лосось, креветки, моллюски, цыпленок, тофу, овощи и кимчи
+
+TEMPURA (2db/adag)
+EBI TEMPURA
+1 990 Ft
+
+海老天ぷら
+Rák tempura
+Prawn tempura
+Тэмпура из креветок
+
+NINJIN TEMPURA
+600 Ft
+
+人参天ぷら
+Sárgarépa tempura
+Carrot tempura
+Тэмпура из моркови
+
+
+SHIITAKE TEMPURA
+1 400 Ft
+
+椎茸天ぷら
+Shiitake gomba tempura
+Shiitake tempura
+Тэмпура из грибов шиитаке
+
+
+BROKKOLI TEMPURA
+850 Ft
+
+ブロッコリー天ぷら
+Brokkoli tempura
+Broccoli tempura
+Тэмпура из брокколи
+
+
+SATSUMAIMO TEMPURA
+750 Ft
+
+サツマイモ天ぷら
+Édesburgonya tempura
+Sweet potato tempura
+Тэмпура из сладкого картофеля
+
+
+IKA TEMPURA
+1 150 Ft
+
+イカ天ぷら
+Tintahal tempura
+Calamari tempura
+Тэмпура из каракатицы
+
+
+RENKON TEMPURA
+950 Ft
+
+蓮根天ぷら
+Lótuszgyökér tempura
+Lotus root tempura
+Тэмпура из корней лотоса
+
+
+AVOCADO TEMPURA
+1 500 Ft
+
+アボカドの天婦羅
+Avokádó tempura
+Avocado tempura
+Тэмпура из авокадо
+
+
+BELL PEPPER TEMPURA
+750 Ft
+
+パプリカ天ぷら
+Kaliforniai paprika tempura
+Bell pepper tempura
+Тэмпура из перца
+
+
+SAKE TEMPURA
+2 100 Ft
+
+鮭天ぷら
+Lazac tempura
+Salmon tempura
+Тэмпура из лососа
+
+
+SIMEJI TEMPURA
+1 400 Ft
+
+しめじ天ぷら
+Shimeji tempura
+Shimeji tempura
+Тэмпура из грибов шимеджи
+
+
+FŐÉTEL
+UNA JYU
+8 500 Ft
+
+鰻重
+Grillezett angolna, rizs, miso leves
+Grilled eel, rice, miso soup
+Угорь на гриле, рис на пару, суп мисо
+
+
+SAKE NO SHIO YAKI
+5 500 Ft
+
+鮭の塩焼き
+Grillezett lazac
+Grilled salmon
+Лосось на гриле с солью
+
+
+SAKE NO TERIYAKI
+5 500 Ft
+
+鮭の照り焼き
+Grillezett lazac teriyaki szósszal, szezámmaggal
+Grilled salmon with teriyaki sauce, sesame seed
+Лосось на гриле с соусом терияки и кунжутом
+
+
+SABA NO SHIO YAKI
+3 800 Ft
+
+鯖の塩焼き
+Grillezett makréla
+Grilled mackerel
+Макрель на гриле с солью
+
+
+TORINIKU KARAAGE
+4 300 Ft
+
+鳥唐揚げ
+Bundázott csirkefalatok
+Deep fried chicken
+Куриные медальоны в панировке
+
+
+SUZUKI NO MARUYAKI
+5 950 Ft
+
+スズキの丸焼き
+Grilezett tengeri süllő egészben
+Grilled whole sea bass
+Морской окунь целиком на гриле
+
+
+TONKATSU
+4 300 Ft
+
+豚カツ
+Rántott sertésszelet
+Deep fried pork cutlet
+Жареная свинина в панировке
+
+
+TORINIKU NO TERIYAKI
+4 650 Ft
+
+鶏肉照り焼き
+Csirkehús teriyaki szósszal
+Fried chicken with teriyaki sauce
+Жареный цыплёнок с соусом терияки
+
+
+YAKINIKU (200g)
+5 990 Ft
+
+焼肉
+Pirított marhahátszín csíkok szezámos-gyömbéres szósszal
+Roasted beef stripes with sesame-ginger sauce
+Жареные ломтики говядины с имбирно-кунжутным соусом
+
+
+ZARU SOBA
+2 990 Ft
+
+ざる蕎麦
+Hideg hajdina tészta mártogatós szósszal
+Cold buckwheat noodle with dipping sauce
+Холодная гречневая лапша с соусом дип
+
+
+MANGALICA KAKUNI
+7 700 Ft
+
+マンガリッツァ豚の角煮
+Párolt mustáros mangalica
+Steamed mangalica with mustard
+Мангалица на пару с горчицей
+
+
+KATSU DON
+5 800 Ft
+
+かつ丼
+Panírozott sertés szelet párolt tojással rizs ágyon, nori, miso leves, kimcsi
+Fried pork cutlet with steamed eggs on rice, nori, miso soup, kimchi
+Обжаренная свинина в панировке и яйцо пашот, рис, нори, суп мисо, кимчи
+
+
+KÖRET
+GOHAN
+1 050 Ft
+
+ごはん
+Párolt rizs
+Steamed rice
+Рис на пару
+
+
+SUSHI GOHAN
+1 050 Ft
+
+寿司ご飯
+Sushi rizs
+Sushi rice
+Суши рис
+
+
+SHIITAKE GOHAN
+1 100 Ft
+
+椎茸ご飯
+Párolt rizs shiitake gombával
+Steamed rice with shiitake
+Рис на пару с грибами шиитаке
+
+
+SHIITAKE SUSHI GOHAN
+1 100 Ft
+
+椎茸寿司飯
+Sushi rizs shiitake gombával
+Sushi rice with shiitake
+Суши рис с грибами шиитаке
+
+
+YASAI ITAME
+2 800 Ft
+
+野菜炒め
+Sült zöldségek
+Fried vegetables
+Жареные овощи
+
+
+GRILL ZÖLDSÉG
+2 600 Ft
+
+野菜のグリル焼き
+Vegyes grillzöldség
+Grilled vegetables
+Oвощи на грилле
+
+
+SALÁTA
+AVOCADO SALADA
+2 600 Ft
+
+アボカドサラダ
+Avokádó saláta
+Avocado salad
+Cалат из авокадо
+
+
+EBI SALADA
+5 100 Ft
+
+エビサラダ
+Fokhagymás garnéla, friss salátával, tojással, avokádóval
+Garlic shrimp, fresh salad, egg, avocado
+Чесночные креветки, свежий салат, яйцо, авокадо
+
+
+SEI SALADA
+1 300 Ft
+
+誠サラダ
+Saláta Sei szósszal
+Salad with „Sei” dressing
+Салат с дрессингом „Сей”
+
+
+WAKAME SUNOMONO
+1 400 Ft
+
+ワカメの酢の物
+Wakame saláta szezámmaggal
+Seaweed salad with sesame seed
+Салат вакаме из водорослей с кунжутом
+
+
+KIMCHI
+1 700 Ft
+
+キムチ
+Kimcsi (csípős)
+Kimchi (spicy)
+Кимчи (острый)
+
+
+TAKUAN
+1 100 Ft
+
+たくあん
+Savanyított japán retek
+Pickled japanese radish
+Маринованный японский редис
+
+
+BENTO
+VEGA BENTO
+7 500 Ft
+
+菜食弁当
+Wakame leves, tempura válogatás, tofu, rizs, kappa maki (3 db)
+Wakame soup, assorted tempura, tofu, rice, cucumber roll (3 pcs)
+Суп вакаме, тэмпура-ассорти, тофу, рис, ролл с огурцами (3 шт)
+
+
+SASHIMI BENTO
+17 900 Ft
+
+刺身弁当
+Nigiri (3 db), tempura, maki sushi, sashimi, saláta, párolt rizs, miso leves
+Nigiri (3 pcs), tempura, sushi rolls, sashimi, salad, steamed rice, miso soup
+Нигири (3 шт), тэмпура, сашими, ролльи, салат, рис на пару, суп мисо
+
+
+SAKE SHIO BENTO
+18 400 Ft
+
+酒塩弁当
+Grillezett lazac, tempura, maki sushi, sashimi, saláta, párolt rizs, miso leves
+Grilled salmon, tempura, sushi rolls, sashimi, salad, steamed rice, miso soup
+Лосось на гриле, тэмпура, сашими, ролльи, салат, рис на пару, суп мисо
+
+
+SABA SHIO BENTO
+16 900 Ft
+
+鯖塩弁当
+Grillezett makréla, tempura, maki sushi, sashimi, saláta, párolt rizs, miso leves
+Grilled mackrel, tempura, sushi rolls, sashimi, salad, steamed rice, miso soup
+Скумбрия на гриле, тэмпура, сашими, ролльи, салат, рис на пару, суп мисо
+
+
+KARAAGE BENTO
+16 500 Ft
+
+唐揚げ弁当
+Bundázott csirke falatok, tempura, maki sushi, sashimi, saláta, párolt rizs, miso leves
+Deep fried chicken, tempura, sushi rolls, sashimi, salad, steamed rice, miso soup
+Куриные медальоны в панировке, тэмпура, сашими, ролльи, салат, рис на пару, суп мисо
+
+
+TORI TERIYAKI BENTO
+17 000 Ft
+
+鶏照り焼き弁当
+Csirkehús teriyaki szószban, tempura, maki sushi, sashimi, saláta, párolt rizs, miso leves
+Chicken with teriyaki sauce, tempura, sushi rolls, sashimi, salad, steamed rice, miso soup
+Жареный цыплёнок с соусом терияки, тэмпура, сашими, ролльи, салат, рис на пару, суп мисо
+
+
+YAKINIKU BENTO
+18 000 Ft
+
+焼き肉弁当
+Pirított marhahátszín csíkok, tempura, maki sushi, sashimi, saláta, párolt rizs, miso leves
+Roasted beef stripes, tempura, sushi rolls, sashimi, salad, steamed rice, miso soup
+Жареные ломтики говядины, тэмпура, сашими, ролльи, салат, рис на пару, суп мисо
+
+
+UNAGI BENTO
+21 500 Ft
+
+刺身、天ぷら、サラダ、ご飯、味噌汁、ウナギ
+Grillezett angolna, tempura, maki sushi, sashimi, saláta, párolt rizs, miso leves
+Grilled eel, tempura, sushi rolls, sashimi, salad, steamed rice, miso soup
+Угорь на гриле, тэмпура, сашими, ролльи, салат, рис на пару, суп мисо
+
+
+DESSZERT
+MANGÓS CSOKI GÖMB
+2 900 Ft
+
+マンゴ入りチョコボール
+Mangós csoki gömb
+Chocolate ball filled with mango
+Шоколадние шарики с манго
+
+
+MATCHA CHEESECAKE
+2 800 Ft
+
+抹茶チーズケーキ
+Zöld teás sajttorta
+Green tea flavoured cheesecake
+Чизкейк с зеленым чаем
+
+
+MATCHA TIRAMISU
+1 800 Ft
+
+ティラミス
+Zöld teás tiramisu
+Green tea flavoured tiramisu
+Тирамису c зеленым чаем
+
+
+EBÉD MENÜK
+
+Hétfőtől péntekig 12:00-15:00 óra között
+Monday to Friday from 12:00 to 15:00
+
+KARAAGE LUNCH BENTO
+5 600 Ft
+
+幸福
+Bundázott csirkefalatok, zöldséges maki, kevert saláta yuzu öntettel, rizs, miso leves
+Deep fried chicken, vegetable roll, salad with yuzu sauce, rice, miso soup
+Куриные медальоны в панировке, ролльи, салат с соусом юзу, рис на пару, суп мисо
+
+
+TONKATSU LUNCH BENTO
+5 600 Ft
+
+悠遠
+Rántott sertésszelet, zöldséges maki, kevert saláta yuzu öntettel, rizs, miso leves
+Deep fried pork cutlet, vegetable roll, salad with yuzu sauce, rice, miso soup
+Шницель из свинини, ролльи, салат с соусом юзу, рис на пару, суп мисо
+
+
+SABA LUNCH BENTO
+5 600 Ft
+
+幸
+Grillezett makréla, zöldséges maki, kevert saláta yuzu öntettel, rizs, miso leves
+Grilled mackrel, vegetable roll, salad with yuzu sauce, rice, miso soup
+Скумбрия на гриле, ролльи, салат с соусом юзу, рис на пару, суп мисо

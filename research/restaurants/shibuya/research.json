@@ -1,0 +1,381 @@
+{
+  "version": 1,
+  "id": "shibuya",
+  "name": "Shibuya",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1068 Budapest, Városligeti fasor 46-48",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        },
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/kapcsolat/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official contact page says 44-46 instead of Maps 46-48; unresolved number discrepancy."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://shibuyabudapest.com/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/shibuyabudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/kapcsolat/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/shibuyabudapest",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/kapcsolat/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://shibuyabudapest.com/menu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://www.sevenrooms.com/explore/shibuyabudapest/reservations/create/search/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official SevenRooms booking link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "no",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly marks delivery unavailable. Catering is separate."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists kerbside pickup."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Spicy miso ramen offers pork charsiu, tempura prawn or tofu choices."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown",
+      "note": "Tofu ramen shares listed egg and naruto maki ingredients; broth composition and fish-cake omission are unverified."
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Default ingredients include egg and naruto maki; no explicit vegan ramen option."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["spicy miso"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu spells dish SPICY MISHO RAMEN."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Miso, noodles, egg, corn, naruto maki, bamboo, onion and chili. Pork charsiu, tempura prawn or tofu choice. Stock composition unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official bilingual menu."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Three ramen choices in regular soups section."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active listing and recent owner review replies."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 10,
+        "applicability": "Added to the bill."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit bilingual menu footer."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://shibuyabudapest.com/menu/",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official full HTML menu and rendered browser text, undated.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-menu-2026-09-27.html",
+            "sourceUrl": "https://shibuyabudapest.com/menu/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-menu-2026-09-27.txt",
+            "sourceUrl": "https://shibuyabudapest.com/menu/",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "5,500-6,200 Ft before 10% service charge. Menu effective date unspecified. Tofu choice does not establish vegetarian suitability.",
+      "bowls": [
+        {
+          "name": "Spicy miso ramen with pork charsiu",
+          "price": 5500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy miso ramen with tempura prawn",
+          "price": 6200,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy miso ramen with tofu",
+          "price": 5500,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://shibuyabudapest.com/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official soups section."
+        }
+      ]
+    }
+  ]
+}

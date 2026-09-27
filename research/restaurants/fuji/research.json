@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "id": "fuji",
+  "name": "Fuji Japanese Restaurant",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1025 Budapest, Pusztaszeri út 57.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "II",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://fujirestaurant.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official restaurant website links."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/fujirestaurantbudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official restaurant website links."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/fujirestaurant.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official restaurant website links."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://fujirestaurant.hu/menu",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official restaurant website links."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://www.sevenrooms.com/explore/fujijapntterem/reservations/create/search/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official restaurant website links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/hu/hun/budapest/restaurant/fuji-japn-tterem",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official restaurant website links."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website explicitly offers online reservations and Wolt delivery."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website explicitly offers online reservations and Wolt delivery."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps explicitly lists kerbside pickup."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Shoyu ramen offers pork or vegetable topping choice."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown",
+      "note": "Shoyu vegetable topping option exists, but homemade broth ingredients are unspecified."
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Shoyu", "Ginger chicken", "Spicy beef"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Three ramen dishes in noodle section; udon and soba excluded."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Shoyu ramen with egg and house broth, pork or vegetable topping. Tori shoga ramen with egg, ginger house broth, chicken, bean sprouts, scallion and seaweed. Spicy gyu with egg, house broth, spicy beef, sprouts, scallion and seaweed. Broth animal/vegetable ingredients unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu descriptions."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Three ramen dishes on standard official menu."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://fujirestaurant.hu/menu",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Original official HTML plus rendered menu text cached. Website uses HTML menu rather than PDF. No effective date printed.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-menu.html",
+            "sourceUrl": "https://fujirestaurant.hu/menu",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-menu.txt",
+            "sourceUrl": "https://fujirestaurant.hu/menu",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "5900-7100 HUF standalone ramen. Service charge and menu effective date not established.",
+      "bowls": [
+        {
+          "name": "Shoyu pork",
+          "price": 5900,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shoyu vegetable topping",
+          "price": 5900,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tori shoga",
+          "price": 5900,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy gyu",
+          "price": 7100,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://fujirestaurant.hu/menu"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official noodle section."
+        }
+      ]
+    }
+  ]
+}

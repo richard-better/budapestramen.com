@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "id": "tokio",
+  "name": "TOKIO",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1051 Budapest, Széchenyi István tér 7-8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://tokiobudapest.com/en/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/en/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu page and footer links."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/tokiobudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/en/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu page and footer links."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/tokiobudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/en/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu page and footer links."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/en/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu page and footer links."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://www.sevenrooms.com/reservations/tokio",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/en/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu page and footer links."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/en/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official SevenRooms reservation link."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists no-contact delivery and kerbside pickup."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists no-contact delivery and kerbside pickup."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["miso"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Miso ramen in Supu section."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Miso ramen with pork belly, corn, egg, sesame, chili oil and ramen noodles. Underlying broth composition unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Bilingual official menu."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Miso ramen listed in regular Supu section."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official full food menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday-Sunday 12:00-00:00; kitchen closes 23:00.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/en/menu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official footer."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active listing and current reviews."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 15,
+        "applicability": "Added to the bill according to English menu note; Hungarian text says the final bill includes it."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Final menu page service-charge statement."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Full official food PDF and extracted text. Filename 260522 and June upload path are not an explicitly printed effective date.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/official-menu-260522.pdf",
+            "sourceUrl": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/official-menu-260522.txt",
+            "sourceUrl": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "One regular ramen at 5,500 Ft before 15% service. Miso tofu soup is not ramen and is excluded. Effective date not explicitly stated.",
+      "bowls": [
+        {
+          "name": "Miso ramen",
+          "price": 5500,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official Supu section and service-charge footer."
+        }
+      ]
+    }
+  ]
+}

@@ -338,8 +338,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify ownership, Instagram, service charge and ordering/customization options.",
+        "Confirm whether any off-menu vegetarian or vegan ramen exists; the regular menu lists only chicken ramen."
+      ],
+      "researchPriority": "normal",
+      "researchId": "ennmann"
     },
     {
       "id": "every-day",
@@ -447,9 +451,12 @@
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
+      "followUp": [
+        "Verify opening hours, service charge, broth suitability, ownership, chef nationality and digital ordering."
+      ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/fuji-japn-tterem",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "fuji"
     },
     {
       "id": "hachi",
@@ -618,7 +625,7 @@
       "name": "Itoshii",
       "status": "needs-menu-check",
       "address": null,
-      "mapsUrl": null,
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest",
       "signals": ["delivery-category-match"],
       "sources": [
         {
@@ -628,11 +635,12 @@
         }
       ],
       "followUp": [
-        "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Confirm current full-sized standalone ramen and current à la carte prices; linked images have 2024 filenames.",
+        "Verify Instagram, ownership, chef nationality and customization; QR phone ordering confirmed, tablet/kiosk unknown."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/itoshii",
-      "researchPriority": "normal"
+      "researchPriority": "normal",
+      "researchId": "itoshii"
     },
     {
       "id": "japanika",
@@ -648,8 +656,12 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Resolve official-site address 11 versus Maps number 7.",
+        "Verify broth/noodle suitability, service charge, ownership and chef nationality."
+      ],
+      "researchPriority": "normal",
+      "researchId": "japanika"
     },
     {
       "id": "jia-le",
@@ -728,8 +740,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify ownership and chef nationality, digital ordering and any vegetarian ramen modifications.",
+        "Vegan udon should not be treated as vegan ramen."
+      ],
+      "researchPriority": "normal",
+      "researchId": "kakurega"
     },
     {
       "id": "kawamura-ramen",
@@ -1466,8 +1482,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify standalone website, Instagram, ownership, hours and customization/digital ordering.",
+        "Confirm vegetable ramen broth/noodles before marking vegan."
+      ],
+      "researchPriority": "normal",
+      "researchId": "sakuraku"
     },
     {
       "id": "senbazuru",
@@ -1506,8 +1526,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Resolve Maps address 46-48 versus official contact page 44-46.",
+        "Verify tofu ramen ingredients, ownership, chef nationality, hours and digital ordering."
+      ],
+      "researchPriority": "normal",
+      "researchId": "shibuya"
     },
     {
       "id": "song-mester",
@@ -1563,8 +1587,12 @@
           "note": "Maps card explicitly mentions ramen in its menu highlight or venue advertisement and shows this street address; current menu needs verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify Japanese/Hungarian ownership, chef nationality, Instagram and ramen customization.",
+        "Vegetarian/vegan soups elsewhere are not evidence of vegetarian/vegan ramen."
+      ],
+      "researchPriority": "normal",
+      "researchId": "sushi-sei"
     },
     {
       "id": "sushi-wan",
@@ -1622,8 +1650,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify direct delivery URL, customization/digital ordering, ownership and chef nationality.",
+        "No vegetarian ramen established; vegetarian miso tofu soup is not a ramen bowl."
+      ],
+      "researchPriority": "normal",
+      "researchId": "tokio"
     },
     {
       "id": "tokyo-izakaya",
@@ -1981,8 +2013,12 @@
           "note": "Place and street address shown in the Google Maps ramen Budapest search. Search inclusion alone does not establish that ramen is served."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify service charge, ownership and chef nationality.",
+        "Find direct delivery destination and clarify any vegetarian ramen option; menu explicitly describes meat broth."
+      ],
+      "researchPriority": "normal",
+      "researchId": "yamato"
     },
     {
       "id": "yi-du",

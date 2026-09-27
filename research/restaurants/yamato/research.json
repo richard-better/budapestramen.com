@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "id": "yamato",
+  "name": "Yamato Table Grill & Sushi Restaurant",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1066 Budapest, Jókai utca 30",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://yamatorestaurant.hu/hu_hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/yamatotablegrill",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/yamatotablegrill",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://yamatorestaurant.hu/hu_hu/menu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://yamatorestaurant.hu/hu_hu/foglalas",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site navigation and footer."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists booking, delivery and takeaway."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists booking, delivery and takeaway."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps lists booking, delivery and takeaway."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Choice of boiled pork belly, battered prawn or panko chicken thigh; separately served spicy sauce adjusts heat."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Meat broth with fresh vegetables and a soft egg. Choice of boiled pork belly, battered prawn or panko chicken thigh. Spicy sauce served separately; meat used for the broth unspecified.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official ramen dish description."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Listed in regular soup menu."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official soup category and ramen dish."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Monday-Sunday 11:30-23:30.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official site footer."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Active listing with current reviews and booking."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://yamatorestaurant.hu/menu/ramen-leves/",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official ramen detail page and browser text; soup category text captures its four-item selection.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/ramen-2026-09-27.html",
+            "sourceUrl": "https://yamatorestaurant.hu/menu/ramen-leves/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/ramen-2026-09-27.txt",
+            "sourceUrl": "https://yamatorestaurant.hu/menu/ramen-leves/",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/soup-menu-2026-09-27.txt",
+            "sourceUrl": "https://yamatorestaurant.hu/hu_hu/menu/",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "All three protein choices are 6,980 Ft. Complete ramen selection in current soup category; menu effective date and service charge unverified.",
+      "bowls": [
+        {
+          "name": "Ramen with boiled pork belly",
+          "price": 6980,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Ramen with battered prawn",
+          "price": 6980,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Ramen with panko chicken thigh",
+          "price": 6980,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://yamatorestaurant.hu/menu/ramen-leves/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official ramen dish gives all three prices."
+        }
+      ]
+    }
+  ]
+}
