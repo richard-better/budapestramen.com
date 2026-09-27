@@ -1,0 +1,459 @@
+{
+  "version": 1,
+  "id": "mori-ramen",
+  "name": "Mori Ramen",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/6tfPGZshmtzABWuz7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1073 Budapest, Akácfa utca 55.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/6tfPGZshmtzABWuz7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/6tfPGZshmtzABWuz7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://maps.app.goo.gl/6tfPGZshmtzABWuz7",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/6tfPGZshmtzABWuz7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.moriramen.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links. Reservations by phone +36 30 266 0064."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/moribudapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links. Reservations by phone +36 30 266 0064."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "known",
+      "value": "https://www.facebook.com/p/Mori-Ramen-61584412675031/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links. Reservations by phone +36 30 266 0064."
+        }
+      ]
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.moriramen.hu/menu.html",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links. Reservations by phone +36 30 266 0064."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "known",
+      "value": "https://www.moriramen.hu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official website links. Reservations by phone +36 30 266 0064."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "unknown",
+      "note": "Official site advertises Wolt but links only to Budapest landing page; restaurant-specific URL not verified."
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/6tfPGZshmtzABWuz7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps explicitly lists reservations, delivery and takeaway. Official website corroborates telephone reservations and Wolt delivery."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/6tfPGZshmtzABWuz7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps explicitly lists reservations, delivery and takeaway. Official website corroborates telephone reservations and Wolt delivery."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/6tfPGZshmtzABWuz7"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Google Maps explicitly lists reservations, delivery and takeaway. Official website corroborates telephone reservations and Wolt delivery."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Fourteen paid noodle/topping extras; Yasai choice of pork or vegan broth."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Yasai with vegan broth, tofu, egg and vegetables."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Vegan broth is explicit, but Yasai also lists egg and egg allergen. Confirm omission and noodles before claiming vegan bowl."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Tonkotsu", "Miso", "Tantanmen", "Chicken broth"],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official ramen pages R01-R10. Hiyashi Chuka uses soba and is excluded from ramen prices."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Pork-bone tonkotsu, miso, spicy pirikara and tantanmen; beef-shank Gyuniku also uses pork broth. Chicken-broth Toridashi, Karaage and shrimp Kaisen. Yasai offers pork or vegan broth. Egg, bamboo, sprouts, wood ear, nori, scallion and green soybean recur. Also serves kobachi, don bowls and desserts.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Three cached ramen menu pages and official homepage."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Standard menu; lunch deals separate."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu categories."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "known",
+      "value": "Mon/Wed/Thu 11:00-15:00,17:30-22:00; Fri/Sat 11:00-15:00,17:30-23:00; Sun 11:00-15:00,17:30-21:00; Tue closed.",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official weekly hours table."
+        }
+      ]
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current official website publishes menu, opening hours and bookings; Maps active listing corroborates."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "known",
+      "value": {
+        "type": "percentage",
+        "amount": 10,
+        "applicability": "Added to final bill."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Allergen menu page footer explicitly states 10% service charge."
+        }
+      ]
+    }
+  },
+  "menus": [
+    {
+      "id": "official-2026-09-27",
+      "url": "https://www.moriramen.hu/menu.html",
+      "type": "official",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Official food menu image pages downloaded from linked restaurant website. No printed effective date.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-allergens.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-desserts.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-dons.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-extras.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-kobachi.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-lunchdeal.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-ramen-1.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-ramen-2.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-ramen-3.jpg",
+            "sourceUrl": "https://www.moriramen.hu/menu.html",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "official-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "3990-4890 HUF before 10% service. Complete standard ramen section, excluding soba Hiyashi Chuka, lunch combos and extras. Menu effective date not printed.",
+      "bowls": [
+        {
+          "name": "Yasai (pork or vegan broth)",
+          "price": 3990,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu",
+          "price": 4290,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Miso",
+          "price": 4290,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Pirikara tonkotsu",
+          "price": 4290,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tantanmen",
+          "price": 4290,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Gyuniku",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Toridashi",
+          "price": 4290,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Karaage",
+          "price": 4290,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Kaisen",
+          "price": 4890,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.moriramen.hu/menu.html"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached official ramen menu pages."
+        }
+      ]
+    }
+  ]
+}

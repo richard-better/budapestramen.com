@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "id": "ramenka",
+  "name": "Ramenka",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown"
+    },
+    "address": {
+      "status": "unknown",
+      "note": "Historical addresses should not be used for planned reopening."
+    },
+    "district": {
+      "status": "unknown"
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "unknown"
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://ramenka.hu/en/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://ramenka.hu/en/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official closure notice checked in Chrome."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "unknown"
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "unknown"
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "unknown"
+    },
+    "brothAndToppings": {
+      "status": "unknown"
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown"
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "temporarily-closed",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://ramenka.hu/en/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official notice says closed after twelve years and reopening soon. No date or new address is provided."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [],
+  "pricing": []
+}

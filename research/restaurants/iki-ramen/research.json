@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "id": "iki-ramen",
+  "name": "Iki Ramen Izakaya",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "serves-ramen",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/iki_ramen_izakaya/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile describes Asian fusion restaurant and bar; menu also includes sushi, teppanyaki and rice bowls."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1061 Budapest, Andrássy út 38.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "http://www.ikiramen.info/",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps-linked website currently displays under construction notice."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/iki_ramen_izakaya/",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/iki_ramen_izakaya/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official profile matches restaurant and street address."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Owner-uploaded menu photographs, April 2026. Website under construction."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://foodora.hu/restaurant/jarj/iki-izakaya",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Maps Place an order URL embeds this Foodora restaurant destination."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Google Maps service/planning attribute."
+        }
+      ]
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Google Maps service/planning attribute."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Explicit Google Maps service/planning attribute."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Extra noodles, egg, bamboo, chicken, corn, mushroom and chashu listed with prices."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "R5 explicitly named Vegan Paitan with vegetable/soy-based broth description, no egg shown or listed."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "R5 explicitly named Vegan Paitan with vegetable/soy-based broth description, no egg shown or listed."
+        }
+      ]
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Tonkotsu shoyu", "Tonkotsu miso", "Spicy dandan", "Chicken shoyu", "Vegan paitan"],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached owner ramen menu pages."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Tonkotsu bowls described as slow-simmered pork stock with soy or miso; spicy dandan described with pork or chicken bone base and chilli. Chicken shoyu and vegan paitan also listed. Extra noodles, egg, bamboo, chicken, corn, mushroom and chashu available.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Menu descriptions are partly generic rather than full ingredient lists."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown",
+      "note": "Recent official Instagram captions say daily 12:30-10:30 (presumably 22:30); Maps says opens 11:00. Resolve discrepancy before publishing."
+    },
+    "operatingStatus": {
+      "status": "known",
+      "value": "open",
+      "evidence": [
+        {
+          "source": {
+            "type": "social",
+            "url": "https://www.instagram.com/iki_ramen_izakaya/"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Recent official posts welcome guests after renovation, matching active Maps listing."
+        }
+      ]
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Owner menu photograph April 2026; two ramen pages cached. Official Instagram June renovation announcement mentions new menu items, so latest completeness is unconfirmed.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-ramen-1.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-ramen-2.jpg",
+            "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed 4290-4790 HUF, excluding extras. April owner menu predates June renovation/new-menu announcement; verify latest prices.",
+      "bowls": [
+        {
+          "name": "Tonkotsu shoyu",
+          "price": 4790,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu miso",
+          "price": 4790,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Spicy dandan",
+          "price": 4690,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken shoyu",
+          "price": 4490,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegan paitan",
+          "price": 4290,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ]
+}

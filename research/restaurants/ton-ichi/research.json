@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "id": "ton-ichi",
+  "name": "Ton-Ichi Ramen",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu corroborates branch and ramen-focused offering."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1051 Budapest, Október 6. utca 21.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu corroborates branch and ramen-focused offering."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "V",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu corroborates branch and ramen-focused offering."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ton-Ichi+Ramen+Budapest+Okt%C3%B3ber+6.+utca+21&query_place_id=ChIJv7vVHS_dQUcR0L2jU9aFRO8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ton-Ichi+Ramen+Budapest+Okt%C3%B3ber+6.+utca+21&query_place_id=ChIJv7vVHS_dQUcR0L2jU9aFRO8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/tonichi_budapest/",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant menu and official-profile link. Dine-in menu not yet verified."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant menu and official-profile link. Dine-in menu not yet verified."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant menu and official-profile link. Dine-in menu not yet verified."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant delivery menu."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu explicitly names Vegan Zyoza Ramen. Ingredient-level breakdown unavailable."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu explicitly names Vegan Zyoza Ramen. Ingredient-level breakdown unavailable."
+        }
+      ]
+    },
+    "japaneseOwned": {
+      "status": "unknown",
+      "note": "2023 We Love Budapest interview identifies co-owner Yue but does not establish nationality; no inference made from name."
+    },
+    "hungarianOwned": {
+      "status": "unknown",
+      "note": "2023 We Love Budapest interview identifies co-owner Yue but does not establish nationality; no inference made from name."
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Tonkotsu", "Shoyu", "Miso", "Curry"],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu includes black garlic and red spicy variants."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "unknown",
+      "note": "Current delivery menu lists dish names without ingredients. Historical 2023 editorial describes pork-bone tonkotsu with chashu and egg; verify current recipe."
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown",
+      "note": "Wolt delivery hours are daily 11:00-21:20; these are not verified dine-in hours."
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Live anonymous merchant HTML cached. Search-index versions include vegan miso/seafood that are absent from live page; use live capture.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-wolt.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "ordering-2026-09-27",
+      "currency": "HUF",
+      "basis": "delivery",
+      "coverage": "partial",
+      "checkedOn": "2026-09-27",
+      "limitations": "Live delivery menu 5000-5500 HUF, not a dine-in range. Indexed older versions differ.",
+      "bowls": [
+        {
+          "name": "Tonkotsu",
+          "price": 5200,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Red Spicy",
+          "price": 5500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Shouyu",
+          "price": 5000,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Black Garlic",
+          "price": 5500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Classic Miso",
+          "price": 5200,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegan Zyoza",
+          "price": 5300,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkatsu Curry Ramen",
+          "price": 5500,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Karaage Curry Ramen",
+          "price": 5000,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ton-ichi"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Live downloaded merchant menu."
+        }
+      ]
+    }
+  ]
+}

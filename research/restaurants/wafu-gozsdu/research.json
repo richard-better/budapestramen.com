@@ -1,0 +1,328 @@
+{
+  "version": 1,
+  "id": "wafu-gozsdu",
+  "name": "WAFU Ramen Bar Gozsdu",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "known",
+      "value": "ramen-specialist",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "address": {
+      "status": "known",
+      "value": "1075 Budapest, Kazinczy utca 35.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "VII",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "known",
+      "value": "https://www.wafujp.com/work/wafu-ramen-bar-goszdu/copy-3",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramen-bar-goszdu/copy-3"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page."
+        }
+      ]
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/wafuramenbar_gozsdu/",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramen-bar-goszdu/copy-3"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official branch page links this profile."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://www.canva.com/design/DAG92R6YhGM/OkP8lk-NqLh3na_JPiDl5g/edit",
+      "evidence": [
+        {
+          "source": {
+            "type": "website",
+            "url": "https://www.wafujp.com/work/wafu-ramen-bar-goszdu/copy-3"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Official menu link requires Canva login; Maps menu cached as fallback."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "unknown"
+    },
+    "takeaway": {
+      "status": "unknown"
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Paper order form offers six broths, thin/thick noodles, garlic, onion, nori, spice and paid toppings. Staff collect the completed form."
+        }
+      ]
+    },
+    "vegetarianRamen": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Paitan explicitly vegetarian; spicy dandan marked with leaf. Standard soup/noodle/egg base."
+        }
+      ]
+    },
+    "veganRamen": {
+      "status": "unknown",
+      "note": "Maps says vegan options, but menu includes egg by default. Confirm egg-free noodle/base combination."
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": [
+        "Tonkotsu shoyu",
+        "Tonkotsu miso",
+        "Dandan",
+        "Chicken shoyu",
+        "Tomato shrimp",
+        "Vegetarian paitan"
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Six choices on cached menu."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Pork bone broth simmered eight hours for tonkotsu; miso variation. Dandan sesame/soy milk/chilli; shrimp and creamy tomato; chicken soy; vegetable paitan. Basic bowl contains soup, noodles and egg. Additional chashu, chicken, tofu, vegetables and toppings cost extra.",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached overview and order form."
+        }
+      ]
+    },
+    "availability": {
+      "status": "known",
+      "value": {
+        "kind": "regular",
+        "details": "Six ramen bases on standard branch order form."
+      },
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Standard menu."
+        }
+      ]
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown",
+      "note": "Menu photograph says Thu-Tue 17:00-23:00, last order 22:30; current Maps overview also shows noon opening. Verify current full weekly hours."
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "maps-2026-09-27",
+      "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8",
+      "type": "maps",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Overview photographed July 2025; order form photographed March 2026. Checked September 2026. Photos are not proof of menu effective date. Official Canva menu requires login.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-order-form.jpg",
+            "sourceUrl": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8",
+            "capturedOn": "2026-09-27"
+          },
+          {
+            "path": "menus/2026-09-27-overview.jpg",
+            "sourceUrl": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "menuId": "maps-2026-09-27",
+      "currency": "HUF",
+      "basis": "dine-in",
+      "coverage": "complete",
+      "checkedOn": "2026-09-27",
+      "limitations": "Observed base-bowl range 4080-4580 HUF, including noodles and egg, excluding optional toppings. March 2026 photo, menu effective date unknown.",
+      "bowls": [
+        {
+          "name": "Spicy dandan",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu shoyu",
+          "price": 4480,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Tonkotsu miso",
+          "price": 4580,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Creamy tomato shrimp",
+          "price": 4580,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Chicken shoyu",
+          "price": 4080,
+          "eligibility": "standard"
+        },
+        {
+          "name": "Vegetarian paitan",
+          "price": 4080,
+          "eligibility": "standard"
+        }
+      ],
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Cached branch menu photograph."
+        }
+      ]
+    }
+  ],
+  "brandId": "wafu"
+}

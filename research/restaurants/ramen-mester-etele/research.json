@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "id": "ramen-mester-etele",
+  "name": "Ling’s - Ramen Mester Etele tér",
+  "publication": "candidate",
+  "identity": {
+    "branch": {
+      "status": "unknown"
+    },
+    "category": {
+      "status": "unknown",
+      "note": "Merchant explicitly describes Chinese hand-pulled lamian, not Japanese ramen. Inclusion requires editorial decision; do not classify from translated name alone."
+    },
+    "address": {
+      "status": "known",
+      "value": "1115 Budapest, Etele tér 5.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant address."
+        }
+      ]
+    },
+    "district": {
+      "status": "known",
+      "value": "XI",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    },
+    "coordinates": {
+      "status": "unknown"
+    },
+    "maps": {
+      "status": "known",
+      "value": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34",
+      "evidence": [
+        {
+          "source": {
+            "type": "maps",
+            "url": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Verified branch listing and menu."
+        }
+      ]
+    }
+  },
+  "links": {
+    "website": {
+      "status": "unknown"
+    },
+    "instagram": {
+      "status": "known",
+      "value": "https://www.instagram.com/ramenmester.lings/",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant page links Instagram and provides menu, delivery and scheduled pickup."
+        }
+      ]
+    },
+    "facebook": {
+      "status": "unknown"
+    },
+    "menu": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant page links Instagram and provides menu, delivery and scheduled pickup."
+        }
+      ]
+    },
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant page links Instagram and provides menu, delivery and scheduled pickup."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "known",
+      "value": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant page links Instagram and provides menu, delivery and scheduled pickup."
+        }
+      ]
+    }
+  },
+  "features": {
+    "reservations": {
+      "status": "unknown"
+    },
+    "delivery": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery menu and Schedule pickup control."
+        }
+      ]
+    },
+    "takeaway": {
+      "status": "yes",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant delivery menu and Schedule pickup control."
+        }
+      ]
+    },
+    "tabletOrdering": {
+      "status": "unknown"
+    },
+    "kioskOrdering": {
+      "status": "unknown"
+    },
+    "qrOrdering": {
+      "status": "unknown"
+    },
+    "customization": {
+      "status": "unknown"
+    },
+    "vegetarianRamen": {
+      "status": "unknown"
+    },
+    "veganRamen": {
+      "status": "unknown"
+    },
+    "japaneseOwned": {
+      "status": "unknown"
+    },
+    "hungarianOwned": {
+      "status": "unknown"
+    },
+    "japaneseChef": {
+      "status": "unknown"
+    }
+  },
+  "food": {
+    "styles": {
+      "status": "known",
+      "value": ["Chinese hand-pulled lamian"],
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant explicitly describes traditional hand-pulled noodles from China."
+        }
+      ]
+    },
+    "brothAndToppings": {
+      "status": "known",
+      "value": "Chinese beef noodle soup with hand-pulled noodles, sliced beef, spring onion and coriander; sauerkraut and soy-beef variants. Also tomato-egg soup, biang biang, zha jiang mian, dumplings, bao and roujiamo.",
+      "evidence": [
+        {
+          "source": {
+            "type": "ordering",
+            "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter"
+          },
+          "checkedOn": "2026-09-27",
+          "note": "Merchant menu descriptions. This does not establish Japanese ramen."
+        }
+      ]
+    },
+    "availability": {
+      "status": "unknown"
+    }
+  },
+  "visiting": {
+    "hours": {
+      "status": "unknown",
+      "note": "Wolt fulfillment hours are not verified dine-in hours."
+    },
+    "operatingStatus": {
+      "status": "unknown"
+    },
+    "serviceCharge": {
+      "status": "unknown"
+    }
+  },
+  "menus": [
+    {
+      "id": "ordering-2026-09-27",
+      "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+      "type": "ordering",
+      "checkedOn": "2026-09-27",
+      "branchNote": "Chinese lamian menu marketed as ramen. Cached anonymously; no Japanese ramen classification or dine-in price range derived.",
+      "cache": {
+        "status": "cached",
+        "files": [
+          {
+            "path": "menus/2026-09-27-wolt.html",
+            "sourceUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+            "capturedOn": "2026-09-27"
+          }
+        ]
+      }
+    }
+  ],
+  "pricing": [],
+  "brandId": "ramen-mester"
+}

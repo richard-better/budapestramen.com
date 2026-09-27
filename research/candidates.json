@@ -603,8 +603,11 @@
           "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify latest post-renovation menu, service charge, hours, Facebook, ownership and digital ordering. Official Instagram contains earlier Poetry Wine posts at same address; investigate duplicate candidate."
+      ],
+      "researchPriority": "normal",
+      "researchId": "iki-ramen"
     },
     {
       "id": "itoshii",
@@ -910,8 +913,11 @@
           "note": "Maps result explicitly names ramen in the venue name or category and shows this street address; menu and operating status still need verification."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "normal"
+      "followUp": [
+        "Verify current ownership nationality, Japanese chef, digital ordering, vegan modifications and direct Wolt URL."
+      ],
+      "researchPriority": "normal",
+      "researchId": "mori-ramen"
     },
     {
       "id": "nagomi",
@@ -1247,11 +1253,17 @@
           "url": "https://wolt.com/en/hun/budapest/category/ramen",
           "checkedOn": "2026-09-26",
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        },
+        {
+          "url": "https://www.instagram.com/iki_ramen_izakaya/",
+          "checkedOn": "2026-09-27",
+          "note": "Current Iki profile contains older Poetry Wine posts at same address, alongside June 2026 renovation announcement."
         }
       ],
       "followUp": [
         "Resolve physical address and Maps listing; check for duplicate or delivery-only branding.",
-        "Check the current menu for ramen and verify operating status."
+        "Check the current menu for ramen and verify operating status.",
+        "Iki official Instagram retains Poetry Wine posts at same Andrássy út 38 address; likely predecessor/rebrand, verify before counting separately."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/poetry-wine-restaurant-and-bar",
       "researchPriority": "normal"
@@ -1259,7 +1271,7 @@
     {
       "id": "ramen-mester-etele",
       "name": "Ling’s - Ramen Mester Etele tér",
-      "status": "candidate",
+      "status": "needs-menu-check",
       "address": "Budapest, Etele tér 5",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34",
       "signals": [
@@ -1283,14 +1295,19 @@
           "url": "https://wolt.com/en/hun/budapest/category/ramen",
           "checkedOn": "2026-09-26",
           "note": "Listed in Wolt’s Budapest ramen category. Category membership alone does not verify ramen availability or a physical dine-in restaurant."
+        },
+        {
+          "url": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+          "checkedOn": "2026-09-27",
+          "note": "Current merchant menu explicitly describes Chinese hand-pulled noodles; no Japanese ramen verified."
         }
       ],
       "followUp": [
-        "Check the current menu for ramen and verify operating status.",
-        "Clarify Japanese ramen versus Chinese hand-pulled noodle soup; do not infer cuisine from the translated dish name."
+        "Chinese lamian confirmed. Decide inclusion separately from Japanese ramen; verify dine-in menu, prices, hours, reservations, ownership and social links."
       ],
       "orderingUrl": "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "researchId": "ramen-mester-etele"
     },
     {
       "id": "ramen-mester-wesselenyi",
@@ -1398,10 +1415,10 @@
         }
       ],
       "followUp": [
-        "Keep off the active list until reopening and location are verified.",
-        "Do not treat Naponta as a ramen venue without menu evidence."
+        "Keep off active list until official reopening date, address and menu are verified. Naponta is not automatically a ramen venue."
       ],
-      "researchPriority": "high"
+      "researchPriority": "high",
+      "researchId": "ramenka"
     },
     {
       "id": "sakura-ramen",
@@ -1637,10 +1654,19 @@
           "url": "https://www.timeout.com/hu/budapest/ettermek/legjobb-ramen-budapest",
           "checkedOn": "2026-09-26",
           "note": "Named in the March 2026 Budapest ramen roundup. Discovery evidence, not confirmation of current menu or opening status."
+        },
+        {
+          "url": "https://welovebudapest.com/cikk/2023/10/26/gasztro-kulonleges-ramen-ton-ichi-japan-etterem-oktober-6-utca/",
+          "checkedOn": "2026-09-27",
+          "note": "2023 editorial recommendation and interview with co-owner Yue; historical, not current price evidence."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "high"
+      "followUp": [
+        "Obtain current dine-in menu and prices; verify reservations, takeaway, service charge, hours, ownership and ordering interface.",
+        "Verify official website/Facebook; retain Wolt as temporary menu fallback."
+      ],
+      "researchPriority": "high",
+      "researchId": "ton-ichi"
     },
     {
       "id": "ume-sushi",
@@ -1758,8 +1784,11 @@
           "note": "Official restaurant directory lists this named branch and describes the brand’s ramen offering."
         }
       ],
-      "followUp": ["Check the current menu for ramen and verify operating status."],
-      "researchPriority": "high"
+      "followUp": [
+        "Verify current prices against official Canva menu, reservations, delivery/takeaway, vegan modifications, ownership, hours and service charge. Paper ordering confirmed, digital ordering remains unknown."
+      ],
+      "researchPriority": "high",
+      "researchId": "wafu-gozsdu"
     },
     {
       "id": "wafu-izakaya",
