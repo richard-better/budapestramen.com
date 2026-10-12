@@ -1,6 +1,20 @@
 # Budapest Ramen design directions
 
-## Liquid glass
+## iPad app direction
+
+`ipad.html` reimagines the guide as a native iPad map app: a floating translucent
+sidebar, system typography, compact search and segmented filters, and place details
+in the same sidebar. It includes all 56 restaurants from the current source data.
+Search, filters, restaurant selection, sidebar visibility, map panning, and zoom
+work. Directions and menu links open the existing restaurant resources.
+
+The map is live MapLibre with OpenFreeMap Positron and a custom light palette. A
+snapshot provides the initial background while tiles load. Below tablet widths,
+the sidebar becomes a bottom sheet. Reduced motion, reduced transparency, and
+increased contrast preferences are supported. This remains a design concept;
+it does not alter the production guide.
+
+## Earlier liquid glass direction
 
 `liquid-glass.html` develops the requested high-end direction: Budapest night
 photography, smoked glass, reflective edges, and a floating navigation indicator.
@@ -35,3 +49,5 @@ photos of those places.
 - `assets/ramen-photo.jpg`: [Alimentos Fotogénicos on Unsplash](https://unsplash.com/photos/a-bowl-of-food-with-chopsticks-on-a-wooden-table-ua-RZdLk0OE), [Unsplash License](https://unsplash.com/license).
 - `assets/budapest-map.png`: OpenFreeMap, OpenMapTiles, and OpenStreetMap contributors. Attribution is retained in the concepts.
 - `assets/budapest-dusk.jpg`: [XAVIER PHOTOGRAPHY on Unsplash](https://unsplash.com/photos/a-city-with-a-river-and-a-bridge-at-night-mV5Mi-nz4PA), [Unsplash License](https://unsplash.com/license).
+
+- `assets/ipad-map-preview.jpg`: initial map snapshot for the iPad concept. OpenFreeMap, OpenMapTiles, and OpenStreetMap attribution is retained.

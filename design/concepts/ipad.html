@@ -1,0 +1,2205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Budapest Ramen · iPad direction</title>
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        background: transparent;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #242426;
+        -webkit-font-smoothing: antialiased;
+      }
+      button,
+      input,
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+      button,
+      input {
+        font: inherit;
+      }
+      button {
+        cursor: pointer;
+        border: 0;
+      }
+      button,
+      a {
+        touch-action: manipulation;
+      }
+      button:active {
+        opacity: 0.72;
+      }
+      button:focus-visible,
+      a:focus-visible,
+      input:focus-visible {
+        outline: 3px solid #007aff;
+        outline-offset: 3px;
+      }
+      button:disabled {
+        opacity: 0.4;
+        cursor: default;
+      }
+      a {
+        color: #007aff;
+        text-decoration: none;
+      }
+      [hidden] {
+        display: none !important;
+      }
+      svg {
+        display: block;
+        width: 22px;
+        height: 22px;
+        stroke: currentColor;
+        stroke-width: 1.75;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        flex-shrink: 0;
+      }
+      .app {
+        --blue: #007aff;
+        --muted: #64646b;
+        position: relative;
+        height: 760px;
+        min-height: 620px;
+        isolation: isolate;
+        overflow: hidden;
+        background: #ecede7;
+        border-radius: 22px;
+        color: #242426;
+      }
+      #map {
+        position: absolute;
+        inset: 0;
+        background: #ecede7 url("assets/ipad-map-preview.jpg") center / cover;
+      }
+      #map:not(.ready) .maplibregl-canvas {
+        opacity: 0;
+      }
+      .maplibregl-canvas:focus-visible {
+        outline: 3px solid #007aff;
+        outline-offset: -4px;
+      }
+      .maplibregl-ctrl-bottom-right {
+        bottom: 5px;
+        right: 9px;
+      }
+      .maplibregl-ctrl-attrib {
+        background: rgba(255, 255, 255, 0.74) !important;
+        font-size: 10px !important;
+        border-radius: 8px;
+      }
+      .maplibregl-ctrl-attrib a {
+        color: #45454b;
+      }
+      .glass {
+        background: rgba(249, 249, 250, 0.77);
+        backdrop-filter: blur(28px) saturate(1.55);
+        -webkit-backdrop-filter: blur(28px) saturate(1.55);
+        box-shadow:
+          0 8px 32px #1b252317,
+          0 1px 5px #1b25231a,
+          inset 0 1px 1px #ffffff;
+        border: 1px solid rgba(255, 255, 255, 0.85);
+      }
+      .sidebar {
+        position: absolute;
+        top: 16px;
+        bottom: 28px;
+        left: 16px;
+        width: 320px;
+        border-radius: 26px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        z-index: 3;
+        transition:
+          transform 0.28s cubic-bezier(0.2, 0.7, 0.2, 1),
+          opacity 0.2s;
+      }
+      .sidebar.closed {
+        transform: translateX(-350px);
+        opacity: 0;
+        pointer-events: none;
+      }
+      .side-head {
+        padding: 15px 18px 0;
+        flex-shrink: 0;
+      }
+      .title-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+      }
+      .title-row h1 {
+        font-size: 25px;
+        letter-spacing: -0.8px;
+        line-height: 1.2;
+        margin: 6px 0;
+        font-weight: 700;
+      }
+      .icon-button {
+        display: grid;
+        place-items: center;
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border-radius: 50%;
+        color: var(--blue);
+        background: transparent;
+        flex-shrink: 0;
+      }
+      .icon-button:hover {
+        background: #77777710;
+      }
+      .subtitle {
+        font-size: 14px;
+        color: var(--muted);
+        margin: 1px 0 17px;
+      }
+      .search {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        background: #76768018;
+        border-radius: 12px;
+        height: 42px;
+        padding: 0 10px;
+        color: #797980;
+      }
+      .search svg {
+        width: 18px;
+        height: 18px;
+        stroke-width: 2;
+      }
+      .search input {
+        min-width: 0;
+        flex: 1;
+        font-size: 16px;
+        letter-spacing: -0.3px;
+        border: 0;
+        outline: 0;
+        background: transparent;
+        color: #252527;
+        height: 100%;
+      }
+      .search input::placeholder {
+        color: #797980;
+      }
+      .search input::-webkit-search-cancel-button {
+        display: none;
+      }
+      .search:focus-within {
+        box-shadow: 0 0 0 2px #007aff88;
+      }
+      .clear {
+        font-size: 16px;
+        width: 26px;
+        height: 30px;
+        display: grid;
+        place-items: center;
+        background: transparent;
+        color: #797980;
+      }
+      .clear svg {
+        width: 16px;
+        height: 16px;
+      }
+      .segments {
+        display: flex;
+        background: #76768013;
+        border-radius: 11px;
+        padding: 3px;
+        margin-top: 13px;
+      }
+      .segments button {
+        background: transparent;
+        color: #424249;
+        flex: 1;
+        font-weight: 600;
+        font-size: 12px;
+        min-height: 32px;
+        padding: 6px 7px;
+        border-radius: 8px;
+        white-space: nowrap;
+        letter-spacing: -0.15px;
+      }
+      .segments button[aria-pressed="true"] {
+        background: #fff;
+        color: #1c1c1e;
+        box-shadow:
+          0 2px 6px #00000012,
+          0 0 1px #00000020;
+      }
+      .list-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        padding: 23px 20px 8px;
+      }
+      .list-head h2 {
+        font-size: 19px;
+        font-weight: 700;
+        letter-spacing: -0.4px;
+        margin: 0;
+      }
+      .count {
+        color: #77777e;
+        font-size: 13px;
+      }
+      .list {
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        flex: 1;
+        scrollbar-width: thin;
+        scrollbar-color: #0002 transparent;
+        padding: 0 10px 18px;
+      }
+      .place {
+        position: relative;
+        display: flex;
+        width: 100%;
+        text-align: left;
+        gap: 12px;
+        align-items: center;
+        background: transparent;
+        border-radius: 13px;
+        padding: 16px 10px;
+        color: #28282c;
+        min-height: 99px;
+      }
+      .place:hover {
+        background: #fff8;
+      }
+      .place:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 65px;
+        right: 10px;
+        height: 0.5px;
+        background: #3c3c4323;
+      }
+      .place:last-child:after {
+        display: none;
+      }
+      .place .place-icon {
+        display: grid;
+        place-items: center;
+        width: 42px;
+        height: 42px;
+        border-radius: 12px;
+        background: #f0e4df;
+        color: #bb5841;
+        flex-shrink: 0;
+      }
+      .place-icon svg {
+        width: 23px;
+        height: 23px;
+      }
+      .place-body {
+        flex: 1;
+        min-width: 0;
+      }
+      .place-name {
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: -0.35px;
+        line-height: 1.25;
+        display: block;
+      }
+      .place-meta {
+        font-size: 12px;
+        color: var(--muted);
+        display: block;
+        margin-top: 5px;
+        line-height: 1.35;
+      }
+      .place-rating {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        color: #66666e;
+        font-size: 12px;
+        margin-top: 6px;
+      }
+      .place-rating b {
+        font-weight: 500;
+        color: #43434b;
+      }
+      .place-rating svg {
+        width: 11px;
+        height: 11px;
+        fill: #ed9b24;
+        stroke: #ed9b24;
+      }
+      .chevron {
+        width: 12px;
+        height: 15px;
+        color: #a0a0a5;
+      }
+      .section-label {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.45px;
+        font-weight: 600;
+        color: #77777c;
+        margin: 22px 10px 3px;
+      }
+      .empty {
+        padding: 35px 15px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .side-foot {
+        font-size: 11px;
+        color: #7b7b82;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 13px 20px;
+        border-top: 0.5px solid #3c3c4315;
+        background: #f5f5f655;
+      }
+      .side-foot span {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .side-foot svg {
+        width: 12px;
+        height: 12px;
+      }
+      .side-foot a {
+        color: inherit;
+      }
+      .map-heading {
+        position: absolute;
+        top: 22px;
+        left: 358px;
+        right: 88px;
+        pointer-events: none;
+        color: #54595d;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        text-shadow:
+          0 1px 3px #fff,
+          0 0 10px #fff;
+      }
+      .map-heading span {
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: -0.2px;
+      }
+      .map-heading svg {
+        width: 16px;
+        height: 16px;
+      }
+      .map-tools {
+        position: absolute;
+        right: 18px;
+        top: 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        z-index: 2;
+      }
+      .tool-group {
+        padding: 3px;
+        border-radius: 24px;
+      }
+      .tool-group .icon-button {
+        color: #4c5157;
+      }
+      .tool-group .icon-button + button {
+        position: relative;
+      }
+      .tool-group .icon-button + button:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 9px;
+        right: 9px;
+        height: 0.5px;
+        background: #3c3c4324;
+      }
+      .icon-button svg {
+        width: 22px;
+        height: 22px;
+      }
+      .restore {
+        position: absolute;
+        top: 18px;
+        left: 18px;
+        z-index: 2;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+      }
+      .restore:not([hidden]) ~ .map-heading {
+        left: 86px;
+      }
+      .map-badge {
+        position: absolute;
+        bottom: 33px;
+        left: calc(50% + 145px);
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        padding: 10px 15px;
+        border-radius: 24px;
+        white-space: nowrap;
+        font-size: 13px;
+        font-weight: 500;
+        color: #55555e;
+        z-index: 1;
+        pointer-events: none;
+      }
+      .map-badge svg {
+        width: 15px;
+        height: 15px;
+        color: #bb5841;
+      }
+      .pin {
+        width: 44px;
+        height: 44px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        overflow: visible;
+      }
+      .pin-core {
+        display: grid;
+        place-items: center;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: #bd614b;
+        color: #fff;
+        box-shadow:
+          0 1px 5px #5330243a,
+          0 0 0 2px #fff;
+        position: relative;
+        transition: transform 0.2s ease;
+      }
+      .pin-core svg {
+        width: 17px;
+        height: 17px;
+        stroke-width: 1.9;
+      }
+      .pin:not(.recommended) .pin-core {
+        width: 14px;
+        height: 14px;
+        background: #b36e5c;
+        box-shadow:
+          0 1px 3px #53302422,
+          0 0 0 2px #fff;
+      }
+      .pin:not(.recommended) svg {
+        display: none;
+      }
+      .pin:hover .pin-core,
+      .pin.selected .pin-core {
+        transform: scale(1.18);
+        background: var(--blue);
+      }
+      .pin.selected {
+        z-index: 2;
+      }
+      .pin.selected .pin-core {
+        width: 34px;
+        height: 34px;
+        box-shadow:
+          0 3px 8px #15497a30,
+          0 0 0 3px #fff;
+      }
+      .pin.selected svg {
+        display: block;
+      }
+      .pin-label {
+        position: absolute;
+        top: 46px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #ffffffe8;
+        padding: 4px 8px;
+        border-radius: 7px;
+        font-size: 11px;
+        line-height: 1.2;
+        font-weight: 600;
+        box-shadow: 0 1px 5px #0001;
+        white-space: nowrap;
+        color: #724133;
+        pointer-events: none;
+        max-width: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .pin.selected .pin-label {
+        color: #007aff;
+      }
+      .pin:not(.recommended) .pin-label {
+        display: none;
+      }
+      .maplibregl-marker {
+        z-index: 0;
+      }
+      .maplibregl-marker:has(.selected),
+      .maplibregl-marker.selected {
+        z-index: 2;
+      }
+      .detail {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        flex: 1;
+      }
+      .detail-toolbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 12px 0;
+      }
+      .back {
+        display: flex;
+        align-items: center;
+        gap: 1px;
+        min-height: 44px;
+        padding: 0 4px;
+        color: var(--blue);
+        background: transparent;
+        font-size: 16px;
+      }
+      .back svg {
+        width: 22px;
+        height: 22px;
+      }
+      .detail-scroll {
+        padding: 0 20px 22px;
+        overflow: auto;
+        overscroll-behavior: contain;
+      }
+      .detail-name {
+        font-size: 28px;
+        line-height: 1.06;
+        letter-spacing: -0.9px;
+        margin: 20px 0 9px;
+        font-weight: 700;
+      }
+      .detail-address {
+        font-size: 14px;
+        color: var(--muted);
+        line-height: 1.45;
+        margin: 0;
+      }
+      .detail-stars {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 13px;
+        margin: 14px 0 21px;
+        color: var(--muted);
+      }
+      .detail-stars svg {
+        color: #e49827;
+        fill: #e49827;
+        width: 13px;
+        height: 13px;
+      }
+      .detail-stars strong {
+        color: #414149;
+      }
+      .actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 9px;
+      }
+      .action {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 6px;
+        background: #e5edf8;
+        color: #007aff;
+        padding: 12px 6px;
+        border-radius: 13px;
+        font-size: 13px;
+        font-weight: 500;
+        min-height: 68px;
+      }
+      .action.primary {
+        background: #007aff;
+        color: white;
+      }
+      .action svg {
+        width: 22px;
+        height: 22px;
+      }
+      .detail-section {
+        margin-top: 25px;
+      }
+      .detail-section h3 {
+        font-size: 18px;
+        letter-spacing: -0.3px;
+        margin: 0 0 11px;
+      }
+      .grouped {
+        border-radius: 15px;
+        background: #fff9;
+        overflow: hidden;
+      }
+      .info-row {
+        padding: 14px;
+        font-size: 14px;
+        line-height: 1.45;
+        display: flex;
+        gap: 10px;
+        align-items: flex-start;
+      }
+      .info-row + .info-row {
+        border-top: 0.5px solid #3c3c4320;
+      }
+      .info-row svg {
+        color: #7c7c84;
+        width: 18px;
+        height: 20px;
+      }
+      .info-row small {
+        display: block;
+        color: var(--muted);
+        font-size: 12px;
+        margin-bottom: 3px;
+      }
+      .info-row strong {
+        font-weight: 500;
+      }
+      .recommendation {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        color: #ad533d;
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 15px;
+      }
+      .recommendation svg {
+        width: 15px;
+        height: 15px;
+      }
+      .detail-source {
+        font-size: 11px;
+        color: var(--muted);
+        line-height: 1.45;
+        margin-top: 16px;
+      }
+      .full-guide {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 16px 0;
+      }
+      .full-guide svg {
+        width: 16px;
+        height: 16px;
+      }
+      .map-error {
+        position: absolute;
+        left: 355px;
+        right: 80px;
+        top: 75px;
+        padding: 14px 18px;
+        border-radius: 16px;
+        z-index: 2;
+        background: #fff;
+        color: #666;
+        font-size: 13px;
+      }
+      .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      @media (min-width: 1100px) {
+        .sidebar {
+          width: 344px;
+        }
+        .map-heading {
+          left: 384px;
+        }
+        .map-badge {
+          left: calc(50% + 160px);
+        }
+      }
+      @media (max-width: 760px) {
+        .app {
+          height: 710px;
+        }
+        .sidebar {
+          width: 290px;
+          left: 12px;
+          top: 12px;
+          bottom: 25px;
+          border-radius: 23px;
+        }
+        .title-row h1 {
+          font-size: 23px;
+        }
+        .side-head {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+        .map-heading {
+          left: 322px;
+          right: 70px;
+          top: 24px;
+        }
+        .map-heading span {
+          font-size: 13px;
+        }
+        .map-tools {
+          right: 12px;
+          top: 12px;
+        }
+        .map-badge {
+          left: calc(50% + 135px);
+          font-size: 12px;
+          padding: 9px 12px;
+        }
+        .place-name {
+          font-size: 15px;
+        }
+        .place {
+          gap: 10px;
+        }
+        .place .place-icon {
+          width: 38px;
+          height: 38px;
+        }
+        .place:after {
+          left: 58px;
+        }
+        .segments button {
+          font-size: 11px;
+          padding: 6px;
+        }
+        .list-head h2 {
+          font-size: 18px;
+        }
+        .map-error {
+          left: 316px;
+          right: 70px;
+        }
+      }
+      @media (max-width: 580px) {
+        .app {
+          height: 780px;
+        }
+        .sidebar {
+          left: 10px;
+          right: 10px;
+          top: auto;
+          bottom: 24px;
+          width: auto;
+          height: 405px;
+          border-radius: 25px;
+        }
+        .sidebar.closed {
+          transform: translateY(460px);
+        }
+        .side-head {
+          padding-top: 10px;
+        }
+        .subtitle {
+          display: none;
+        }
+        .title-row h1 {
+          font-size: 22px;
+        }
+        .title-row {
+          margin-bottom: 7px;
+        }
+        .segments {
+          margin-top: 10px;
+        }
+        .list-head {
+          padding-top: 15px;
+        }
+        .list-head h2 {
+          font-size: 17px;
+        }
+        .side-foot {
+          display: none;
+        }
+        .place {
+          min-height: 82px;
+          padding: 12px 10px;
+        }
+        .map-heading {
+          left: 20px;
+          right: 80px;
+          top: 25px;
+        }
+        .map-heading span {
+          font-size: 16px;
+        }
+        .map-badge {
+          display: none;
+        }
+        .detail-name {
+          font-size: 25px;
+          margin-top: 10px;
+        }
+        .detail-toolbar {
+          padding-top: 4px;
+        }
+        .sidebar:has(.detail:not([hidden])) {
+          height: 465px;
+        }
+        .detail-section {
+          margin-top: 20px;
+        }
+        .map-error {
+          left: 18px;
+          right: 80px;
+        }
+        .restore {
+          top: auto;
+          bottom: 28px;
+          left: 18px;
+        }
+        .restore:not([hidden]) ~ .map-heading {
+          left: 20px;
+        }
+        .pin-label {
+          font-size: 10px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *:before,
+        *:after {
+          transition: none !important;
+          animation: none !important;
+        }
+      }
+      @media (prefers-reduced-transparency: reduce) {
+        .glass {
+          background: #f6f6f8;
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+        }
+        .pin-label {
+          background: white;
+        }
+      }
+      @media (prefers-contrast: more) {
+        .glass {
+          background: #f7f7f9;
+          border-color: #777;
+        }
+        .place-meta,
+        .count,
+        .subtitle,
+        .place-rating {
+          color: #42424b;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <defs>
+        <symbol id="i-search" viewBox="0 0 24 24">
+          <circle cx="10.8" cy="10.8" r="6.8" />
+          <path d="m16 16 4.5 4.5" />
+        </symbol>
+        <symbol id="i-sidebar" viewBox="0 0 24 24">
+          <rect x="3" y="4.5" width="18" height="15" rx="3" />
+          <path d="M10 5v14M5.8 8h1.5m-1.5 4h1.5m-1.5 4h1.5" />
+        </symbol>
+        <symbol id="i-bowl" viewBox="0 0 24 24">
+          <path d="M3 11h18c-1 6-4.2 8-9 8s-8-2-9-8Zm4 10h10M7 8V5m5 3V3m5 5V5" />
+        </symbol>
+        <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></symbol>
+        <symbol id="i-back" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7" /></symbol>
+        <symbol id="i-star" viewBox="0 0 24 24">
+          <path d="m12 3 2.8 5.7 6.3.9-4.5 4.4 1 6.2-5.6-3-5.6 3 1-6.2-4.5-4.4 6.3-.9Z" />
+        </symbol>
+        <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14M12 5v14" /></symbol>
+        <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14" /></symbol>
+        <symbol id="i-fit" viewBox="0 0 24 24">
+          <path d="M9 3H4v5m11-5h5v5M4 16v5h5m11-5v5h-5" />
+          <circle cx="12" cy="12" r="3" />
+        </symbol>
+        <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6" /></symbol>
+        <symbol id="i-location" viewBox="0 0 24 24"><path d="m21 3-7 18-3-8-8-3Z" /></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24">
+          <rect x="5" y="3" width="14" height="18" rx="2" />
+          <path d="M9 7h6M9 11h6M9 15h4" />
+        </symbol>
+        <symbol id="i-pin" viewBox="0 0 24 24">
+          <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 0 1 14 0Z" />
+          <circle cx="12" cy="10" r="2.5" />
+        </symbol>
+        <symbol id="i-leaf" viewBox="0 0 24 24">
+          <path d="M20 3c1 10-2 15-8 15a7 7 0 0 1-7-7C5 5 11 4 20 3ZM4 21 15 10" />
+        </symbol>
+        <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M6 18 18 6M7 6h11v11" /></symbol>
+        <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" /></symbol>
+      </defs>
+    </svg>
+    <main class="app" id="ramen-app" aria-label="Budapest Ramen map app">
+      <div id="map" aria-label="Interactive map of Budapest ramen restaurants"></div>
+      <button
+        class="icon-button glass restore"
+        id="show-sidebar"
+        aria-label="Show restaurants"
+        hidden
+      >
+        <svg><use href="#i-sidebar" /></svg>
+      </button>
+      <div class="map-heading">
+        <svg><use href="#i-pin" /></svg><span>Budapest</span>
+      </div>
+      <aside class="sidebar glass" id="sidebar" aria-label="Restaurant browser">
+        <div id="browse" style="display: contents">
+          <header class="side-head">
+            <div class="title-row">
+              <h1>Budapest Ramen</h1>
+              <button class="icon-button" id="hide-sidebar" aria-label="Hide restaurants">
+                <svg><use href="#i-sidebar" /></svg>
+              </button>
+            </div>
+            <p class="subtitle">Find your next bowl.</p>
+            <label class="search"
+              ><svg aria-hidden="true"><use href="#i-search" /></svg
+              ><input
+                type="search"
+                id="search"
+                placeholder="Places, styles, districts"
+                aria-label="Search restaurants"
+                autocomplete="off" /><button
+                class="clear"
+                id="clear-search"
+                type="button"
+                aria-label="Clear search"
+                hidden
+              >
+                <svg><use href="#i-close" /></svg></button
+            ></label>
+            <div class="segments" aria-label="Filter restaurants">
+              <button data-filter="all" aria-pressed="true">All places</button
+              ><button data-filter="recommended" aria-pressed="false">Recommended</button
+              ><button data-filter="vegan" aria-pressed="false">Vegan</button>
+            </div>
+          </header>
+          <div class="list-head">
+            <h2 id="list-title">Explore Budapest</h2>
+            <span class="count" id="count"></span>
+          </div>
+          <div class="list" id="list"></div>
+          <footer class="side-foot">
+            <span
+              ><svg><use href="#i-bowl" /></svg>Budapest Ramen</span
+            ><a href="https://budapestramen.com/en" target="_blank" rel="noopener"
+              >Independent city guide</a
+            >
+          </footer>
+        </div>
+        <section class="detail" id="detail" aria-label="Restaurant details" hidden></section>
+      </aside>
+      <div class="map-tools" aria-label="Map controls">
+        <div class="tool-group glass">
+          <button
+            class="icon-button"
+            id="fit-map"
+            aria-label="Show all matching restaurants"
+            title="Show all matching restaurants"
+          >
+            <svg><use href="#i-fit" /></svg>
+          </button>
+        </div>
+        <div class="tool-group glass">
+          <button class="icon-button" id="zoom-in" aria-label="Zoom in">
+            <svg><use href="#i-plus" /></svg></button
+          ><button class="icon-button" id="zoom-out" aria-label="Zoom out">
+            <svg><use href="#i-minus" /></svg>
+          </button>
+        </div>
+      </div>
+      <div class="map-badge glass">
+        <svg><use href="#i-bowl" /></svg><span id="map-count">Ramen in Budapest</span>
+      </div>
+      <div class="map-error" id="map-error" hidden>
+        The map could not load. You can still explore every restaurant in the sidebar.
+      </div>
+      <p class="sr-only" id="announcements" role="status" aria-live="polite"></p>
+    </main>
+    <script src="https://unpkg.com/maplibre-gl@5.6.1/dist/maplibre-gl.js"></script>
+    <script>
+      const places = [
+        {
+          id: "ramen-nikko",
+          name: "Ramen Nikko",
+          address: "1088 Budapest, Krúdy utca 6.",
+          district: "VIII",
+          lat: 47.4902951,
+          lng: 19.0673047,
+          styles: ["Tonkotsu", "Shoyu", "Shio", "Miso", "Tantanmen"],
+          vegan: true,
+          rec: true,
+          rating: 4.9,
+          reviews: 600,
+          price: null,
+          menu: "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c",
+          maps: "https://www.google.com/maps/search/?api=1&query=Ramen+Nikko+Budapest&query_place_id=ChIJlxbEr0TdQUcRr60_5txYs6c",
+        },
+        {
+          id: "hachi-ko",
+          name: "HACHI-KO Sake & Ramen Bar",
+          address: "1075 Budapest, Madách Imre út 3.",
+          district: "VII",
+          lat: 47.4977226,
+          lng: 19.0577454,
+          styles: ["Shoyu", "Shio", "Tonkotsu", "Miso", "Cold ramen"],
+          vegan: true,
+          rec: true,
+          rating: 4.8,
+          reviews: 411,
+          price: { min: 4280, max: 5480, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.facebook.com/stories/880800567692967/?source=profile_highlight",
+          maps: "https://www.google.com/maps/search/?api=1&query=HACHI-KO+Sake+%26+Ramen+Bar+Budapest+Mad%C3%A1ch+Imre+%C3%BAt+3&query_place_id=ChIJm4KHAQDdQUcRbeGPcG_aNvs",
+        },
+        {
+          id: "kawamura-ramen",
+          name: "Kawamura Ramen",
+          address: "1074 Budapest, Dohány utca 54.",
+          district: "VII",
+          lat: 47.4975712,
+          lng: 19.0682551,
+          styles: ["Shio", "Shoyu", "Miso", "Tonkotsu", "Tantanmen"],
+          vegan: true,
+          rec: true,
+          rating: 4.8,
+          reviews: 1309,
+          price: { min: 4250, max: 5850, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.kawamura.hu/menu.html",
+          maps: "https://www.google.com/maps/search/?api=1&query=Kawamura+Ramen+Budapest&query_place_id=ChIJF0ybQgDdQUcRTFaywoSDaKo",
+        },
+        {
+          id: "wafu-izakaya",
+          name: "WAFU Ramen Izakaya",
+          address: "1075 Budapest, Kazinczy utca 3.",
+          district: "VII",
+          lat: 47.4961452,
+          lng: 19.0641191,
+          styles: ["Shoyu", "Miso", "Tantanmen"],
+          vegan: false,
+          rec: true,
+          rating: 4.6,
+          reviews: 2983,
+          price: { min: 4280, max: 4780, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.canva.com/design/DAG55eBTtK0/hLeVh5S7OFThFSaGu9_gpQ/view",
+          maps: "https://maps.app.goo.gl/yDF3pxFWSBRkZeJu9",
+        },
+        {
+          id: "dumplimester",
+          name: "DumpliMester",
+          address: "1134 Budapest, Tüzér u. 44. fszt.",
+          district: "XIII",
+          lat: 47.5243509,
+          lng: 19.0700841,
+          styles: ["Tonkotsu"],
+          vegan: false,
+          rec: false,
+          rating: 5,
+          reviews: 141,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/dumplimester",
+          maps: "https://www.google.com/maps/place/DumpliMester/@47.5243509,19.0700841,17z/data=!3m1!4b1!4m6!3m5!1s0x4741db00567c249b:0x16b27ae0f8d3e2a8!8m2!3d47.5243509!4d19.0700841!16s%2Fg%2F11ymk95tdh?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "art-of-sushi-bazilika",
+          name: "Art of Sushi - Bazilika",
+          address: "1051 Budapest, Sas utca 4.",
+          district: "V",
+          lat: 47.4998144,
+          lng: 19.0521313,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 1477,
+          price: null,
+          menu: "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8",
+          maps: "https://maps.app.goo.gl/p2oUVppGKDuV3i9S8",
+        },
+        {
+          id: "zen-eatery",
+          name: "Zen Eatery",
+          address: "1061 Budapest, Liszt Ferenc tér 10, földszint 16",
+          district: "VI",
+          lat: 47.503896,
+          lng: 19.0635176,
+          styles: ["Shoyu"],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 669,
+          price: { min: 4990, max: 5490, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://places.neery.net/land/zen",
+          maps: "https://www.google.com/maps/search/?api=1&query=Zen+Eatery+Budapest+Liszt+Ferenc+t%C3%A9r+10%2C+f%C3%B6ldszint+16&query_place_id=ChIJhcp85erdQUcRUxsLUKNTLZA",
+        },
+        {
+          id: "kakurega",
+          name: "Kakurega Japanese Restaurant",
+          address: "1051 Budapest, Arany János utca 13",
+          district: "V",
+          lat: 47.5019627,
+          lng: 19.0495141,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 61,
+          price: { min: 6000, max: 6500, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://kakuregabudapest.com/menu/",
+          maps: "https://www.google.com/maps/search/?api=1&query=Kakurega+Japanese+Restaurant+Budapest+Arany+J%C3%A1nos+utca+13&query_place_id=ChIJO47HEADdQUcRpe-Aj5K1LRg",
+        },
+        {
+          id: "wafu-dob",
+          name: "WAFU Ramen Bar Dob",
+          address: "1072 Budapest, Dob utca 2.",
+          district: "VII",
+          lat: 47.4962055,
+          lng: 19.0589364,
+          styles: ["Miso", "Tantanmen"],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 14,
+          price: { min: 4280, max: 4780, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+          maps: "https://www.google.com/maps/search/?api=1&query=WAFU+Ramen+Bar+-+Dob+Budapest+Dob+utca+2&query_place_id=ChIJdSD_3oPdQUcRZYWk5nYU7Z8",
+        },
+        {
+          id: "sushi-heaven",
+          name: "Sushi Heaven",
+          address: "1065 Budapest, Hajós utca 16-18",
+          district: "VI",
+          lat: 47.5038174,
+          lng: 19.0574936,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 532,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/sushi-heaven",
+          maps: "https://www.google.com/maps/place/Sushi+Heaven/@47.5038174,19.0574936,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dd2de9c4bb5d:0x8b98710b4f93d45d!8m2!3d47.5038174!4d19.0574936!16s%2Fg%2F11x0tyvp00?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "wasabi-mom",
+          name: "Wasabi Running Sushi & Wok Restaurant - MOM Park",
+          address: "Budapest, Alkotás u. 53, 1123",
+          district: "XII",
+          lat: 47.4909813,
+          lng: 19.022886,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 15291,
+          price: { min: 6490, max: 6490, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://wasabi.hu/etlapok/mom/Wasabi_AC_Etlap_2024_11_48oldal_MOM_01_48_Web.pdf",
+          maps: "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant+-+MOM+Park/@47.4909813,19.022886,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc2f29e7d3a1:0x9ca7dfd8cf7cea48!8m2!3d47.4909813!4d19.022886!16s%2Fg%2F1td3dt7y?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "wafu-gozsdu",
+          name: "WAFU Ramen Bar Gozsdu",
+          address: "1075 Budapest, Kazinczy utca 35.",
+          district: "VII",
+          lat: 47.4989347,
+          lng: 19.0615548,
+          styles: ["Tantanmen"],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 1326,
+          price: { min: 4080, max: 4580, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.canva.com/design/DAG92R6YhGM/OkP8lk-NqLh3na_JPiDl5g/edit",
+          maps: "https://maps.app.goo.gl/ckMRmMLJr11xpKXi8",
+        },
+        {
+          id: "ramenji",
+          name: "Ramenji Ramen",
+          address: "1056 Budapest, Váci utca 49.",
+          district: "V",
+          lat: 47.4903911,
+          lng: 19.0549088,
+          styles: ["Miso", "Shoyu"],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 2149,
+          price: { min: 4090, max: 5590, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+          maps: "https://www.google.com/maps/search/?api=1&query=Ramenji+Ramen+Budapest+V%C3%A1ci+utca+49&query_place_id=ChIJhxOd-IfdQUcRRpW1EOUeIkw",
+        },
+        {
+          id: "nobility-galagonya",
+          name: "Nobility Sushi Bar & Restaurant",
+          address: "1036 Budapest, Galagonya utca 5.",
+          district: "III",
+          lat: 47.5312105,
+          lng: 19.0385159,
+          styles: ["Tonkotsu"],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 307,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/nobility-restaurant",
+          maps: "https://www.google.com/maps/place/Nobility+Sushi+Bar+%26+Restaurant/@47.5312105,19.0385159,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d90019fe7a47:0x858f071864c50d76!8m2!3d47.5312105!4d19.0385159!16s%2Fg%2F11lcgyvmtp?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "wasabi-szepvolgyi",
+          name: "Wasabi Running Sushi & Wok Restaurant - Szépvölgyi",
+          address: "Budapest, Szépvölgyi út 15, 1037",
+          district: "III",
+          lat: 47.5278872,
+          lng: 19.0364867,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 17646,
+          price: { min: 6490, max: 6490, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://wasabi.hu/etlapok/buda/Wasabi_AC_Etlap_2024_11_48oldal_SZEPVOLGYI_01_48_Web.pdf",
+          maps: "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5278872,19.0364867,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d9378d2b3a23:0x605f77b02b3b44f3!8m2!3d47.5278872!4d19.0364867!16s%2Fg%2F1tlw7vv9?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "nem-ramen",
+          name: "Nem Ramen",
+          address: "1084 Budapest, Rákóczi tér 7., Rákóczi Market Hall",
+          district: "VIII",
+          lat: 47.4928009,
+          lng: 19.0733349,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.9,
+          reviews: 228,
+          price: null,
+          menu: "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+          maps: "https://www.google.com/maps/search/?api=1&query=Nem+Ramen+Budapest+R%C3%A1k%C3%B3czi+t%C3%A9r+7&query_place_id=ChIJ69sKH_jdQUcR-xzSMn9msuA",
+        },
+        {
+          id: "art-of-sushi",
+          name: "Art of Sushi Budapest - Liszt Ferenc tér",
+          address: "1061 Budapest, Liszt Ferenc tér 5.",
+          district: "VI",
+          lat: 47.5034179,
+          lng: 19.063483,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.8,
+          reviews: 1589,
+          price: null,
+          menu: "https://menumester.hu/artofsushi-5/",
+          maps: "https://www.google.com/maps/search/?api=1&query=Art+of+Sushi+Budapest+Budapest+Liszt+Ferenc+t%C3%A9r+5&query_place_id=ChIJf3sFTb3dQUcR6ys0pI_Onc8",
+        },
+        {
+          id: "yume",
+          name: "Yüme",
+          address: "1082 Budapest, Baross utca 85.",
+          district: "VIII",
+          lat: 47.4890387,
+          lng: 19.0788343,
+          styles: ["Shoyu", "Tonkotsu", "Shio"],
+          vegan: false,
+          rec: false,
+          rating: 4.8,
+          reviews: 190,
+          price: null,
+          menu: "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6",
+          maps: "https://maps.app.goo.gl/BGtRyqSGTeWWWvse6",
+        },
+        {
+          id: "monokini-kantin",
+          name: "Monokini Kantin",
+          address: "1027 Budapest, Varsányi Irén utca 33.",
+          district: "II",
+          lat: 47.5090651,
+          lng: 19.0294897,
+          styles: ["Shoyu", "Shio"],
+          vegan: false,
+          rec: false,
+          rating: 4.8,
+          reviews: 201,
+          price: { min: 4700, max: 4900, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.monokini.hu/hu/menu",
+          maps: "https://maps.app.goo.gl/L7YTngLh1H1SPNn59",
+        },
+        {
+          id: "mori-ramen",
+          name: "Mori Ramen",
+          address: "1073 Budapest, Akácfa utca 55.",
+          district: "VII",
+          lat: 47.5012261,
+          lng: 19.0643956,
+          styles: ["Tonkotsu", "Miso", "Tantanmen"],
+          vegan: false,
+          rec: false,
+          rating: 4.8,
+          reviews: 427,
+          price: { min: 3990, max: 4890, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.moriramen.hu/menu.html",
+          maps: "https://maps.app.goo.gl/6tfPGZshmtzABWuz7",
+        },
+        {
+          id: "ume-sushi",
+          name: "Ume Sushi",
+          address: "1052 Budapest, Aranykéz u. 4",
+          district: "V",
+          lat: 47.4946855,
+          lng: 19.0510703,
+          styles: ["Tonkotsu", "Shoyu"],
+          vegan: false,
+          rec: false,
+          rating: 4.8,
+          reviews: 365,
+          price: { min: 3690, max: 4590, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+          maps: "https://www.google.com/maps/search/?api=1&query=Ume+Sushi+Budapest+Aranyk%C3%A9z+utca+4&query_place_id=ChIJ-bX4fgTdQUcRhfKrRikSJIs",
+        },
+        {
+          id: "wafu-budafoki",
+          name: "WAFU Ramen Bar - Budafoki",
+          address: "1111 Budapest, Budafoki út 41.",
+          district: "XI",
+          lat: 47.4784871,
+          lng: 19.0535107,
+          styles: ["Miso", "Shoyu", "Tantanmen"],
+          vegan: false,
+          rec: false,
+          rating: 4.8,
+          reviews: 418,
+          price: null,
+          menu: "https://www.canva.com/design/DAG55WO75Yw/hiJYCWaunfPjTSEyS9_ETQ/edit",
+          maps: "https://maps.app.goo.gl/uUMWqEYPCJFfWZTRA",
+        },
+        {
+          id: "yamato",
+          name: "Yamato Table Grill & Sushi Restaurant",
+          address: "1066 Budapest, Jókai utca 30",
+          district: "VI",
+          lat: 47.5082293,
+          lng: 19.0577512,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.7,
+          reviews: 3208,
+          price: { min: 6980, max: 6980, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://yamatorestaurant.hu/hu_hu/menu/",
+          maps: "https://www.google.com/maps/search/?api=1&query=Yamato+%C3%89tterem+Budapest+J%C3%B3kai+utca+30&query_place_id=ChIJJzR5Qg3cQUcRUlXb0uDGNyE",
+        },
+        {
+          id: "wafu-katona",
+          name: "WAFU Ramen Bar - Katona",
+          address: "1137 Budapest, Katona József utca 24.",
+          district: "XIII",
+          lat: 47.5144792,
+          lng: 19.0493816,
+          styles: ["Tonkotsu", "Shoyu", "Tantanmen"],
+          vegan: false,
+          rec: false,
+          rating: 4.7,
+          reviews: 743,
+          price: null,
+          menu: "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA",
+          maps: "https://maps.app.goo.gl/YNneV6xcF7VSy3MWA",
+        },
+        {
+          id: "oishi-synagogue",
+          name: "Oishi Sushi Synagogue",
+          address: "1074 Budapest, Dohány utca 1/a",
+          district: "VII",
+          lat: 47.4955391,
+          lng: 19.0600283,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.7,
+          reviews: 1112,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-synago",
+          maps: "https://www.google.com/maps/place/Oishi+Sushi+Synagogue/data=!4m7!3m6!1s0x4741dd7603e1c311:0x41b891a0b1a624e2!8m2!3d47.4955391!4d19.0600283!16s%2Fg%2F11rtnln9b9!19sChIJEcPhA3bdQUcR4iSmsaCRuEE",
+        },
+        {
+          id: "yume-7",
+          name: "Yume 7",
+          address: "1061 Budapest, Káldy Gyula u. 5",
+          district: "VI",
+          lat: 47.4998638,
+          lng: 19.0577366,
+          styles: ["Tonkotsu", "Paitan", "Miso", "Tantanmen", "Shoyu"],
+          vegan: false,
+          rec: false,
+          rating: 4.7,
+          reviews: 125,
+          price: { min: 4490, max: 5490, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+          maps: "https://www.google.com/maps/search/?api=1&query=Yume+7+Budapest+K%C3%A1ldy+Gyula+utca+5&query_place_id=ChIJce9HKordQUcRNaTwTYu_Q9w",
+        },
+        {
+          id: "daiga",
+          name: "Dáigá Sushi - Krisztina körút",
+          address: "1122 Budapest, Krisztina körút 2.",
+          district: "XII",
+          lat: 47.5065556,
+          lng: 19.0231276,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.7,
+          reviews: 894,
+          price: null,
+          menu: "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+          maps: "https://www.google.com/maps/search/?api=1&query=D%C3%A1ig%C3%A1+Sushi+Budapest+Krisztina+k%C3%B6r%C3%BAt+2&query_place_id=ChIJA8qz_6vfQUcRkH7bCtzBi4w",
+        },
+        {
+          id: "nagomi",
+          name: "Nagomi",
+          address: "1111 Budapest, Bartók Béla út 50.",
+          district: "XI",
+          lat: 47.4784014,
+          lng: 19.0494102,
+          styles: ["Shoyu", "Shio", "Tonkotsu", "Miso"],
+          vegan: true,
+          rec: false,
+          rating: 4.7,
+          reviews: 213,
+          price: { min: 4190, max: 4790, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+          maps: "https://www.google.com/maps/search/?api=1&query=Nagomi+Budapest+Bart%C3%B3k+B%C3%A9la+%C3%BAt+50&query_place_id=ChIJKT6bOgDdQUcRtKB-Pcp4PB8",
+        },
+        {
+          id: "101-neo",
+          name: "101 NEO Asian Food Bar",
+          address: "1075 Budapest, Kazinczy utca 9.",
+          district: "VII",
+          lat: 47.4968953,
+          lng: 19.0637513,
+          styles: ["Miso"],
+          vegan: true,
+          rec: false,
+          rating: 4.7,
+          reviews: 462,
+          price: { min: 4490, max: 5490, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://cdn.shopify.com/s/files/1/0615/3230/7682/files/101_NEO_menu-web.pdf?v=1776421825",
+          maps: "https://www.google.com/maps/search/?api=1&query=101+NEO+Asian+Food+Bar+Budapest+Kazinczy+utca+9&query_place_id=ChIJp8xn5XDdQUcR7WKcwWyL1Ag",
+        },
+        {
+          id: "wasabi-podmaniczky",
+          name: "Wasabi Running Sushi & Wok Restaurant - Podmaniczky",
+          address: "Budapest, Podmaniczky u. 21, 1065",
+          district: "VI",
+          lat: 47.5082823,
+          lng: 19.0574266,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.7,
+          reviews: 11710,
+          price: null,
+          menu: "https://wasabi.hu/etlap",
+          maps: "https://www.google.com/maps/place/Wasabi+Running+Sushi+%26+Wok+Restaurant/@47.5082823,19.0574266,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc0d55c252bf:0x782fcee288c1dc95!8m2!3d47.5082823!4d19.0574266!16s%2Fg%2F1tx144hx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "tokio",
+          name: "TOKIO",
+          address: "1051 Budapest, Széchenyi István tér 7-8",
+          district: "V",
+          lat: 47.5002927,
+          lng: 19.0476861,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.7,
+          reviews: 7924,
+          price: { min: 5500, max: 5500, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://tokiobudapest.com/wp-content/uploads/2026/06/Tokio-Etlap-260522-online.pdf",
+          maps: "https://www.google.com/maps/search/?api=1&query=TOKIO+Budapest+Sz%C3%A9chenyi+Istv%C3%A1n+t%C3%A9r+7-8&query_place_id=ChIJf7KakxXcQUcR_7yM-TR4_7s",
+        },
+        {
+          id: "sushi-sei",
+          name: "Sushi Sei",
+          address: "1036 Budapest, Bécsi út 58",
+          district: "III",
+          lat: 47.5300222,
+          lng: 19.0376569,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.7,
+          reviews: 1665,
+          price: { min: 6200, max: 6200, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://sushisei.hu/etlap/",
+          maps: "https://www.google.com/maps/search/?api=1&query=Sushi+Sei+Budapest+B%C3%A9csi+%C3%BAt+58&query_place_id=ChIJs-Sz6FbZQUcRre-G_iaaDD4",
+        },
+        {
+          id: "shibuya",
+          name: "Shibuya",
+          address: "1068 Budapest, Városligeti fasor 46-48",
+          district: "VI",
+          lat: 47.5107448,
+          lng: 19.0792342,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.6,
+          reviews: 665,
+          price: { min: 5500, max: 6200, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://shibuyabudapest.com/menu/",
+          maps: "https://www.google.com/maps/search/?api=1&query=Shibuya+Budapest+V%C3%A1rosligeti+fasor+46-48&query_place_id=ChIJqfriCQDdQUcRCLJXX3rERXg",
+        },
+        {
+          id: "fuji",
+          name: "Fuji Japanese Restaurant",
+          address: "1025 Budapest, Pusztaszeri út 57.",
+          district: "II",
+          lat: 47.5253705,
+          lng: 19.0239347,
+          styles: ["Shoyu"],
+          vegan: false,
+          rec: false,
+          rating: 4.6,
+          reviews: 865,
+          price: { min: 5900, max: 7100, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://fujirestaurant.hu/menu",
+          maps: "https://www.google.com/maps/search/?api=1&query=Fuji+Restaurant+Budapest+Pusztaszeri+%C3%BAt+57&query_place_id=ChIJO0shtjXZQUcR9HGyMC4EpzM",
+        },
+        {
+          id: "komachi",
+          name: "Komachi Bistro",
+          address: "1073 Budapest, Kertész utca 33.",
+          district: "VII",
+          lat: 47.5014391,
+          lng: 19.0660282,
+          styles: ["Miso", "Shoyu", "Shio"],
+          vegan: false,
+          rec: false,
+          rating: 4.6,
+          reviews: 2062,
+          price: null,
+          menu: "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+          maps: "https://www.google.com/maps/search/?api=1&query=Komachi+Bistro+Budapest+Kert%C3%A9sz+utca+33&query_place_id=ChIJs9PjymjcQUcR__iFH5tlviA",
+        },
+        {
+          id: "iki-ramen",
+          name: "Iki Ramen Izakaya",
+          address: "1061 Budapest, Andrássy út 38.",
+          district: "VI",
+          lat: 47.5041139,
+          lng: 19.0613169,
+          styles: [],
+          vegan: true,
+          rec: false,
+          rating: 4.6,
+          reviews: 424,
+          price: null,
+          menu: "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+          maps: "https://www.google.com/maps/search/?api=1&query=Iki+Ramen+Izakaya+Budapest+Andr%C3%A1ssy+%C3%BAt+38&query_place_id=ChIJa72QrbzdQUcRXbCxI3bjCfc",
+        },
+        {
+          id: "foodhouse",
+          name: "FOODHOUSE",
+          address: "1065 Budapest, Podmaniczky utca 20.",
+          district: "VI",
+          lat: 47.5087884,
+          lng: 19.0576252,
+          styles: ["Tonkotsu"],
+          vegan: false,
+          rec: false,
+          rating: 4.6,
+          reviews: 164,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/foodhouse-bp",
+          maps: "https://www.google.com/maps/place/Food+house/@47.5087884,19.0576252,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddf873d743af:0x32cc773e5abfe4b2!8m2!3d47.5087884!4d19.0576252!16s%2Fg%2F11vwprrvtb?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "sushi-wan",
+          name: "Sushi Wan Japán Étterem",
+          address: "1072 Budapest, Király utca 59 B",
+          district: "VII",
+          lat: 47.5028684,
+          lng: 19.0649469,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.6,
+          reviews: 1054,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/sushi-wan-japan-etterem",
+          maps: "https://www.google.com/maps/place/Sushi+wan/@47.5028684,19.0649469,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddb08a816dbf:0x2eed79a7cf0dbba7!8m2!3d47.5028684!4d19.0649469!16s%2Fg%2F11tn5f42nn?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "ennmann",
+          name: "Ennmann Japán Étterem",
+          address: "1011 Budapest, Bem rakpart 20",
+          district: "I",
+          lat: 47.503101,
+          lng: 19.039342,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.6,
+          reviews: 1207,
+          price: { min: 4150, max: 4150, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+          maps: "https://www.google.com/maps/search/?api=1&query=Ennmann+Jap%C3%A1n+%C3%89tterem+Budapest+Bem+rakpart+20&query_place_id=ChIJ0aUdKBjcQUcRJdAlOYAIzV4",
+        },
+        {
+          id: "oishi-dohany",
+          name: "Oishi Sushi Budapest",
+          address: "1074 Budapest, Dohány u. 47",
+          district: "VII",
+          lat: 47.4980654,
+          lng: 19.0694025,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.5,
+          reviews: 990,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-budapest",
+          maps: "https://www.google.com/maps/place/Oishi+Sushi+Budapest/@47.4980654,19.0694025,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc670639617b:0x21464914d7b38b3b!8m2!3d47.4980654!4d19.0694025!16s%2Fg%2F11cp5z8px0?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "sakuraku",
+          name: "Sakuraku Japanese Izakaya",
+          address: "1068 Budapest, Király utca 58",
+          district: "VI",
+          lat: 47.5026721,
+          lng: 19.0638506,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.5,
+          reviews: 732,
+          price: { min: 3480, max: 4380, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+          maps: "https://www.google.com/maps/search/?api=1&query=Sakuraku+Japanese+Izakaya+Budapest+Kir%C3%A1ly+utca+58&query_place_id=ChIJ52qyso3dQUcRx_jy3wEQuH8",
+        },
+        {
+          id: "ramen-mester-etele",
+          name: "Ling’s - Ramen Mester Etele tér",
+          address: "1115 Budapest, Etele tér 5.",
+          district: "XI",
+          lat: 47.4653659,
+          lng: 19.0226417,
+          styles: ["Chinese hand-pulled lamian"],
+          vegan: false,
+          rec: false,
+          rating: 4.4,
+          reviews: 468,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/ling-s-ramen-mester-etele-ter",
+          maps: "https://www.google.com/maps/search/?api=1&query=Ling%E2%80%99s+-+Ramen+Mester+Etele+t%C3%A9r+Budapest+Etele+t%C3%A9r+5&query_place_id=ChIJm1_j8c3dQUcRXo25sgzVD34",
+        },
+        {
+          id: "ichiban",
+          name: "Ichiban Ramen, Sushi and Tea",
+          address: "1054 Budapest, Bajcsy-Zsilinszky út 34",
+          district: "V",
+          lat: 47.5037385,
+          lng: 19.054781,
+          styles: ["Shoyu", "Miso", "Tantanmen", "Tonkotsu"],
+          vegan: false,
+          rec: false,
+          rating: 4.4,
+          reviews: 145,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/ichiban-ramen-sushi-and-tea",
+          maps: "https://www.google.com/maps/search/?api=1&query=Ichiban+Bajcsy-Zsilinszky+34+Budapest",
+        },
+        {
+          id: "kitsune",
+          name: "Kitsune Japán Étterem és Kávézó",
+          address: "1096 Budapest, Telepy u. 24",
+          district: "IX",
+          lat: 47.4793456,
+          lng: 19.0837011,
+          styles: ["Shoyu", "Miso"],
+          vegan: true,
+          rec: false,
+          rating: 4.3,
+          reviews: 810,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/kitsune-japn-tterem-s-kvz",
+          maps: "https://www.google.com/maps/search/?api=1&query=Kitsune+Telepy+24+Budapest",
+        },
+        {
+          id: "ton-ichi",
+          name: "Ton-Ichi Ramen",
+          address: "1051 Budapest, Október 6. utca 21.",
+          district: "V",
+          lat: 47.5025257,
+          lng: 19.0508091,
+          styles: ["Tonkotsu", "Shoyu", "Miso"],
+          vegan: true,
+          rec: false,
+          rating: 4.3,
+          reviews: 832,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/ton-ichi",
+          maps: "https://www.google.com/maps/search/?api=1&query=Ton-Ichi+Ramen+Budapest+Okt%C3%B3ber+6.+utca+21&query_place_id=ChIJv7vVHS_dQUcR0L2jU9aFRO8",
+        },
+        {
+          id: "oishi-takeaway-unresolved",
+          name: "Oishi Sushi Take Away - Fényes Elek",
+          address: "1024 Budapest, Fényes Elek u. 4.",
+          district: "II",
+          lat: 47.510511,
+          lng: 19.029663,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.2,
+          reviews: 291,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/oishi-sushi-take-away",
+          maps: "https://www.google.com/maps/place/Oishi+Sushi+Take+Away+(II.+Ker%C3%BClet)/@47.510511,19.029663,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dc1d7f841a6f:0x648f0c75780b6a6d!8m2!3d47.510511!4d19.029663!16s%2Fg%2F11dyqyd_tz?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "japanika",
+          name: "Japanika",
+          address: "1051 Budapest, Szent István tér 7",
+          district: "V",
+          lat: 47.5008716,
+          lng: 19.0522339,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.2,
+          reviews: 3594,
+          price: { min: 3590, max: 3590, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://japanika.hu/#levesek",
+          maps: "https://www.google.com/maps/search/?api=1&query=Japanika+Budapest+Szent+Istv%C3%A1n+t%C3%A9r+7&query_place_id=ChIJn2h8LRXcQUcRbWDdG8UYNLo",
+        },
+        {
+          id: "senbazuru",
+          name: "Senbazuru Bistro",
+          address: "1054 Budapest, Akadémia utca 11",
+          district: "V",
+          lat: 47.5028239,
+          lng: 19.0466618,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.1,
+          reviews: 335,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/ettermi-partnersegi-vezeto",
+          maps: "https://www.google.com/maps/place/Senbazuru+Bistro/@47.5028239,19.0466618,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddae84ede12f:0x34e6dfcb1bf030c2!8m2!3d47.5028239!4d19.0466618!16s%2Fg%2F11h76kzw61?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "tokyo-izakaya",
+          name: "Tokyo Izakaya",
+          address: "1119 Budapest, Hadak útja 1",
+          district: "XI",
+          lat: 47.4643045,
+          lng: 19.0253782,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.1,
+          reviews: 86,
+          price: null,
+          menu: "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest",
+          maps: "https://www.google.com/maps/search/?api=1&query=Tokyo+Izakaya+Hadak+utja+1+Budapest",
+        },
+        {
+          id: "itoshii",
+          name: "Itoshii",
+          address: "1062 Budapest, Teréz körút 55-57",
+          district: "VI",
+          lat: 47.5100349,
+          lng: 19.0585964,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.1,
+          reviews: 2210,
+          price: null,
+          menu: "http://www.itoshii.hu/menu",
+          maps: "https://www.google.com/maps/search/?api=1&query=Itoshii+Budapest",
+        },
+        {
+          id: "pearl-harbor",
+          name: "Pearl Harbor Restaurant Bowling & Bar",
+          address: "Budapest, Bécsi út 136, 1032",
+          district: "Budapest",
+          lat: 47.5439222,
+          lng: 19.0285957,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 4.1,
+          reviews: 2838,
+          price: { min: 4890, max: 4890, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://pearlharbor.hu/wp-content/uploads/2026/09/harbor-etlap-2026-09.-webs.pdf",
+          maps: "https://www.google.com/maps/place/Pearl+Harbor+Restaurant+Bowling+%26+Bar/@47.5439222,19.0285957,17z/data=!3m1!4b1!4m6!3m5!1s0x4741d94239942805:0xbc7f1b884bfb2d87!8m2!3d47.5439222!4d19.0285957!16s%2Fg%2F1w2ysnjl?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "sakura-ramen",
+          name: "Sakura Ramen",
+          address: "1061 Budapest, Király utca 12., Central Passage, ground floor",
+          district: "VI",
+          lat: 47.4985335,
+          lng: 19.0567643,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 3.9,
+          reviews: 2749,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/sakura-ramen-1",
+          maps: "https://www.google.com/maps/search/?api=1&query=Sakura+Ramen+Budapest+Kir%C3%A1ly+utca+12&query_place_id=ChIJZaqNDGrcQUcR7PIBBrp9Xck",
+        },
+        {
+          id: "dimsum-wok-arkad",
+          name: "DimSum & Wok go - Árkád",
+          address: "1106 Budapest, Örs vezér tere 25/a.",
+          district: "X",
+          lat: 47.502842,
+          lng: 19.139091,
+          styles: [],
+          vegan: false,
+          rec: false,
+          rating: 2.1,
+          reviews: 200,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/dimsumwokgoarkad",
+          maps: "https://www.google.com/maps/place/DimSum+%26+Wok+Go/@47.502842,19.139091,17z/data=!3m1!4b1!4m6!3m5!1s0x4741ddc12d1c7175:0x993df1ce0eb98dcf!8m2!3d47.502842!4d19.139091!16s%2Fg%2F11sv6w51gx?entry=ttu&g_ep=EgoyMDI2MDkyMy4wIKXMDSoASAFQAw%3D%3D",
+        },
+        {
+          id: "bambuszliget",
+          name: "Bambuszliget Japán Étterem & Sushi Bár",
+          address: "1056 Budapest, Belgrád rakpart 18.",
+          district: "V",
+          lat: 47.4892645,
+          lng: 19.0538666,
+          styles: ["Miso"],
+          vegan: false,
+          rec: false,
+          rating: null,
+          reviews: null,
+          price: null,
+          menu: "https://bambuszliget.emenu.hu/Bambuszliget/Levesek535.html",
+          maps: "https://maps.google.com/?q=47.4892645,19.0538666",
+        },
+        {
+          id: "wafu-biangarden",
+          name: "WAFU Ramen and Sushi Stand - Biangarden",
+          address: "1107 Budapest, Szállás u. 21b",
+          district: "X",
+          lat: 47.4814898,
+          lng: 19.1200438,
+          styles: ["Shoyu"],
+          vegan: false,
+          rec: false,
+          rating: null,
+          reviews: null,
+          price: null,
+          menu: "https://wolt.com/en/hun/budapest/restaurant/wafu-ramen-and-sushi-stand-biengarden",
+          maps: "https://www.google.com/maps/search/?api=1&query=Wafu+Sushi+Stand+Biangarden&query_place_id=ChIJRS1vXADdQUcR39-ni-1UjOg",
+        },
+        {
+          id: "hachi",
+          name: "HACHI Budapest",
+          address: "1051 Budapest, Október 6. utca 9. (temporary pop-up)",
+          district: "V",
+          lat: 47.500699,
+          lng: 19.0511419,
+          styles: ["Tonkotsu", "Miso", "Shoyu", "Tantanmen"],
+          vegan: false,
+          rec: false,
+          rating: null,
+          reviews: null,
+          price: { min: 5480, max: 6980, currency: "HUF", checkedOn: "2026-09-27" },
+          menu: "https://www.instagram.com/stories/highlights/18030367751462924/",
+          maps: "https://www.google.com/maps/search/?api=1&query=HACHI+Budapest+Budapest+Okt%C3%B3ber+6.+utca+8&query_place_id=ChIJdy81MXbdQUcR8lkJzqmk6Uo",
+        },
+      ];
+      const $ = (id) => document.getElementById(id);
+      const icon = (name) => `<svg aria-hidden="true"><use href="#i-${name}"/></svg>`;
+      const escapeHtml = (text) =>
+        String(text).replace(
+          /[&<>"']/g,
+          (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c],
+        );
+      const shortName = (p) =>
+        p.name.replace(" Sake & Ramen Bar", "").replace(" Ramen Izakaya", "");
+      const street = (p) => p.address.replace(/^\d{4}\s+Budapest,?\s*/, "");
+      const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const narrow = () => $("ramen-app").clientWidth <= 580;
+      let filter = "all",
+        query = "",
+        selected = null,
+        map,
+        ready = false;
+      const markers = new Map();
+      let visiblePlaces = places;
+      function announce(text) {
+        $("announcements").textContent = text;
+      }
+      function getPadding() {
+        return narrow()
+          ? {
+              top: 65,
+              right: 55,
+              bottom: $("sidebar").classList.contains("closed") ? 75 : selected ? 500 : 450,
+              left: 30,
+            }
+          : {
+              top: 75,
+              right: 90,
+              bottom: 90,
+              left: $("sidebar").classList.contains("closed") ? 60 : $("sidebar").offsetWidth + 65,
+            };
+      }
+      function framePlaces() {
+        if (!map || !visiblePlaces.length) return;
+        map.setPadding(getPadding());
+        const bounds = new maplibregl.LngLatBounds();
+        visiblePlaces.forEach((p) => bounds.extend([p.lng, p.lat]));
+        map.fitBounds(bounds, {
+          padding: 16,
+          maxZoom: 14.4,
+          duration: reducedMotion ? 0 : 400,
+        });
+      }
+      function makeRows() {
+        const normalized = query
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase();
+        visiblePlaces = places.filter(
+          (p) =>
+            (filter !== "recommended" || p.rec) &&
+            (filter !== "vegan" || p.vegan) &&
+            [p.name, p.address, p.district, ...p.styles]
+              .join(" ")
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")
+              .toLowerCase()
+              .includes(normalized),
+        );
+        $("count").textContent = `${visiblePlaces.length} places`;
+        $("map-count").textContent = `${visiblePlaces.length} ramen places`;
+        $("list-title").textContent = query
+          ? "Search results"
+          : filter === "recommended"
+            ? "Recommended"
+            : filter === "vegan"
+              ? "Vegan ramen"
+              : "Explore Budapest";
+        $("clear-search").hidden = !query;
+        $("list").replaceChildren();
+        let addedOther = false;
+        visiblePlaces.forEach((p) => {
+          if (filter === "all" && !query && !p.rec && !addedOther) {
+            const h = document.createElement("h3");
+            h.className = "section-label";
+            h.textContent = "More places";
+            $("list").append(h);
+            addedOther = true;
+          }
+          const button = document.createElement("button");
+          button.className = "place";
+          button.dataset.id = p.id;
+          button.innerHTML = `<span class="place-icon">${icon("bowl")}</span><span class="place-body"><span class="place-name">${escapeHtml(shortName(p))}</span><span class="place-meta">${escapeHtml(street(p))}</span><span class="place-rating">${p.rating ? `${icon("star")}<b>${p.rating.toFixed(1)}</b><span>·</span>` : ""}<span>${p.vegan ? "Vegan options" : `District ${escapeHtml(p.district)}`}</span></span></span><svg class="chevron" aria-hidden="true"><use href="#i-chevron"/></svg>`;
+          button.addEventListener("click", () => selectPlace(p.id));
+          $("list").append(button);
+        });
+        if (!visiblePlaces.length)
+          $("list").innerHTML =
+            '<div class="empty">No places found.<br>Try another name, style, or district.</div>';
+        const ids = new Set(visiblePlaces.map((p) => p.id));
+        markers.forEach((marker, id) => (marker.getElement().hidden = !ids.has(id)));
+        announce(`${visiblePlaces.length} restaurants shown`);
+      }
+      function selectPlace(id) {
+        const p = places.find((p) => p.id === id);
+        if (!p) return;
+        selected = id;
+        $("sidebar").classList.remove("closed");
+        $("sidebar").inert = false;
+        $("show-sidebar").hidden = true;
+        $("browse").hidden = true;
+        $("detail").hidden = false;
+        $("detail").innerHTML =
+          `<div class="detail-toolbar"><button class="back" id="back">${icon("back")}Explore</button><button class="icon-button" id="close-detail" aria-label="Close restaurant details">${icon("close")}</button></div><div class="detail-scroll"><h2 class="detail-name" id="detail-title" tabindex="-1">${escapeHtml(p.name)}</h2><p class="detail-address">${escapeHtml(street(p))}<br>District ${escapeHtml(p.district)}, Budapest</p>${p.rec ? `<div class="recommendation">${icon("check")}Recommended by Budapest Ramen</div>` : ""}<div class="detail-stars">${p.rating ? `${icon("star")}<strong>${p.rating.toFixed(1)}</strong><span>· ${p.reviews.toLocaleString()} Google reviews</span>` : "Google rating unavailable"}</div><div class="actions"><a class="action primary" href="https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${p.name} ${p.address}`)}" target="_blank" rel="noopener">${icon("location")}Directions</a><a class="action" href="${escapeHtml(p.menu || p.maps)}" target="_blank" rel="noopener">${icon("menu")}Menu</a></div><section class="detail-section"><h3>At a glance</h3><div class="grouped"><div class="info-row">${icon("bowl")}<div><small>Ramen styles</small><strong>${escapeHtml(p.styles.join(", "))}</strong></div></div>${p.vegan ? `<div class="info-row">${icon("leaf")}<div><strong>Vegan options available</strong></div></div>` : ""}${p.price ? `<div class="info-row">${icon("menu")}<div><small>Ramen price range</small><strong>${p.price.min.toLocaleString()} - ${p.price.max.toLocaleString()} Ft</strong></div></div>` : ""}</div></section><section class="detail-section"><h3>Address</h3><div class="grouped"><a class="info-row" href="${escapeHtml(p.maps)}" target="_blank" rel="noopener">${icon("pin")}<span>${escapeHtml(p.address)}</span></a></div></section><a class="full-guide" href="https://budapestramen.com/en/ramen-ya/${p.id}" target="_blank" rel="noopener">View full restaurant guide${icon("arrow")}</a><p class="detail-source">Restaurant information from the current Budapest Ramen guide.</p></div>`;
+        $("back").addEventListener("click", closeDetail);
+        $("close-detail").addEventListener("click", closeDetail);
+        markers.forEach((m, key) => {
+          m.getElement().classList.toggle("selected", key === id);
+          m.getElement().setAttribute("aria-pressed", String(key === id));
+        });
+        if (map)
+          map.easeTo({
+            center: [p.lng, p.lat],
+            zoom: 15.2,
+            padding: { ...getPadding(), bottom: narrow() ? 490 : 100 },
+            duration: reducedMotion ? 0 : 450,
+          });
+        $("detail-title").focus({ preventScroll: true });
+        announce(`Showing ${p.name}`);
+      }
+      function closeDetail() {
+        const previous = selected;
+        selected = null;
+        $("browse").hidden = false;
+        $("detail").hidden = true;
+        markers.forEach((m) => {
+          m.getElement().classList.remove("selected");
+          m.getElement().setAttribute("aria-pressed", "false");
+        });
+        $("list").querySelector(`[data-id="${previous}"]`)?.focus({ preventScroll: true });
+        if (map) map.easeTo({ padding: getPadding(), duration: reducedMotion ? 0 : 250 });
+      }
+      $("search").addEventListener("input", (e) => {
+        query = e.target.value;
+        makeRows();
+      });
+      $("clear-search").addEventListener("click", () => {
+        query = "";
+        $("search").value = "";
+        makeRows();
+        $("search").focus();
+      });
+      document.querySelectorAll("[data-filter]").forEach((button) =>
+        button.addEventListener("click", () => {
+          filter = button.dataset.filter;
+          document
+            .querySelectorAll("[data-filter]")
+            .forEach((b) => b.setAttribute("aria-pressed", String(b === button)));
+          makeRows();
+          framePlaces();
+        }),
+      );
+      $("hide-sidebar").addEventListener("click", () => {
+        $("sidebar").classList.add("closed");
+        $("sidebar").inert = true;
+        $("show-sidebar").hidden = false;
+        $("show-sidebar").focus();
+        if (map) map.easeTo({ padding: getPadding(), duration: reducedMotion ? 0 : 280 });
+      });
+      $("show-sidebar").addEventListener("click", () => {
+        $("sidebar").classList.remove("closed");
+        $("sidebar").inert = false;
+        $("show-sidebar").hidden = true;
+        $("hide-sidebar").focus();
+        if (map) map.easeTo({ padding: getPadding(), duration: reducedMotion ? 0 : 280 });
+      });
+      $("fit-map").addEventListener("click", framePlaces);
+      $("zoom-in").addEventListener("click", () =>
+        map?.zoomIn({ duration: reducedMotion ? 0 : 250 }),
+      );
+      $("zoom-out").addEventListener("click", () =>
+        map?.zoomOut({ duration: reducedMotion ? 0 : 250 }),
+      );
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape" && selected) closeDetail();
+      });
+      makeRows();
+      try {
+        map = new maplibregl.Map({
+          container: "map",
+          style: "https://tiles.openfreemap.org/styles/positron",
+          center: [19.054, 47.498],
+          zoom: 13.5,
+          attributionControl: false,
+          dragRotate: false,
+          pitchWithRotate: false,
+          cooperativeGestures: true,
+        });
+        map.addControl(new maplibregl.AttributionControl({ compact: true }), "bottom-right");
+        map.touchZoomRotate.disableRotation();
+        map.on("load", () => {
+          ready = true;
+          $("map-error").hidden = true;
+          map.setPaintProperty("water", "fill-color", "#a5cce1");
+          map.setPaintProperty("waterway", "line-color", "#a5cce1");
+          map.setPaintProperty("park", "fill-color", "#d5e6c6");
+          map.setPaintProperty("landcover_wood", "fill-color", "#d5e6c6");
+          map.setPaintProperty("background", "background-color", "#f5f3ed");
+          map.setPaintProperty("landuse_residential", "fill-color", "#eeeae3");
+          map.setPaintProperty("building", "fill-color", "#e2dfd7");
+          for (const p of places) {
+            const element = document.createElement("button");
+            element.className = `pin${p.rec ? " recommended" : ""}`;
+            element.setAttribute("aria-label", p.name);
+            element.setAttribute("aria-pressed", "false");
+            element.innerHTML = `<span class="pin-core">${icon("bowl")}</span>${p.rec ? `<span class="pin-label">${escapeHtml(shortName(p))}</span>` : ""}`;
+            element.addEventListener("click", () => selectPlace(p.id));
+            markers.set(
+              p.id,
+              new maplibregl.Marker({ element }).setLngLat([p.lng, p.lat]).addTo(map),
+            );
+          }
+          makeRows();
+          map.setPadding(getPadding());
+          const initial = new maplibregl.LngLatBounds();
+          places.filter((p) => p.rec).forEach((p) => initial.extend([p.lng, p.lat]));
+          map.fitBounds(initial, { padding: 24, maxZoom: 14.2, duration: 0 });
+          map.once("idle", () => $("map").classList.add("ready"));
+        });
+        map.on("error", () => {
+          if (!ready) $("map-error").hidden = false;
+        });
+        new ResizeObserver(() => {
+          map.resize();
+          map.setPadding(getPadding());
+        }).observe($("ramen-app"));
+      } catch (error) {
+        $("map-error").hidden = false;
+        console.error(error);
+      }
+      setTimeout(() => {
+        if (!ready) $("map-error").hidden = false;
+      }, 12000);
+    </script>
+  </body>
+</html>
