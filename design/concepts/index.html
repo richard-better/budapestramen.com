@@ -1,0 +1,1377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Budapest Ramen - Design directions</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        color: var(--foreground, #242424);
+        font-family: var(--font-sans, Arial, sans-serif);
+      }
+      button,
+      a {
+        -webkit-tap-highlight-color: transparent;
+      }
+      button {
+        font: inherit;
+        cursor: pointer;
+      }
+      button:focus-visible,
+      a:focus-visible {
+        outline: 3px solid #4488cb;
+        outline-offset: 4px;
+      }
+      [hidden] {
+        display: none !important;
+      }
+      .picker {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+        padding: 0 0 14px;
+      }
+      .picker button {
+        border: 1px solid var(--border, #deded9);
+        color: var(--foreground, #242424);
+        background: transparent;
+        padding: 12px 16px;
+        border-radius: 6px;
+        font-size: 13px;
+      }
+      .picker button[aria-selected="true"] {
+        color: var(--primary-foreground, #fff);
+        background: var(--primary, #242424);
+        border-color: var(--primary, #242424);
+      }
+      .concept-context {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 18px;
+        margin-bottom: 18px;
+      }
+      .concept-context p {
+        margin: 0;
+        max-width: 510px;
+        font-size: 13px;
+        line-height: 1.6;
+        color: var(--muted-foreground, #6b6b64);
+      }
+      .device-picker {
+        display: flex;
+        flex: none;
+        gap: 2px;
+      }
+      .device-picker button {
+        border: 0;
+        padding: 7px 8px;
+        background: transparent;
+        color: var(--muted-foreground, #6b6b64);
+        font-size: 12px;
+      }
+      .device-picker button[aria-pressed="true"] {
+        color: var(--foreground, #242424);
+        text-decoration: underline;
+        text-underline-offset: 6px;
+      }
+      .stage {
+        width: 100%;
+        margin-inline: auto;
+        container-type: inline-size;
+      }
+      .stage[data-device="mobile"] {
+        max-width: 390px;
+      }
+      .product {
+        height: 740px;
+        overflow: auto;
+        position: relative;
+        color-scheme: light;
+        font-family: Arial, sans-serif;
+        border-radius: 8px;
+      }
+      .product h1,
+      .product h2,
+      .product h3,
+      .product p {
+        margin: 0;
+      }
+      .product button {
+        color: inherit;
+      }
+      .product a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .product .small-label {
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
+      .product .wordmark {
+        white-space: nowrap;
+      }
+      .product .text-button {
+        background: none;
+        border: 0;
+        padding: 8px 0;
+        font-size: 12px;
+      }
+      .product .product-nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      .product .language {
+        font-size: 11px;
+        letter-spacing: 0.02em;
+        opacity: 0.65;
+      }
+      .product .go {
+        font-family: Arial, sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+      }
+      .product .circle-number {
+        width: 25px;
+        height: 25px;
+        display: inline-grid;
+        place-items: center;
+        border-radius: 50%;
+        font-size: 11px;
+      }
+      .product .map-canvas {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+      }
+      .product .map-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .product .map-plane {
+        position: absolute;
+        width: 960px;
+        height: 720px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .product .map-marker {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        display: grid;
+        place-items: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        font:
+          12px Arial,
+          sans-serif;
+        box-shadow: 0 2px 8px #0002;
+      }
+      .product .map-marker:focus-visible {
+        z-index: 5;
+      }
+      .product .map-attribution {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        padding: 3px 6px;
+        background: #fffd;
+        color: #555;
+        font-size: 8px;
+      }
+      .product .map-caption {
+        position: absolute;
+        top: 22px;
+        left: 22px;
+        padding: 12px 15px;
+        background: #fffe;
+        font-size: 11px;
+        line-height: 1.7;
+        z-index: 2;
+      }
+      .product .map-caption strong {
+        display: block;
+        font-size: 12px;
+      }
+      .product .map-preview-note {
+        position: absolute;
+        left: 22px;
+        bottom: 22px;
+        font-size: 10px;
+        background: #fffd;
+        padding: 7px 10px;
+      }
+      .product .sample-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .product .sample-list button {
+        border: 0;
+        background: transparent;
+        width: 100%;
+        text-align: left;
+      }
+      .product .category-controls {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+      }
+      .product .category-controls button {
+        background: none;
+        border: 0;
+        padding: 10px 0;
+        font-size: 12px;
+        opacity: 0.6;
+      }
+      .product .category-controls button[aria-pressed="true"] {
+        opacity: 1;
+        text-decoration: underline;
+        text-underline-offset: 9px;
+        text-decoration-thickness: 2px;
+      }
+      .product .sample-empty {
+        padding: 24px;
+        font-size: 13px;
+      }
+
+      /* The city guide: a restrained directory, with the map always in view. */
+      .city {
+        --city-paper: #f7f5ef;
+        --city-ink: #292c25;
+        --city-red: #963e31;
+        background: var(--city-paper);
+        color: var(--city-ink);
+        overflow: hidden;
+      }
+      .city-header {
+        height: 89px;
+        margin: 0 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+        border-bottom: 1px solid #c9c7bc;
+      }
+      .city .wordmark {
+        font:
+          32px/0.9 Georgia,
+          serif;
+        letter-spacing: -1.4px;
+      }
+      .city .wordmark span {
+        color: var(--city-red);
+      }
+      .city-body {
+        display: grid;
+        grid-template-columns: 310px minmax(0, 1fr);
+        height: calc(100% - 89px);
+      }
+      .city-index {
+        min-width: 0;
+        overflow-y: auto;
+        padding: 28px;
+        scrollbar-width: thin;
+      }
+      .city-index h1 {
+        font:
+          37px/1.05 Georgia,
+          serif;
+        letter-spacing: -1.6px;
+        margin: 12px 0;
+      }
+      .city-index .intro {
+        font-size: 12px;
+        line-height: 1.6;
+        color: #707268;
+      }
+      .city .small-label {
+        color: var(--city-red);
+      }
+      .city .category-controls {
+        border-bottom: 1px solid #c9c7bc;
+        margin-top: 19px;
+      }
+      .city .sample-list li {
+        border-bottom: 1px solid #dad8cf;
+      }
+      .city .sample-list button {
+        padding: 19px 0 18px;
+      }
+      .city-row-top {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        margin-bottom: 9px;
+        font-size: 10px;
+        color: #77786f;
+      }
+      .city-row-top .circle-number {
+        background: #edeae0;
+        color: var(--city-red);
+      }
+      .city .rating {
+        margin-left: auto;
+        color: #53564d;
+        font-size: 11px;
+      }
+      .city .row-name {
+        display: block;
+        font:
+          24px/1.12 Georgia,
+          serif;
+        letter-spacing: -0.65px;
+      }
+      .city .row-address {
+        display: block;
+        font-size: 12px;
+        color: #74766b;
+        margin: 7px 0;
+      }
+      .city .row-styles {
+        font-size: 11px;
+        color: #606458;
+        line-height: 1.5;
+      }
+      .city .row-pick {
+        color: var(--city-red);
+        margin-left: auto;
+        font-size: 10px;
+      }
+      .city .city-map {
+        position: relative;
+        margin-top: 20px;
+        background: #e8e9e3;
+      }
+      .city .map-image {
+        filter: sepia(0.13);
+      }
+      .city .map-marker {
+        background: var(--city-red);
+        color: #fff;
+      }
+      .city .map-marker.secondary {
+        background: #74796a;
+        width: 12px;
+        height: 12px;
+        border-width: 2px;
+      }
+      .city .map-caption {
+        background: #f7f5efef;
+        color: #54574c;
+        border: 1px solid #d6d7cb;
+      }
+      .city .map-caption strong {
+        color: var(--city-ink);
+        font-family: Georgia, serif;
+        font-size: 17px;
+        font-weight: 400;
+      }
+      .city-credit {
+        margin-top: 20px;
+        font-size: 10px;
+        color: #76786c;
+      }
+      .city-mobile-map {
+        display: none;
+      }
+
+      /* The food journal: warm, image-led, and built for browsing. */
+      .journal {
+        --journal-ink: #213d2e;
+        --journal-paper: #fbf8ef;
+        color: var(--journal-ink);
+        background: var(--journal-paper);
+      }
+      .journal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 30px;
+        gap: 20px;
+      }
+      .journal .wordmark {
+        font:
+          bold 24px/1 Georgia,
+          serif;
+        letter-spacing: -1px;
+      }
+      .journal .wordmark span {
+        display: inline-block;
+        border-bottom: 2px solid #ce5a37;
+        padding-bottom: 5px;
+      }
+      .journal .product-nav {
+        gap: 16px;
+      }
+      .journal .map-link {
+        border: 1px solid #213d2e;
+        background: transparent;
+        padding: 10px 14px;
+        font-size: 12px;
+      }
+      .journal-hero {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        min-height: 352px;
+      }
+      .journal-copy {
+        padding: 32px 26px 30px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: #e9eddf;
+      }
+      .journal-copy h1 {
+        font:
+          55px/0.98 Georgia,
+          serif;
+        letter-spacing: -2.6px;
+        margin: 21px 0 17px;
+      }
+      .journal-copy h1 em {
+        font-weight: 400;
+        color: #a8482c;
+      }
+      .journal-copy p {
+        max-width: 210px;
+        font-size: 13px;
+        line-height: 1.65;
+      }
+      .journal-copy .browse-button {
+        margin-top: auto;
+        padding: 16px 0 2px;
+        border: 0;
+        border-bottom: 1px solid #213d2e;
+        background: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 25px;
+        font-size: 12px;
+      }
+      .journal-photo {
+        margin: 0;
+        position: relative;
+        min-height: 352px;
+        overflow: hidden;
+        background: #80633f;
+      }
+      .journal-photo img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        inset: 0;
+      }
+      .journal-photo figcaption {
+        position: absolute;
+        inset: auto 12px 10px auto;
+        font-size: 9px;
+        padding: 4px 7px;
+        color: white;
+        background: #0008;
+      }
+      .journal-picks {
+        padding: 29px 30px;
+      }
+      .journal-section-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 14px;
+        margin-bottom: 17px;
+      }
+      .journal-section-title h2 {
+        font:
+          29px Georgia,
+          serif;
+        letter-spacing: -0.8px;
+      }
+      .journal-section-title > span {
+        font-size: 11px;
+      }
+      .journal .sample-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 28px;
+      }
+      .journal .sample-list li {
+        border-top: 1px solid #ccd0c3;
+      }
+      .journal .sample-list button {
+        padding: 16px 0;
+      }
+      .journal .small-label {
+        font-size: 9px;
+        color: #777d6b;
+      }
+      .journal .row-name {
+        display: block;
+        margin: 7px 0;
+        font:
+          23px/1.1 Georgia,
+          serif;
+        letter-spacing: -0.6px;
+      }
+      .journal .row-address {
+        display: block;
+        font-size: 11px;
+        color: #767e6d;
+        line-height: 1.5;
+      }
+      .journal .row-styles {
+        font-size: 11px;
+        color: #5f6f59;
+        line-height: 1.5;
+        display: block;
+        margin-top: 8px;
+      }
+      .journal .journal-credit {
+        font-size: 10px;
+        color: #7c806f;
+        margin-top: 18px;
+        border-top: 1px solid #d6d9ca;
+        padding-top: 12px;
+      }
+      .journal .journal-credit a {
+        text-decoration: underline;
+      }
+
+      /* The ramen club: a graphic identity based on type and a strong color pair. */
+      .club {
+        --club-orange: #f55728;
+        --club-ink: #202d43;
+        --club-paper: #f2efdf;
+        color: var(--club-ink);
+        background: var(--club-paper);
+      }
+      .club-header {
+        height: 74px;
+        padding: 0 27px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid var(--club-ink);
+      }
+      .club .wordmark {
+        font-size: 15px;
+        line-height: 0.92;
+        letter-spacing: -0.7px;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+      .club .wordmark span {
+        display: block;
+        font-size: 23px;
+      }
+      .club-header .club-city {
+        font-size: 11px;
+        font-weight: bold;
+      }
+      .club .product-nav {
+        gap: 20px;
+      }
+      .club-hero {
+        background: var(--club-orange);
+        padding: 25px 29px 24px;
+        position: relative;
+        overflow: hidden;
+      }
+      .club-hero-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+      }
+      .club-hero-top span {
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 0.13em;
+        text-transform: uppercase;
+      }
+      .club-hero h1 {
+        font-family: Impact, "Arial Narrow", sans-serif;
+        font-size: 111px;
+        line-height: 0.86;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: -4px;
+        margin: 23px 0 21px;
+      }
+      .club-hero h1 span {
+        display: block;
+        padding-left: 60px;
+      }
+      .club-hero-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      .club-hero-bottom p {
+        font-size: 12px;
+        line-height: 1.5;
+        max-width: 230px;
+      }
+      .club-hero-bottom button {
+        padding: 13px 16px;
+        background: var(--club-ink);
+        color: var(--club-paper);
+        border: 0;
+        font-size: 11px;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+      .club-ticker {
+        display: flex;
+        justify-content: space-around;
+        gap: 12px;
+        padding: 12px 16px;
+        border-block: 2px solid var(--club-ink);
+        color: var(--club-paper);
+        background: var(--club-ink);
+        font-size: 11px;
+        font-weight: bold;
+      }
+      .club-directory {
+        padding: 22px 27px;
+      }
+      .club-directory-heading {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+        padding-bottom: 15px;
+      }
+      .club-directory-heading h2 {
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+      .club-directory-heading span {
+        font-size: 10px;
+      }
+      .club .sample-list li {
+        border-top: 1px solid #b6b8ac;
+      }
+      .club .sample-list button {
+        display: grid;
+        grid-template-columns: 35px 1fr auto;
+        align-items: center;
+        gap: 13px;
+        padding: 16px 0;
+      }
+      .club .club-number {
+        font:
+          26px Impact,
+          "Arial Narrow",
+          sans-serif;
+        color: #d74922;
+      }
+      .club .row-name {
+        display: block;
+        font-size: 19px;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+      }
+      .club .row-address {
+        display: block;
+        margin-top: 5px;
+        font-size: 11px;
+        color: #68717a;
+      }
+      .club .club-pick {
+        font-size: 10px;
+        font-weight: 700;
+      }
+      .club .club-footer {
+        margin-top: 14px;
+        font-size: 10px;
+        font-weight: 600;
+      }
+
+      /* Shared prototype detail sheet; data is from the existing guide. */
+      .product-overlay {
+        position: absolute;
+        inset: 0;
+        z-index: 10;
+        background: #17231d66;
+        padding: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .sample-detail {
+        position: relative;
+        width: min(400px, 100%);
+        max-height: 660px;
+        overflow: auto;
+        background: #f7f5ef;
+        color: #292c25;
+        padding: 30px;
+        box-shadow: 0 10px 50px #0002;
+      }
+      .sample-detail .detail-close {
+        position: absolute;
+        top: 12px;
+        right: 14px;
+        background: none;
+        border: none;
+        padding: 8px;
+        font-size: 22px;
+      }
+      .sample-detail .detail-heading {
+        font:
+          34px/1.05 Georgia,
+          serif;
+        margin: 21px 0 12px;
+        letter-spacing: -1px;
+      }
+      .sample-detail .detail-address {
+        font-size: 13px;
+        line-height: 1.6;
+        color: #73786b;
+      }
+      .sample-detail .detail-styles {
+        margin: 24px 0;
+        padding-block: 16px;
+        border-block: 1px solid #d4d6ca;
+        font-size: 13px;
+        line-height: 1.7;
+      }
+      .sample-detail .detail-link {
+        display: block;
+        padding: 14px 0;
+        border-bottom: 1px solid #d4d6ca;
+        font-size: 13px;
+      }
+      .sample-detail .detail-note {
+        margin-top: 20px;
+        font-size: 11px;
+        color: #7d8375;
+        line-height: 1.6;
+      }
+      .club .sample-detail {
+        background: var(--club-paper);
+        color: var(--club-ink);
+        border: 2px solid var(--club-ink);
+        box-shadow: 8px 8px 0 var(--club-ink);
+      }
+      .club .sample-detail .detail-heading {
+        font:
+          800 32px/0.98 Arial,
+          sans-serif;
+      }
+      .about-copy {
+        margin-top: 20px !important;
+        font-size: 14px;
+        line-height: 1.75;
+      }
+      .prototype-map-sheet {
+        position: relative;
+        width: 100%;
+        height: 560px;
+        overflow: hidden;
+        background: #f5f5ef;
+      }
+      .prototype-map-sheet .detail-close {
+        position: absolute;
+        z-index: 4;
+        top: 12px;
+        right: 12px;
+        width: 40px;
+        height: 40px;
+        border: 0;
+        background: white;
+        font-size: 24px;
+      }
+      .prototype-map-sheet .map-marker {
+        background: #963e31;
+        color: white;
+      }
+      .prototype-map-sheet .map-caption {
+        z-index: 3;
+      }
+      @container (max-width: 580px) {
+        .product {
+          height: 790px;
+        }
+        .product .product-nav {
+          gap: 13px;
+        }
+        .product .language {
+          display: none;
+        }
+        .city {
+          overflow: auto;
+        }
+        .city-header {
+          margin-inline: 20px;
+          height: 78px;
+        }
+        .city .wordmark {
+          font-size: 28px;
+        }
+        .city-body {
+          display: block;
+          height: auto;
+        }
+        .city-index {
+          padding: 24px 22px;
+        }
+        .city-index h1 {
+          font-size: 40px;
+        }
+        .city .city-map {
+          display: none;
+        }
+        .city .category-controls {
+          gap: 24px;
+        }
+        .city .sample-list button {
+          padding-block: 19px;
+        }
+        .city .row-name {
+          font-size: 27px;
+        }
+        .city .row-address,
+        .city .row-styles {
+          font-size: 12px;
+        }
+        .city-mobile-map {
+          display: block;
+          width: 100%;
+          padding: 13px 16px;
+          margin-top: 20px;
+          background: #292c25;
+          color: #fff !important;
+          border: 0;
+          font-size: 12px;
+        }
+        .journal-header {
+          padding: 23px 20px;
+          gap: 12px;
+        }
+        .journal .wordmark {
+          font-size: 21px;
+        }
+        .journal .product-nav .text-button {
+          display: none;
+        }
+        .journal .map-link {
+          font-size: 11px;
+          padding: 9px 10px;
+        }
+        .journal-hero {
+          grid-template-columns: 1fr;
+        }
+        .journal-copy {
+          padding: 25px 22px;
+        }
+        .journal-copy h1 {
+          font-size: 57px;
+          margin: 17px 0;
+        }
+        .journal-copy h1 br {
+          display: none;
+        }
+        .journal-copy p {
+          max-width: 280px;
+          font-size: 13px;
+        }
+        .journal-copy .browse-button {
+          margin-top: 7px;
+        }
+        .journal-photo {
+          min-height: 225px;
+        }
+        .journal-photo img {
+          object-position: center 53%;
+        }
+        .journal-picks {
+          padding: 26px 22px;
+        }
+        .journal-section-title h2 {
+          font-size: 27px;
+        }
+        .journal .sample-list {
+          grid-template-columns: 1fr;
+        }
+        .journal .row-name {
+          font-size: 27px;
+        }
+        .club-header {
+          padding: 0 20px;
+          height: 72px;
+        }
+        .club-header .club-city {
+          display: none;
+        }
+        .club-hero {
+          padding: 23px 20px;
+        }
+        .club-hero-top span {
+          font-size: 9px;
+        }
+        .club-hero h1 {
+          font-size: clamp(65px, 20cqi, 110px);
+          letter-spacing: -2px;
+          margin: 28px 0;
+        }
+        .club-hero h1 span {
+          padding-left: 23px;
+        }
+        .club-hero-bottom {
+          flex-wrap: wrap;
+          gap: 15px;
+        }
+        .club-hero-bottom p {
+          font-size: 13px;
+        }
+        .club-ticker {
+          font-size: 10px;
+        }
+        .club-ticker span:nth-child(n + 4) {
+          display: none;
+        }
+        .club-directory {
+          padding: 24px 20px;
+        }
+        .club-directory-heading {
+          align-items: center;
+        }
+        .club-directory-heading span {
+          text-align: right;
+          max-width: 90px;
+          line-height: 1.5;
+        }
+        .club .sample-list button {
+          gap: 8px;
+          grid-template-columns: 29px 1fr 16px;
+        }
+        .club .row-name {
+          font-size: 20px;
+        }
+        .club .club-pick {
+          font-size: 0;
+        }
+        .club .club-pick .go {
+          font-size: 21px;
+        }
+        .sample-detail {
+          padding: 27px;
+        }
+        .product-overlay {
+          padding: 16px;
+        }
+      }
+      @media (max-width: 520px) {
+        .picker {
+          gap: 4px;
+        }
+        .picker button {
+          flex: 1;
+          font-size: 11px;
+          padding: 11px 8px;
+        }
+        .concept-context {
+          display: block;
+        }
+        .concept-context p {
+          font-size: 12px;
+        }
+        .device-picker {
+          margin-top: 8px;
+        }
+      }
+      @media (hover: hover) and (pointer: fine) {
+        .city .sample-list button:hover .row-name,
+        .journal .sample-list button:hover .row-name {
+          color: #a44b36;
+        }
+        .club .sample-list button:hover .row-name {
+          text-decoration: underline;
+          text-underline-offset: 4px;
+        }
+        .product .map-marker:hover {
+          outline: 4px solid #ffffff88;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="ramen-directions">
+      <nav class="picker" role="tablist" aria-label="Design direction">
+        <button
+          id="tab-city"
+          role="tab"
+          aria-controls="city"
+          aria-selected="true"
+          data-concept="city"
+        >
+          The city guide
+        </button>
+        <button
+          id="tab-journal"
+          role="tab"
+          aria-controls="journal"
+          aria-selected="false"
+          data-concept="journal"
+        >
+          The food journal
+        </button>
+        <button
+          id="tab-club"
+          role="tab"
+          aria-controls="club"
+          aria-selected="false"
+          data-concept="club"
+        >
+          The ramen club
+        </button>
+      </nav>
+      <div class="concept-context">
+        <p id="concept-description" aria-live="polite">
+          Quiet typography, a useful map, and personal recommendations. Feels like a small
+          independent city guide.
+        </p>
+        <div class="device-picker" aria-label="Preview width">
+          <button aria-pressed="true" data-device="desktop">Desktop</button>
+          <button aria-pressed="false" data-device="mobile">Mobile</button>
+        </div>
+      </div>
+      <div class="stage" data-device="desktop">
+        <section id="city" class="product city" role="tabpanel" aria-labelledby="tab-city">
+          <header class="city-header">
+            <div class="wordmark">Budapest Ramen<span>.</span></div>
+            <nav class="product-nav" aria-label="Guide navigation">
+              <button class="text-button" data-about>About the guide</button
+              ><span class="language">EN / HU</span>
+            </nav>
+          </header>
+          <div class="city-body">
+            <section class="city-index">
+              <p class="small-label">The independent guide</p>
+              <h1>Where to eat.</h1>
+              <p class="intro">
+                56 places across Budapest.<br />Four personal favorites to start with.
+              </p>
+              <div class="category-controls" aria-label="Sample restaurant filters">
+                <button aria-pressed="true" data-filter="all">The favorites</button>
+                <button aria-pressed="false" data-filter="vegan">Vegan options</button>
+              </div>
+              <ul class="sample-list" data-list="city"></ul>
+              <button class="city-mobile-map" data-map>
+                Explore the map <span aria-hidden="true">↗</span>
+              </button>
+              <p class="city-credit">Made by Richard in Budapest.</p>
+            </section>
+            <section
+              class="city-map"
+              aria-label="Budapest restaurant map preview"
+              data-map-target
+            ></section>
+          </div>
+        </section>
+
+        <section
+          id="journal"
+          class="product journal"
+          role="tabpanel"
+          aria-labelledby="tab-journal"
+          hidden
+        >
+          <header class="journal-header">
+            <div class="wordmark">Budapest <span>Ramen</span></div>
+            <nav class="product-nav" aria-label="Guide navigation">
+              <button class="text-button" data-about>About</button
+              ><button class="map-link" data-map>Open the map ↗</button
+              ><span class="language">EN / HU</span>
+            </nav>
+          </header>
+          <section class="journal-hero">
+            <div class="journal-copy">
+              <span class="small-label">A local's ramen guide</span>
+              <h1>
+                Let's go<br />
+                for <em>ramen.</em>
+              </h1>
+              <p>A few personal favorites and a map of where to eat in Budapest.</p>
+              <button class="browse-button" data-browse>
+                Find a place <span aria-hidden="true">↓</span>
+              </button>
+            </div>
+            <figure class="journal-photo">
+              <img
+                src="assets/ramen-photo.jpg"
+                alt="Reference photograph of a bowl of ramen on a wooden table, not from a listed restaurant"
+              />
+              <figcaption>Reference photography</figcaption>
+            </figure>
+          </section>
+          <section class="journal-picks">
+            <div class="journal-section-title">
+              <h2>A few favorites.</h2>
+              <span>Picked by Richard</span>
+            </div>
+            <ul class="sample-list" data-list="journal"></ul>
+            <p class="journal-credit">
+              Reference photo:
+              <a
+                href="https://unsplash.com/photos/a-bowl-of-food-with-chopsticks-on-a-wooden-table-ua-RZdLk0OE"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Alimentos Fotogénicos / Unsplash</a
+              >. Real restaurant photography would replace this.
+            </p>
+          </section>
+        </section>
+
+        <section id="club" class="product club" role="tabpanel" aria-labelledby="tab-club" hidden>
+          <header class="club-header">
+            <div class="wordmark">Budapest<span>Ramen</span></div>
+            <span class="club-city">GOOD BOWLS. BUDAPEST.</span>
+            <nav class="product-nav" aria-label="Guide navigation">
+              <button class="text-button" data-about>THE GUIDE</button
+              ><span class="language">EN / HU</span>
+            </nav>
+          </header>
+          <section class="club-hero">
+            <div class="club-hero-top">
+              <span>Budapest, Hungary</span><span>Independent. Always hungry.</span>
+            </div>
+            <h1>Send<span>noodles.</span></h1>
+            <div class="club-hero-bottom">
+              <p>Ramen all over Budapest.<br />Here's where to start.</p>
+              <button data-map>FIND YOUR BOWL <span aria-hidden="true">↗</span></button>
+            </div>
+          </section>
+          <div class="club-ticker" aria-label="Ramen styles">
+            <span>TONKOTSU</span><span aria-hidden="true">✳</span><span>SHOYU</span
+            ><span aria-hidden="true">✳</span><span>MISO</span><span aria-hidden="true">✳</span
+            ><span>SHIO</span>
+          </div>
+          <section class="club-directory">
+            <div class="club-directory-heading">
+              <h2>The usual suspects</h2>
+              <span>Four personal favorites</span>
+            </div>
+            <ul class="sample-list" data-list="club"></ul>
+            <p class="club-footer">BY RICHARD. FOR THE RAMEN.</p>
+          </section>
+        </section>
+      </div>
+    </div>
+    <script>
+      (() => {
+        const root = document.getElementById("ramen-directions");
+        const places = [
+          {
+            id: "ramen-nikko",
+            name: "Ramen Nikko",
+            address: "Krúdy utca 6.",
+            district: "VIII",
+            styles: "Tonkotsu, shoyu, shio, miso",
+            rating: "4.9",
+            vegan: true,
+            x: 623,
+            y: 527,
+          },
+          {
+            id: "hachi-ko",
+            name: "HACHI-KO",
+            fullName: "HACHI-KO Sake & Ramen Bar",
+            address: "Madách Imre út 3.",
+            district: "VII",
+            styles: "Shoyu, shio, tonkotsu, miso",
+            rating: "4.8",
+            vegan: true,
+            x: 512,
+            y: 399,
+          },
+          {
+            id: "kawamura-ramen",
+            name: "Kawamura Ramen",
+            address: "Dohány utca 54.",
+            district: "VII",
+            styles: "Shio, shoyu, miso, tonkotsu",
+            rating: "4.8",
+            vegan: true,
+            x: 634,
+            y: 402,
+          },
+          {
+            id: "wafu-izakaya",
+            name: "WAFU Ramen Izakaya",
+            address: "Kazinczy utca 3.",
+            district: "VII",
+            styles: "Shoyu, miso, tantanmen",
+            rating: "4.6",
+            vegan: false,
+            x: 586,
+            y: 426,
+          },
+        ];
+        const descriptions = {
+          city: "Quiet typography, a useful map, and personal recommendations. Feels like a small independent city guide.",
+          journal:
+            "Food photography and warm editorial layouts. More appetite and atmosphere; needs real photos of the restaurants.",
+          club: "Big type, orange and ink, and a little dry humor. A memorable food identity with a straightforward directory underneath.",
+        };
+        const stage = root.querySelector(".stage");
+        let lastTrigger;
+        function renderLists(vegan = false) {
+          root.querySelectorAll("[data-list]").forEach((list) => {
+            const kind = list.dataset.list;
+            list.innerHTML = places
+              .map((place, i) => {
+                if (kind === "city" && vegan && !place.vegan) return "";
+                const n = String(i + 1).padStart(2, "0");
+                let content;
+                if (kind === "city")
+                  content = `<span class="city-row-top"><span class="circle-number">${n}</span><span>DISTRICT ${place.district}</span><span class="rating">★ ${place.rating}</span></span><span class="row-name">${place.name}</span><span class="row-address">${place.address}</span><span class="row-styles">${place.styles}${place.vegan ? " · Vegan option" : ""}</span>`;
+                else if (kind === "journal")
+                  content = `<span class="small-label">District ${place.district} &nbsp; / &nbsp; ★ ${place.rating}</span><span class="row-name">${place.name} <span class="go" aria-hidden="true">↗</span></span><span class="row-address">${place.address}</span><span class="row-styles">${place.styles}</span>`;
+                else
+                  content = `<span class="club-number">${n}</span><span><span class="row-name">${place.name}</span><span class="row-address">${place.address} · District ${place.district}</span></span><span class="club-pick">RICHARD'S PICK &nbsp; <span class="go" aria-hidden="true">↗</span></span>`;
+                return `<li><button data-place="${place.id}" aria-label="View ${place.fullName || place.name}">${content}</button></li>`;
+              })
+              .join("");
+          });
+        }
+        function mapMarkup() {
+          return `<div class="map-canvas"><div class="map-plane"><img class="map-image" src="assets/budapest-map.png" alt="Street map of central Budapest">${places.map((place, i) => `<button class="map-marker" style="left:${place.x}px;top:${place.y}px" data-place="${place.id}" aria-label="View ${place.fullName || place.name}">${String(i + 1).padStart(2, "0")}</button>`).join("")}<span class="map-marker secondary" style="left:589px;top:339px" aria-hidden="true"></span><span class="map-marker secondary" style="left:431px;top:316px" aria-hidden="true"></span></div></div><div class="map-caption"><strong>Budapest, bowl by bowl.</strong>Numbered pins are Richard's picks.</div><span class="map-preview-note">Map preview · Tap a numbered pin</span><span class="map-attribution"><a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer">OpenFreeMap</a> · <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener noreferrer">OpenMapTiles</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">© OpenStreetMap</a></span>`;
+        }
+        root.querySelector("[data-map-target]").innerHTML = mapMarkup();
+        renderLists();
+        function closeOverlay() {
+          if (!root.querySelector(".product-overlay")) return;
+          root.querySelector(".product-overlay")?.remove();
+          root.querySelectorAll(".product [inert]").forEach((node) => (node.inert = false));
+          if (lastTrigger?.isConnected) lastTrigger.focus({ preventScroll: true });
+        }
+        function openOverlay(product, content, trigger) {
+          const returnFocus = trigger.closest(".product-overlay") ? lastTrigger : trigger;
+          closeOverlay();
+          lastTrigger = returnFocus;
+          const overlay = document.createElement("div");
+          overlay.className = "product-overlay";
+          overlay.setAttribute("role", "dialog");
+          overlay.setAttribute("aria-modal", "true");
+          overlay.setAttribute("aria-label", "Guide preview");
+          overlay.innerHTML = content;
+          product.scrollTop = 0;
+          for (const child of product.children) child.inert = true;
+          product.append(overlay);
+          overlay.querySelector("button").focus({ preventScroll: true });
+        }
+        root.addEventListener("click", (event) => {
+          const button = event.target.closest("button");
+          if (!button) {
+            if (event.target.classList.contains("product-overlay")) closeOverlay();
+            return;
+          }
+          const product = button.closest(".product");
+          if (button.dataset.concept) {
+            closeOverlay();
+            const kind = button.dataset.concept;
+            root
+              .querySelectorAll("[data-concept]")
+              .forEach((tab) => tab.setAttribute("aria-selected", String(tab === button)));
+            root
+              .querySelectorAll('[role="tabpanel"]')
+              .forEach((panel) => (panel.hidden = panel.id !== kind));
+            root.querySelector("#concept-description").textContent = descriptions[kind];
+          } else if (button.dataset.device) {
+            stage.dataset.device = button.dataset.device;
+            root
+              .querySelectorAll("button[data-device]")
+              .forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+          } else if (button.hasAttribute("data-close")) {
+            closeOverlay();
+          } else if (button.dataset.filter) {
+            root
+              .querySelectorAll("[data-filter]")
+              .forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+            renderLists(button.dataset.filter === "vegan");
+            root.querySelectorAll(".city-map [data-place]").forEach((marker) => {
+              const place = places.find((item) => item.id === marker.dataset.place);
+              marker.hidden = button.dataset.filter === "vegan" && !place.vegan;
+            });
+          } else if (button.dataset.place) {
+            const place = places.find((item) => item.id === button.dataset.place);
+            openOverlay(
+              product,
+              `<article class="sample-detail"><button class="detail-close" aria-label="Close restaurant details" data-close>×</button><p class="small-label">Richard's pick · District ${place.district}</p><h2 class="detail-heading">${place.fullName || place.name}</h2><p class="detail-address">${place.address}<br>Budapest</p><p class="detail-styles">${place.styles}${place.vegan ? "<br>Vegan option available" : ""}</p><a class="detail-link" href="https://budapestramen.com/en/ramen-ya/${place.id}" target="_blank" rel="noopener noreferrer">Full restaurant details ↗</a><a class="detail-link" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((place.fullName || place.name) + ", " + place.address + ", Budapest")}" target="_blank" rel="noopener noreferrer">Open in Google Maps ↗</a><p class="detail-note">Design preview using the existing guide's restaurant information.</p></article>`,
+              button,
+            );
+          } else if (button.hasAttribute("data-map")) {
+            openOverlay(
+              product,
+              `<section class="prototype-map-sheet"><button class="detail-close" aria-label="Close map preview" data-close>×</button>${mapMarkup()}</section>`,
+              button,
+            );
+          } else if (button.hasAttribute("data-about")) {
+            openOverlay(
+              product,
+              '<article class="sample-detail"><button class="detail-close" aria-label="Close about the guide" data-close>×</button><p class="small-label">An independent guide</p><h2 class="detail-heading">Budapest Ramen.</h2><p class="about-copy">A map of ramen shops in Budapest, with a few personal recommendations from Richard.</p><p class="about-copy">This is a visual concept. Restaurant information comes from the existing site.</p></article>',
+              button,
+            );
+          } else if (button.hasAttribute("data-browse")) {
+            product.scrollTo({
+              top: product.querySelector(".journal-picks").offsetTop - product.offsetTop,
+              behavior: "instant",
+            });
+          }
+        });
+        root.addEventListener("keydown", (event) => {
+          if (event.key === "Escape") closeOverlay();
+          const overlay = root.querySelector(".product-overlay");
+          if (event.key === "Tab" && overlay) {
+            const focusable = [...overlay.querySelectorAll("button,a[href]")];
+            const first = focusable[0],
+              last = focusable.at(-1);
+            if (event.shiftKey && document.activeElement === first) {
+              event.preventDefault();
+              last.focus();
+            }
+            if (!event.shiftKey && document.activeElement === last) {
+              event.preventDefault();
+              first.focus();
+            }
+          }
+          if (
+            event.target.matches('[role="tab"]') &&
+            ["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key)
+          ) {
+            event.preventDefault();
+            const tabs = [...root.querySelectorAll('[role="tab"]')];
+            const i = tabs.indexOf(event.target);
+            const n =
+              event.key === "Home"
+                ? 0
+                : event.key === "End"
+                  ? tabs.length - 1
+                  : (i + (event.key === "ArrowRight" ? 1 : -1) + tabs.length) % tabs.length;
+            tabs[n].click();
+            tabs[n].focus();
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
