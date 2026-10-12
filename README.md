@@ -43,9 +43,10 @@ change. The guide links to Google Maps for photos and reviews instead of
 publishing empty photo slots or placeholder links.
 
 Interface translations live in `apps/web/src/lib/translations.ts`. The map uses
-Leaflet with OpenFreeMap's Bright vector style, rendered by MapLibre GL. Map
-attribution is read from the style and shown in Leaflet's attribution control.
-Fonts are hosted locally. No API key or database is required.
+Apple MapKit JS, loaded through Apple's official `@apple/mapkit-loader`. Custom
+restaurant pins, filters, location sorting, and shared map URLs work with Apple
+Maps. Apple supplies the map attribution. Fonts are hosted locally. A MapKit JS
+token is required; no database is needed.
 
 This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines Astro, and more.
 
@@ -85,6 +86,30 @@ For Cloudflare, Alchemy loads and validates deployment inputs with `varlock/auto
 
 The web app uses `PUBLIC_POSTHOG_PROJECT_TOKEN` and `PUBLIC_POSTHOG_HOST` at build time. Set them in `apps/web/.env` for local development and as repository Actions variables for CI and production deployments. The project token is a public ingestion key embedded in the browser bundle.
 
+### Apple Maps
+
+Set `PUBLIC_APPLE_MAPS_TOKEN` in `apps/web/.env` and in the repository's Actions
+variables. It is a public browser token, embedded at build time. CI checks that it
+is configured before building or deploying.
+
+Create a token in [Apple Developer](https://developer.apple.com/account) under
+**Certificates, Identifiers & Profiles > Services > Maps > Configure Tokens**.
+Choose **MapKit JS**, restrict it to **Domain**, and enter `budapestramen.com`
+without a scheme or path. A domain token can use **No Expiration**. See
+[Apple's token documentation](https://developer.apple.com/documentation/mapkitjs/creating-a-maps-token).
+
+A token restricted to the production domain does not authorize `localhost` or a
+`workers.dev` preview. For local map development, use a separate development token
+from the dashboard or serve the preview on a domain allowed by its token. Keep
+development credentials in the ignored env file. If authentication or the SDK
+fails, the guide displays a localized error and the restaurant list and filters
+remain usable.
+
+`src/lib/map-viewport.ts` converts the existing `lat`, `lng`, and `zoom` URL format
+to MapKit's Mercator rectangles, including the space occupied by guide panels.
+Location coordinates stay in memory; only intentional map gestures or zoom
+controls update the shared viewport.
+
 Bun's automatic env loading is disabled in `bunfig.toml`; the framework integration or server bootstrap loads Varlock. Node deployments must include Varlock and its dependencies alongside the app schema.
 
 Run standalone Node/Bun tools that use Varlock from the owning app directory so they load that app's schema and env files. `env:generate` only generates TypeScript files; it does not initialize environment values in a subsequent command.
@@ -115,6 +140,7 @@ Production deployments are serialized so two runs cannot update Alchemy's state 
    | Variable | `CLOUDFLARE_ACCOUNT_ID`        | The Cloudflare account ID                                      |
    | Variable | `PUBLIC_POSTHOG_PROJECT_TOKEN` | PostHog project token                                          |
    | Variable | `PUBLIC_POSTHOG_HOST`          | PostHog ingestion host, for example `https://us.i.posthog.com` |
+   | Variable | `PUBLIC_APPLE_MAPS_TOKEN`      | MapKit JS browser token restricted to `budapestramen.com`      |
 
    Alternatively, use the GitHub CLI from the repository root. The secret command prompts for the token without including it in your command history:
 

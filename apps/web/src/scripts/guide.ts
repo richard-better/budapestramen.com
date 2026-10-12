@@ -1,4 +1,4 @@
-import L from "leaflet";
+import { createRestaurantMap, type RestaurantMap } from "./apple-map";
 import {
   ramenStyles,
   type Coordinates,
@@ -30,9 +30,7 @@ let state: GuideState = initial;
 let user: Coordinates | null = null;
 let locating = false;
 let toastTimer: ReturnType<typeof setTimeout>;
-let applyingMap = false;
 type MapMotion = "preserve" | "instant" | "smooth";
-const prefersReducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
 const mobile = matchMedia("(max-width: 959px)");
 const root = element("#ramen-guide");
 const mapElement = element("#restaurant-map");
@@ -43,52 +41,48 @@ const about = element<HTMLDialogElement>("#about-dialog");
 const languageDialog = element<HTMLDialogElement>("#language-dialog");
 const menu = element("#mobile-menu");
 const preview = element<HTMLButtonElement>("#map-preview");
-const markers = new Map<string, L.Marker>();
-let userMarker: L.Marker | undefined;
-const map = L.map(mapElement, {
-  zoomControl: false,
-  minZoom: 3,
-  maxZoom: 18,
-  zoomAnimation: !prefersReducedMotion,
-  fadeAnimation: false,
-}).setView([47.502, 19.056], 14);
-let mapLoaded = false;
+let map: RestaurantMap | null = null;
 let mapFailureLogged = false;
 const mapTimeout = setTimeout(showMapError, 12_000);
 function showMapError() {
-  if (mapLoaded) return;
+  clearTimeout(mapTimeout);
   if (!mapFailureLogged) {
     mapFailureLogged = true;
-    guideLogger.warn("guide basemap unavailable", { map_provider: "openfreemap" });
+    guideLogger.warn("guide basemap unavailable", { map_provider: "apple" });
   }
   const message = element("#map-message");
   message.dataset.i18n = "mapError";
   message.textContent = translations[state.language].mapError;
   message.hidden = false;
 }
-async function loadBasemap() {
+async function loadMap() {
   try {
-    const [adapter, maplibre, worker] = await Promise.all([
-      import("@maplibre/maplibre-gl-leaflet"),
-      import("maplibre-gl"),
-      import("maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"),
-    ]);
-    maplibre.setWorkerUrl(worker.default);
-    const tiles = adapter.maplibreGL({ style: "https://tiles.openfreemap.org/styles/bright" });
-    tiles.addTo(map);
-    const renderer = tiles.getMaplibreMap();
-    renderer.once("load", () => {
-      mapLoaded = true;
-      clearTimeout(mapTimeout);
-      guideLogger.info("guide basemap ready", { map_provider: "openfreemap" });
-      element("#map-message").hidden = true;
-    });
-    renderer.on("error", showMapError);
+    map = await createRestaurantMap(
+      mapElement,
+      import.meta.env.PUBLIC_APPLE_MAPS_TOKEN,
+      state.language,
+      {
+        onSelect: (id) => select(id, mobile.matches, "preserve", "map"),
+        onMove: (position) => {
+          state = { ...state, map: position };
+          history.replaceState(null, "", guidePath(state));
+        },
+        onTap: () => {
+          if (state.preview) closeDetail();
+        },
+        onReady: () => {
+          clearTimeout(mapTimeout);
+          guideLogger.info("guide basemap ready", { map_provider: "apple" });
+          element("#map-message").hidden = true;
+        },
+        onError: showMapError,
+      },
+    );
+    render("instant");
   } catch {
     showMapError();
   }
 }
-void loadBasemap();
 
 function navigate(patch: Partial<GuideState>, replace = false, mapMotion: MapMotion = "preserve") {
   state = { ...state, ...patch };
@@ -125,29 +119,15 @@ function select(
 }
 
 function currentMapPosition(): GuideState["map"] {
-  const center = map.getCenter().wrap();
-  return { lat: center.lat, lng: center.lng, zoom: map.getZoom() };
+  return map?.position() ?? state.map;
 }
 
-function moveMapTo(center: L.LatLngExpression, zoom: number, motion: MapMotion) {
-  if (motion === "smooth" && !prefersReducedMotion) {
-    map.flyTo(center, zoom, { duration: 0.7 });
-  } else {
-    map.setView(center, zoom, { animate: false });
-  }
+function moveMapTo(center: Coordinates, zoom: number, motion: MapMotion) {
+  map?.moveTo({ ...center, zoom }, motion === "smooth");
 }
 
 function fitRestaurants(places: Restaurant[], maxZoom: number, motion: MapMotion) {
-  if (!places.length) return;
-  map.fitBounds(
-    places.map((restaurant) => [restaurant.lat, restaurant.lng] as L.LatLngTuple),
-    {
-      paddingTopLeft: [40, 120],
-      paddingBottomRight: [40, 50],
-      maxZoom,
-      animate: motion === "smooth" && !prefersReducedMotion,
-    },
-  );
+  map?.fit(places, maxZoom, motion === "smooth");
 }
 
 function closeDetail() {
@@ -338,66 +318,24 @@ function render(mapMotion: MapMotion = "preserve") {
     node.classList.toggle("is-located", !!user);
   });
   mapElement.inert = mobile.matches && state.view === "list";
-  map.invalidateSize({ pan: false });
-  renderMarkers(visible);
+  map?.render(
+    place && !visibleIds.has(place.id) ? [...visible, place] : visible,
+    state.selected,
+    user,
+    state.language,
+    { right: !mobile.matches && detailOpen ? 424 : 0, bottom: !preview.hidden ? 188 : 0 },
+  );
   if (mapMotion !== "preserve") {
-    applyingMap = true;
     if (state.map) {
-      moveMapTo([state.map.lat, state.map.lng], state.map.zoom, mapMotion);
+      moveMapTo(state.map, state.map.zoom, mapMotion);
     } else if (place) {
-      const zoom = 15;
-      const offset = !mobile.matches && detailOpen ? [206, 0] : [0, state.preview ? 60 : 0];
-      const center = map.unproject(
-        map.project([place.lat, place.lng], zoom).add(L.point(offset[0]!, offset[1]!)),
-        zoom,
-      );
-      moveMapTo(center, zoom, mapMotion);
+      moveMapTo(place, 15, mapMotion);
     } else if (user) {
-      moveMapTo([user.lat, user.lng], 15, mapMotion);
+      moveMapTo(user, 15, mapMotion);
     } else {
       fitRestaurants(visible, 14, mapMotion);
     }
-    applyingMap = false;
   }
-}
-
-function renderMarkers(visible: Restaurant[]) {
-  const ids = new Set(visible.map((place) => place.id));
-  if (state.selected) ids.add(state.selected);
-  restaurants.forEach((place) => {
-    let marker = markers.get(place.id);
-    if (!ids.has(place.id)) {
-      marker?.remove();
-      return;
-    }
-    const pin = place.rec
-      ? "recommended"
-      : place.research?.category === "ramen-specialist"
-        ? "ramen-specialist"
-        : null;
-    const icon = L.divIcon({
-      className: `ramen-marker${state.selected === place.id ? " is-selected" : ""}`,
-      html: pin
-        ? `<img class="restaurant-pin" src="/map-pins/${pin}.svg" width="40" height="50" alt="" draggable="false">`
-        : '<span class="pin-dot"></span>',
-      iconSize: [44, pin ? 50 : 44],
-      iconAnchor: [22, pin ? 50 : 22],
-    });
-    if (!marker) {
-      marker = L.marker([place.lat, place.lng], {
-        icon,
-        title: place.name,
-        alt: place.name,
-        keyboard: true,
-      });
-      marker.on("click", () => select(place.id, mobile.matches, "preserve", "map"));
-      marker.bindTooltip(place.name, { direction: "top", offset: [0, pin ? -50 : -16] });
-      markers.set(place.id, marker);
-    } else marker.setIcon(icon);
-    marker.setZIndexOffset(state.selected === place.id ? 1000 : place.rec ? 500 : 0);
-    marker.addTo(map);
-    marker.getElement()?.setAttribute("aria-label", place.name);
-  });
 }
 
 function setFilter(patch: Partial<GuideState["filters"]>) {
@@ -430,13 +368,6 @@ function locate() {
     (position) => {
       locating = false;
       user = { lat: position.coords.latitude, lng: position.coords.longitude };
-      userMarker?.remove();
-      userMarker = L.marker([user.lat, user.lng], {
-        icon: L.divIcon({ className: "user-location-dot", iconSize: [18, 18], iconAnchor: [9, 9] }),
-        interactive: false,
-        keyboard: false,
-        zIndexOffset: 2000,
-      }).addTo(map);
       element("#toast").hidden = true;
       element("#toast").hidePopover();
       // Location permission and the user's coordinates stay in memory, never in a shared URL.
@@ -535,10 +466,10 @@ root.addEventListener("click", async (event) => {
       locate();
       break;
     case "zoom-in":
-      map.zoomIn();
+      map?.zoom(1);
       break;
     case "zoom-out":
-      map.zoomOut();
+      map?.zoom(-1);
       break;
     case "reset-map": {
       navigate({ selected: null, preview: false, directions: false, map: null });
@@ -605,16 +536,8 @@ window.addEventListener("popstate", () => {
     render("smooth");
   }
 });
-map.on("moveend", () => {
-  if (applyingMap) return;
-  const center = map.getCenter().wrap();
-  state = { ...state, map: { lat: center.lat, lng: center.lng, zoom: map.getZoom() } };
-  history.replaceState(null, "", guidePath(state));
-});
-map.on("click", () => {
-  if (state.preview) closeDetail();
-});
 mobile.addEventListener("change", () => render());
 window.addEventListener("resize", positionDirections);
 detail.addEventListener("scroll", positionDirections, true);
 render("instant");
+void loadMap();

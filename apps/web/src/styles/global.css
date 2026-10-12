@@ -3,8 +3,6 @@
 @import "@fontsource/ibm-plex-mono/400.css";
 @import "@fontsource/ibm-plex-mono/500.css";
 @import "@fontsource/ibm-plex-mono/600.css";
-@import "leaflet/dist/leaflet.css";
-@import "maplibre-gl/dist/maplibre-gl.css";
 
 @theme {
   --font-sans: "Schibsted Grotesk Variable", sans-serif;
@@ -56,7 +54,7 @@ button:disabled {
 }
 button:focus-visible,
 a:focus-visible,
-.leaflet-marker-icon:focus-visible {
+.ramen-marker:focus-visible {
   outline: 3px solid #2a78d6;
   outline-offset: 3px;
 }
@@ -782,32 +780,17 @@ svg {
 .noscript-note {
   padding: 20px;
 }
-.leaflet-container {
-  font-family: var(--font-sans);
-  background: #f2f0ec;
-}
-.leaflet-tooltip {
-  padding: 6px 10px;
-  border: 1px solid var(--ink);
-  border-radius: 6px;
-  box-shadow: 0 2px 0 var(--ink);
-  font: 600 13px var(--font-sans);
-  color: var(--ink);
-}
-.leaflet-tooltip-top::before {
-  display: none;
-}
-.leaflet-control-attribution {
-  font-size: 10px;
-}
-.leaflet-control-attribution a {
-  color: #444;
-}
 .ramen-marker {
+  width: 44px;
+  height: 44px;
+  padding: 0;
   display: grid;
   place-items: center;
   background: transparent;
   border: 0;
+}
+.ramen-marker.has-pin {
+  height: 50px;
 }
 .pin-dot {
   width: 16px;
