@@ -587,12 +587,28 @@ svg {
 .detail-intro {
   padding: 24px 28px;
 }
-.detail-kicker {
+.recommendation-callout {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: #edf0e7;
+  color: var(--olive);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.recommendation-symbol {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 75%);
+  font-size: 11px;
 }
 .detail-intro h2 {
   font-size: 30px;

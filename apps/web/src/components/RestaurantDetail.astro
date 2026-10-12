@@ -28,7 +28,7 @@ const Container = template ? "template" : "div";
     </div>
     <RestaurantGallery place={place} language={state.language} />
     <div class="detail-intro">
-      {place.rec && <div class="detail-kicker"><span class="pick-badge"><span aria-hidden="true">◆</span><span data-i18n="pickLong">{t.pickLong}</span></span></div>}
+      {place.rec && <aside class="recommendation-callout"><span class="recommendation-symbol" aria-hidden="true">◆</span><span data-i18n="pickLong">{t.pickLong}</span></aside>}
       <h2 id="detail-title">{place.name}</h2>
       <RestaurantCategory category={research?.category} language={state.language} />
       <p class="detail-address">{place.address}</p>
