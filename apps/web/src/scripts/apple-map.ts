@@ -162,6 +162,8 @@ export class RestaurantMap {
       }
     }
     for (const place of places) {
+      const isSelected = selected === place.id;
+      const hasPin = place.rec || isSelected;
       let marker = this.markers.get(place.id);
       if (!marker) {
         const button = document.createElement("button");
@@ -171,7 +173,7 @@ export class RestaurantMap {
         button.setAttribute("aria-label", place.name);
         const image = document.createElement("img");
         image.className = "restaurant-pin";
-        image.src = "/map-pins/selected.svg";
+        image.src = place.rec ? "/map-pins/recommended.svg" : "/map-pins/selected.svg";
         image.alt = "";
         image.draggable = false;
         const dot = document.createElement("span");
@@ -205,15 +207,14 @@ export class RestaurantMap {
         this.markers.set(place.id, marker);
         this.map.addAnnotation(annotation);
       }
-      marker.button.classList.toggle("is-selected", selected === place.id);
-      marker.button.setAttribute("aria-pressed", String(selected === place.id));
-      marker.annotation.anchorOffset = new DOMPoint(0, selected === place.id ? 0 : -22);
-      marker.annotation.clusteringIdentifier = selected === place.id ? null : "restaurants";
-      marker.annotation.displayPriority =
-        selected === place.id
-          ? this.kit.AnnotationDisplayPriority.Required
-          : this.kit.AnnotationDisplayPriority.High;
-      marker.annotation.selected = selected === place.id;
+      marker.button.classList.toggle("is-selected", isSelected);
+      marker.button.setAttribute("aria-pressed", String(isSelected));
+      marker.annotation.anchorOffset = new DOMPoint(0, hasPin ? 0 : -22);
+      marker.annotation.clusteringIdentifier = hasPin ? null : "restaurants";
+      marker.annotation.displayPriority = hasPin
+        ? this.kit.AnnotationDisplayPriority.Required
+        : this.kit.AnnotationDisplayPriority.High;
+      marker.annotation.selected = isSelected;
     }
     this.element.querySelectorAll<HTMLElement>("[data-cluster-count]").forEach((button) => {
       button.setAttribute(
