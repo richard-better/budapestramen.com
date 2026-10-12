@@ -39,8 +39,17 @@ application code.
 The four current listings, ramen styles, ratings, and map and menu links were
 gathered from Google Maps and linked restaurant menus on September 26, 2026.
 `source.date` records when the details were checked; ratings and review counts can
-change. The guide links to Google Maps for photos and reviews instead of
-publishing empty photo slots or placeholder links.
+change. Every restaurant has a photo gallery with a 70% hero image and three
+stacked thumbnails. The last thumbnail opens the remaining photos. The viewer
+supports arrow keys, Escape, and keyboard focus restoration.
+
+Galleries currently use six labelled images from `placehold.co`. To replace them,
+add a `photos` array to a restaurant's YAML file. Each photo needs `src` and an
+`alt` object with `en` and `hu` descriptions. `src` accepts an HTTPS URL or a path
+to an image in `apps/web/public`, such as `/photos/hachi-ko/ramen.webp`.
+Optional `credit` and `sourceUrl` fields appear in the photo viewer. The first
+photo is the hero. Galleries with fewer than four photos use only those photos.
+Google Maps remains the source for external reviews.
 
 Interface translations live in `apps/web/src/lib/translations.ts`. The map uses
 Apple MapKit JS, loaded through Apple's official `@apple/mapkit-loader`. Custom

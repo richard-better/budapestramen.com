@@ -6,6 +6,7 @@ import { filterRestaurants } from "../lib/guide";
 import Icon from "./Icon.astro";
 import RestaurantRow from "./RestaurantRow.astro";
 import RestaurantDetail from "./RestaurantDetail.astro";
+import PhotoViewer from "./PhotoViewer.astro";
 interface Props { state: GuideState; restaurants: Restaurant[] }
 const { state, restaurants } = Astro.props;
 const t = translations[state.language];
@@ -97,6 +98,7 @@ const selectedPlace = restaurants.find((place) => place.id === state.selected);
 
   <dialog id="detail-panel" class="detail-panel panel" aria-labelledby="detail-title" data-place={selectedPlace?.id} open={!!selectedPlace && !state.preview && !state.panel}>{selectedPlace && <RestaurantDetail place={selectedPlace} state={state} template={false} />}</dialog>
   {restaurants.map((place) => <RestaurantDetail place={place} state={state} />)}
+  <PhotoViewer language={state.language} />
 
   <dialog id="about-dialog" class="modal about-dialog" aria-labelledby="about-title">
     <button class="icon-button modal-close" data-close-dialog aria-label={t.close} data-i18n-label="close"><Icon name="close" size={14} /></button>

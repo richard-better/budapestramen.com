@@ -4,6 +4,7 @@ import { type GuideState } from "../lib/guide";
 import type { Restaurant } from "../data/restaurants";
 import { restaurantLinks } from "../lib/guide";
 import Icon from "./Icon.astro";
+import RestaurantGallery from "./RestaurantGallery.astro";
 interface Props { place: Restaurant; state: GuideState; visible?: boolean; template?: boolean }
 const { place, state, template = true } = Astro.props;
 const t = translations[state.language];
@@ -24,6 +25,7 @@ const Container = template ? "template" : "div";
       <span class="eyebrow">Budapest Ramen</span>
       <button class="icon-button" data-action="close-detail" aria-label={t.closeDetails} data-i18n-label="closeDetails" autofocus><Icon name="close" size={15} /></button>
     </div>
+    <RestaurantGallery place={place} language={state.language} />
     <div class="detail-intro">
       <div class="detail-kicker">
         {place.rec && <span class="pick-badge">★ <span data-i18n="pickLong">{t.pickLong}</span></span>}

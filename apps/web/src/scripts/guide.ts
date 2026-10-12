@@ -16,6 +16,7 @@ import {
 } from "../lib/guide";
 import { translations, type TranslationKey } from "../lib/translations";
 import { capture, guideLogger } from "./posthog";
+import { createPhotoViewer } from "./gallery";
 
 function element<T extends HTMLElement = HTMLElement>(selector: string): T {
   const result = document.querySelector<T>(selector);
@@ -41,6 +42,7 @@ const about = element<HTMLDialogElement>("#about-dialog");
 const languageDialog = element<HTMLDialogElement>("#language-dialog");
 const menu = element("#mobile-menu");
 const preview = element<HTMLButtonElement>("#map-preview");
+const gallery = createPhotoViewer(root, element<HTMLDialogElement>("#photo-viewer"));
 let map: RestaurantMap | null = null;
 let mapFailureLogged = false;
 const mapTimeout = setTimeout(showMapError, 12_000);
@@ -305,6 +307,7 @@ function render(mapMotion: MapMotion = "preserve") {
   }
   preview.hidden = !place || !state.preview || state.view !== "map" || !mobile.matches;
   syncDialog(detail, detailOpen, mobile.matches);
+  gallery.sync(place, state.language, detailOpen);
   syncDialog(filters, state.panel === "filters", mobile.matches);
   syncDialog(about, state.panel === "about", true);
   syncDialog(languageDialog, state.panel === "language", true);
@@ -536,7 +539,10 @@ window.addEventListener("popstate", () => {
     render("smooth");
   }
 });
-mobile.addEventListener("change", () => render());
+mobile.addEventListener("change", () => {
+  gallery.close();
+  render();
+});
 window.addEventListener("resize", positionDirections);
 detail.addEventListener("scroll", positionDirections, true);
 render("instant");

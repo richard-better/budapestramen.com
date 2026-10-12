@@ -1,0 +1,21 @@
+---
+import type { Language } from "../lib/guide";
+import { translations } from "../lib/translations";
+import Icon from "./Icon.astro";
+interface Props { language: Language }
+const t = translations[Astro.props.language];
+---
+
+<dialog id="photo-viewer" class="photo-viewer" aria-labelledby="photo-viewer-title">
+  <header class="photo-viewer-header">
+    <div><h2 id="photo-viewer-title"></h2><p data-photo-counter aria-live="polite" aria-atomic="true"></p></div>
+    <button class="icon-button" data-gallery-action="close" aria-label={t.closeGallery} data-i18n-label="closeGallery" autofocus><Icon name="close" /></button>
+  </header>
+  <div class="photo-viewer-stage">
+    <img data-gallery-image alt="" hidden />
+    <p class="photo-load-error" data-photo-error hidden data-i18n="photoError">{t.photoError}</p>
+    <button class="icon-button photo-previous" data-gallery-action="previous" aria-label={t.previousPhoto} data-i18n-label="previousPhoto"><Icon name="arrow" /></button>
+    <button class="icon-button photo-next" data-gallery-action="next" aria-label={t.nextPhoto} data-i18n-label="nextPhoto"><Icon name="arrow" /></button>
+  </div>
+  <footer class="photo-viewer-footer"><p data-gallery-caption></p><a data-gallery-credit target="_blank" rel="noopener noreferrer" hidden></a></footer>
+</dialog>

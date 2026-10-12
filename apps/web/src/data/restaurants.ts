@@ -16,6 +16,13 @@ export interface Coordinates {
   lng: number;
 }
 
+export interface RestaurantPhoto {
+  src: string;
+  alt: { en: string; hu: string };
+  credit?: string;
+  sourceUrl?: string;
+}
+
 export interface Restaurant extends Coordinates {
   id: string;
   name: string;
@@ -28,6 +35,7 @@ export interface Restaurant extends Coordinates {
   rating: number | null;
   reviews: number | null;
   rec: boolean;
+  photos?: RestaurantPhoto[];
   research?: {
     category: "ramen-specialist" | "serves-ramen" | null;
     links: Record<string, string>;

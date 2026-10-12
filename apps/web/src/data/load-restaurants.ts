@@ -15,6 +15,7 @@ export async function loadRestaurants(): Promise<Restaurant[]> {
     vegan: data.vegan,
     rec: data.recommended,
     note: data.recommendation,
+    photos: data.photos,
     ...data.google,
     research: data.details,
   }));

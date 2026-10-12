@@ -23,6 +23,30 @@ describe("restaurant content validation", () => {
   it("allows recommendations without explanatory notes", () => {
     assert.equal(restaurantSchema.safeParse({ ...place, recommended: true }).success, true);
   });
+  it("accepts local and HTTPS photos with translated descriptions and source credits", () => {
+    const photos = [
+      { src: "/photos/ramen.webp", alt: { en: "A bowl of ramen", hu: "Egy tál ramen" } },
+      {
+        src: "https://example.com/ramen.jpg",
+        alt: { en: "Restaurant", hu: "Étterem" },
+        credit: "Restaurant",
+        sourceUrl: "https://example.com/photos",
+      },
+    ];
+    assert.deepEqual(restaurantSchema.parse({ ...place, photos }).photos, photos);
+    assert.deepEqual(restaurantSchema.parse(place).photos, []);
+  });
+  it("rejects unsafe image URLs and photos without both language descriptions", () => {
+    const alt = { en: "Ramen", hu: "Ramen" };
+    for (const photo of [
+      { src: "javascript:alert(1)", alt },
+      { src: "http://example.com/ramen.jpg", alt },
+      { src: "//example.com/ramen.jpg", alt },
+      { src: "/photos/ramen.jpg", alt: { en: "Ramen" } },
+      { src: "/photos/ramen.jpg", alt, sourceUrl: "javascript:alert(1)" },
+    ])
+      assert.equal(restaurantSchema.safeParse({ ...place, photos: [photo] }).success, false);
+  });
   it("rejects invalid coordinates, links, and unknown styles before publication", () => {
     for (const patch of [
       { coordinates: { lat: 100, lng: 19 } },

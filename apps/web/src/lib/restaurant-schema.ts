@@ -2,6 +2,10 @@ import { z } from "zod";
 import { ramenStyles } from "../data/restaurants";
 
 const localizedText = z.object({ en: z.string().min(1), hu: z.string().min(1) });
+const imageSource = z.union([
+  z.url({ protocol: /^https$/ }),
+  z.string().regex(/^\/(?!\/)[a-zA-Z0-9/_-]+\.(?:avif|webp|png|jpe?g)$/),
+]);
 
 export const restaurantSchema = z.object({
   name: z.string().min(1),
@@ -14,6 +18,16 @@ export const restaurantSchema = z.object({
   vegan: z.boolean(),
   recommended: z.boolean(),
   recommendation: localizedText.optional(),
+  photos: z
+    .array(
+      z.object({
+        src: imageSource,
+        alt: localizedText,
+        credit: z.string().min(1).optional(),
+        sourceUrl: z.url({ protocol: /^https$/ }).optional(),
+      }),
+    )
+    .default([]),
   google: z.object({
     rating: z.number().min(0).max(5).nullable(),
     reviews: z.number().int().nonnegative().nullable(),

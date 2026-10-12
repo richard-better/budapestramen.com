@@ -1,0 +1,24 @@
+---
+import type { Restaurant } from "../data/restaurants";
+import { restaurantGallery } from "../lib/gallery";
+import type { Language } from "../lib/guide";
+import { translations } from "../lib/translations";
+interface Props { place: Restaurant; language: Language }
+const { place, language } = Astro.props;
+const t = translations[language];
+const { previews, remaining, placeholder } = restaurantGallery(place);
+---
+
+<section class="restaurant-gallery" aria-label={t.gallery} data-i18n-label="gallery">
+  <div class="photo-grid" data-photo-count={previews.length}>
+    {previews.map((photo, index) => <a
+      class:list={["photo-tile", { "photo-hero": index === 0 }]}
+      href={photo.src} target="_blank" rel="noopener noreferrer"
+      data-photo-index={index} data-photo-place={place.id}
+      aria-label={`${t.viewPhoto} ${index + 1}`}>
+      <img src={photo.src} alt={photo.alt[language]} data-photo-alt={index} width="600" height="400" loading="lazy" decoding="async" />
+      {index === 3 && <span class="photo-more"><strong>+{remaining}</strong><span data-i18n="morePhotos">{t.morePhotos}</span></span>}
+    </a>)}
+  </div>
+  {placeholder && <p class="photo-placeholder-note" data-i18n="placeholderPhotos">{t.placeholderPhotos}</p>}
+</section>
