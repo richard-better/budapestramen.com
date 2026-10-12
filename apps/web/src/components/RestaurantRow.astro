@@ -2,17 +2,19 @@
 import { translations } from "../lib/translations";
 import { guidePath, type GuideState } from "../lib/guide";
 import type { Restaurant } from "../data/restaurants";
+import RestaurantCategory from "./RestaurantCategory.astro";
 interface Props { place: Restaurant; state: GuideState; visible?: boolean; template?: boolean }
 const { place, state, visible = true } = Astro.props;
 const t = translations[state.language];
 ---
 
 <li data-row={place.id} hidden={!visible}>
-  <a class="restaurant-row" data-select={place.id} href={guidePath({ ...state, selected: place.id, preview: false, panel: null, directions: false })} aria-label={place.name} aria-current={state.selected === place.id ? "page" : undefined}>
+  <a class="restaurant-row" data-select={place.id} href={guidePath({ ...state, selected: place.id, preview: false, panel: null, directions: false })} aria-label={place.name} aria-describedby={`category-${place.id}`} aria-current={state.selected === place.id ? "page" : undefined}>
     <span class="restaurant-name">{place.name}</span>
     <span class="row-metric" data-distance={place.id}>{place.rating === null ? "" : `★ ${place.rating.toFixed(1)}`}</span>
-    <span class="row-address">{place.address}</span>
+    <RestaurantCategory category={place.research?.category} language={state.language} id={`category-${place.id}`} />
     <span class="row-metric-label" data-metric-label={place.id}>{place.rating === null ? "" : "Google"}</span>
+    <span class="row-address">{place.address}</span>
     <span class="row-summary">
       {place.styles.slice(0, 2).map((style) => <span>{style}</span>)}
       {place.vegan && <span class="diet-label" data-i18n="vegan">{t.vegan}</span>}

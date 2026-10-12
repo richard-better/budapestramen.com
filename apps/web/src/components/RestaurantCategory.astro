@@ -1,0 +1,19 @@
+---
+import type { Restaurant } from "../data/restaurants";
+import type { Language } from "../lib/guide";
+import { translations } from "../lib/translations";
+import Icon from "./Icon.astro";
+
+interface Props {
+  category: NonNullable<Restaurant["research"]>["category"] | undefined;
+  language: Language;
+  id?: string;
+}
+const { category, language, id } = Astro.props;
+const key = category === "ramen-specialist" ? "ramenSpecialist" : category === "serves-ramen" ? "servesRamen" : "categoryUnknown";
+---
+
+<span class="venue-category" data-category={category ?? "unknown"} id={id}>
+  {category && <Icon name={category === "ramen-specialist" ? "bowl" : "utensils"} size={16} />}
+  <span data-i18n={key}>{translations[language][key]}</span>
+</span>

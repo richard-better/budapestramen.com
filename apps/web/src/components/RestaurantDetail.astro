@@ -5,6 +5,7 @@ import type { Restaurant } from "../data/restaurants";
 import { restaurantLinks } from "../lib/guide";
 import Icon from "./Icon.astro";
 import RestaurantGallery from "./RestaurantGallery.astro";
+import RestaurantCategory from "./RestaurantCategory.astro";
 interface Props { place: Restaurant; state: GuideState; visible?: boolean; template?: boolean }
 const { place, state, template = true } = Astro.props;
 const t = translations[state.language];
@@ -13,7 +14,6 @@ const research = place.research;
 const primaryFeatures = ["reservations", "customization", "vegetarianRamen", "veganRamen"];
 const otherFeatures = ["delivery", "takeaway", "tabletOrdering", "kioskOrdering", "qrOrdering", "japaneseOwned", "hungarianOwned", "japaneseChef"];
 const publicLinks = ["website", "instagram", "facebook", "reservations", "delivery", "takeaway"];
-const categoryKey = research?.category === "ramen-specialist" ? "ramenSpecialist" : "servesRamen";
 const menuKey = research?.menuType === "ordering" ? "orderingMenu" : "menu";
 const money = (value: number) => value.toLocaleString("hu-HU");
 const Container = template ? "template" : "div";
@@ -28,11 +28,9 @@ const Container = template ? "template" : "div";
     </div>
     <RestaurantGallery place={place} language={state.language} />
     <div class="detail-intro">
-      <div class="detail-kicker">
-        {place.rec && <span class="pick-badge"><span aria-hidden="true">◆</span><span data-i18n="pickLong">{t.pickLong}</span></span>}
-        {research?.category && <span class="venue-category" data-i18n={categoryKey}>{t[categoryKey]}</span>}
-      </div>
+      {place.rec && <div class="detail-kicker"><span class="pick-badge"><span aria-hidden="true">◆</span><span data-i18n="pickLong">{t.pickLong}</span></span></div>}
       <h2 id="detail-title">{place.name}</h2>
+      <RestaurantCategory category={research?.category} language={state.language} />
       <p class="detail-address">{place.address}</p>
       {place.rating !== null && <a href={links.maps} target="_blank" rel="noopener noreferrer" class="detail-rating">
         <strong><span aria-hidden="true">★</span> {place.rating.toFixed(1)}</strong>
@@ -75,7 +73,6 @@ const Container = template ? "template" : "div";
 </Container>
 
 <style>
-  .venue-category { color: var(--muted); font-size: 12px; }
   .restaurant-facts { padding: 0 28px 24px; }
   .restaurant-facts h3 { margin: 24px 0 12px; }
   .ramen-price { font-size: 26px; font-weight: 650; letter-spacing: -.025em; margin-top: 6px; }
