@@ -1,5 +1,10 @@
 export const translations = {
   en: {
+    tagline: "Find your next favorite bowl.",
+    picks: "Picks",
+    allStyles: "All styles",
+    reserve: "Reserve a table",
+    reviews: "Google reviews",
     gallery: "Restaurant photos",
     viewPhoto: "View photo",
     morePhotos: "more",
@@ -77,7 +82,7 @@ export const translations = {
     closeFilters: "Close filters",
     mainMenu: "Menu",
     aboutText:
-      "A small, hand-kept map of ramen shops in Budapest. ★ marks the places I personally recommend.",
+      "A small, hand-kept map of ramen shops in Budapest. ◆ marks the places I personally recommend.",
     aboutText2: "Missing a place, or something changed? Send me a message and I’ll update it.",
     contact: "Suggest a place",
     madeBy: "Made by Richard in Budapest.",
@@ -98,6 +103,11 @@ export const translations = {
     guide: "Your next bowl is out there.",
   },
   hu: {
+    tagline: "Találd meg a kedvenc ramened.",
+    picks: "Ajánlott",
+    allStyles: "Minden típus",
+    reserve: "Asztalfoglalás",
+    reviews: "Google-vélemény",
     gallery: "Éttermi fotók",
     viewPhoto: "Fotó megnyitása",
     morePhotos: "további",
@@ -176,7 +186,7 @@ export const translations = {
     closeFilters: "Szűrők bezárása",
     mainMenu: "Menü",
     aboutText:
-      "Egy kicsi, kézzel gondozott térkép Budapest ramenezőiről. A ★ jelöli azokat, amiket személyesen ajánlok.",
+      "Egy kicsi, kézzel gondozott térkép Budapest ramenezőiről. A ◆ jelöli azokat, amiket személyesen ajánlok.",
     aboutText2: "Hiányzik egy hely, vagy változott valami? Írj, és frissítem.",
     contact: "Hely ajánlása",
     madeBy: "Richardtól, Budapestről.",

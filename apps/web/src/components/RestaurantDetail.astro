@@ -15,7 +15,7 @@ const otherFeatures = ["delivery", "takeaway", "tabletOrdering", "kioskOrdering"
 const publicLinks = ["website", "instagram", "facebook", "reservations", "delivery", "takeaway"];
 const categoryKey = research?.category === "ramen-specialist" ? "ramenSpecialist" : "servesRamen";
 const menuKey = research?.menuType === "ordering" ? "orderingMenu" : "menu";
-const money = (value: number) => `${value.toLocaleString("hu-HU")} Ft`;
+const money = (value: number) => value.toLocaleString("hu-HU");
 const Container = template ? "template" : "div";
 ---
 
@@ -23,69 +23,66 @@ const Container = template ? "template" : "div";
   <div class="detail-scroll">
     <div class="detail-topbar">
       <span class="eyebrow">Budapest Ramen</span>
+      <button class="icon-button detail-share" data-action="share" aria-label={t.share} data-i18n-label="share"><Icon name="link" size={16} /></button>
       <button class="icon-button" data-action="close-detail" aria-label={t.closeDetails} data-i18n-label="closeDetails" autofocus><Icon name="close" size={15} /></button>
     </div>
     <RestaurantGallery place={place} language={state.language} />
     <div class="detail-intro">
       <div class="detail-kicker">
-        {place.rec && <span class="pick-badge">★ <span data-i18n="pickLong">{t.pickLong}</span></span>}
-        <span class="district">{place.district}</span>
+        {place.rec && <span class="pick-badge"><span aria-hidden="true">◆</span><span data-i18n="pickLong">{t.pickLong}</span></span>}
+        {research?.category && <span class="venue-category" data-i18n={categoryKey}>{t[categoryKey]}</span>}
       </div>
       <h2 id="detail-title">{place.name}</h2>
       <p class="detail-address">{place.address}</p>
-      {research?.category && <p class="venue-category" data-i18n={categoryKey}>{t[categoryKey]}</p>}
-      <h3 class="eyebrow style-label" data-i18n="style">{t.style}</h3>
-      <div class="tags">
-        {place.styles.map((style) => <span class="tag">{style}</span>)}
-        {place.vegan && <span class="tag" data-i18n="vegan">{t.vegan}</span>}
+      {place.rating !== null && <a href={links.maps} target="_blank" rel="noopener noreferrer" class="detail-rating">
+        <strong><span aria-hidden="true">★</span> {place.rating.toFixed(1)}</strong>
+        <span>{place.reviews?.toLocaleString("en-US")} <span data-i18n="reviews">{t.reviews}</span> ↗</span>
+      </a>}
+      <div class="detail-price">
+        <h3 class="eyebrow" data-i18n="ramenPrice">{t.ramenPrice}</h3>
+        {research?.price ? <p class="ramen-price">{money(research.price.min)}{research.price.max !== research.price.min && ` - ${money(research.price.max)}`} Ft</p> : <p class="fact-note" data-i18n="priceUnknown">{t.priceUnknown}</p>}
       </div>
       <div class="detail-actions">
-        <button class="button button-dark directions-button" data-action="directions" aria-controls="directions-menu" aria-expanded="false">
+        <button class="button button-accent directions-button" data-action="directions" aria-controls="directions-menu" aria-expanded="false">
           <Icon name="locate" size={16} /><span data-i18n="directions">{t.directions}</span><Icon name="chevron" size={12} />
         </button>
-        <a class="icon-button" href={links.maps} target="_blank" rel="noopener noreferrer" aria-label={t.viewOnGoogle} data-i18n-label="viewOnGoogle"><Icon name="pin" /></a>
-        <button class="icon-button" data-action="share" aria-label={t.share} data-i18n-label="share"><Icon name="link" /></button>
+        <a class="button detail-menu" href={links.menu} target="_blank" rel="noopener noreferrer"><span data-i18n={menuKey}>{t[menuKey]}</span><span aria-hidden="true">↗</span></a>
       </div>
+      {research?.links.reservations && <a class="reserve-link" href={research.links.reservations} target="_blank" rel="noopener noreferrer"><span data-i18n="reserve">{t.reserve}</span><span aria-hidden="true">↗</span></a>}
       <div id="directions-menu" class="directions-menu popover" popover>
         <p class="eyebrow" data-i18n="openIn">{t.openIn}</p>
         {links.directions.map((app) => <a href={app.href} target="_blank" rel="noopener noreferrer">{app.name}<span aria-hidden="true">↗</span></a>)}
       </div>
     </div>
-    <div class="detail-stats">
-      {place.rating !== null && <a href={links.maps} target="_blank" rel="noopener noreferrer" class="stat">
-        <strong>{place.rating.toFixed(1)}</strong><span>Google · {place.reviews?.toLocaleString("en-US")}</span>
-      </a>}
-      <div class="stat"><strong data-detail-distance>· · ·</strong><span data-detail-distance-label><button class="distance-locate" data-action="locate"><Icon name="locate" size={12} /><span data-i18n="noLoc">{t.noLoc}</span></button></span></div>
-    </div>
     {place.note && <aside class="recommendation"><h3 class="eyebrow" data-i18n="why">{t.why}</h3><p data-note={place.id}>“{place.note[state.language]}”</p></aside>}
-    <a class="button menu-link" href={links.menu} target="_blank" rel="noopener noreferrer">
-      <Icon name="menu" size={16} /><span data-i18n={menuKey}>{t[menuKey]}</span><span aria-hidden="true">↗</span>
-    </a>
+    {(place.styles.length > 0 || place.vegan) && <section class="detail-styles">
+      <h3 class="eyebrow" data-i18n="style">{t.style}</h3>
+      <p>{place.styles.join(" · ")}</p>
+      {place.vegan && <p class="diet-label" data-i18n="veganOption">{t.veganOption}</p>}
+    </section>}
+    <div class="detail-distance"><Icon name="locate" size={14} /><strong data-detail-distance hidden></strong><span data-detail-distance-label><button class="distance-locate" data-action="locate" data-i18n="locate">{t.locate}</button></span></div>
     {research && <section class="restaurant-facts">
-      <h3 class="eyebrow" data-i18n="ramenPrice">{t.ramenPrice}</h3>
-      {research.price ? <>
-        <p class="ramen-price">{money(research.price.min)}{research.price.max !== research.price.min && ` - ${money(research.price.max)}`}</p>
-        <p class="fact-note" data-i18n="priceNote">{t.priceNote}</p>
-      </> : <p class="fact-note" data-i18n="priceUnknown">{t.priceUnknown}</p>}
-      {research.checkedOn && <p class="fact-note"><span data-i18n="checkedOn">{t.checkedOn}</span>: <time datetime={research.checkedOn}>{research.checkedOn}</time></p>}
       <h3 class="eyebrow" data-i18n="restaurantFacts">{t.restaurantFacts}</h3>
       <dl class="facts-list">{primaryFeatures.map(key => <div><dt data-i18n={key}>{t[key as TranslationKey]}</dt><dd data-status={research.features[key]} data-i18n={research.features[key]}>{t[research.features[key] as TranslationKey]}</dd></div>)}</dl>
       <details><summary data-i18n="moreFacts">{t.moreFacts}</summary><dl class="facts-list">{otherFeatures.map(key => <div><dt data-i18n={key}>{t[key as TranslationKey]}</dt><dd data-status={research.features[key]} data-i18n={research.features[key]}>{t[research.features[key] as TranslationKey]}</dd></div>)}</dl></details>
       <h3 class="eyebrow" data-i18n="visitLinks">{t.visitLinks}</h3>
       <nav class="venue-links">{publicLinks.filter(key => research.links[key]).map(key => <a href={research.links[key]} target="_blank" rel="noopener noreferrer"><span data-i18n={key}>{t[key as TranslationKey]}</span><span aria-hidden="true">↗</span></a>)}</nav>
+      {research.price && <p class="fact-note price-note" data-i18n="priceNote">{t.priceNote}</p>}
+      {research.checkedOn && <p class="fact-note"><span data-i18n="checkedOn">{t.checkedOn}</span>: <time datetime={research.checkedOn}>{research.checkedOn}</time></p>}
     </section>}
     <a class="photos-link" href={links.maps} target="_blank" rel="noopener noreferrer"><span data-i18n="photos">{t.photos}</span><span aria-hidden="true">↗</span></a>
   </div>
 </Container>
 
 <style>
-  .venue-category { color: var(--muted, #666); font-size: .85rem; margin: .75rem 0; }
-  .restaurant-facts { padding: 22px 28px; }
-  .restaurant-facts h3 { margin: 20px 0 12px; }
-  .ramen-price { font-size: 1.4rem; font-weight: 600; margin: 0 0 8px; }
-  .fact-note { font-size: .8rem; line-height: 1.5; color: #69645e; margin: 6px 0; }
+  .venue-category { color: var(--muted); font-size: 12px; }
+  .restaurant-facts { padding: 0 28px 24px; }
+  .restaurant-facts h3 { margin: 24px 0 12px; }
+  .ramen-price { font-size: 26px; font-weight: 650; letter-spacing: -.025em; margin-top: 6px; }
+  .fact-note { font-size: 12px; line-height: 1.6; color: var(--muted); margin: 6px 0; }
+  .price-note { margin-top: 24px; }
   .facts-list { margin: 0; font-size: .85rem; }
-  .facts-list > div { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-bottom: 1px solid #e8e3dc; }
+  .facts-list > div { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--soft-line); }
   .facts-list dd { margin: 0; text-align: right; }
   [data-status="unknown"] { color: #77716a; }
   .restaurant-facts summary { cursor: pointer; font-size: .85rem; padding: 16px 0 6px; }

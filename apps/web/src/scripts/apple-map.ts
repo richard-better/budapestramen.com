@@ -1,6 +1,7 @@
 import { load, type Annotation, type Map as AppleMap, type MapKit } from "@apple/mapkit-loader";
 import type { Coordinates, Restaurant } from "../data/restaurants";
 import type { Language, MapPosition } from "../lib/guide";
+import { translations } from "../lib/translations";
 import {
   clampZoom,
   fitMapPosition,
@@ -10,6 +11,7 @@ import {
 
 interface MapCallbacks {
   onSelect: (id: string) => void;
+  onHighlight: (id: string | null) => void;
   onMove: (position: MapPosition) => void;
   onTap: () => void;
   onReady: () => void;
@@ -54,6 +56,38 @@ export class RestaurantMap {
       showsCompass: kit.FeatureVisibility.Hidden,
       showsPointsOfInterest: false,
       isRotationEnabled: false,
+      annotationForCluster: (cluster) => {
+        const members = cluster.memberAnnotations.map(({ coordinate }) => ({
+          lat: coordinate.latitude,
+          lng: coordinate.longitude,
+        }));
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "ramen-marker ramen-cluster";
+        button.dataset.clusterCount = String(members.length);
+        button.textContent = String(members.length);
+        button.setAttribute(
+          "aria-label",
+          `${members.length} ${translations[this.kit.language === "hu" ? "hu" : "en"].places}`,
+        );
+        button.addEventListener("click", (event) => {
+          event.stopPropagation();
+          const position = fitMapPosition(
+            members,
+            this.viewport(),
+            Math.min(18, this.position().zoom + 2),
+          );
+          if (position) {
+            this.moveTo(position, true);
+            this.callbacks.onMove(position);
+          }
+        });
+        return new kit.Annotation(cluster.coordinate, () => button, {
+          calloutEnabled: false,
+          animates: false,
+          anchorOffset: new DOMPoint(0, -22),
+        });
+      },
     });
     this.moveTo({ lat: 47.502, lng: 19.056, zoom: 14 }, false);
     // MapKit also emits zoom-end after programmatic moves, without a gesture start.
@@ -103,6 +137,12 @@ export class RestaurantMap {
     this.callbacks.onMove(position);
   }
 
+  highlight(id: string | null) {
+    for (const [placeId, { button }] of this.markers) {
+      button.classList.toggle("is-highlighted", id === placeId);
+    }
+  }
+
   render(
     places: Restaurant[],
     selected: string | null,
@@ -129,24 +169,21 @@ export class RestaurantMap {
         button.className = "ramen-marker";
         button.title = place.name;
         button.setAttribute("aria-label", place.name);
-        const pin = place.rec
-          ? "recommended"
-          : place.research?.category === "ramen-specialist"
-            ? "ramen-specialist"
-            : null;
-        if (pin) {
-          const image = document.createElement("img");
-          image.className = "restaurant-pin";
-          image.src = `/map-pins/${pin}.svg`;
-          image.alt = "";
-          image.draggable = false;
-          button.append(image);
-        } else {
-          const dot = document.createElement("span");
-          dot.className = "pin-dot";
-          button.append(dot);
-        }
-        button.classList.toggle("has-pin", !!pin);
+        const image = document.createElement("img");
+        image.className = "restaurant-pin";
+        image.src = "/map-pins/selected.svg";
+        image.alt = "";
+        image.draggable = false;
+        const dot = document.createElement("span");
+        dot.className = "pin-dot";
+        button.append(dot, image);
+        button.classList.toggle("is-recommended", place.rec);
+        button.addEventListener("pointerenter", (event) => {
+          if (event.pointerType !== "touch") this.callbacks.onHighlight(place.id);
+        });
+        button.addEventListener("pointerleave", () => this.callbacks.onHighlight(null));
+        button.addEventListener("focus", () => this.callbacks.onHighlight(place.id));
+        button.addEventListener("blur", () => this.callbacks.onHighlight(null));
         button.addEventListener("click", (event) => {
           event.stopPropagation();
           this.callbacks.onSelect(place.id);
@@ -157,10 +194,11 @@ export class RestaurantMap {
           {
             title: place.name,
             accessibilityLabel: place.name,
-            anchorOffset: new DOMPoint(0, pin ? 0 : -22),
+            anchorOffset: new DOMPoint(0, -22),
             calloutEnabled: false,
             animates: false,
-            displayPriority: this.kit.AnnotationDisplayPriority.Required,
+            displayPriority: this.kit.AnnotationDisplayPriority.High,
+            clusteringIdentifier: "restaurants",
           },
         );
         marker = { annotation, button };
@@ -169,8 +207,20 @@ export class RestaurantMap {
       }
       marker.button.classList.toggle("is-selected", selected === place.id);
       marker.button.setAttribute("aria-pressed", String(selected === place.id));
+      marker.annotation.anchorOffset = new DOMPoint(0, selected === place.id ? 0 : -22);
+      marker.annotation.clusteringIdentifier = selected === place.id ? null : "restaurants";
+      marker.annotation.displayPriority =
+        selected === place.id
+          ? this.kit.AnnotationDisplayPriority.Required
+          : this.kit.AnnotationDisplayPriority.High;
       marker.annotation.selected = selected === place.id;
     }
+    this.element.querySelectorAll<HTMLElement>("[data-cluster-count]").forEach((button) => {
+      button.setAttribute(
+        "aria-label",
+        `${button.dataset.clusterCount} ${translations[language].places}`,
+      );
+    });
     if (user) {
       const coordinate = { latitude: user.lat, longitude: user.lng };
       if (this.userMarker) this.userMarker.coordinate = coordinate;

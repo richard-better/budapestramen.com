@@ -65,6 +65,7 @@ async function loadMap() {
       state.language,
       {
         onSelect: (id) => select(id, mobile.matches, "preserve", "map"),
+        onHighlight: highlightRestaurant,
         onMove: (position) => {
           state = { ...state, map: position };
           history.replaceState(null, "", guidePath(state));
@@ -134,6 +135,25 @@ function fitRestaurants(places: Restaurant[], maxZoom: number, motion: MapMotion
 
 function closeDetail() {
   navigate({ selected: null, preview: false, directions: false });
+}
+
+function highlightRestaurant(id: string | null) {
+  list.querySelectorAll<HTMLElement>("[data-select]").forEach((row) => {
+    row.classList.toggle("is-highlighted", row.dataset.select === id);
+  });
+  map?.highlight(id);
+}
+
+for (const eventName of ["pointerover", "focusin"] as const) {
+  list.addEventListener(eventName, (event) => {
+    if (event instanceof PointerEvent && event.pointerType === "touch") return;
+    const row =
+      event.target instanceof Element ? event.target.closest<HTMLElement>("[data-select]") : null;
+    highlightRestaurant(row?.dataset.select ?? null);
+  });
+}
+for (const eventName of ["pointerleave", "focusout"] as const) {
+  list.addEventListener(eventName, () => highlightRestaurant(null));
 }
 
 function showToast(message: string) {
@@ -242,6 +262,10 @@ function render(mapMotion: MapMotion = "preserve") {
     state.filters.styles.length + Number(state.filters.vegan) + Number(state.filters.recommended);
   element("#filter-count").hidden = count === 0;
   element("#filter-count").textContent = `· ${count}`;
+  element("[data-styles-label]").textContent = state.filters.styles.length
+    ? `${t.style} · ${state.filters.styles.length}`
+    : t.allStyles;
+  element(".styles-chip").classList.toggle("has-filters", state.filters.styles.length > 0);
 
   const visible = filterRestaurants(restaurants, state.filters, user);
   const visibleIds = new Set(visible.map((restaurant) => restaurant.id));
@@ -290,7 +314,8 @@ function render(mapMotion: MapMotion = "preserve") {
       element(`[data-note="${place.id}"]`).textContent = `“${place.note[state.language]}”`;
     element("[data-detail-distance]").textContent = user
       ? formatDistance(distanceBetween(user, place), state.language)
-      : "· · ·";
+      : "";
+    element("[data-detail-distance]").hidden = !user;
     if (user) element("[data-detail-distance-label]").textContent = t.away;
     element("[data-preview-name]").textContent = place.name;
     element("[data-preview-address]").textContent = place.address;
@@ -300,7 +325,7 @@ function render(mapMotion: MapMotion = "preserve") {
         ? ""
         : `★ ${place.rating.toFixed(1)}`;
     element("[data-preview-tags]").textContent = [
-      ...place.styles,
+      ...place.styles.slice(0, 2),
       ...(place.vegan ? [t.vegan] : []),
     ].join(" · ");
     element("[data-preview-pick]").hidden = !place.rec;
@@ -326,7 +351,10 @@ function render(mapMotion: MapMotion = "preserve") {
     state.selected,
     user,
     state.language,
-    { right: !mobile.matches && detailOpen ? 424 : 0, bottom: !preview.hidden ? 188 : 0 },
+    {
+      right: !mobile.matches && detailOpen ? detail.getBoundingClientRect().width : 0,
+      bottom: !preview.hidden ? 188 : 0,
+    },
   );
   if (mapMotion !== "preserve") {
     if (state.map) {
@@ -543,7 +571,7 @@ mobile.addEventListener("change", () => {
   gallery.close();
   render();
 });
-window.addEventListener("resize", positionDirections);
+window.addEventListener("resize", () => render());
 detail.addEventListener("scroll", positionDirections, true);
 render("instant");
 void loadMap();

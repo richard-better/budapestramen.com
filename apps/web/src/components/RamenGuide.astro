@@ -21,7 +21,7 @@ const selectedPlace = restaurants.find((place) => place.id === state.selected);
   <aside class="sidebar" aria-label={t.restaurantList} data-i18n-label="restaurantList">
     <header class="sidebar-header">
       <div class="brand-row">
-        <a href={`/${state.language}`} class="brand" aria-label="Budapest Ramen home"><img src="/icon-192.png" width="44" height="44" alt="" /><h1>Budapest Ramen</h1></a>
+        <a href={`/${state.language}`} class="brand" aria-label="Budapest Ramen home"><img src="/icon-192.png" width="44" height="44" alt="" /><div><h1>Budapest Ramen</h1><span class="brand-subtitle" data-i18n="tagline">{t.tagline}</span></div></a>
         <div class="header-actions">
           <button class="icon-button" data-action="language" aria-label={t.language} data-i18n-label="language"><Icon name="globe" size={17} /></button>
           <button class="icon-button" data-action="about" aria-label={t.about} data-i18n-label="about">?</button>
@@ -59,9 +59,9 @@ const selectedPlace = restaurants.find((place) => place.id === state.selected);
 
   <nav class="quick-filters" aria-label={t.filters} data-i18n-label="filters">
     <div class="quick-filter-scroll">
-      <button class="chip chip-recommended" data-filter="recommended" aria-pressed={state.filters.recommended}><span aria-hidden="true">★</span><span data-i18n="recommended">{t.recommended}</span></button>
+      <button class="chip chip-recommended" data-filter="recommended" aria-pressed={state.filters.recommended}><span aria-hidden="true">◆</span><span data-i18n="picks">{t.picks}</span></button>
       <button class="chip" data-filter="vegan" aria-pressed={state.filters.vegan} data-i18n="vegan">{t.vegan}</button>
-      {ramenStyles.slice(0, 4).map((style) => <button class="chip" data-style={style} aria-pressed={state.filters.styles.includes(style)}>{style}</button>)}
+      <button class="chip styles-chip" data-action="filters" aria-controls="filters-panel" aria-expanded="false"><span data-styles-label>{state.filters.styles.length ? `${t.style} · ${state.filters.styles.length}` : t.allStyles}</span><Icon name="chevron" size={12} /></button>
     </div>
     <button class="chip more-chip" data-action="filters" aria-controls="filters-panel" aria-expanded="false"><Icon name="filter" size={14} /><span data-i18n="more">{t.more}</span><span id="filter-count" hidden></span></button>
   </nav>
@@ -76,7 +76,7 @@ const selectedPlace = restaurants.find((place) => place.id === state.selected);
   </div>
 
   <button id="map-preview" class="map-preview" data-action="open-selected" hidden>
-    <span class="preview-heading"><strong data-preview-name></strong><span class="pick-badge" data-preview-pick>★ <span data-i18n="pick">{t.pick}</span></span><span class="preview-rating" data-preview-rating></span></span>
+    <span class="preview-heading"><strong data-preview-name></strong><span class="pick-badge" data-preview-pick>◆ <span data-i18n="pick">{t.pick}</span></span><span class="preview-rating" data-preview-rating></span></span>
     <span class="preview-address" data-preview-address></span>
     <span class="preview-bottom"><span data-preview-tags></span><span class="preview-details"><span data-i18n="details">{t.details}</span><Icon name="arrow" size={16} /></span></span>
   </button>
@@ -89,7 +89,7 @@ const selectedPlace = restaurants.find((place) => place.id === state.selected);
   <dialog id="filters-panel" class="filters-panel panel" aria-labelledby="filters-title">
     <div class="panel-header"><h2 id="filters-title" data-i18n="filters">{t.filters}</h2><button class="icon-button" data-action="close-filters" aria-label={t.closeFilters} data-i18n-label="closeFilters" autofocus><Icon name="close" size={14} /></button></div>
     <div class="filter-content">
-      <div class="recommend-filter"><div><h3 id="recommend-label">★ <span data-i18n="recOnly">{t.recOnly}</span></h3><p data-i18n="recOnlySub">{t.recOnlySub}</p></div><button class="switch" role="switch" aria-checked={state.filters.recommended} data-filter="recommended" aria-labelledby="recommend-label"><span></span></button></div>
+      <div class="recommend-filter"><div><h3 id="recommend-label">◆ <span data-i18n="recOnly">{t.recOnly}</span></h3><p data-i18n="recOnlySub">{t.recOnlySub}</p></div><button class="switch" role="switch" aria-checked={state.filters.recommended} data-filter="recommended" aria-labelledby="recommend-label"><span></span></button></div>
       <fieldset><legend class="eyebrow" data-i18n="style">{t.style}</legend><div class="filter-options">{ramenStyles.map((style) => <button class="chip" data-style={style} aria-pressed={state.filters.styles.includes(style)}>{style}</button>)}</div></fieldset>
       <fieldset><legend class="eyebrow" data-i18n="diet">{t.diet}</legend><button class="chip" data-filter="vegan" aria-pressed={state.filters.vegan} data-i18n="veganOption">{t.veganOption}</button></fieldset>
     </div>
