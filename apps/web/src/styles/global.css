@@ -284,6 +284,7 @@ svg {
   border-left: 1px solid var(--soft-line);
 }
 .chip[aria-pressed="true"],
+.styles-chip[aria-expanded="true"],
 .more-chip[aria-expanded="true"] {
   background: var(--ink);
   color: #fff;
@@ -295,6 +296,45 @@ svg {
 }
 .more-chip {
   border-color: var(--ink);
+}
+.styles-chip[aria-expanded="true"] svg {
+  rotate: 180deg;
+}
+.styles-popover {
+  position: fixed;
+  inset: auto;
+  margin: 0;
+  width: min(300px, calc(100vw - 24px));
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.styles-popover h2 {
+  padding: 8px 12px 12px;
+}
+.style-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  font-size: 14px;
+  text-align: left;
+}
+.style-option[aria-pressed="true"] {
+  background: var(--surface);
+  font-weight: 600;
+}
+.style-check {
+  flex: none;
+  visibility: hidden;
+}
+.style-option[aria-pressed="true"] .style-check {
+  visibility: visible;
 }
 .map-controls {
   position: absolute;
@@ -887,6 +927,9 @@ svg {
   box-shadow: 0 0 0 8px rgb(42 120 214 / 16%);
 }
 @media (hover: hover) and (pointer: fine) {
+  .style-option:hover {
+    background: var(--soft-line);
+  }
   .restaurant-row:hover:not([aria-current="page"]) {
     background: #efeee7;
   }

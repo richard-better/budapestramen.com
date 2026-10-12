@@ -21,7 +21,7 @@ export interface GuideState {
   filters: Filters;
   selected: string | null;
   view: "map" | "list";
-  panel: "filters" | "about" | "language" | null;
+  panel: "styles" | "filters" | "about" | "language" | null;
   preview: boolean;
   menu: boolean;
   directions: boolean;
@@ -92,7 +92,10 @@ export function readGuideUrl(url: URL, restaurants: Restaurant[]): GuideState | 
     language,
     selected: place ?? null,
     view: params.get("view") === "list" ? "list" : "map",
-    panel: panel === "filters" || panel === "about" || panel === "language" ? panel : null,
+    panel:
+      panel === "styles" || panel === "filters" || panel === "about" || panel === "language"
+        ? panel
+        : null,
     preview: !!place && params.get("preview") === "1",
     menu: params.get("menu") === "1",
     directions: !!place && params.get("preview") !== "1" && params.get("directions") === "1",

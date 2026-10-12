@@ -38,6 +38,8 @@ const mapElement = element("#restaurant-map");
 const list = element("#restaurant-list");
 const detail = element<HTMLDialogElement>("#detail-panel");
 const filters = element<HTMLDialogElement>("#filters-panel");
+const styles = element("#styles-panel");
+const stylesTrigger = element<HTMLButtonElement>(".styles-chip");
 const about = element<HTMLDialogElement>("#about-dialog");
 const languageDialog = element<HTMLDialogElement>("#language-dialog");
 const menu = element("#mobile-menu");
@@ -194,10 +196,23 @@ function positionDirections() {
   popover.style.top = `${Math.max(12, Math.min(bounds.bottom + 8, innerHeight - popover.offsetHeight - 12))}px`;
 }
 
+function positionStyles() {
+  if (!styles.matches(":popover-open")) return;
+  const bounds = stylesTrigger.getBoundingClientRect();
+  const top = bounds.bottom + 12;
+  styles.style.left = `${Math.max(12, Math.min(bounds.left, innerWidth - styles.offsetWidth - 12))}px`;
+  styles.style.top = `${top}px`;
+  styles.style.maxHeight = `${Math.max(0, innerHeight - top - 12)}px`;
+}
+
 function render(mapMotion: MapMotion = "preserve") {
   const t = translations[state.language];
   const place = selectedPlace();
-  const detailOpen = !!place && (!state.preview || !mobile.matches) && state.panel !== "filters";
+  const detailOpen =
+    !!place &&
+    (!state.preview || !mobile.matches) &&
+    state.panel !== "filters" &&
+    !(mobile.matches && state.panel === "styles");
   root.dataset.view = state.view;
   root.dataset.detail = String(detailOpen);
   root.dataset.preview = String(!!place && state.preview && state.view === "map");
@@ -252,6 +267,11 @@ function render(mapMotion: MapMotion = "preserve") {
   document
     .querySelectorAll('[data-action="filters"]')
     .forEach((node) => node.setAttribute("aria-expanded", String(state.panel === "filters")));
+  stylesTrigger.setAttribute("aria-expanded", String(state.panel === "styles"));
+  element('[data-action="clear-styles"]').setAttribute(
+    "aria-pressed",
+    String(state.filters.styles.length === 0),
+  );
   document
     .querySelectorAll('[data-action="menu"]')
     .forEach((node) => node.setAttribute("aria-expanded", String(state.menu)));
@@ -337,6 +357,11 @@ function render(mapMotion: MapMotion = "preserve") {
   syncDialog(about, state.panel === "about", true);
   syncDialog(languageDialog, state.panel === "language", true);
   syncPopover(menu, state.menu && !state.panel && !detailOpen);
+  syncPopover(styles, state.panel === "styles");
+  if (state.panel === "styles") {
+    stylesTrigger.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }
+  positionStyles();
   const directions = detail.querySelector<HTMLElement>("#directions-menu");
   if (directions) syncPopover(directions, state.directions && detailOpen && !state.panel);
   positionDirections();
@@ -456,6 +481,14 @@ root.addEventListener("click", async (event) => {
     return;
   }
   switch (target.dataset.action) {
+    case "styles":
+      event.preventDefault();
+      navigate({
+        panel: state.panel === "styles" ? null : "styles",
+        directions: false,
+        menu: false,
+      });
+      break;
     case "filters":
       navigate({
         panel: state.panel === "filters" ? null : "filters",
@@ -468,6 +501,9 @@ root.addEventListener("click", async (event) => {
       break;
     case "clear":
       setFilter({ styles: [], vegan: false, recommended: false });
+      break;
+    case "clear-styles":
+      setFilter({ styles: [] });
       break;
     case "close-detail":
       closeDetail();
@@ -543,6 +579,17 @@ menu.addEventListener("toggle", () => {
   const open = menu.matches(":popover-open");
   if (state.menu !== open) navigate({ menu: open }, true);
 });
+styles.addEventListener("beforetoggle", (event) => {
+  if (event instanceof ToggleEvent && event.newState === "closed" && state.panel === "styles") {
+    state = { ...state, panel: null };
+    history.replaceState(null, "", guidePath(state));
+    stylesTrigger.setAttribute("aria-expanded", "false");
+  }
+});
+styles.addEventListener("toggle", () => {
+  if (!styles.matches(":popover-open") && state.panel === null) render();
+});
+element(".quick-filter-scroll").addEventListener("scroll", positionStyles);
 root.addEventListener(
   "toggle",
   (event) => {
@@ -557,8 +604,11 @@ document.addEventListener("keydown", (event) => {
   event.preventDefault();
   if (state.directions) navigate({ directions: false });
   else if (state.menu) navigate({ menu: false });
-  else if (state.panel) navigate({ panel: null });
-  else if (state.selected) closeDetail();
+  else if (state.panel) {
+    const wasStyles = state.panel === "styles";
+    navigate({ panel: null });
+    if (wasStyles) stylesTrigger.focus();
+  } else if (state.selected) closeDetail();
 });
 window.addEventListener("popstate", () => {
   const restored = readGuideUrl(new URL(location.href), restaurants);

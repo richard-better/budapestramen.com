@@ -130,6 +130,15 @@ describe("addressable guide state", () => {
     const switched = read(guidePath({ ...state, language: "hu" }));
     assert.deepEqual(switched, { ...state, language: "hu" });
   });
+  it("restores the style dropdown separately from the full filters panel", () => {
+    const state = read("/en?panel=styles&style=Miso&style=Shoyu&vegan=1");
+    assert.ok(state);
+    assert.equal(state.panel, "styles");
+    assert.deepEqual(read(guidePath(state)), state);
+    const fullFilters = read(guidePath({ ...state, panel: "filters" }));
+    assert.equal(fullFilters?.panel, "filters");
+    assert.deepEqual(fullFilters?.filters, state.filters);
+  });
   it("ignores unknown filters, duplicate styles, and invalid map coordinates", () => {
     const state = read(
       "/en?style=Pizza&style=Miso&style=Miso&lat=NaN&lng=19&zoom=99&panel=unknown",

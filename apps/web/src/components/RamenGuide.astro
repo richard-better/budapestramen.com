@@ -61,7 +61,12 @@ const selectedPlace = restaurants.find((place) => place.id === state.selected);
     <div class="quick-filter-scroll">
       <button class="chip chip-recommended" data-filter="recommended" aria-pressed={state.filters.recommended}><span aria-hidden="true">◆</span><span data-i18n="picks">{t.picks}</span></button>
       <button class="chip" data-filter="vegan" aria-pressed={state.filters.vegan} data-i18n="vegan">{t.vegan}</button>
-      <button class="chip styles-chip" data-action="filters" aria-controls="filters-panel" aria-expanded="false"><span data-styles-label>{state.filters.styles.length ? `${t.style} · ${state.filters.styles.length}` : t.allStyles}</span><Icon name="chevron" size={12} /></button>
+      <button class="chip styles-chip" data-action="styles" popovertarget="styles-panel" aria-controls="styles-panel" aria-expanded="false"><span data-styles-label>{state.filters.styles.length ? `${t.style} · ${state.filters.styles.length}` : t.allStyles}</span><Icon name="chevron" size={12} /></button>
+    </div>
+    <div id="styles-panel" class="styles-popover popover" popover role="group" aria-labelledby="styles-title">
+      <h2 id="styles-title" class="eyebrow" data-i18n="style">{t.style}</h2>
+      <button class="style-option" data-action="clear-styles" aria-pressed={state.filters.styles.length === 0} autofocus><span data-i18n="allStyles">{t.allStyles}</span><span class="style-check" aria-hidden="true">✓</span></button>
+      {ramenStyles.map((style) => <button class="style-option" data-style={style} aria-pressed={state.filters.styles.includes(style)}><span>{style}</span><span class="style-check" aria-hidden="true">✓</span></button>)}
     </div>
     <button class="chip more-chip" data-action="filters" aria-controls="filters-panel" aria-expanded="false"><Icon name="filter" size={14} /><span data-i18n="more">{t.more}</span><span id="filter-count" hidden></span></button>
   </nav>
