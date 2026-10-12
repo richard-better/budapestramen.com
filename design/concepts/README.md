@@ -1,5 +1,18 @@
 # Budapest Ramen design directions
 
+## Liquid glass
+
+`liquid-glass.html` develops the requested high-end direction: Budapest night
+photography, smoked glass, reflective edges, and a floating navigation indicator.
+Try Discover/Map, the recommendation filters, restaurant details, and the mobile
+preview. Keyboard focus returns after closing a detail sheet; reduced motion,
+transparency, and increased contrast preferences have dedicated treatments.
+
+This is an interactive visual concept. Its map uses the same static snapshot as
+the earlier directions; full restaurant and directions links open existing sites.
+
+## Earlier directions
+
 Three responsive, interactive visual concepts for choosing a direction before
 changing the live guide. Open `index.html` in a browser. The direction picker and
 screen-size toggle work locally; restaurant entries open a sample detail view.
@@ -21,3 +34,4 @@ photos of those places.
 
 - `assets/ramen-photo.jpg`: [Alimentos Fotogénicos on Unsplash](https://unsplash.com/photos/a-bowl-of-food-with-chopsticks-on-a-wooden-table-ua-RZdLk0OE), [Unsplash License](https://unsplash.com/license).
 - `assets/budapest-map.png`: OpenFreeMap, OpenMapTiles, and OpenStreetMap contributors. Attribution is retained in the concepts.
+- `assets/budapest-dusk.jpg`: [XAVIER PHOTOGRAPHY on Unsplash](https://unsplash.com/photos/a-city-with-a-river-and-a-bridge-at-night-mV5Mi-nz4PA), [Unsplash License](https://unsplash.com/license).

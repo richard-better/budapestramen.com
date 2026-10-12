@@ -1,0 +1,1196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Budapest Ramen - Liquid glass</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--foreground, #222);
+      }
+      button,
+      input {
+        font: inherit;
+      }
+      button,
+      a {
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+      }
+      button {
+        cursor: pointer;
+      }
+      button:focus-visible,
+      a:focus-visible,
+      input:focus-visible {
+        outline: 3px solid #e9cba1;
+        outline-offset: 5px;
+      }
+      [hidden] {
+        display: none !important;
+      }
+      .preview-tools {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 0 0 16px;
+        font-size: 12px;
+      }
+      .preview-title {
+        font-weight: 500;
+      }
+      .preview-tools nav {
+        display: flex;
+        gap: 4px;
+      }
+      .preview-tools button {
+        padding: 8px 12px;
+        border: 0;
+        background: transparent;
+        color: var(--muted-foreground, #777);
+        border-radius: 6px;
+        font-size: 12px;
+      }
+      .preview-tools button[aria-pressed="true"] {
+        background: var(--secondary, #eee);
+        color: var(--foreground, #222);
+      }
+      .stage {
+        container-type: inline-size;
+        margin: 0 auto;
+        width: 100%;
+      }
+      .stage[data-device="mobile"] {
+        max-width: 390px;
+      }
+      .experience {
+        --glass-ink: #f8f8f3;
+        --glass-muted: #d7d9d5;
+        --champagne: #f1d7b1;
+        --ease: cubic-bezier(0.22, 1, 0.36, 1);
+        position: relative;
+        isolation: isolate;
+        height: 890px;
+        padding: 24px;
+        overflow: hidden;
+        border-radius: 16px;
+        background: #101b1b;
+        color: var(--glass-ink);
+        color-scheme: dark;
+      }
+      .experience p,
+      .experience h1,
+      .experience h2,
+      .experience h3 {
+        margin: 0;
+      }
+      .experience button {
+        color: inherit;
+      }
+      .experience a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .experience .background {
+        position: absolute;
+        inset: 0;
+        z-index: -3;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 54% center;
+      }
+      .experience::before {
+        content: "";
+        position: absolute;
+        z-index: -2;
+        inset: 0;
+        pointer-events: none;
+        background:
+          linear-gradient(90deg, #0d181b82, #10222408 70%),
+          linear-gradient(0deg, #091316b8, transparent 58%, #0d181b33);
+      }
+      .glass {
+        position: relative;
+        background: linear-gradient(125deg, #ffffff1a, #ffffff07 55%, #ffffff0c);
+        border: 1px solid #ffffff32;
+        border-top-color: #ffffff6b;
+        border-bottom-color: #ffffff1c;
+        box-shadow:
+          inset 0 1px 0 #ffffff20,
+          inset 1px 0 0 #ffffff0c,
+          0 16px 44px #00000022,
+          0 2px 6px #0000000c;
+        backdrop-filter: blur(24px) saturate(155%);
+        -webkit-backdrop-filter: blur(24px) saturate(155%);
+      }
+      .glass::after {
+        content: "";
+        position: absolute;
+        inset: -1px;
+        border-radius: inherit;
+        pointer-events: none;
+        padding: 1px;
+        background: linear-gradient(125deg, #ffffff80, #ffffff05 28%, #ffffff09 70%, #ffffff3b);
+        mask:
+          linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        mask-composite: exclude;
+      }
+      .masthead {
+        height: 68px;
+        border-radius: 23px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding: 10px 17px;
+        z-index: 5;
+        background-color: #c7dbdb09;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex: none;
+      }
+      .brand-monogram {
+        display: grid;
+        place-items: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        font:
+          500 20px Georgia,
+          serif;
+        letter-spacing: -2px;
+        padding-right: 3px;
+        color: #f6e9d7;
+        border: 1px solid #ffffff3b;
+        background: linear-gradient(140deg, #ffffff22, #ffffff03);
+        box-shadow: inset 0 1px 3px #ffffff30;
+      }
+      .brand-name {
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1.3;
+        letter-spacing: 0.19em;
+        text-transform: uppercase;
+      }
+      .brand-name span {
+        display: block;
+      }
+      .main-nav {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .main-nav::before {
+        content: "";
+        position: absolute;
+        inset: 0 auto 0 0;
+        width: 80px;
+        border-radius: 15px;
+        pointer-events: none;
+        background: linear-gradient(150deg, #ffffff32, #ffffff12);
+        box-shadow:
+          inset 0 1px 0 #ffffff59,
+          0 2px 8px #0002,
+          inset 0 0 0 1px #ffffff16;
+      }
+      .experience[data-view="map"] .main-nav::before {
+        transform: translateX(85px);
+      }
+      .main-nav button {
+        position: relative;
+        width: 80px;
+        background: transparent;
+        border: 0;
+        border-radius: 15px;
+        padding: 12px 0;
+        font-size: 12px;
+        font-weight: 500;
+        color: #ecf1ecd9;
+      }
+      .main-nav button[aria-pressed="true"] {
+        color: #fcfdf9;
+      }
+      .language {
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        font-size: 10px;
+        padding-right: 3px;
+      }
+      .language span {
+        color: #e6e7e499;
+      }
+      .intro {
+        padding: 54px 24px 0;
+        position: relative;
+      }
+      .location-line {
+        display: flex;
+        gap: 9px;
+        align-items: center;
+        color: #f7f2e2d9;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+      }
+      .location-line::before {
+        content: "";
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--champagne);
+        box-shadow: 0 0 12px #ffdc9a88;
+      }
+      .intro h1 {
+        font-size: clamp(56px, 8.3cqi, 90px);
+        font-weight: 350;
+        letter-spacing: -0.066em;
+        line-height: 1.02;
+        margin: 21px 0 19px;
+        text-shadow: 0 3px 24px #0002;
+      }
+      .intro h1 span {
+        display: block;
+        font-family: Georgia, "Times New Roman", serif;
+        font-weight: 400;
+        font-style: italic;
+        letter-spacing: -0.065em;
+        color: #f6eadd;
+      }
+      .intro-copy {
+        color: #f4f4f0e6;
+        font-size: 13px;
+        line-height: 1.7;
+        max-width: 285px;
+        text-shadow: 0 1px 8px #0006;
+      }
+      .intro-actions {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 25px;
+      }
+      .glass-button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        min-height: 45px;
+        padding: 12px 19px;
+        border-radius: 16px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #ffffff13;
+      }
+      .glass-button .arrow {
+        font-size: 17px;
+        font-weight: 300;
+      }
+      .place-total {
+        font-size: 11px;
+        color: #edf0e4c9;
+      }
+      .picks {
+        position: absolute;
+        left: 24px;
+        right: 24px;
+        bottom: 45px;
+        padding: 24px 26px 10px;
+        border-radius: 27px;
+        background-color: #111d1f60;
+        backdrop-filter: blur(32px) saturate(140%);
+        -webkit-backdrop-filter: blur(32px) saturate(140%);
+      }
+      .picks-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        padding-bottom: 20px;
+      }
+      .eyebrow {
+        display: block;
+        font-size: 9px;
+        letter-spacing: 0.15em;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: var(--champagne);
+      }
+      .picks h2 {
+        font-size: 22px;
+        letter-spacing: -0.045em;
+        font-weight: 450;
+        margin-top: 7px;
+      }
+      .filters {
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        background: #060e172a;
+        box-shadow: inset 0 1px 5px #0002;
+        padding: 4px;
+        border: 1px solid #ffffff10;
+        border-radius: 15px;
+      }
+      .filters button {
+        min-height: 34px;
+        padding: 8px 12px;
+        border: 0;
+        background: transparent;
+        color: #e8ece1bb;
+        border-radius: 11px;
+        font-size: 11px;
+      }
+      .filters button[aria-pressed="true"] {
+        color: #172323;
+        background: linear-gradient(160deg, #f6f6eeef, #dce4d6df);
+        box-shadow:
+          inset 0 1px 0 white,
+          0 2px 5px #0003;
+      }
+      .restaurant-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+      }
+      .restaurant-list li {
+        border-top: 1px solid #ffffff21;
+      }
+      .restaurant-list button {
+        display: grid;
+        grid-template-columns: 36px minmax(0, 1fr) auto;
+        align-items: center;
+        gap: 10px;
+        min-height: 85px;
+        width: 100%;
+        padding: 16px 0;
+        border: 0;
+        background: transparent;
+        text-align: left;
+      }
+      .restaurant-number {
+        display: grid;
+        place-items: center;
+        height: 33px;
+        width: 33px;
+        border-radius: 11px;
+        font-size: 10px;
+        color: #f7ead5;
+        background: linear-gradient(145deg, #ffffff13, #ffffff04);
+        box-shadow:
+          inset 0 1px 0 #ffffff36,
+          inset 0 0 0 1px #ffffff12;
+      }
+      .restaurant-name {
+        display: block;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: -0.025em;
+        line-height: 1.25;
+      }
+      .restaurant-address {
+        display: block;
+        font-size: 10px;
+        line-height: 1.5;
+        margin-top: 6px;
+        color: #e5e8e0bf;
+      }
+      .restaurant-rating {
+        font-size: 10px;
+        white-space: nowrap;
+        color: #f1dbb9;
+        align-self: start;
+        padding-top: 6px;
+      }
+      .restaurant-list button[aria-current="true"] .restaurant-number {
+        background: #f1dfc1;
+        color: #182121;
+      }
+      .picks-foot {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 13px 0 5px;
+        border-top: 1px solid #ffffff1a;
+        font-size: 9px;
+        color: #eaebe3cf;
+      }
+      .picks-foot button {
+        border: 0;
+        padding: 0;
+        background: none;
+        color: #e9e8df;
+        font-size: inherit;
+      }
+      .scene-credit {
+        position: absolute;
+        bottom: 16px;
+        left: 48px;
+        right: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        color: #eef0e1af;
+        font-size: 8px;
+      }
+      .scene-credit a {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+      .scene-credit .signature {
+        letter-spacing: 0.035em;
+      }
+      .map-surface {
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        background: #18282a;
+        overflow: hidden;
+      }
+      .map-plane {
+        position: absolute;
+        width: 1280px;
+        height: 960px;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -50%);
+      }
+      .map-image {
+        width: 100%;
+        height: 100%;
+        filter: invert(0.89) sepia(0.23) saturate(0.6) hue-rotate(100deg);
+        opacity: 0.83;
+      }
+      .map-marker {
+        position: absolute;
+        display: grid;
+        place-items: center;
+        width: 40px;
+        height: 40px;
+        transform: translate(-50%, -50%);
+        border-radius: 14px;
+        border: 1px solid #fff8;
+        background: linear-gradient(140deg, #f9e9d7ef, #d5b688ef);
+        color: #253335 !important;
+        box-shadow:
+          inset 0 1px 2px #fff,
+          0 7px 20px #0006;
+        font-size: 12px;
+      }
+      .map-marker[aria-current="true"] {
+        outline: 6px solid #e9d0a32d;
+      }
+      .map-marker span {
+        position: absolute;
+        top: 47px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        font-size: 10px;
+        color: #f2f0e7;
+        text-shadow: 0 1px 5px #000;
+      }
+      .map-key {
+        position: absolute;
+        top: 121px;
+        right: 28px;
+        font-size: 11px;
+        color: #e7eee2df;
+        text-align: right;
+      }
+      .map-key strong {
+        display: block;
+        color: white;
+        font-size: 22px;
+        font-weight: 450;
+        letter-spacing: -0.03em;
+        margin-bottom: 7px;
+      }
+      .map-attribution {
+        position: absolute;
+        bottom: 16px;
+        right: 25px;
+        font-size: 8px;
+        color: #e8e8ddcf;
+      }
+      .experience[data-view="map"] .background,
+      .experience[data-view="map"] .intro,
+      .experience[data-view="map"] .scene-credit {
+        display: none;
+      }
+      .experience[data-view="map"]::before {
+        display: none;
+      }
+      .experience[data-view="map"] .picks {
+        right: auto;
+        width: 296px;
+        top: 121px;
+        bottom: 24px;
+        padding: 22px;
+        background-color: #142428af;
+        display: flex;
+        flex-direction: column;
+      }
+      .experience[data-view="map"] .picks-heading {
+        align-items: start;
+        flex-direction: column;
+      }
+      .experience[data-view="map"] .restaurant-list {
+        grid-template-columns: 1fr;
+        overflow: auto;
+        scrollbar-width: thin;
+      }
+      .experience[data-view="map"] .restaurant-list button {
+        min-height: 107px;
+        gap: 9px;
+        grid-template-columns: 33px minmax(0, 1fr) auto;
+      }
+      .experience[data-view="map"] .restaurant-name {
+        font-size: 15px;
+      }
+      .experience[data-view="map"] .picks-foot {
+        margin-top: auto;
+        flex-direction: column;
+        gap: 9px;
+        padding-top: 20px;
+      }
+      .detail-layer {
+        position: absolute;
+        inset: 0;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        background: #08131655;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+      }
+      .detail-card {
+        width: min(430px, 100%);
+        border-radius: 30px;
+        padding: 30px;
+        background-color: #162324d9;
+        backdrop-filter: blur(36px) saturate(150%);
+        -webkit-backdrop-filter: blur(36px) saturate(150%);
+        box-shadow:
+          inset 0 1px 0 #fff3,
+          0 30px 100px #0008;
+      }
+      .detail-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 26px;
+      }
+      .close-button {
+        display: grid;
+        place-items: center;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        color: white;
+        background: #ffffff14;
+        border: 1px solid #ffffff23;
+        font-size: 20px;
+      }
+      .detail-card h2 {
+        font-size: 34px;
+        font-weight: 450;
+        line-height: 1.07;
+        letter-spacing: -0.05em;
+        margin-bottom: 14px;
+      }
+      .detail-address {
+        font-size: 13px;
+        line-height: 1.8;
+        color: var(--glass-muted);
+      }
+      .detail-data {
+        display: flex;
+        gap: 28px;
+        padding: 23px 0;
+        margin: 21px 0;
+        border-block: 1px solid #ffffff26;
+      }
+      .detail-data strong {
+        display: block;
+        font-size: 23px;
+        font-weight: 450;
+        margin-bottom: 5px;
+      }
+      .detail-data span {
+        font-size: 10px;
+        color: var(--glass-muted);
+      }
+      .detail-styles {
+        font-size: 12px;
+        line-height: 1.9;
+        color: var(--glass-muted);
+      }
+      .detail-card .glass-button {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 24px;
+      }
+      .detail-card .secondary-link {
+        display: block;
+        text-align: center;
+        font-size: 11px;
+        margin-top: 16px;
+        color: #d6ded3;
+      }
+      .about-text {
+        font-size: 13px;
+        line-height: 1.85;
+        color: var(--glass-muted);
+      }
+      .about-text + .about-text {
+        margin-top: 17px;
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        .experience:not([data-keyboard="true"]) .main-nav::before {
+          transition: transform 240ms var(--ease);
+        }
+        .experience button,
+        .experience .glass-button {
+          transition:
+            transform 160ms var(--ease),
+            background-color 160ms ease,
+            opacity 160ms ease;
+        }
+        .experience button:active,
+        .experience .glass-button:active {
+          transform: scale(0.97);
+        }
+        .experience .map-marker:active {
+          transform: translate(-50%, -50%) scale(0.94);
+        }
+        .detail-card {
+          animation: materialize 240ms var(--ease) both;
+        }
+        @keyframes materialize {
+          from {
+            opacity: 0;
+            transform: translateY(9px) scale(0.97);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+          }
+        }
+      }
+      @media (hover: hover) and (pointer: fine) {
+        .main-nav button:hover,
+        .glass-button:hover,
+        .close-button:hover {
+          background-color: #ffffff20;
+        }
+        .restaurant-list button:hover .restaurant-name {
+          color: var(--champagne);
+        }
+        .restaurant-list button:hover .restaurant-number {
+          background-color: #ffffff15;
+        }
+      }
+      @supports not (backdrop-filter: blur(1px)) {
+        .glass {
+          background-color: #253431;
+        }
+      }
+      @media (prefers-reduced-transparency: reduce), (prefers-contrast: more) {
+        .experience .glass {
+          background: #263432;
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+          border-color: #b8c2b9;
+        }
+        .experience .detail-layer {
+          backdrop-filter: none;
+          -webkit-backdrop-filter: none;
+          background: #071416cf;
+        }
+        .experience .restaurant-address,
+        .experience .picks-foot {
+          color: #eef0e7;
+        }
+      }
+      @container (max-width: 620px) {
+        .experience {
+          height: 960px;
+          padding: 15px;
+          border-radius: 14px;
+        }
+        .experience .background {
+          object-position: 59% center;
+        }
+        .experience::before {
+          background: linear-gradient(0deg, #0b181de8, #0b181d10 70%, #07182030);
+        }
+        .masthead {
+          height: 61px;
+          padding: 8px 11px;
+          gap: 12px;
+          border-radius: 21px;
+        }
+        .brand {
+          gap: 7px;
+        }
+        .brand-monogram {
+          width: 30px;
+          height: 30px;
+          font-size: 18px;
+        }
+        .brand-name {
+          font-size: 8px;
+          letter-spacing: 0.13em;
+        }
+        .main-nav {
+          gap: 2px;
+        }
+        .main-nav button {
+          width: 63px;
+          padding: 10px 0;
+          font-size: 11px;
+          border-radius: 13px;
+        }
+        .main-nav::before {
+          width: 63px;
+          border-radius: 13px;
+        }
+        .experience[data-view="map"] .main-nav::before {
+          transform: translateX(65px);
+        }
+        .main-nav .about-button,
+        .language {
+          display: none;
+        }
+        .intro {
+          padding: 47px 14px 0;
+        }
+        .location-line {
+          font-size: 9px;
+          letter-spacing: 0.1em;
+        }
+        .intro h1 {
+          font-size: clamp(49px, 14.2cqi, 76px);
+          margin: 20px 0 17px;
+        }
+        .intro-copy {
+          max-width: 250px;
+          font-size: 12px;
+        }
+        .intro-actions {
+          margin-top: 23px;
+          gap: 14px;
+        }
+        .glass-button {
+          border-radius: 15px;
+          font-size: 11px;
+          padding: 12px 16px;
+          gap: 19px;
+        }
+        .place-total {
+          font-size: 10px;
+        }
+        .picks {
+          left: 15px;
+          right: 15px;
+          bottom: 43px;
+          padding: 22px 20px 12px;
+          border-radius: 26px;
+        }
+        .picks-heading {
+          align-items: start;
+          flex-direction: column;
+          gap: 18px;
+          padding-bottom: 15px;
+        }
+        .picks h2 {
+          font-size: 24px;
+        }
+        .filters {
+          width: 100%;
+        }
+        .filters button {
+          flex: 1;
+        }
+        .restaurant-list {
+          grid-template-columns: 1fr;
+        }
+        .restaurant-list button {
+          min-height: 72px;
+          gap: 11px;
+          padding: 12px 0;
+        }
+        .restaurant-name {
+          font-size: 14px;
+        }
+        .restaurant-address {
+          font-size: 10px;
+          margin-top: 4px;
+        }
+        .restaurant-rating {
+          font-size: 10px;
+        }
+        .picks-foot {
+          font-size: 8px;
+          padding-top: 12px;
+        }
+        .scene-credit {
+          left: 28px;
+          right: 28px;
+          font-size: 7px;
+          bottom: 17px;
+        }
+        .scene-credit .signature {
+          display: none;
+        }
+        .map-plane {
+          left: 8%;
+          top: 18%;
+        }
+        .map-key {
+          top: 102px;
+          right: 25px;
+          font-size: 10px;
+        }
+        .map-key strong {
+          font-size: 20px;
+        }
+        .experience[data-view="map"] .picks {
+          top: auto;
+          width: auto;
+          right: 15px;
+          left: 15px;
+          bottom: 36px;
+          padding: 22px 20px 12px;
+          max-height: 490px;
+        }
+        .experience[data-view="map"] .restaurant-list button {
+          min-height: 72px;
+        }
+        .experience[data-view="map"] .picks-foot {
+          flex-direction: row;
+          padding-top: 12px;
+        }
+        .map-attribution {
+          font-size: 7px;
+          bottom: 14px;
+          right: 24px;
+        }
+        .detail-layer {
+          padding: 15px;
+        }
+        .detail-card {
+          padding: 26px;
+        }
+        .detail-card h2 {
+          font-size: 30px;
+        }
+      }
+      @media (pointer: coarse) {
+        .main-nav button,
+        .filters button,
+        .close-button {
+          min-height: 44px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="glass-concept">
+      <div class="preview-tools">
+        <span class="preview-title">Liquid glass / Budapest after dark</span>
+        <nav aria-label="Preview width">
+          <button data-device="desktop" aria-pressed="true">Desktop</button
+          ><button data-device="mobile" aria-pressed="false">Mobile</button>
+        </nav>
+      </div>
+      <div class="stage" data-device="desktop">
+        <main class="experience" data-view="discover">
+          <img
+            class="background"
+            src="assets/budapest-dusk.jpg"
+            alt="Budapest's illuminated Parliament beside the Danube at night"
+          />
+          <header class="masthead glass">
+            <a
+              class="brand"
+              href="https://budapestramen.com/en"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Budapest Ramen live website"
+              ><span class="brand-monogram" aria-hidden="true">br.</span
+              ><span class="brand-name">Budapest<span>Ramen</span></span></a
+            >
+            <nav class="main-nav" aria-label="Guide view">
+              <button data-view="discover" aria-pressed="true">Discover</button
+              ><button data-view="map" aria-pressed="false">Map</button
+              ><button class="about-button" data-about>About</button>
+            </nav>
+            <a
+              class="language"
+              href="https://budapestramen.com/hu"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open the Hungarian guide"
+              >EN <span>/ HU</span></a
+            >
+          </header>
+          <section class="intro">
+            <p class="location-line">An independent guide to the city</p>
+            <h1>Budapest,<span>by the bowl.</span></h1>
+            <p class="intro-copy">
+              Ramen shops, personal favorites,<br />and a good reason to cross the city.
+            </p>
+            <div class="intro-actions">
+              <button class="glass-button glass" data-view="map">
+                Explore the map <span class="arrow" aria-hidden="true">↗</span></button
+              ><span class="place-total">56 places to discover</span>
+            </div>
+          </section>
+          <section class="map-surface" aria-label="Preview map of central Budapest" hidden>
+            <div class="map-plane">
+              <img
+                class="map-image"
+                src="assets/budapest-map.png"
+                alt="Street map of central Budapest"
+              />
+              <div class="markers"></div>
+            </div>
+            <div class="map-key">
+              <strong>Find your next stop.</strong>Tap a numbered pin · Map preview
+            </div>
+            <div class="map-attribution">
+              <a href="https://openfreemap.org/" target="_blank" rel="noopener noreferrer"
+                >OpenFreeMap</a
+              >
+              ·
+              <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener noreferrer"
+                >OpenMapTiles</a
+              >
+              ·
+              <a
+                href="https://www.openstreetmap.org/copyright"
+                target="_blank"
+                rel="noopener noreferrer"
+                >© OpenStreetMap</a
+              >
+            </div>
+          </section>
+          <section class="picks glass" aria-labelledby="picks-title">
+            <div class="picks-heading">
+              <div>
+                <span class="eyebrow">Personally recommended</span>
+                <h2 id="picks-title">A few places to start.</h2>
+              </div>
+              <div class="filters" role="group" aria-label="Filter recommendations">
+                <button data-filter="all" aria-pressed="true">All picks</button
+                ><button data-filter="tonkotsu" aria-pressed="false">Tonkotsu</button
+                ><button data-filter="vegan" aria-pressed="false">Vegan</button>
+              </div>
+            </div>
+            <ul class="restaurant-list"></ul>
+            <div class="picks-foot">
+              <span data-result-count aria-live="polite">Four personal favorites</span
+              ><button data-about>Selected by Richard <span aria-hidden="true">↗</span></button>
+            </div>
+          </section>
+          <footer class="scene-credit">
+            <span class="signature">Made in Budapest. Best explored hungry.</span
+            ><a
+              href="https://unsplash.com/photos/a-city-with-a-river-and-a-bridge-at-night-mV5Mi-nz4PA"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Budapest photography by XAVIER / Unsplash</a
+            >
+          </footer>
+        </main>
+      </div>
+    </div>
+    <script>
+      (() => {
+        const root = document.getElementById("glass-concept");
+        const experience = root.querySelector(".experience");
+        const places = [
+          {
+            id: "ramen-nikko",
+            name: "Ramen Nikko",
+            address: "Krúdy utca 6.",
+            district: "VIII",
+            styles: ["Tonkotsu", "Shoyu", "Shio", "Miso", "Tantanmen"],
+            rating: "4.9",
+            vegan: true,
+            x: 623,
+            y: 527,
+          },
+          {
+            id: "hachi-ko",
+            name: "HACHI-KO",
+            fullName: "HACHI-KO Sake & Ramen Bar",
+            address: "Madách Imre út 3.",
+            district: "VII",
+            styles: ["Shoyu", "Shio", "Tonkotsu", "Miso", "Cold ramen"],
+            rating: "4.8",
+            vegan: true,
+            x: 512,
+            y: 399,
+          },
+          {
+            id: "kawamura-ramen",
+            name: "Kawamura Ramen",
+            address: "Dohány utca 54.",
+            district: "VII",
+            styles: ["Shio", "Shoyu", "Miso", "Tonkotsu", "Tantanmen"],
+            rating: "4.8",
+            vegan: true,
+            x: 634,
+            y: 402,
+          },
+          {
+            id: "wafu-izakaya",
+            name: "WAFU Ramen Izakaya",
+            address: "Kazinczy utca 3.",
+            district: "VII",
+            styles: ["Shoyu", "Miso", "Tantanmen"],
+            rating: "4.6",
+            vegan: false,
+            x: 586,
+            y: 426,
+          },
+        ];
+        let filter = "all";
+        let returnFocus;
+        function render() {
+          const visible = places.filter(
+            (place) =>
+              filter === "all" ||
+              (filter === "vegan" ? place.vegan : place.styles.includes("Tonkotsu")),
+          );
+          root.querySelector(".restaurant-list").innerHTML = visible
+            .map(
+              (place) =>
+                `<li><button data-place="${place.id}" aria-label="View ${place.fullName || place.name}"><span class="restaurant-number">${String(places.indexOf(place) + 1).padStart(2, "0")}</span><span><span class="restaurant-name">${place.name}</span><span class="restaurant-address">${place.address} · ${place.district}</span></span><span class="restaurant-rating">★ ${place.rating}</span></button></li>`,
+            )
+            .join("");
+          root.querySelector(".markers").innerHTML = visible
+            .map(
+              (place) =>
+                `<button class="map-marker" data-place="${place.id}" aria-label="View ${place.fullName || place.name} on the map" style="left:${(place.x / 960) * 100}%;top:${(place.y / 720) * 100}%">${String(places.indexOf(place) + 1).padStart(2, "0")}</button>`,
+            )
+            .join("");
+          root.querySelector("[data-result-count]").textContent =
+            filter === "all" ? "Four personal favorites" : `${visible.length} matching favorites`;
+          root
+            .querySelectorAll("[data-filter]")
+            .forEach((button) =>
+              button.setAttribute("aria-pressed", String(button.dataset.filter === filter)),
+            );
+        }
+        function switchView(view, keyboard) {
+          closeDetail();
+          experience.dataset.keyboard = String(keyboard);
+          experience.dataset.view = view;
+          root.querySelector(".map-surface").hidden = view !== "map";
+          root
+            .querySelectorAll(".main-nav [data-view]")
+            .forEach((button) =>
+              button.setAttribute("aria-pressed", String(button.dataset.view === view)),
+            );
+        }
+        function closeDetail() {
+          const layer = root.querySelector(".detail-layer");
+          if (!layer) return;
+          layer.remove();
+          for (const child of experience.children) child.inert = false;
+          if (returnFocus?.isConnected) returnFocus.focus({ preventScroll: true });
+        }
+        function openDetail(content, trigger, keyboard) {
+          returnFocus = trigger;
+          for (const child of experience.children) child.inert = true;
+          const layer = document.createElement("div");
+          layer.className = "detail-layer";
+          layer.setAttribute("role", "dialog");
+          layer.setAttribute("aria-modal", "true");
+          layer.setAttribute("aria-labelledby", "detail-title");
+          layer.innerHTML = `<article class="detail-card glass"${keyboard ? ' style="animation:none"' : ""}><div class="detail-top"><span class="eyebrow">Budapest Ramen</span><button class="close-button" data-close aria-label="Close details">×</button></div>${content}</article>`;
+          experience.append(layer);
+          layer.querySelector("[data-close]").focus({ preventScroll: true });
+        }
+        root.addEventListener("click", (event) => {
+          if (event.target.classList.contains("detail-layer")) {
+            closeDetail();
+            return;
+          }
+          const button = event.target.closest("button");
+          if (!button) return;
+          if (button.dataset.device) {
+            root.querySelector(".stage").dataset.device = button.dataset.device;
+            root
+              .querySelectorAll("button[data-device]")
+              .forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+          } else if (button.dataset.view) switchView(button.dataset.view, event.detail === 0);
+          else if (button.dataset.filter) {
+            filter = button.dataset.filter;
+            render();
+          } else if (button.hasAttribute("data-close")) closeDetail();
+          else if (button.hasAttribute("data-about")) {
+            openDetail(
+              '<h2 id="detail-title">A personal guide.<br>A city to explore.</h2><p class="about-text">A map of ramen shops in Budapest, with a few personal recommendations from Richard.</p><p class="about-text">This concept explores a new look for the guide. The four favorites and their details come from the current site.</p><a class="glass-button glass" href="https://budapestramen.com/en" target="_blank" rel="noopener noreferrer">Open the full guide <span aria-hidden="true">↗</span></a>',
+              button,
+              event.detail === 0,
+            );
+          } else if (button.dataset.place) {
+            const place = places.find((item) => item.id === button.dataset.place);
+            openDetail(
+              `<h2 id="detail-title">${place.fullName || place.name}</h2><p class="detail-address">${place.address}<br>District ${place.district}, Budapest</p><div class="detail-data"><div><strong>${place.rating}</strong><span>Google rating</span></div><div><strong>${place.vegan ? "Vegan" : "Ramen"}</strong><span>${place.vegan ? "Option available" : "On the menu"}</span></div></div><p class="eyebrow">On the menu</p><p class="detail-styles">${place.styles.join(" · ")}</p><a class="glass-button glass" href="https://budapestramen.com/en/ramen-ya/${place.id}" target="_blank" rel="noopener noreferrer">Restaurant details <span aria-hidden="true">↗</span></a><a class="secondary-link" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((place.fullName || place.name) + ", " + place.address + ", Budapest")}" target="_blank" rel="noopener noreferrer">Directions in Google Maps ↗</a>`,
+              button,
+              event.detail === 0,
+            );
+          }
+        });
+        root.addEventListener("keydown", (event) => {
+          const layer = root.querySelector(".detail-layer");
+          if (!layer) return;
+          if (event.key === "Escape") {
+            event.preventDefault();
+            closeDetail();
+          }
+          if (event.key === "Tab") {
+            const items = [...layer.querySelectorAll("button,a[href]")];
+            const first = items[0],
+              last = items.at(-1);
+            if (event.shiftKey && document.activeElement === first) {
+              event.preventDefault();
+              last.focus();
+            }
+            if (!event.shiftKey && document.activeElement === last) {
+              event.preventDefault();
+              first.focus();
+            }
+          }
+        });
+        render();
+      })();
+    </script>
+  </body>
+</html>
